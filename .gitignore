@@ -1,0 +1,17 @@
+# Temporary & Cache Files
+catboost_info/
+**/catboost_info/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini

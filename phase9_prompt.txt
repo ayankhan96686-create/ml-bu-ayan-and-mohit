@@ -1,0 +1,119 @@
+<USER_REQUEST>
+# PHASE 9 — COMPLETE DATA CORRECTION, DATA LEAKAGE AUDIT, ADVANCED ML OPTIMIZATION & FINAL MODEL VALIDATION
+
+## PROJECT
+
+County-Level Maize/Corn Grain Yield Prediction Research Project (2002–2026)
+
+## ROLE
+
+You are acting as:
+
+1. Principal Machine Learning Engineer.
+2. Senior Agricultural Data Scientist.
+3. Statistical Validation Specialist.
+4. Crop Modeling Researcher.
+5. Independent Data Quality Auditor.
+6. Research Reproducibility Engineer.
+
+## PROJECT ROOT
+
+`E:/ml do not open/Maize_Yield_Research_2002_2026/`
+
+## PREVIOUS CERTIFIED PHASES — READ ONLY
+
+`10_Final_Pre_Modeling_Gate/`
+
+`11_Independent_Model_Validation/`
+
+`12_Final_Scientific_Certification/`
+
+`13_Publication_Enhancement/`
+
+Do not delete, modify, or overwrite any of these directories.
+
+## NEW OUTPUT DIRECTORY
+
+`14_Final_Data_Model_Optimization/`
+
+---
+
+# MAIN OBJECTIVE
+
+Perform a complete forensic audit and correction of the historical data, engineered features, preprocessing pipeline, advanced machine learning experiments, temporal validation, spatial validation, and ensemble architecture.
+
+The current best reported result from Phase 8 is:
+
+- Stacking RMSE: 14.84 bu/acre.
+- Stacking MAE: 11.23 bu/acre.
+- Stacking R²: 0.7459.
+- LightGBM RMSE: 15.47 bu/acre.
+- LightGBM R²: 0.7235.
+
+These are reported results, not independently certified results for this new execution.
+
+The objective is to reproduce these values from actual saved predictions, resolve all inconsistencies, correct any data or modeling errors, and investigate whether further reliable predictive improvement is possible.
+
+Do not guarantee R² improvement.
+
+Do not manipulate data or validation methodology to produce a higher R².
+
+A genuine improvement must survive identical-cohort evaluation, chronological validation, and leakage testing.
+
+# PHASE 9.1 — COMPLETE PROJECT INVENTORY
+
+Inspect the complete project repository recursively.
+
+Read actual:
+
+- CSV files.
+- Python scripts.
+- Jupyter notebooks.
+- JSON configurations.
+- Feature manifests.
+- Model prediction files
+<truncated 19328 bytes>
+t verified problems.
+
+Then re-engineer only necessary features.
+
+Then retrain and compare eligible models.
+
+Then perform validation.
+
+Finally freeze the best defensible model.
+
+Do not generate fabricated outputs to satisfy expected file names.
+
+If a source or dependency is unavailable, document the blocker and continue independent tasks.
+
+Do not modify Phases 0–13.
+
+Provide a concise final report identifying:
+
+- All detected data mistakes.
+- All corrected features.
+- All removed leakage risks.
+- All model algorithms tested.
+- Exact model training methods.
+- Original versus corrected R².
+- Original versus corrected RMSE.
+- Which feature families improved performance.
+- Whether stacking was genuinely beneficial.
+- Whether Nebraska performance improved under equivalent tests.
+- Remaining limitations.
+- Exact paths to all generated files.
+
+**FINAL OBJECTIVE: Produce the highest scientifically defensible R² possible without data leakage, artificial target manipulation, inconsistent test cohorts, or misleading validation. The result must be reproducible and suitable for a peer-reviewed agricultural machine learning research paper.**
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-11-12T10:48:33+05:30.
+
+The user's current state is as follows:
+Other open documents:
+- e:\ml do not open\Maize_Yield_Research_2002_2026\13_Publication_Enhancement\06_Code\run_validation_framework.py (LANGUAGE_UNSPECIFIED)
+- e:\ml do not open\Maize_Yield_Research_2002_2026\02_Extracted_Data\05_NOAA_Weather\NOAA_County_precipitation_CornBelt_2002_2026.csv (LANGUAGE_UNSPECIFIED)
+- e:\ml do not open\Maize_Yield_Research_2002_2026\12_Final_Scientific_Certification\09_Code\audit_task2_3_fairness_loso.py (LANGUAGE_UNSPECIFIED)
+- e:\ml do not open\Maize_Yield_Research_2002_2026\12_Final_Scientific_Certification\09_Code\audit_task7_8_shap_trend.py (LANGUAGE_UNSPECIFIED)
+- e:\ml do not open\Maize_Yield_Research_2002_2026\11_Independent_Model_Validation\09_Code\execute_phase_a_b_c.py (LANGUAGE_UNSPECIFIED)
+</ADDITIONAL_METADATA>

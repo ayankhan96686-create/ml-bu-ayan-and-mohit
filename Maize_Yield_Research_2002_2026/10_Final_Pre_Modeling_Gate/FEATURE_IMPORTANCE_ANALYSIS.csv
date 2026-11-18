@@ -1,0 +1,41 @@
+feature_name,feature_category,importance_gain,importance_weight,importance_cover
+yield_roll_mean_5yr,Historical Yield Lag,37335.21,693.0,1532.36
+yield_lag_1yr,Historical Yield Lag,30584.36,931.0,1344.78
+noaa_tmax_jul_f,Temperature / Heat,27139.57,587.0,1543.49
+noaa_prcp_may_aug_in,Precipitation,8917.63,609.0,989.18
+noaa_prcp_jul_in,Precipitation,8506.2,768.0,1125.99
+soil_bdod_0_5cm,Soil Property,7664.18,246.0,1029.93
+yield_lag_2yr,Historical Yield Lag,6526.16,818.0,897.03
+soil_sand_0_5cm,Soil Property,6139.3,220.0,1093.48
+soil_soc_0_5cm,Soil Property,6024.7,507.0,1286.29
+noaa_heat_stress_max_f,Temperature / Heat,5333.44,1001.0,618.95
+soil_ph_mean_0_30cm,Soil Property,4503.74,193.0,759.08
+noaa_tmin_may_aug_f,Temperature / Heat,4490.07,513.0,932.58
+noaa_prcp_jun_in,Precipitation,4312.76,949.0,1059.61
+noaa_tmax_aug_f,Temperature / Heat,4163.76,639.0,1629.2
+soil_sand_15_30cm,Soil Property,4151.81,105.0,982.5
+soil_sand_5_15cm,Soil Property,3756.37,68.0,714.4
+soil_phh2o_15_30cm,Soil Property,3741.15,224.0,1353.6
+soil_sand_mean_0_30cm,Soil Property,3325.02,36.0,1330.5
+soil_clay_15_30cm,Soil Property,2950.08,234.0,1313.73
+soil_silt_15_30cm,Soil Property,2799.91,144.0,1282.15
+noaa_prcp_may_sep_in,Precipitation,2768.69,470.0,684.75
+soil_phh2o_5_15cm,Soil Property,2721.93,113.0,756.91
+soil_soc_mean_0_30cm,Soil Property,2610.51,203.0,902.67
+noaa_tmean_may_aug_f,Temperature / Heat,2529.39,394.0,1095.36
+soil_phh2o_0_5cm,Soil Property,2410.9,196.0,1355.65
+soil_bdod_15_30cm,Soil Property,2312.15,266.0,1895.92
+noaa_prcp_aug_in,Precipitation,2303.7,941.0,891.71
+soil_soc_5_15cm,Soil Property,2279.1,307.0,1321.96
+noaa_prcp_may_in,Precipitation,2272.05,700.0,870.08
+soil_bdod_5_15cm,Soil Property,2110.02,156.0,1323.9
+noaa_tmax_may_aug_f,Temperature / Heat,2051.23,465.0,1364.46
+soil_bdod_mean_0_30cm,Soil Property,1986.15,177.0,1143.22
+soil_silt_mean_0_30cm,Soil Property,1972.6,51.0,2340.76
+soil_clay_0_5cm,Soil Property,1912.47,286.0,946.67
+soil_clay_5_15cm,Soil Property,1864.54,123.0,1194.2
+soil_silt_0_5cm,Soil Property,1663.44,158.0,658.44
+noaa_prcp_sep_in,Precipitation,1622.95,713.0,596.1
+soil_clay_mean_0_30cm,Soil Property,1487.21,86.0,1059.94
+soil_soc_15_30cm,Soil Property,1482.32,303.0,1612.25
+soil_silt_5_15cm,Soil Property,1456.38,71.0,1742.38

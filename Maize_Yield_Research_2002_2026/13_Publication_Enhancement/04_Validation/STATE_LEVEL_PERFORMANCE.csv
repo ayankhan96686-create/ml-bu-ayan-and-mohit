@@ -1,0 +1,10 @@
+State,Production_Regime,Counties_Evaluated,County_Year_Obs,True_Yield_Mean,Pred_Yield_Mean,RMSE,MAE,R2,Bias,MAPE_pct
+IA,Rainfed Humid Continental,96,239,206.65,203.37,12.7382,10.0672,0.2066,-3.2777,4.9
+IL,Rainfed Humid Continental,93,217,201.71,198.4,15.9369,12.4333,0.6686,-3.3044,6.51
+IN,Rainfed Humid Continental,84,205,197.83,192.21,14.0615,10.4521,0.2469,-5.6232,5.19
+MN,Rainfed Humid Continental,73,187,179.96,173.54,17.4309,13.7386,0.3537,-6.4146,7.71
+MO,Rainfed Humid Continental,83,171,161.54,158.46,20.1982,15.5301,0.6013,-3.0736,10.59
+NE,Irrigated / Semi-Arid,78,175,184.66,181.31,16.7481,13.1903,0.6171,-3.3532,7.25
+OH,Rainfed Humid Continental,81,207,177.13,179.41,14.5293,10.8179,0.6515,2.2804,6.89
+SD,Rainfed Humid Continental,55,117,154.75,156.29,15.446,11.4539,0.7782,1.5441,9.37
+WI,Rainfed Humid Continental,64,181,169.71,166.22,13.5505,10.8548,0.6458,-3.4882,6.76

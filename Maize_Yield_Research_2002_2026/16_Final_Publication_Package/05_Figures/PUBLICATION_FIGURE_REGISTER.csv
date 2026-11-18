@@ -1,0 +1,21 @@
+Figure_Number,Title,Filename,Data_File
+Figure 1,Study Area Geographic Distribution,FIG_01_STUDY_AREA_MAP.png,FIG_01_DATA.csv
+Figure 2,Methodology Workflow Architecture,FIG_02_METHODOLOGY_WORKFLOW.png,N/A (Conceptual Workflow)
+Figure 3,Data Integration Architecture,FIG_03_DATA_INTEGRATION_ARCHITECTURE.png,FIG_03_DATA.csv
+Figure 4,Historical Yield Dynamics & Climate Shocks,FIG_04_HISTORICAL_YIELD_TRENDS_SHOCKS.png,FIG_04_DATA.csv
+Figure 5,Chronological Rolling-Origin Validation Design,FIG_05_CHRONOLOGICAL_VALIDATION_DESIGN.png,N/A (Protocol Schematic)
+Figure 6,Controlled Feature-Family Ablation,FIG_06_CONTROLLED_FEATURE_ABLATION.png,FIG_06_DATA.csv
+Figure 7,Algorithm Leaderboard Comparison,FIG_07_ML_ALGORITHM_LEADERBOARD.png,FIG_07_DATA.csv
+Figure 8,Overall vs Drought Champion Comparison,FIG_08_OVERALL_VS_DROUGHT_CHAMPION.png,FIG_08_DATA.csv
+Figure 9,Actual vs Predicted Yield Scatter Plot,FIG_09_ACTUAL_VS_PREDICTED_SCATTER.png,FINAL_MODEL_PREDICTIONS.csv
+Figure 10,Test Residual Distribution,FIG_10_RESIDUAL_DISTRIBUTION.png,FINAL_MODEL_PREDICTIONS.csv
+Figure 11,Drought-Tail Residual Analysis,FIG_11_DROUGHT_TAIL_RESIDUAL_ANALYSIS.png,FINAL_MODEL_PREDICTIONS.csv
+Figure 12,2012 Data Retention vs Exclusion Comparison,FIG_12_2012_RETENTION_VS_EXCLUSION.png,FIG_12_DATA.csv
+Figure 13,Rolling-Origin Annual Performance,FIG_13_ROLLING_ORIGIN_ANNUAL_PERFORMANCE.png,FIG_13_DATA.csv
+Figure 14,9-State Spatial LOSO Comparison,FIG_14_NINE_STATE_LOSO_COMPARISON.png,FIG_14_DATA.csv
+Figure 15,Nebraska Irrigation Transferability,FIG_15_NEBRASKA_IRRIGATION_TRANSFERABILITY.png,FIG_15_DATA.csv
+Figure 16,SHAP Global Feature Importance,FIG_16_SHAP_GLOBAL_FEATURE_IMPORTANCE.png,FIG_16_DATA.csv
+Figure 17,July Temperature & VPD Dependence,FIG_17_JULY_TEMP_VPD_DEPENDENCE.png,FIG_17_DATA.csv
+Figure 18,Prediction Interval Empirical Coverage,FIG_18_PREDICTION_INTERVAL_COVERAGE.png,FIG_18_DATA.csv
+Figure 19,2026 State Forecast Yield Distribution,FIG_19_2026_COUNTY_FORECAST_MAP.png,FIG_19_DATA.csv
+Figure 20,Regional Maize Production Share by State,FIG_20_REGIONAL_PRODUCTION_MAP.png,FIG_20_DATA.csv

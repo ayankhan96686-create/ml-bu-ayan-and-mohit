@@ -1,0 +1,4 @@
+Architecture,Test_RMSE_bu_ac,Test_MAE_bu_ac,Test_R2,Mean_Bias_bu_ac
+Pooled Fixed-Effects Ridge,21.3455,17.7265,0.4739,-10.2174
+Empirical Bayes Mixed-Effects Ridge,26.7307,23.2396,0.1749,-19.9867
+Hierarchical Spatial LightGBM (Lat/Lon + County Offsets),19.3451,15.6001,0.5678,-7.5691

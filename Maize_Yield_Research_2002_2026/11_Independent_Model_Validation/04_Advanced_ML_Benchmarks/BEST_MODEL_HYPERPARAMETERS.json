@@ -1,0 +1,69 @@
+{
+  "Ridge": {
+    "alpha": 100.0
+  },
+  "ElasticNet": {
+    "alpha": 0.1,
+    "l1_ratio": 0.9
+  },
+  "SVR": {
+    "kernel": "rbf",
+    "C": 10.0,
+    "epsilon": 0.5
+  },
+  "MLPRegressor": {
+    "hidden_layer_sizes": [
+      128,
+      64
+    ],
+    "alpha": 0.01,
+    "learning_rate_init": 0.001,
+    "batch_size": 64
+  },
+  "RandomForestRegressor": {
+    "n_estimators": 250,
+    "max_depth": 16,
+    "min_samples_split": 5,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt"
+  },
+  "ExtraTreesRegressor": {
+    "n_estimators": 250,
+    "max_depth": 16,
+    "min_samples_split": 5,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt"
+  },
+  "HistGradientBoostingRegressor": {
+    "max_iter": 300,
+    "learning_rate": 0.05,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20
+  },
+  "GradientBoostingRegressor": {
+    "n_estimators": 200,
+    "learning_rate": 0.05,
+    "max_depth": 5,
+    "subsample": 0.8
+  },
+  "LightGBMRegressor": {
+    "n_estimators": 400,
+    "learning_rate": 0.04,
+    "num_leaves": 31,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "CatBoostRegressor": {
+    "iterations": 500,
+    "learning_rate": 0.04,
+    "depth": 6
+  },
+  "XGBoostRegressor": {
+    "n_estimators": 300,
+    "learning_rate": 0.05,
+    "max_depth": 6,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "tree_method": "hist"
+  }
+}

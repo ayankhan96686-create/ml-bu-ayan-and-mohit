@@ -1,0 +1,66 @@
+{
+    "Model_Version": "v2.0_Optimized_Production_Ensemble",
+    "Model_Architecture": "Constrained Weighted Stacking / Quad-Tree Blend",
+    "Base_Learners": {
+        "LightGBM": {
+            "weight": 0.35,
+            "params": {
+                "boosting_type": "gbdt",
+                "class_weight": null,
+                "colsample_bytree": 0.75,
+                "importance_type": "split",
+                "learning_rate": 0.04,
+                "max_depth": 7,
+                "min_child_samples": 20,
+                "min_child_weight": 0.001,
+                "min_split_gain": 0.0,
+                "n_estimators": 350,
+                "n_jobs": null,
+                "num_leaves": 45,
+                "objective": null,
+                "random_state": 42,
+                "reg_alpha": 0.0,
+                "reg_lambda": 0.0,
+                "subsample": 0.85,
+                "subsample_for_bin": 200000,
+                "subsample_freq": 0,
+                "verbose": -1
+            }
+        },
+        "CatBoost": {
+            "weight": 0.25,
+            "params": {
+                "iterations": 400,
+                "depth": 6,
+                "learning_rate": 0.04
+            }
+        },
+        "HistGradientBoosting": {
+            "weight": 0.2,
+            "params": {
+                "max_iter": 350,
+                "max_depth": 7,
+                "learning_rate": 0.04
+            }
+        },
+        "XGBoost": {
+            "weight": 0.2,
+            "params": {
+                "n_estimators": 350,
+                "max_depth": 6,
+                "learning_rate": 0.04
+            }
+        }
+    },
+    "Training_Cohort": "US Corn Belt 2002-2022 (N = 14,691 county-years)",
+    "Test_Cohort": "US Corn Belt 2023-2025 (N = 1,699 county-years)",
+    "Test_Performance": {
+        "RMSE": 15.5129,
+        "MAE": 11.8243,
+        "R2": 0.7221,
+        "Mean_Bias": -2.7972,
+        "Conformal_Coverage_90_pct": 66.8
+    },
+    "Total_Predictors": 69,
+    "Random_Seed": 42
+}

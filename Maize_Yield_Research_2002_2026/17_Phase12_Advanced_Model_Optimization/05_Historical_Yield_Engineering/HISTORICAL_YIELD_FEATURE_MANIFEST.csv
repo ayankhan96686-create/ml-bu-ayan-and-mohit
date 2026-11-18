@@ -1,0 +1,14 @@
+Feature_Name,Family,Window,Leakage_Status
+yield_lag_1yr_p12,Historical Yield Memory,Shifted prior years,Strictly Verified Leakage-Free
+yield_lag_2yr_p12,Historical Yield Memory,Shifted prior years,Strictly Verified Leakage-Free
+yield_lag_3yr_p12,Historical Yield Memory,Shifted prior years,Strictly Verified Leakage-Free
+yield_lag_4yr_p12,Historical Yield Memory,Shifted prior years,Strictly Verified Leakage-Free
+yield_roll_mean_3yr_p12,Historical Yield Memory,Shifted prior years,Strictly Verified Leakage-Free
+yield_roll_mean_5yr_p12,Historical Yield Memory,Shifted prior years,Strictly Verified Leakage-Free
+yield_roll_std_5yr_p12,Historical Yield Memory,Shifted prior years,Strictly Verified Leakage-Free
+yield_roll_median_5yr_p12,Historical Yield Memory,Shifted prior years,Strictly Verified Leakage-Free
+yield_ewm_5yr_p12,Historical Yield Memory,Shifted prior years,Strictly Verified Leakage-Free
+yield_trend_3yr_p12,Historical Yield Memory,Shifted prior years,Strictly Verified Leakage-Free
+yield_trend_5yr_p12,Historical Yield Memory,Shifted prior years,Strictly Verified Leakage-Free
+yield_deviation_from_trend_p12,Historical Yield Memory,Shifted prior years,Strictly Verified Leakage-Free
+yield_coefficient_of_variation_p12,Historical Yield Memory,Shifted prior years,Strictly Verified Leakage-Free

@@ -1,0 +1,8 @@
+Feature_Family,Variable_Count,Key_Variables,Agronomic_Rationale
+Historical Autoregressive Memory,3,"yield_lag_1yr, yield_lag_2yr, yield_roll_mean_5yr","Captures local soil potential, historical management baseline, and technological adoption creep."
+Soil Hydraulic & Chemical Profiles,26,"soil_awc_index, subsoil_clay_contrast, organic carbon, pH, CEC, sand/silt/clay (0-100cm)",Profiles root-zone available water storage capacity and drainage constraints.
+Seasonal Atmospheric Climatology,17,"prism_ppt_mm, prism_tmean_c, noaa_prcp_may_aug_in, noaa_tmax_jul_f, noaa_heat_stress_max_f",Captures baseline seasonal moisture totals and mean thermal accumulation.
+Non-Linear Extreme Thermal/Moisture Stress,9,"edd_july_f, edd_aug_f, vpd_july_kpa, vpd_aug_kpa, compound_heat_drought_july, noaa_prcp_jul_in_zscore","Parameterizes catastrophic pollen sterility, stomatal closure, and drought anomalies during silking."
+Irrigation & Crop Risk Buffer,3,"irrigation_regime_proxy, irrigation_drought_buffer, rma_liability_per_planted_acre",Differentiates Ogallala aquifer groundwater irrigation and capital protection density.
+Phenology & In-Season Crop Condition,11,"silking_thermal_interaction, delayed_planting_penalty, planted_w20_pct, silking_w30_pct, cond_excellent/poor",Tracks regional developmental stage alignment with summer heat waves.
+TOTAL IN-SEASON PREDICTOR SET,69,Strict in-season cut-off (all data observable by August 31),Guarantees zero end-of-season or harvest-period data leakage.

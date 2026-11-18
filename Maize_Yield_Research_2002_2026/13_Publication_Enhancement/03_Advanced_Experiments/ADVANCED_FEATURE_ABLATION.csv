@@ -1,0 +1,11 @@
+Model,RMSE,MAE,R2,Bias,MAPE_pct,Num_Features
+Set A: Historical Yield Memory Only,21.2798,16.2737,0.4771,-5.9012,9.45,3
+Set B: Soil Only,34.3241,30.7397,-0.3605,-29.1306,16.48,26
+Set C: Climate Only,28.9143,23.874,0.0346,-15.7898,13.18,18
+Set D: Soil + Climate,23.3331,19.8246,0.3713,-15.6273,10.89,44
+Set E: Baseline (Memory + Soil + Climate),16.4062,12.3915,0.6892,-1.1988,7.27,47
+Set F: Memory + Advanced Climate,17.0919,12.8499,0.6627,1.5441,7.68,30
+Set G: Memory + Irrigation + Climate,16.8454,12.6945,0.6723,1.7758,7.66,24
+Set H: Memory + Soil + Climate + Irrigation,16.2309,12.2859,0.6958,0.2823,7.34,50
+Set I: Memory + Remote Sensing Proxy,16.9556,12.782,0.668,0.3621,7.64,31
+Set J: Full Integrated Architecture,15.6808,12.0234,0.7161,-2.9646,7.03,70

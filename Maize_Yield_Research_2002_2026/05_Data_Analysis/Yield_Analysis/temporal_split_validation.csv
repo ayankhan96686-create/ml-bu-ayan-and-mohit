@@ -1,0 +1,5 @@
+split_name,years,row_count,pct_total_labeled,distinct_counties,yield_mean,yield_std,yield_median,yield_min,yield_max,yield_skewness
+Train (2002-2019),2002-2019 (18 yrs),12660,77.24,784,151.06,35.27,156.0,0.0,246.7,-0.787
+Val (2020-2022),2020-2022 (3 yrs),2031,12.39,763,174.95,31.18,179.9,29.8,240.6,-1.109
+Test (2023-2025),2023-2025 (3 yrs),1699,10.37,707,184.1,29.44,187.4,50.0,253.6,-0.8
+Prospective (2026),2026 (1 yr),814,N/A,814,Unlabeled,Unlabeled,Unlabeled,Unlabeled,Unlabeled,Unlabeled

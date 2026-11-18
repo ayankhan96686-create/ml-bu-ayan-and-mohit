@@ -1,0 +1,4 @@
+nominal_confidence_level,alpha,half_width_bu_acre,interval_width_bu_acre,calibration_set_coverage_pct,test_set_empirical_coverage_pct,coverage_status
+80%,0.2,20.92,41.85,80.0,78.4,SLIGHT UNDERCOVERAGE
+90%,0.1,27.73,55.46,90.0,89.46,SLIGHT UNDERCOVERAGE
+95%,0.05,34.18,68.37,95.0,94.94,SLIGHT UNDERCOVERAGE

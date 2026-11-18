@@ -1,0 +1,11 @@
+Model_Architecture,Test_RMSE_bu_ac,Test_MAE_bu_ac,Test_R2,Mean_Bias_bu_ac,Severe_Tail_RMSE_bu_ac,Severe_Tail_Bias_bu_ac
+Single: LightGBM,15.2515,11.8658,0.7314,-2.3974,28.0012,20.883
+Single: XGBoost,15.844,12.2179,0.7101,-3.2206,28.5372,21.9963
+Single: CatBoost,16.0396,12.3026,0.7029,-3.3946,29.4397,23.2904
+Single: HistGB,15.5975,12.1096,0.7191,-3.1133,28.3952,21.5048
+Single: MLP,25.8424,18.5937,0.2288,4.5125,54.2936,41.2301
+Ensemble: Ridge Stacking Meta-Learner,15.5078,11.7806,0.7223,3.1797,34.9738,29.4957
+Ensemble: ElasticNet Meta-Learner,15.5058,11.7766,0.7224,3.1738,34.9872,29.5164
+Ensemble: Non-Negative Constrained Blend (NNLS),15.3205,11.7146,0.729,-2.0684,30.8918,24.6189
+Ensemble: Calibrated Quad-Tree Blend,15.5217,11.9964,0.7218,-3.0315,28.4599,21.9186
+Ensemble: Soft Voting 5-Model,15.4276,11.792,0.7252,-1.5227,32.2672,25.7809

@@ -1,0 +1,99 @@
+Feature_Name,Role,Feature_Family,In_Historical_Panel,In_Future_2026_Panel,Available_At_Oct15_Cutoff,Production_Status,Data_Source
+county_fips,Spatial Identifier,Metadata,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_fips,Spatial Identifier,Metadata,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state,Spatial Identifier,Metadata,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_name,Spatial Identifier,Metadata,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+county_name,Spatial Identifier,Metadata,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+year,Audit & Quarantining Policy,Metadata,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+corn_yield_bu_acre,Target Variable,Target,True,False,Target (Post-harvest final label),Target Variable,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+eligible_for_2026_forecast,Audit & Quarantining Policy,Metadata,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+prism_valid_coverage_pct,Audit & Quarantining Policy,Metadata,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+rma_missing_indicator,Audit & Quarantining Policy,Metadata,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_heat_stress_max_f,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_prcp_annual_in,Predictor (Meteorology),Raw Climate Grids,True,True,No (Includes Nov-Dec post-harvest),Quarantined (Post-Cutoff),USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_prcp_aug_in,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_prcp_jul_in,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_prcp_jun_in,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_prcp_may_aug_in,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_prcp_may_in,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_prcp_may_sep_in,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_prcp_sep_in,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_tmax_aug_f,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_tmax_jul_f,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_tmax_may_aug_f,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_tmean_may_aug_f,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_tmin_may_aug_f,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+prism_ppt_mm,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+prism_tmax_c,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+prism_tmean_c,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+prism_tmin_c,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+rma_liability_per_planted_acre,Predictor (Economic / Management),Insurance & Irrigation,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+rma_liability_total,Predictor (Economic / Management),Insurance & Irrigation,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+rma_net_planted_acres,Predictor (Economic / Management),Insurance & Irrigation,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+rma_policies_earning_prem,Predictor (Economic / Management),Insurance & Irrigation,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+rma_policies_sold,Predictor (Economic / Management),Insurance & Irrigation,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+rma_premium_per_planted_acre,Predictor (Economic / Management),Insurance & Irrigation,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+rma_subsidy,Predictor (Economic / Management),Insurance & Irrigation,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+rma_total_premium,Predictor (Economic / Management),Insurance & Irrigation,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_bdod_0_5cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_bdod_15_30cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_bdod_5_15cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_bdod_mean_0_30cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_clay_0_5cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_clay_15_30cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_clay_5_15cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_clay_mean_0_30cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_intptlat,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_intptlon,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_ph_mean_0_30cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_phh2o_0_5cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_phh2o_15_30cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_phh2o_5_15cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_sand_0_5cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_sand_15_30cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_sand_5_15cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_sand_mean_0_30cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_silt_0_5cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_silt_15_30cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_silt_5_15cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_silt_mean_0_30cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_soc_0_5cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_soc_15_30cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_soc_5_15cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_soc_mean_0_30cm,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_cond_excellent_mean,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_cond_fair_mean,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_cond_good_excellent_mean,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_cond_good_mean,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_cond_poor_mean,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_cond_poor_very_poor_mean,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_cond_rep_good_excellent_mean,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_cond_rep_poor_very_poor_mean,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_cond_very_poor_mean,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_progress_dented_w37_pct,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_progress_dough_w34_pct,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_progress_emerged_w22_pct,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_progress_mature_w40_pct,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_progress_planted_w20_pct,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_progress_silking_w30_pct,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_progress_week_50pct_mature,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_progress_week_50pct_planted,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+state_progress_week_50pct_silking,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+yield_lag_1yr,Predictor (Autoregressive Memory),Historical Yield Memory,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+yield_lag_2yr,Predictor (Autoregressive Memory),Historical Yield Memory,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+yield_roll_mean_5yr,Predictor (Autoregressive Memory),Historical Yield Memory,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+gdd_may_aug_c,Predictor (Agrometeorology),Advanced Climate,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+gdd_july_c,Predictor (Agrometeorology),Advanced Climate,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+edd_july_f,Predictor (Agrometeorology),Advanced Climate,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+edd_aug_f,Predictor (Agrometeorology),Advanced Climate,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+vpd_july_kpa,Predictor (Agrometeorology),Advanced Climate,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+vpd_aug_kpa,Predictor (Agrometeorology),Advanced Climate,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+compound_heat_drought_july,Predictor (Agrometeorology),Advanced Climate,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_prcp_jul_in_zscore,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+noaa_tmax_jul_f_zscore,Predictor (Meteorology),Raw Climate Grids,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+irrigation_regime_proxy,Predictor (Economic / Management),Insurance & Irrigation,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+irrigation_drought_buffer,Predictor (Economic / Management),Insurance & Irrigation,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+silking_thermal_interaction,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+delayed_planting_penalty,Predictor (Phenology & Condition),Crop Phenology,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+soil_awc_index,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA
+subsoil_clay_contrast,Predictor (Pedology),Soil Properties,True,True,Yes (Fully observed by Oct 15),Verified Production Ready,USDA NASS / NOAA NCEI / PRISM / ISRIC SoilGrids / USDA RMA

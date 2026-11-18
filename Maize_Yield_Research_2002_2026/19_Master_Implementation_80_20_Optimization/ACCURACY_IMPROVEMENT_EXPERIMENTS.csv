@@ -1,0 +1,7 @@
+Experiment,Description,Feature_Count,Train_R2,Val_R2,Val_RMSE_bu_ac,Val_MAE_bu_ac,Test_R2,Test_RMSE_bu_ac,Test_MAE_bu_ac,Overfitting_Gap
+Experiment A,Original baseline features + default LightGBM parameters,41,0.8766,0.2679,25.01,21.3,0.8186,15.61,12.07,0.6087
+Experiment B,Original baseline features + Optuna tuned LightGBM,41,0.9162,0.2879,24.66,21.0,0.8441,14.47,11.1,0.6284
+Experiment C,Master multimodal 117 features + Optuna tuned LightGBM,117,0.9525,0.6562,16.95,13.5,0.8944,11.91,8.9,0.2963
+Experiment D,Top 45 feature-selected subset + Optuna tuned LightGBM,45,0.948,0.6606,16.88,13.34,0.8934,11.97,8.96,0.2873
+Experiment E (Tuned Tri-Tree),"Equal-weight blend of tuned LightGBM, XGBoost, and CatBoost",117,0.941,0.725,15.65,11.95,0.8927,12.0,8.99,0.216
+Experiment E (Optimized Stacking),Calibrated Ridge Stacking Meta-Learner across tuned base models,117,0.9485,0.738,15.42,11.8,0.8931,11.98,8.97,0.2105

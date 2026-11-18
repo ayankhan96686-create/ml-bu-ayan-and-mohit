@@ -1,0 +1,99 @@
+Column_Name,Feature_Family,Data_Type,Missing_Count,Missing_Percentage,Zero_Count,Zero_Interpretation,Unique_Values,Min_Value,Max_Value,Mean_Value,Median_Value,Imputation_Policy_Recommendation
+county_fips,Metadata & Identifiers,int64,0,0.0,0,No zeros present,788,17001.0,55141.0,29512.2435,29003.0,None needed (Complete)
+state_fips,Metadata & Identifiers,int64,0,0.0,0,No zeros present,9,17.0,55.0,29.4196,29.0,None needed (Complete)
+state,Metadata & Identifiers,str,0,0.0,0,No zeros present,9,,,,,None needed (Complete)
+state_name,Metadata & Identifiers,str,0,0.0,0,No zeros present,9,,,,,None needed (Complete)
+county_name,Metadata & Identifiers,str,0,0.0,0,No zeros present,515,,,,,None needed (Complete)
+year,Metadata & Identifiers,int64,0,0.0,0,No zeros present,24,2002.0,2025.0,2012.9144,2013.0,None needed (Complete)
+corn_yield_bu_acre,Target Variable,float64,0,0.0,9,Standard numerical zero,1849,0.0,253.6,157.4472,161.9,None needed (Complete)
+eligible_for_2026_forecast,Metadata & Identifiers,bool,0,0.0,0,No zeros present,1,1.0,1.0,1.0,1.0,None needed (Complete)
+prism_valid_coverage_pct,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,6,58.4,100.0,98.9737,100.0,None needed (Complete)
+rma_missing_indicator,Insurance & Irrigation Management,int64,0,0.0,16024,Standard numerical zero,2,0.0,1.0,0.0223,0.0,None needed (Complete)
+noaa_heat_stress_max_f,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,244,73.4,98.9,85.5627,85.3,None needed (Complete)
+noaa_prcp_annual_in,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,4302,6.52,71.73,35.7608,35.84,None needed (Complete)
+noaa_prcp_aug_in,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,1086,0.03,17.68,3.6796,3.35,None needed (Complete)
+noaa_prcp_jul_in,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,1081,0.01,15.35,3.9373,3.62,None needed (Complete)
+noaa_prcp_jun_in,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,1208,0.26,15.74,4.4687,4.06,None needed (Complete)
+noaa_prcp_may_aug_in,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,2282,2.97,39.19,16.4905,16.36,None needed (Complete)
+noaa_prcp_may_in,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,1095,0.15,17.97,4.4049,4.205,None needed (Complete)
+noaa_prcp_may_sep_in,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,2660,3.3,47.06,19.5611,19.21,None needed (Complete)
+noaa_prcp_sep_in,Climate & Agrometeorology,float64,0,0.0,1,Physical zero (e.g. zero heat days or zero precipitation),1069,0.0,14.41,3.0706,2.6,None needed (Complete)
+noaa_tmax_aug_f,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,252,70.0,97.4,83.1509,83.0,None needed (Complete)
+noaa_tmax_jul_f,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,248,71.9,98.9,85.1346,84.9,None needed (Complete)
+noaa_tmax_may_aug_f,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,931,68.58,91.78,80.4962,80.55,None needed (Complete)
+noaa_tmean_may_aug_f,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,915,58.0,79.82,69.3372,69.4,None needed (Complete)
+noaa_tmin_may_aug_f,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,948,44.55,69.7,58.169,58.25,None needed (Complete)
+prism_ppt_mm,Climate & Agrometeorology,float64,632,3.856,0,No zeros present,14532,133.56,1977.95,939.5616,940.285,Median within state-year
+prism_tmax_c,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,1311,7.3,22.95,15.7891,16.05,None needed (Complete)
+prism_tmean_c,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,1261,1.82,16.97,9.9574,10.15,None needed (Complete)
+prism_tmin_c,Climate & Agrometeorology,float64,0,0.0,4,Standard numerical zero,1262,-3.99,11.39,4.1262,4.23,None needed (Complete)
+rma_liability_per_planted_acre,Insurance & Irrigation Management,float64,366,2.233,0,No zeros present,14521,27.62,1457.62,506.3788,506.105,Median within state-year
+rma_liability_total,Insurance & Irrigation Management,float64,366,2.233,0,No zeros present,16021,13844.0,327166487.0,44173511.7851,29615176.5,Median within state-year
+rma_net_planted_acres,Insurance & Irrigation Management,float64,366,2.233,0,No zeros present,15302,114.0,372635.0,77575.3608,64801.0,Median within state-year
+rma_policies_earning_prem,Insurance & Irrigation Management,float64,366,2.233,0,No zeros present,1315,1.0,2582.0,399.0744,335.0,Median within state-year
+rma_policies_sold,Insurance & Irrigation Management,float64,366,2.233,0,No zeros present,1470,4.0,2837.0,496.0379,444.0,Median within state-year
+rma_premium_per_planted_acre,Insurance & Irrigation Management,float64,366,2.233,0,No zeros present,6897,5.53,160.22,47.2671,45.905,Median within state-year
+rma_subsidy,Insurance & Irrigation Management,float64,366,2.233,0,No zeros present,16008,646.0,31664437.0,2108265.1396,1605804.5,Median within state-year
+rma_total_premium,Insurance & Irrigation Management,float64,366,2.233,0,No zeros present,16004,1095.0,44341905.0,3573337.2427,2758015.0,Median within state-year
+soil_bdod_0_5cm,Soil Properties,float64,11,0.067,0,No zeros present,43,1.09,1.53,1.3686,1.38,Median within state-year
+soil_bdod_15_30cm,Soil Properties,float64,11,0.067,0,No zeros present,37,1.26,1.7,1.5402,1.54,Median within state-year
+soil_bdod_5_15cm,Soil Properties,float64,11,0.067,0,No zeros present,40,1.2,1.67,1.5115,1.52,Median within state-year
+soil_bdod_mean_0_30cm,Soil Properties,float64,11,0.067,0,No zeros present,161,1.2133,1.6567,1.5021,1.505,Median within state-year
+soil_clay_0_5cm,Soil Properties,float64,11,0.067,0,No zeros present,643,9.41,54.68,27.7408,28.37,Median within state-year
+soil_clay_15_30cm,Soil Properties,float64,11,0.067,0,No zeros present,652,7.98,56.91,30.1722,31.07,Median within state-year
+soil_clay_5_15cm,Soil Properties,float64,11,0.067,0,No zeros present,656,8.81,56.27,28.1011,28.53,Median within state-year
+soil_clay_mean_0_30cm,Soil Properties,float64,11,0.067,0,No zeros present,763,8.515,56.325,29.0766,29.685,Median within state-year
+soil_intptlat,Soil Properties,float64,0,0.0,0,No zeros present,785,36.153,48.776,41.5296,41.2056,None needed (Complete)
+soil_intptlon,Soil Properties,float64,0,0.0,0,No zeros present,784,-103.8064,-80.7456,-91.5192,-91.6354,None needed (Complete)
+soil_ph_mean_0_30cm,Soil Properties,float64,11,0.067,0,No zeros present,563,5.0633,7.8867,6.3063,6.26,Median within state-year
+soil_phh2o_0_5cm,Soil Properties,float64,11,0.067,0,No zeros present,189,4.96,7.69,6.3014,6.3,Median within state-year
+soil_phh2o_15_30cm,Soil Properties,float64,11,0.067,0,No zeros present,204,5.1,7.97,6.3008,6.24,Median within state-year
+soil_phh2o_5_15cm,Soil Properties,float64,11,0.067,0,No zeros present,196,5.04,7.86,6.317,6.29,Median within state-year
+soil_sand_0_5cm,Soil Properties,float64,11,0.067,0,No zeros present,709,2.47,77.99,22.0597,17.6,Median within state-year
+soil_sand_15_30cm,Soil Properties,float64,11,0.067,0,No zeros present,705,2.28,80.37,21.3624,16.77,Median within state-year
+soil_sand_5_15cm,Soil Properties,float64,11,0.067,0,No zeros present,704,2.38,78.49,21.904,17.38,Median within state-year
+soil_sand_mean_0_30cm,Soil Properties,float64,11,0.067,0,No zeros present,771,2.345,79.3467,21.6592,17.0733,Median within state-year
+soil_silt_0_5cm,Soil Properties,float64,11,0.067,0,No zeros present,714,12.57,76.79,50.2357,51.62,Median within state-year
+soil_silt_15_30cm,Soil Properties,float64,11,0.067,0,No zeros present,695,10.98,72.33,48.5023,50.44,Median within state-year
+soil_silt_5_15cm,Soil Properties,float64,11,0.067,0,No zeros present,713,12.14,75.64,50.0311,51.64,Median within state-year
+soil_silt_mean_0_30cm,Soil Properties,float64,11,0.067,0,No zeros present,776,11.6317,74.1767,49.3008,50.9467,Median within state-year
+soil_soc_0_5cm,Soil Properties,float64,11,0.067,0,No zeros present,360,1.63,11.2,3.997,3.78,Median within state-year
+soil_soc_15_30cm,Soil Properties,float64,11,0.067,0,No zeros present,192,0.58,5.0,1.3265,1.25,Median within state-year
+soil_soc_5_15cm,Soil Properties,float64,11,0.067,0,No zeros present,245,1.07,6.87,2.1684,2.08,Median within state-year
+soil_soc_mean_0_30cm,Soil Properties,float64,11,0.067,0,No zeros present,557,1.0767,5.775,2.0522,1.935,Median within state-year
+state_cond_excellent_mean,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,198,1.52,37.32,15.0879,14.87,None needed (Complete)
+state_cond_fair_mean,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,191,8.33,40.6,24.466,24.35,None needed (Complete)
+state_cond_good_excellent_mean,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,208,19.05,89.71,63.0094,65.04,None needed (Complete)
+state_cond_good_mean,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,203,16.5,65.41,47.9216,49.7,None needed (Complete)
+state_cond_poor_mean,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,180,1.77,25.55,8.3777,7.14,None needed (Complete)
+state_cond_poor_very_poor_mean,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,192,1.77,59.8,12.5248,9.57,None needed (Complete)
+state_cond_rep_good_excellent_mean,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,164,4.86,90.14,61.8908,64.57,None needed (Complete)
+state_cond_rep_poor_very_poor_mean,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,120,1.86,81.57,14.1061,9.71,None needed (Complete)
+state_cond_very_poor_mean,Crop Phenology & Condition,float64,0,0.0,72,Standard numerical zero,157,0.0,36.5,4.1699,2.45,None needed (Complete)
+state_progress_dented_w37_pct,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,44,31.0,100.0,86.8595,91.0,None needed (Complete)
+state_progress_dough_w34_pct,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,53,23.0,100.0,83.643,88.0,None needed (Complete)
+state_progress_emerged_w22_pct,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,56,13.0,100.0,82.0592,87.0,None needed (Complete)
+state_progress_mature_w40_pct,Crop Phenology & Condition,float64,1204,7.346,0,No zeros present,49,28.0,100.0,84.8983,91.0,Median within state-year
+state_progress_planted_w20_pct,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,63,9.0,99.0,78.9673,85.0,None needed (Complete)
+state_progress_silking_w30_pct,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,64,15.0,100.0,79.7184,85.0,None needed (Complete)
+state_progress_week_50pct_mature,Crop Phenology & Condition,float64,60,0.366,0,No zeros present,10,33.0,42.0,38.0591,38.0,Median within state-year
+state_progress_week_50pct_planted,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,9,15.0,23.0,18.6478,19.0,None needed (Complete)
+state_progress_week_50pct_silking,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,7,26.0,32.0,28.952,29.0,None needed (Complete)
+yield_lag_1yr,Historical Yield Memory,float64,1765,10.769,7,Standard numerical zero,1777,0.0,248.2,156.7207,160.9,Keep missing for initial panel years
+yield_lag_2yr,Historical Yield Memory,float64,2454,14.973,5,Standard numerical zero,1737,0.0,246.7,156.046,160.2,Keep missing for initial panel years
+yield_roll_mean_5yr,Historical Yield Memory,float64,2762,16.852,2,Standard numerical zero,7286,0.0,227.14,155.8289,158.01,None needed (Complete)
+gdd_may_aug_c,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,915,546.6667,2037.7,1321.3765,1325.6667,None needed (Complete)
+gdd_july_c,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,123,377.1667,620.0,585.199,601.0556,None needed (Complete)
+edd_july_f,Climate & Agrometeorology,float64,0,0.0,10061,Physical zero (e.g. zero heat days or zero precipitation),126,0.0,399.9,35.8155,0.0,None needed (Complete)
+edd_aug_f,Climate & Agrometeorology,float64,0,0.0,13054,Physical zero (e.g. zero heat days or zero precipitation),103,0.0,353.4,15.3025,0.0,None needed (Complete)
+vpd_july_kpa,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,14188,1.4652,4.6995,2.4891,2.4113,None needed (Complete)
+vpd_aug_kpa,Climate & Agrometeorology,float64,0,0.0,0,No zeros present,13664,1.4134,3.915,2.2307,2.1666,None needed (Complete)
+compound_heat_drought_july,Climate & Agrometeorology,float64,0,0.0,11507,Standard numerical zero,4293,0.0,7.1352,0.3267,0.0,None needed (Complete)
+noaa_prcp_jul_in_zscore,Climate & Agrometeorology,float64,0,0.0,10,Physical zero (e.g. zero heat days or zero precipitation),16092,-2.4581,6.2142,0.0465,-0.1014,None needed (Complete)
+noaa_tmax_jul_f_zscore,Climate & Agrometeorology,float64,0,0.0,14,Standard numerical zero,14810,-2.4842,3.0385,-0.0169,-0.083,None needed (Complete)
+irrigation_regime_proxy,Insurance & Irrigation Management,float64,0,0.0,7425,Standard numerical zero,6987,0.0,1.0,0.1438,0.0098,None needed (Complete)
+irrigation_drought_buffer,Insurance & Irrigation Management,float64,0,0.0,11117,Physical zero (e.g. zero heat days or zero precipitation),4224,0.0,3.99,0.1715,0.0,None needed (Complete)
+silking_thermal_interaction,Crop Phenology & Condition,float64,0,0.0,0,No zeros present,998,2178.4,2935.7,2463.0086,2454.3,None needed (Complete)
+delayed_planting_penalty,Crop Phenology & Condition,float64,0,0.0,15248,Standard numerical zero,764,0.0,9.405,0.1738,0.0,None needed (Complete)
+soil_awc_index,Soil Properties,float64,0,0.0,0,No zeros present,788,-0.0003,0.129,0.0133,0.0142,None needed (Complete)
+subsoil_clay_contrast,Soil Properties,float64,0,0.0,0,No zeros present,788,0.7108,1.942,1.093,1.0687,None needed (Complete)

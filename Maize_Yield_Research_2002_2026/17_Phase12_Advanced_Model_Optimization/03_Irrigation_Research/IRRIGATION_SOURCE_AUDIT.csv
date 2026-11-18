@@ -1,0 +1,10 @@
+State,Irrigated_Pct_Mean,Aquifer,Yield_Stability,Source
+NE,54.8%,Ogallala High Plains,High (Decoupled from July Precip),USDA Census & NASS
+IA,1.2%,None (Rainfed),Weather Dependent,USDA Census
+IL,2.4%,Havana Lowlands (Local),Weather Dependent,USDA Census
+IN,3.1%,Outwash Aquifers (Local),Weather Dependent,USDA Census
+MN,6.8%,Glacial Sand Plains,Moderate,USDA Census
+MO,16.4%,Bootheel Alluvial Aquifer,Moderate,USDA Census
+OH,0.8%,None (Rainfed),Weather Dependent,USDA Census
+SD,12.3%,Dakota / High Plains Edge,Moderate,USDA Census
+WI,5.2%,Central Sands Glacial Outwash,Moderate,USDA Census

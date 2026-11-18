@@ -1,0 +1,79 @@
+{
+  "task_a_b_c_e": {
+    "script": "08_Code/audit_task_a_b_c_e.py",
+    "description": "Forensic data and metric audit, champion reconciliation, 2012 yield reconciliation, drought ablation",
+    "status": "COMPLETED_VERIFIED",
+    "deliverables": [
+      "01_Independent_Audit/DATA_AND_METRIC_AUDIT.csv",
+      "01_Independent_Audit/MODEL_CHAMPION_RECONCILIATION.csv",
+      "01_Independent_Audit/2012_ANNUAL_AGGREGATION_RECONCILIATION.csv",
+      "01_Independent_Audit/DROUGHT_FEATURE_ABLATION_RECONCILIATION.csv",
+      "01_Independent_Audit/OVERALL_VS_DROUGHT_MODEL_SELECTION.md"
+    ]
+  },
+  "task_d_loss_functions": {
+    "script": "08_Code/run_task_d_loss_function_validation.py",
+    "description": "Systematic evaluation of scaled and unscaled loss functions across GBDT libraries",
+    "status": "COMPLETED_VERIFIED",
+    "deliverables": [
+      "02_Loss_Function_Validation/ROBUST_LOSS_REVALIDATION.csv",
+      "02_Loss_Function_Validation/LOSS_FUNCTION_SELECTION_REPORT.md"
+    ]
+  },
+  "task_e_drought_robustness": {
+    "script": "08_Code/run_task_e_drought_robustness.py",
+    "description": "2012 data preservation proof, biophysical climate feature analysis, and 21 regime validation",
+    "status": "COMPLETED_VERIFIED",
+    "deliverables": [
+      "03_Drought_Robustness/DROUGHT_REGIME_REVALIDATION.csv",
+      "03_Drought_Robustness/2012_DATA_PRESERVATION_FINAL_AUDIT.md",
+      "03_Drought_Robustness/CLIMATE_FEATURE_CONTRIBUTION_REPORT.md"
+    ]
+  },
+  "task_f_residual_optimization": {
+    "script": "08_Code/run_task_f_residual_optimization.py",
+    "description": "Strict 5-fold OOF secondary residual modeling (Ridge, ElasticNet, LightGBM, State Offsets)",
+    "status": "COMPLETED_VERIFIED",
+    "deliverables": [
+      "04_Residual_Optimization/RESIDUAL_ERROR_DIAGNOSTICS.csv",
+      "04_Residual_Optimization/RESIDUAL_MODEL_EXPERIMENTS.csv",
+      "04_Residual_Optimization/RESIDUAL_CORRECTION_REPORT.md"
+    ]
+  },
+  "task_g_final_models": {
+    "script": "08_Code/run_task_g_final_models.py",
+    "description": "Full benchmark of 13 architectures on identical 2023-2025 cohort with conformal intervals",
+    "status": "COMPLETED_VERIFIED",
+    "deliverables": [
+      "05_Final_Models/FINAL_OVERALL_MODEL_COMPARISON.csv",
+      "05_Final_Models/FINAL_DROUGHT_MODEL_COMPARISON.csv",
+      "05_Final_Models/FINAL_MODEL_CONFIGURATION.json",
+      "05_Final_Models/FINAL_MODEL_PREDICTIONS.csv",
+      "05_Final_Models/FINAL_MODEL_SELECTION_REPORT.md",
+      "05_Final_Models/FINAL_MODEL_PROVENANCE.md"
+    ]
+  },
+  "task_h_i_validation": {
+    "script": "08_Code/run_task_h_i_confirmatory_validation.py",
+    "description": "Expanding rolling-origin temporal validation (2019-2025) and 9-state spatial LOSO",
+    "status": "COMPLETED_VERIFIED",
+    "deliverables": [
+      "06_Validation/FINAL_TEMPORAL_VALIDATION.csv",
+      "06_Validation/FINAL_GEOGRAPHIC_VALIDATION.csv",
+      "06_Validation/FINAL_UNCERTAINTY_VALIDATION.csv",
+      "06_Validation/CONFIRMATORY_VALIDATION_LIMITATIONS.md"
+    ]
+  },
+  "manuscript_certification": {
+    "directory": "07_Manuscript/",
+    "description": "Five publication-grade manuscript documents, results, methods, contributions, and checklist",
+    "status": "COMPLETED_VERIFIED",
+    "deliverables": [
+      "07_Manuscript/VERIFIED_FINAL_RESULTS.md",
+      "07_Manuscript/UPDATED_RESEARCH_CONTRIBUTIONS.md",
+      "07_Manuscript/FINAL_METHODS_AND_EXPERIMENTAL_DESIGN.md",
+      "07_Manuscript/FINAL_DISCUSSION_AND_LIMITATIONS.md",
+      "07_Manuscript/PUBLICATION_EVIDENCE_CHECKLIST.md"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+Ablation_Experiment,Feature_Count,Test_RMSE_bu_ac,Test_MAE_bu_ac,Test_R2,Mean_Bias_bu_ac,Severe_Tail_RMSE_bu_ac,Severe_Tail_Bias_bu_ac
+Base Climate + Lag Memory,18,17.7103,13.966,0.6378,-3.7332,31.6736,24.3589
+With Raw Progress Percentages,20,18.8485,15.0149,0.5897,-6.5548,31.2683,23.3082
+With Stage-Specific Climate Interactions,25,18.1613,14.5549,0.6191,-6.427,30.1564,22.6137

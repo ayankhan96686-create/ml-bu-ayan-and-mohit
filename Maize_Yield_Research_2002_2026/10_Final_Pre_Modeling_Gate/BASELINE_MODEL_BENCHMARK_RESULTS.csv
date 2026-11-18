@@ -1,0 +1,15 @@
+model_name,split,rmse,mae,r2,rmse_improvement_over_hist_mean_pct
+1. County Historical Mean Baseline,Validation (2020-2022),31.49,28.02,-0.0201,0.0
+1. County Historical Mean Baseline,Test (2023-2025),37.61,33.92,-0.6333,0.0
+2. Previous-Year Yield Baseline (Lag-1),Validation (2020-2022),25.45,20.0,0.3334,19.16
+2. Previous-Year Yield Baseline (Lag-1),Test (2023-2025),25.39,19.48,0.2557,32.49
+3. 5-Year Historical Yield Baseline,Validation (2020-2022),21.28,16.3,0.5338,32.4
+3. 5-Year Historical Yield Baseline,Test (2023-2025),20.94,16.51,0.4935,44.31
+"4. Ridge Regression (Set A, alpha=0.01)",Validation (2020-2022),31.68,27.54,-0.033,-0.63
+"4. Ridge Regression (Set A, alpha=0.01)",Test (2023-2025),32.87,27.91,-0.2474,12.61
+5. HistGradientBoosting (Set A),Validation (2020-2022),26.69,23.27,0.2669,15.22
+5. HistGradientBoosting (Set A),Test (2023-2025),28.94,25.35,0.0331,23.06
+6. XGBoost (Set A - Environmental),Validation (2020-2022),26.87,23.43,0.257,14.66
+6. XGBoost (Set A - Environmental),Test (2023-2025),29.26,25.6,0.0114,22.2
+7. XGBoost (Set D - Environmental + Strict Lags),Validation (2020-2022),17.32,13.44,0.6914,45.0
+7. XGBoost (Set D - Environmental + Strict Lags),Test (2023-2025),17.7,13.69,0.6383,52.94

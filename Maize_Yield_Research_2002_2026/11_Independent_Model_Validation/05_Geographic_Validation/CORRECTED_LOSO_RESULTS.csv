@@ -1,0 +1,19 @@
+scenario,held_out_state,test_observations,unique_counties,actual_mean_yield,predicted_mean_yield,bias,spatial_holdout_rmse,spatial_holdout_mae,spatial_holdout_r2
+Scenario 1: Historical Memory Transfer (Set D),IA,2272,99,177.7,177.43,-0.27,13.72,10.43,0.7429
+Scenario 1: Historical Memory Transfer (Set D),IL,2213,102,170.56,168.01,-2.55,16.37,12.7,0.8028
+Scenario 1: Historical Memory Transfer (Set D),IN,1968,92,163.12,163.55,0.43,14.08,11.04,0.7912
+Scenario 1: Historical Memory Transfer (Set D),MN,1709,83,161.48,160.5,-0.98,16.03,12.42,0.7328
+Scenario 1: Historical Memory Transfer (Set D),MO,1779,103,133.93,139.3,5.37,22.58,17.31,0.6061
+Scenario 1: Historical Memory Transfer (Set D),NE,1888,91,163.55,148.74,-14.81,28.33,20.03,0.1757
+Scenario 1: Historical Memory Transfer (Set D),OH,1879,87,154.33,159.53,5.2,17.45,13.26,0.6426
+Scenario 1: Historical Memory Transfer (Set D),SD,1231,66,120.97,135.58,14.61,29.08,21.12,0.5485
+Scenario 1: Historical Memory Transfer (Set D),WI,1451,65,149.17,152.51,3.34,13.8,10.39,0.7479
+Scenario 2: Cold-Start Environmental Transfer (Set A),IA,2272,99,177.7,172.19,-5.5,18.38,14.62,0.5381
+Scenario 2: Cold-Start Environmental Transfer (Set A),IL,2213,102,170.56,166.05,-4.51,22.41,17.83,0.6305
+Scenario 2: Cold-Start Environmental Transfer (Set A),IN,1968,92,163.12,162.81,-0.3,18.9,15.06,0.6239
+Scenario 2: Cold-Start Environmental Transfer (Set A),MN,1709,83,161.48,154.87,-6.61,21.48,17.43,0.5203
+Scenario 2: Cold-Start Environmental Transfer (Set A),MO,1779,103,133.93,149.39,15.46,29.01,23.36,0.3498
+Scenario 2: Cold-Start Environmental Transfer (Set A),NE,1888,91,163.55,135.0,-28.56,42.94,33.83,-0.8935
+Scenario 2: Cold-Start Environmental Transfer (Set A),OH,1879,87,154.33,160.6,6.27,21.72,16.87,0.4465
+Scenario 2: Cold-Start Environmental Transfer (Set A),SD,1231,66,120.97,146.93,25.96,38.43,29.64,0.2113
+Scenario 2: Cold-Start Environmental Transfer (Set A),WI,1451,65,149.17,152.39,3.22,19.31,14.88,0.506

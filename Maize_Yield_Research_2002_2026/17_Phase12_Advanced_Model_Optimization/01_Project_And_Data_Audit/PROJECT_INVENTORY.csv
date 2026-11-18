@@ -1,0 +1,12 @@
+Phase,Directory,Type,Key_Deliverable,Records,Features,Status
+Phase 0-1,10_Final_Pre_Modeling_Gate,Baseline Gate,Purified_Corn_Belt_Historical_Dataset.csv,16390,83,Certified Read-Only
+Phase 5,11_Independent_Model_Validation,Independent Benchmark,CONTROLLED_ABLATION_BENCHMARK.csv,1699,71,Certified Read-Only
+Phase 6,12_Final_Scientific_Certification,Scientific Certification,FINAL_SCIENTIFIC_CERTIFICATION_REPORT.md,16390,71,Certified Read-Only
+Phase 7-8,13_Publication_Enhancement,Feature Enhancement,Enhanced_Corn_Belt_Historical_Features.csv,16390,98,Certified Read-Only
+Phase 9,14_Final_Data_Model_Optimization,Data & Model Optimization,Historical_Features_Corrected_v2.csv,16390,99,Certified Read-Only
+Phase 10,15_Final_Confirmatory_Validation,Confirmatory Validation,FINAL_OVERALL_MODEL_COMPARISON.csv,1699,93,Certified Read-Only
+Phase 11,16_Final_Publication_Package,Publication Package,FINAL_RESEARCH_MANUSCRIPT.docx,16390,93,Certified Read-Only
+Phase 12,17_Phase12_Advanced_Model_Optimization,Advanced ML & Prediction,FINAL_2026_COUNTY_PREDICTIONS.csv,16390,115,Active Development
+Raw Data,01_Raw_Data,Primary Observational Sources,"USDA NASS, NOAA, PRISM, SoilGrids, RMA",Multiple,Raw,Preserved Read-Only
+Extracted Data,02_Extracted_Data,Extracted Climatic & Management,"NOAA Monthly, PRISM Rasters, RMA SOBCOV",Multiple,Extracted,Preserved Read-Only
+Integrated Data,04_Integrated_Data,Integrated Master & Feature Table,County_Year_Feature_Table.csv,16390,79,Preserved Read-Only

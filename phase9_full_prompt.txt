@@ -1,0 +1,939 @@
+<USER_REQUEST>
+# PHASE 9 — COMPLETE DATA CORRECTION, DATA LEAKAGE AUDIT, ADVANCED ML OPTIMIZATION & FINAL MODEL VALIDATION
+
+## PROJECT
+
+County-Level Maize/Corn Grain Yield Prediction Research Project (2002–2026)
+
+## ROLE
+
+You are acting as:
+
+1. Principal Machine Learning Engineer.
+2. Senior Agricultural Data Scientist.
+3. Statistical Validation Specialist.
+4. Crop Modeling Researcher.
+5. Independent Data Quality Auditor.
+6. Research Reproducibility Engineer.
+
+## PROJECT ROOT
+
+`E:/ml do not open/Maize_Yield_Research_2002_2026/`
+
+## PREVIOUS CERTIFIED PHASES — READ ONLY
+
+`10_Final_Pre_Modeling_Gate/`
+
+`11_Independent_Model_Validation/`
+
+`12_Final_Scientific_Certification/`
+
+`13_Publication_Enhancement/`
+
+Do not delete, modify, or overwrite any of these directories.
+
+## NEW OUTPUT DIRECTORY
+
+`14_Final_Data_Model_Optimization/`
+
+---
+
+# MAIN OBJECTIVE
+
+Perform a complete forensic audit and correction of the historical data, engineered features, preprocessing pipeline, advanced machine learning experiments, temporal validation, spatial validation, and ensemble architecture.
+
+The current best reported result from Phase 8 is:
+
+- Stacking RMSE: 14.84 bu/acre.
+- Stacking MAE: 11.23 bu/acre.
+- Stacking R²: 0.7459.
+- LightGBM RMSE: 15.47 bu/acre.
+- LightGBM R²: 0.7235.
+
+These are reported results, not independently certified results for this new execution.
+
+The objective is to reproduce these values from actual saved predictions, resolve all inconsistencies, correct any data or modeling errors, and investigate whether further reliable predictive improvement is possible.
+
+Do not guarantee R² improvement.
+
+Do not manipulate data or validation methodology to produce a higher R².
+
+A genuine improvement must survive identical-cohort evaluation, chronological validation, and leakage testing.
+
+# PHASE 9.1 — COMPLETE PROJECT INVENTORY
+
+Inspect the complete project repository recursively.
+
+Read actual:
+
+- CSV files.
+- Python scripts.
+- Jupyter notebooks.
+- JSON configurations.
+- Feature manifests.
+- Model prediction files.
+- Training logs.
+- Validation reports.
+- Previous execution audit trails.
+
+Prioritize these Phase 8 artifacts:
+
+- Enhanced_Corn_Belt_Historical_Features.csv
+- Enhanced_Corn_Belt_Future_2026_Features.csv
+- ADVANCED_FEATURE_ABLATION.csv
+- TREND_MODEL_COMPARISON.csv
+- GAM_MIXED_EFFECTS_RESULTS.csv
+- ENSEMBLE_MODEL_RESULTS.csv
+- FINAL_MODEL_COMPARISON.csv
+- ROLLING_ORIGIN_VALIDATION.csv
+- STATE_LEVEL_PERFORMANCE.csv
+- YEAR_LEVEL_PERFORMANCE.csv
+- UNCERTAINTY_COMPARISON.csv
+- PROSPECTIVE_2026_FORECAST_V2.csv
+- PHASE 8 Python training and feature engineering scripts.
+
+For every artifact:
+
+1. Confirm file existence.
+2. Record actual row and column counts.
+3. Record file hashes.
+4. Identify its generating script.
+5. Record modification timestamps.
+6. Verify that the file is not empty or truncated.
+7. Identify whether the output is genuinely reproducible.
+
+Create:
+
+`PHASE9_PROJECT_INVENTORY.csv`
+
+`PHASE9_EXISTING_RESULTS_AUDIT.md`
+
+# PHASE 9.2 — MASTER DATA QUALITY AUDIT
+
+Historical expected dataset:
+
+16,390 reported county-year observations.
+
+Original county scope:
+
+814 counties.
+
+Eligible agricultural counties:
+
+788.
+
+Quarantined non-agricultural counties:
+
+26.
+
+Perform the following checks.
+
+## A. County-Year Integrity
+
+- Duplicate county-year keys.
+- Missing FIPS values.
+- Invalid FIPS values.
+- FIPS formatting.
+- Incorrect state mapping.
+- County-name changes.
+- Historical county boundary changes.
+- Shannon County / Oglala Lakota County reconciliation.
+- Cook County eligibility and SoilGrids coverage.
+
+Use a five-digit string representation for county FIPS codes.
+
+Treat county FIPS as identifiers, not continuous measurements.
+
+## B. Yield Target Integrity
+
+Target:
+
+`corn_yield_bu_acre`
+
+Verify:
+
+- Yield units.
+- County and year mapping.
+- Historical observations.
+- Duplicate labels.
+- Missing labels.
+- Negative values.
+- Suspiciously extreme values.
+- Source inconsistencies.
+- Survey revisions where documented.
+
+Do not automatically delete outliers.
+
+Compare suspicious values with original USDA NASS source records before making corrections.
+
+Every correction must have:
+
+- Original value.
+- Corrected value.
+- Source evidence.
+- County FIPS.
+- Year.
+- Correction reason.
+
+If an observation cannot be verified, flag it instead of inventing a replacement.
+
+## C. Missingness Audit
+
+For every column, calculate:
+
+- Missing count.
+- Missing percentage.
+- Zero count.
+- Unique count.
+- Data type.
+- Minimum.
+- Maximum.
+- Mean.
+- Median.
+
+Distinguish genuine zeros from missing values.
+
+Check feature-specific missingness by state, year, and county.
+
+Create:
+
+`MASTER_DATA_QUALITY_AUDIT.csv`
+
+`DATA_CORRECTION_LEDGER.csv`
+
+`HISTORICAL_DATA_CLEANING_REPORT.md`
+
+# PHASE 9.3 — FEATURE ENGINEERING AND DATA LEAKAGE FORENSIC AUDIT
+
+Audit all 98 reported historical columns and 97 reported 2026 future columns.
+
+Verify the exact feature counts.
+
+Clarify which columns are identifiers, metadata, predictors, and target variables.
+
+## A. Historical Yield Features
+
+Recalculate independently:
+
+- yield_lag_1yr.
+- yield_lag_2yr.
+- yield_roll_mean_5yr.
+
+Rules:
+
+1. Only strictly previous calendar years may be used.
+2. Do not use current-year target observations.
+3. Missing calendar years must remain missing under the strict lag policy.
+4. All rolling calculations must follow the documented calendar-year methodology.
+5. Reconstruct values independently from the raw target data.
+
+## B. Climate Features
+
+Audit:
+
+- NOAA monthly precipitation.
+- NOAA maximum temperature.
+- NOAA minimum temperature.
+- May–September seasonal features.
+- PRISM variables.
+- GDD features.
+- EDD features.
+- Temperature anomalies.
+- Precipitation anomalies.
+- VPD features.
+- Compound heat-drought features.
+- Dry-spell features.
+
+### Growing Degree Days
+
+Verify:
+
+- Actual temperature source.
+- Daily versus monthly observations.
+- Base temperature.
+- Upper temperature cap.
+- Aggregation window.
+- Temperature units.
+
+Do not describe estimates from monthly mean temperatures as observed daily GDD without clearly documenting the approximation.
+
+### Vapor Pressure Deficit
+
+VPD requires defensible atmospheric moisture information, such as relative humidity or dew point.
+
+Verify that the actual source dataset contains the required variables.
+
+If reliable humidity or dew-point information is unavailable, do not fabricate VPD.
+
+Mark the feature as unavailable and identify a suitable future data collection requirement.
+
+### Climate Z-Scores
+
+Inspect:
+
+- noaa_prcp_jul_in_zscore.
+- noaa_tmax_jul_f_zscore.
+- Other climate anomaly variables.
+
+Verify the reference climatology.
+
+Do not calculate test-period normalization using the full historical dataset in a way that leaks future evaluation information.
+
+Use a predeclared independent climatology or training-only reference period.
+
+Document the exact formula.
+
+## C. Irrigation Features
+
+Audit:
+
+- irrigation_regime_proxy.
+- irrigation_drought_buffer.
+- irrigated_corn_acres.
+- irrigated_corn_pct.
+- rainfed_corn_pct.
+
+Verify the actual source, county coverage, observation period, and publication dates.
+
+Do not treat RMA insurance liability as direct irrigation measurement.
+
+`rma_liability_per_planted_acre` must retain its correct crop insurance interpretation unless independent evidence validates a different meaning.
+
+For irrigation features, clearly distinguish:
+
+- Direct observed irrigation.
+- Decennial census observations.
+- Interpolated or carried-forward estimates.
+- Statistical proxies.
+- Unavailable observations.
+
+Do not silently interpolate across years.
+
+## D. Crop Phenology Features
+
+Audit:
+
+- silking_thermal_interaction.
+- delayed_planting_penalty.
+- planting date.
+- silking timing.
+- pollination period.
+- grain filling timing.
+
+Verify that the actual underlying phenology information exists.
+
+If a state-level observation is used as a county-level proxy, identify it as such.
+
+Do not fabricate individual county crop-stage dates.
+
+## E. RMA and Crop Condition Variables
+
+Audit:
+
+- rma_liability_per_planted_acre.
+- state_cond_poor_mean.
+- Other insurance and crop condition features.
+
+For each variable, document:
+
+1. What it measures.
+2. Source organization.
+3. Observation period.
+4. Publication date.
+5. Availability at the October 15 forecast cutoff.
+6. Whether it could indirectly expose target-year yield information.
+7. Whether it is available during warm-start and cold-start spatial experiments.
+
+Exclude a feature from an experiment if its information availability is incompatible with that experiment.
+
+## F. Soil Features
+
+Verify:
+
+- soil_awc_index.
+- subsoil_clay_contrast.
+- All SoilGrids depth features.
+- Soil extraction methodology.
+- Unit conversions.
+- Soil spatial coverage.
+- Missingness.
+
+Where possible, compare centroid extraction with county-polygon or cropland-weighted aggregation.
+
+Do not invent Cook County soil values.
+
+## G. Satellite Data
+
+The previous Phase 8 audit indicated limitations in the availability of historical satellite observations.
+
+Verify whether the reported satellite features are actual computed measurements or proposed future features.
+
+Do not mark NDVI, EVI, LAI, or FAPAR as implemented if underlying time series are not available.
+
+Create:
+
+`FEATURE_LEAKAGE_AUDIT.csv`
+
+`FINAL_FEATURE_AVAILABILITY_MANIFEST.csv`
+
+`FEATURE_FORMULA_VERIFICATION.csv`
+
+`TEMPORAL_DATA_AVAILABILITY_REPORT.md`
+
+# PHASE 9.4 — FORENSIC REPRODUCTION OF PHASE 8 RESULTS
+
+Independently reproduce every major reported Phase 8 result.
+
+## A. Historical and Environmental Benchmarks
+
+Reproduce:
+
+- Historical 5-year baseline.
+- Theil-Sen trend.
+- Hierarchical trend model.
+- Memory-only XGBoost.
+- Soil-only XGBoost.
+- Climate-only XGBoost.
+- Soil + Climate XGBoost.
+- Certified baseline feature architecture.
+- Baseline + irrigation.
+- Full 98-column integrated architecture.
+
+## B. Advanced Algorithms
+
+Reproduce:
+
+- HistGradientBoosting.
+- LightGBM.
+- XGBoost.
+- CatBoost.
+- MLP.
+- GAM.
+- Hierarchical mixed-effects.
+- Ridge stacking meta-learner.
+
+## C. Result Discrepancy Reconciliation
+
+Investigate the differences between:
+
+Phase 6:
+
+- HistGradientBoosting RMSE 17.24.
+- XGBoost RMSE 17.70.
+
+Phase 8:
+
+- Feature Set E RMSE 16.41.
+- Feature Set H RMSE 16.23.
+- Feature Set J RMSE 15.68.
+- LightGBM RMSE 15.47.
+- Stacking RMSE 14.84.
+
+Determine whether differences are caused by:
+
+- Different feature definitions.
+- Different test observations.
+- Different missing-value policies.
+- Different model parameters.
+- Different preprocessing.
+- Different target definitions.
+- Different temporal splits.
+- Different aggregation methods.
+
+Do not silently average or reconcile inconsistent metrics.
+
+## D. Metric Integrity
+
+For every model, calculate using the same actual observations:
+
+RMSE.
+
+MAE.
+
+R².
+
+Mean bias.
+
+Maximum absolute error.
+
+Sample count.
+
+County count.
+
+Year coverage.
+
+Compute R² using:
+
+`R2 = 1 - SSE / SST`
+
+Verify the target variance and identical evaluation cohort.
+
+Do not compare R² values calculated on different test cohorts.
+
+Do not describe R² as percentage prediction accuracy.
+
+Explicitly report test observation counts.
+
+The previously reported common dataset contains 16,390 historical observations, while the earlier chronological test split contained 1,699 observations. Verify the exact row count behind every Phase 8 evaluation.
+
+Create:
+
+`PHASE9_PHASE8_REPRODUCTION_RESULTS.csv`
+
+`PHASE9_CROSS_PHASE_METRIC_RECONCILIATION.csv`
+
+`PHASE9_METRIC_INTEGRITY_REPORT.md`
+
+# PHASE 9.5 — ADVANCED STACKING AUDIT
+
+Investigate the existing Ridge stacking architecture.
+
+Base learners:
+
+- HistGradientBoosting.
+- LightGBM.
+- XGBoost.
+- CatBoost.
+- MLP.
+
+Meta-learner:
+
+Non-negative constrained Ridge regression.
+
+Reported stacking result:
+
+RMSE 14.84.
+
+MAE 11.23.
+
+R² 0.7459.
+
+Perform a full audit.
+
+1. Reconstruct expanding-window out-of-fold predictions.
+2. Save every fold's training and validation year ranges.
+3. Verify no validation-year target entered its base model training.
+4. Verify meta-training predictions are genuinely out-of-fold.
+5. Verify no test prediction is used for meta-model fitting.
+6. Check duplicate county-year rows.
+7. Check residual correlation.
+8. Inspect ensemble weights.
+9. Check weight stability across folds.
+10. Compare Ridge stacking with non-negative weighted blending.
+11. Compare against each standalone base learner.
+12. Test whether stacking gains persist across multiple chronological origins.
+
+Do not call an ensemble improvement verified unless every base prediction and meta-model training observation has a reproducible provenance record.
+
+# PHASE 9.6 — ADVANCED MODEL OPTIMIZATION
+
+Use verified features only.
+
+Compare the following model families:
+
+## Tree boosting
+
+- HistGradientBoosting.
+- LightGBM.
+- XGBoost.
+- CatBoost.
+
+## Statistical and trend models
+
+- County-specific robust trend.
+- Hierarchical trend model.
+- Generalized Additive Model.
+- Mixed-effects regression.
+
+## Neural model
+
+- MLPRegressor.
+
+## Ensembles
+
+- Ridge stacking.
+- Non-negative weighted blending.
+- Regularized residual correction.
+
+Do not add algorithms merely to increase model count.
+
+## Hyperparameter Optimization
+
+Use controlled search on training and validation data.
+
+Optimize:
+
+- Maximum depth.
+- Number of leaves.
+- Learning rate.
+- Number of estimators.
+- Minimum leaf size.
+- Feature subsampling.
+- L1/L2 regularization.
+- Early stopping.
+
+Apply nested chronological validation.
+
+Do not use previously examined 2023–2025 test results for further hyperparameter optimization.
+
+Use these years as a repeatedly inspected retrospective development benchmark, not an untouched final test set.
+
+# PHASE 9.7 — R² AND RMSE IMPROVEMENT STRATEGY
+
+Investigate these experiments in order.
+
+## Experiment A — Verified Feature Correction
+
+Remove or correct:
+
+- Invalid predictors.
+- Post-cutoff information.
+- Incorrect feature names or units.
+- Incorrect irrigation labels.
+- Invalid VPD calculations.
+- Full-panel climate normalization leakage.
+- Incorrect yield lags.
+
+Measure whether performance remains stable after the audit.
+
+## Experiment B — Irrigation-Aware Modeling
+
+Compare:
+
+1. Baseline without irrigation.
+2. Baseline with direct observed irrigation features.
+3. Baseline with verified historical irrigation estimates.
+4. Baseline with the RMA insurance features separately.
+5. Model with interaction between irrigation and heat/moisture stress.
+
+Evaluate Nebraska and all other states separately.
+
+## Experiment C — Advanced Climate Features
+
+Where reliable source data exist, evaluate:
+
+- GDD.
+- Extreme heat days.
+- VPD.
+- Dry spell duration.
+- Temperature anomaly.
+- Precipitation anomaly.
+- Compound heat and moisture stress.
+
+Add one feature family at a time.
+
+## Experiment D — Hierarchical Productivity Modeling
+
+Evaluate:
+
+- County trend.
+- State trend.
+- Hierarchical trend.
+- Environmental anomaly correction.
+
+Use only prior-year information.
+
+## Experiment E — Advanced Stacking
+
+Use expanding-window OOF predictions from the best eligible learners.
+
+Evaluate:
+
+- Ridge stacking.
+- Constrained blending.
+- Model subset selection.
+- Residual correlation.
+- Weight stability.
+
+## Experiment F — Residual Modeling
+
+Investigate whether a residual model can predict persistent errors.
+
+Residual correction must use out-of-fold base-model residuals only.
+
+Never train a correction model using in-sample residuals or final test residuals.
+
+# PHASE 9.8 — STRICT TEMPORAL VALIDATION
+
+Use expanding-window rolling-origin validation.
+
+Preserve the original historical target periods.
+
+Suggested temporal evaluation windows should be documented and consistently applied.
+
+For each forecast year t:
+
+- Train only on observations available before t.
+- Generate all lag features from years before t.
+- Use only features available at the forecast origin.
+- Predict the target year t.
+- Save county FIPS, year, actual yield and prediction.
+
+Report each year separately.
+
+Evaluate:
+
+- RMSE.
+- MAE.
+- R².
+- Bias.
+- State-level performance.
+- Yield quantile performance.
+- Climate-regime performance.
+- Irrigation-regime performance.
+
+A model must not be selected based on the performance of only one year.
+
+# PHASE 9.9 — GEOGRAPHIC GENERALIZATION
+
+Reproduce the nine-state LOSO experiments.
+
+Explicitly separate:
+
+### Warm-start
+
+Historical county yields are available.
+
+### Cold-start
+
+Target-derived historical yield features are unavailable for held-out counties.
+
+### Prospective spatial-temporal test
+
+Train using other states and only years preceding the held-out forecast year.
+
+For every scenario, document whether any data from the held-out state were used during:
+
+- Model fitting.
+- Feature selection.
+- Hyperparameter optimization.
+- Preprocessing.
+- Meta-learner training.
+
+Investigate Nebraska's irrigation improvement from the previously reported cold-start failure to R² 0.7241.
+
+Verify that this result uses an equivalent spatial and temporal validation protocol.
+
+Do not claim geographic generalization has improved if only a temporal split improved.
+
+# PHASE 9.10 — STATISTICAL UNCERTAINTY AND ROBUSTNESS
+
+Use paired model comparisons on identical observations.
+
+Apply appropriate county and temporal block resampling.
+
+Document the small number of state and year clusters.
+
+Do not claim that a small bootstrap p-value automatically proves broad generalization.
+
+Evaluate:
+
+- Bootstrap confidence intervals.
+- State-level variation.
+- Year-level variation.
+- Residual distribution.
+- Heteroscedasticity.
+- Spatial residual structure.
+- Prediction interval coverage.
+
+For prediction intervals, retain an independent calibration procedure and assess coverage across drought and non-drought regimes.
+
+# PHASE 9.11 — 2026 FORECAST PROTECTION
+
+Preserve both:
+
+- Original Phase 3 forecast.
+- Phase 8 PROSPECTIVE_2026_FORECAST_V2.csv.
+
+Do not overwrite either.
+
+Reconcile:
+
+- Phase 6 estimate: 178.48 bu/acre.
+- Phase 8 estimate: 175.49 bu/acre.
+
+Compare county-level predictions by FIPS.
+
+Identify the exact changes in:
+
+- Feature values.
+- Feature availability.
+- Model weights.
+- Model predictions.
+- Acreage weights.
+- Aggregation methodology.
+
+The ±6.8 figure must have a clearly documented statistical meaning or be removed.
+
+The original October 15, 2026 cutoff must remain unchanged for its frozen forecast.
+
+Do not use post-cutoff observations in that forecast.
+
+Do not treat 2026 forecast accuracy as verified until official county-level target labels become available.
+
+# PHASE 9.12 — CORRECTED DATA AND FINAL MODEL VERSIONING
+
+Create new versioned corrected artifacts.
+
+Never overwrite Phase 0–8 source files.
+
+Suggested naming:
+
+`Historical_Features_Corrected_v2.csv`
+
+`Future_2026_Features_Corrected_v2.csv`
+
+`FINAL_FEATURE_MANIFEST_V2.csv`
+
+`FINAL_MODEL_CONFIGURATION_V2.json`
+
+`FINAL_MODEL_PREDICTIONS_V2.csv`
+
+Save the exact feature order and preprocessing parameters.
+
+Version every model.
+
+Save trained models using reproducible serialization.
+
+Record package versions and random seeds.
+
+# REQUIRED OUTPUT DIRECTORY
+
+Create:
+
+`14_Final_Data_Model_Optimization/`
+
+Structure:
+
+`01_Data_Quality/`
+- MASTER_DATA_QUALITY_AUDIT.csv
+- DATA_CORRECTION_LEDGER.csv
+- HISTORICAL_DATA_CLEANING_REPORT.md
+- COUNTY_YEAR_INTEGRITY.csv
+
+`02_Leakage_And_Features/`
+- FEATURE_LEAKAGE_AUDIT.csv
+- FINAL_FEATURE_AVAILABILITY_MANIFEST.csv
+- FEATURE_FORMULA_VERIFICATION.csv
+- TEMPORAL_DATA_AVAILABILITY_REPORT.md
+
+`03_Reproducibility/`
+- PHASE9_PHASE8_REPRODUCTION_RESULTS.csv
+- PHASE9_CROSS_PHASE_METRIC_RECONCILIATION.csv
+- PHASE9_METRIC_INTEGRITY_REPORT.md
+
+`04_Model_Optimization/`
+- OPTIMIZED_MODEL_COMPARISON.csv
+- OPTIMIZED_HYPERPARAMETERS.json
+- STACKING_VALIDATION_REPORT.md
+- ENSEMBLE_WEIGHTS.csv
+- MODEL_RESIDUAL_COMPARISON.csv
+
+`05_Temporal_Validation/`
+- FINAL_ROLLING_ORIGIN_RESULTS.csv
+- YEAR_LEVEL_MODEL_COMPARISON.csv
+- STATE_LEVEL_MODEL_COMPARISON.csv
+- TEMPORAL_VALIDATION_REPORT.md
+
+`06_Geographic_Validation/`
+- WARM_START_LOSO_RESULTS.csv
+- COLD_START_LOSO_RESULTS.csv
+- PROSPECTIVE_SPATIOTEMPORAL_LOSO.csv
+- NEBRASKA_IRRIGATION_VALIDATION.md
+
+`07_Forecast_Reconciliation/`
+- 2026_COUNTY_FORECAST_RECONCILIATION.csv
+- 2026_STATE_AGGREGATION_RECONCILIATION.csv
+- 2026_FORECAST_VERSION_AUDIT.md
+
+`08_Final_Model/`
+- FINAL_MODEL_SELECTION_REPORT.md
+- FINAL_MODEL_LIMITATIONS.md
+- FINAL_FEATURE_MANIFEST_V2.csv
+- FINAL_MODEL_CONFIGURATION_V2.json
+- FINAL_MODEL_PREDICTIONS_V2.csv
+- MODEL_VERSION_AND_PROVENANCE.md
+
+`09_Code/`
+- Reproducible Python scripts.
+- Data correction scripts.
+- Feature validation scripts.
+- Training scripts.
+- Stacking scripts.
+- Temporal evaluation scripts.
+- Geographic validation scripts.
+
+`10_Logs/`
+- EXECUTION_AUDIT_TRAIL.md
+- ENVIRONMENT_MANIFEST.json
+- RUN_SUMMARY.md
+
+# MODEL SELECTION CRITERIA
+
+Select the final model using:
+
+1. Lower out-of-time RMSE.
+2. Lower MAE.
+3. Higher R² on identical evaluation observations.
+4. Low systematic prediction bias.
+5. Consistency across several years.
+6. Strong geographic generalization.
+7. Robustness in Nebraska.
+8. Proper prediction interval calibration.
+9. Reproducibility.
+10. Correct data availability and no leakage.
+
+A model that increases R² on one test period while failing badly in other years must not automatically win.
+
+Prefer a simpler, stable model if a complex ensemble has negligible improvement.
+
+# EXECUTION RULES
+
+Execute the work in stages.
+
+First audit and reproduce.
+
+Then correct verified problems.
+
+Then re-engineer only necessary features.
+
+Then retrain and compare eligible models.
+
+Then perform validation.
+
+Finally freeze the best defensible model.
+
+Do not generate fabricated outputs to satisfy expected file names.
+
+If a source or dependency is unavailable, document the blocker and continue independent tasks.
+
+Do not modify Phases 0–13.
+
+Provide a concise final report identifying:
+
+- All detected data mistakes.
+- All corrected features.
+- All removed leakage risks.
+- All model algorithms tested.
+- Exact model training methods.
+- Original versus corrected R².
+- Original versus corrected RMSE.
+- Which feature families improved performance.
+- Whether stacking was genuinely beneficial.
+- Whether Nebraska performance improved under equivalent tests.
+- Remaining limitations.
+- Exact paths to all generated files.
+
+**FINAL OBJECTIVE: Produce the highest scientifically defensible R² possible without data leakage, artificial target manipulation, inconsistent test cohorts, or misleading validation. The result must be reproducible and suitable for a peer-reviewed agricultural machine learning research paper.**
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-11-12T10:48:33+05:30.
+
+The user's current state is as follows:
+Other open documents:
+- e:\ml do not open\Maize_Yield_Research_2002_2026\13_Publication_Enhancement\06_Code\run_validation_framework.py (LANGUAGE_UNSPECIFIED)
+- e:\ml do not open\Maize_Yield_Research_2002_2026\02_Extracted_Data\05_NOAA_Weather\NOAA_County_precipitation_CornBelt_2002_2026.csv (LANGUAGE_UNSPECIFIED)
+- e:\ml do not open\Maize_Yield_Research_2002_2026\12_Final_Scientific_Certification\09_Code\audit_task2_3_fairness_loso.py (LANGUAGE_UNSPECIFIED)
+- e:\ml do not open\Maize_Yield_Research_2002_2026\12_Final_Scientific_Certification\09_Code\audit_task7_8_shap_trend.py (LANGUAGE_UNSPECIFIED)
+- e:\ml do not open\Maize_Yield_Research_2002_2026\11_Independent_Model_Validation\09_Code\execute_phase_a_b_c.py (LANGUAGE_UNSPECIFIED)
+</ADDITIONAL_METADATA>

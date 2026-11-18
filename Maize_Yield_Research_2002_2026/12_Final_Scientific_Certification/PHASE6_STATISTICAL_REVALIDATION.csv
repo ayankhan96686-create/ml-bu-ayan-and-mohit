@@ -1,0 +1,6 @@
+comparison,metric,point_estimate,pct_improvement,county_cluster_95ci,two_way_block_95ci,iid_p_value,cluster_robust_verdict,audit_verdict
+Model D (Integrated) vs Model B (Full Lags),RMSE Reduction (bu/acre),3.9,18.06,"[3.23, 4.54]","[2.44, 5.37]",9.85e-24,SIGNIFICANT (Zero outside all 95% CIs),VERIFIED_WITH_LIMITATIONS (Significance verified; iid p-value overoptimistic)
+Model D (Integrated) vs Model B (Full Lags),R2 Gain,17.2315,0.1771,"[16.4278, 18.0618]","[15.6912, 18.7787]",2.92e-31,SIGNIFICANT (Zero outside all 95% CIs),VERIFIED_WITH_LIMITATIONS (Significance verified; iid p-value overoptimistic)
+Model D (Integrated) vs 5-Year Historical Mean Baseline,RMSE Reduction (bu/acre),3.25,15.5,N/A,N/A,< 1e-15,SIGNIFICANT,VERIFIED (15.47% reduction confirmed)
+Model D (Integrated) vs Lag-1 Persistence Baseline,RMSE Reduction (bu/acre),7.69,30.29,N/A,N/A,< 1e-15,SIGNIFICANT,VERIFIED (30.29% reduction confirmed)
+Model D (Integrated) vs Pure Environmental Model C,RMSE Reduction (bu/acre),11.56,39.51,N/A,N/A,< 1e-15,SIGNIFICANT,VERIFIED (39.51% reduction confirmed; confirms lags are essential)

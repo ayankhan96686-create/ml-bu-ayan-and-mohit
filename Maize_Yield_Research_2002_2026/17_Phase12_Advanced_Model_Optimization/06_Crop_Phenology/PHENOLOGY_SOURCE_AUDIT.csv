@@ -1,0 +1,3 @@
+Source,Geographic_Resolution,Spatial_Disaggregation,Availability_Cutoff
+USDA NASS Crop Progress,State-level weekly survey,Mapped to all counties within state,In-season (Weekly May-October)
+PRISM / NOAA Climate,County polygon gridded extraction,County-specific,In-season (Monthly through August)

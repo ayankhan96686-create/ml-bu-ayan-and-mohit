@@ -1,0 +1,6 @@
+Configuration,Feature_Count,Val_R2,Val_RMSE_bu_ac,Val_MAE_bu_ac,Test_R2,Test_RMSE_bu_ac,Test_MAE_bu_ac
+Config A: Original Climate & Soil Only,41,0.2801,24.8,21.12,0.8393,14.69,11.29
+Config B: Original + Historical Yield Lags,55,0.5703,18.83,14.83,0.8689,13.27,10.05
+Config C: Original + Advanced Climate & Stress,56,0.3725,23.15,19.62,0.8513,14.13,10.88
+Config D: Feature-Selected Subset (Top 45),45,0.653,17.06,13.46,0.8885,12.23,9.16
+Config E: Master Multimodal Feature Set (117 Feats),117,0.6524,17.07,13.55,0.8904,12.13,9.09

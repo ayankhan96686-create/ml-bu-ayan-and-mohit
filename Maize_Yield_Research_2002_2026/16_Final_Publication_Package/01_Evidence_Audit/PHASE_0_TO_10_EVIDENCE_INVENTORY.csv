@@ -1,0 +1,9 @@
+Phase,Name,Directory,Core_Artifacts,Status
+Phase 0,Data Integrity & Schema Reconciliation,01_Reconciled_Manifests,"schema_manifest.csv, county_eligibility_manifest.csv",Certified Baseline
+Phase 1-4,Baseline ML & Initial Modeling,"03_Purified_Data, 08_Model_Checkpoints","purified_historical_dataset.csv, baseline_benchmark_results.csv",Superseded by Phase 5
+Phase 5,Independent Model Validation,11_Independent_Model_Validation,"BENCHMARK_RESULTS.csv, FEATURE_IMPORTANCE_REPORT.md",Certified Historical Baseline
+Phase 6,Scientific Red-Team Certification,12_Final_Scientific_Certification,"CONTROLLED_ABLATION_BENCHMARK.csv, PHASE6_ACREAGE_AGGREGATION_CORRECTION.csv",Certified Red-Team Audit
+Phase 7-8,Research Novelty & Feature Engineering,13_Publication_Enhancement,"LITERATURE_REVIEW_MATRIX.csv, NOVELTY_COMPARISON_MATRIX.csv, run_validation_framework.py",Certified Novelty Framework
+Phase 9,Complete Data Correction & Leakage Audit,14_Final_Data_Model_Optimization,"Historical_Features_Corrected_v2.csv, OPTIMIZED_MODEL_COMPARISON.csv, FINAL_MODEL_PREDICTIONS_V2.csv",Authoritative Master Panel
+Phase 9 Ext,2012 Drought Robustness Study,14_Final_Data_Model_Optimization/2012_Drought_Robustness,"2012_WITH_WITHOUT_TRAINING_COMPARISON.csv, DROUGHT_REGIME_MODEL_PERFORMANCE.csv, DROUGHT_RESIDUAL_ANALYSIS.png",Authoritative Drought Audit
+Phase 10,Final Confirmatory Validation,15_Final_Confirmatory_Validation,"FINAL_OVERALL_MODEL_COMPARISON.csv, FINAL_TEMPORAL_VALIDATION.csv, FINAL_GEOGRAPHIC_VALIDATION.csv",Current Phase 10 Baseline

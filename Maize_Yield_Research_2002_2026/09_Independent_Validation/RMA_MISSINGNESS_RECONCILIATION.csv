@@ -1,0 +1,9 @@
+step_description,row_count,pct_of_total,category,explanation
+Base Grid (814 study counties x 25 years: 2002-2026),20350,100.0,Theoretical Grid,Complete Cartesian product of 814 Corn Belt study counties across 25 agricultural years.
+Raw Cleaned RMA observations in RMA_Cleaned.csv,18817,92.47,Source Extracted Data,Total unique county-year records extracted from USDA RMA Cause of Loss files.
+RMA records matched to official 814 Study Counties,18769,92.23,Integrated Match,RMA records successfully merged to the 814 study counties on county_fips + year.
+Non-Study County FIPS dropped from RMA_Cleaned.csv,48,0.24,Out-of-Scope Source Rows,"18,817 - 18,769 = 48 records. These are state totals (FIPS XX999) or non-study counties in RMA_Cleaned."
+Total Unmatched Missing County-Years in Master Dataset,1581,7.77,Master Dataset Missingness,"20,350 - 18,769 = 1,581 missing rows for core RMA variables (e.g. rma_policies_sold)."
+Unmatched County-Years: 2002-2025 Historical Period,1529,7.51,Historical Missingness,County-years with no commercial crop insurance policies sold or zero participation reported by RMA.
+Unmatched County-Years: 2026 Prospective Horizon,52,0.26,2026 Unenrolled Counties,814 counties in 2026 minus 762 preliminary 2026 enrollments = 52 counties with no 2026 policies yet.
+Additional Missingness in Ratio Variables (e.g. per-acre liability),1584,7.78,Derived Ratio Missingness,"1,581 baseline missing + 3 records where rma_net_planted_acres == 0, causing division-by-zero."

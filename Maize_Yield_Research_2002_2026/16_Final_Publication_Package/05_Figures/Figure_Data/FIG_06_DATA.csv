@@ -1,0 +1,10 @@
+Ablation_Tier,Test_RMSE
+Tier 1: Historical Lags Only,18.2415
+"Tier 2: Environmental Only
+(Soil + Climate)",17.652
+"Tier 3: Standard Weather
++ Historical Lags",16.0088
+"Tier 4: Full Integrated
+(Calibrated Quad-Tree)",15.5129
+"Tier 5: Stacking Meta-Learner
+(Full Feature Space)",14.9206

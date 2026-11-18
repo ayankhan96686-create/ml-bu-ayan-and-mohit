@@ -1,0 +1,7 @@
+Method,Nominal_Coverage_pct,Empirical_Test_Coverage_pct,Drought_Subset_Coverage_pct,Mean_Interval_Width_bu_acre,Theoretical_Property
+Split Conformal Prediction (Distribution-Free),80,79.46,74.88,41.06,Guaranteed finite-sample marginal coverage under exchangeability.
+Parametric Gaussian Heuristic (Normal Assumption),80,61.62,57.14,27.44,Fails under heavy-tailed non-Gaussian climate shocks.
+Split Conformal Prediction (Distribution-Free),90,90.23,86.21,55.07,Guaranteed finite-sample marginal coverage under exchangeability.
+Parametric Gaussian Heuristic (Normal Assumption),90,73.34,69.46,35.22,Fails under heavy-tailed non-Gaussian climate shocks.
+Split Conformal Prediction (Distribution-Free),95,96.17,95.07,70.29,Guaranteed finite-sample marginal coverage under exchangeability.
+Parametric Gaussian Heuristic (Normal Assumption),95,80.52,75.86,41.96,Fails under heavy-tailed non-Gaussian climate shocks.

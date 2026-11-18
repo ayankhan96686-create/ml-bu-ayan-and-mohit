@@ -1,0 +1,19 @@
+Regime_Or_Subgroup,Record_Count,Actual_Mean_Yield,Quad_Mean_Error_Bias,Quad_RMSE,Quad_MAE,Quad_Residual_Skewness,Quad_Pct_Variance_Unexplained,Ridge_Mean_Error_Bias,Ridge_RMSE,Ridge_MAE,Primary_Failure_Mode
+Severe Drought Tail (< 120 bu/ac),56,100.65,23.5441,29.7241,24.357,-0.18,114.0,21.5069,29.0941,23.9954,Under-predicting yield collapse
+Moderate Drought Tail (120 - 140 bu/ac),67,131.09,9.7242,20.0055,16.6195,0.1591,969.03,8.3702,20.5825,17.0091,Under-predicting yield collapse
+Normal Climate Regime (140 - 190 bu/ac),788,170.47,0.3212,14.4739,11.2244,0.0971,115.18,0.2718,15.2085,11.8552,Well-calibrated
+Bumper Yield Regime (>= 190 bu/ac),788,208.18,-8.783,14.6099,11.1781,0.8523,83.82,-7.6479,14.3907,11.0435,Over-predicting bumper yields
+High Heat Stress (July EDD > 50),236,161.7,0.7447,18.9905,14.6656,-0.2337,31.91,-0.1968,19.317,15.2196,Well-calibrated
+High Atmospheric Thirst (July VPD > 2.8 kPa),126,145.55,-1.435,19.6886,15.6876,-0.2297,32.68,-2.1364,20.3989,16.1989,Well-calibrated
+Low Soil Available Water Capacity (awc < 140),1699,184.1,-2.7651,15.5263,11.8485,-0.2501,26.95,-2.3821,15.7459,12.0821,Well-calibrated
+Irrigated Regime (Nebraska),175,184.66,-3.8667,16.9366,13.3157,0.2968,37.12,-2.0339,16.5766,12.9512,Well-calibrated
+Rainfed Regime (All Other 8 States),1524,184.04,-2.6386,15.3561,11.6801,-0.3361,25.97,-2.4221,15.6476,11.9823,Well-calibrated
+State: IA,239,206.65,-2.6,12.6573,9.8336,-0.3535,75.03,-1.5556,13.5138,10.4208,Well-calibrated
+State: IL,217,201.71,-3.1854,15.9095,12.3371,-0.714,31.7,-2.6614,15.1876,11.8239,Well-calibrated
+State: IN,205,197.83,-4.2652,13.4838,9.9595,0.8777,62.32,-3.5467,13.8269,10.3244,Well-calibrated
+State: MN,187,179.96,-6.2028,17.0061,13.4187,0.0639,53.33,-6.0511,17.6408,13.8272,Over-predicting bumper yields
+State: MO,171,161.54,-3.4928,19.9493,15.2605,-0.1004,37.7,-4.9898,20.4394,16.0449,Well-calibrated
+State: NE,175,184.66,-3.8667,16.9366,13.3157,0.2968,37.12,-2.0339,16.5766,12.9512,Well-calibrated
+State: OH,207,177.13,2.5826,14.7343,10.9426,-0.7363,34.74,3.1137,15.1648,11.4402,Well-calibrated
+State: SD,117,154.75,0.1767,15.5299,11.6483,-1.3317,22.42,0.4664,15.504,11.5788,Well-calibrated
+State: WI,181,169.71,-3.4935,13.6236,10.9642,-0.7861,33.45,-4.0285,13.8847,11.2483,Well-calibrated

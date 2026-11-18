@@ -1,0 +1,5 @@
+Yield_Regime,Observations,Actual_Mean_bu_ac,Predicted_Mean_bu_ac,RMSE_bu_ac,MAE_bu_ac,Mean_Bias_bu_ac
+Severe Drought (<120 bu/ac),56,100.65,121.82,29.9752,24.5512,21.1731
+Moderate Stress (120-150 bu/ac),144,138.43,146.1,19.8954,16.0028,7.6663
+Normal Regime (150-180 bu/ac),464,167.1,168.1,14.96,11.8656,1.0038
+Bumper Yield (>180 bu/ac),1035,202.6,194.82,14.4629,11.2382,-7.7752

@@ -1,0 +1,93 @@
+feature_1,feature_2,correlation,domain_relationship
+county_fips,state_fips,1.0,Cross-Domain
+soil_sand_5_15cm,soil_sand_mean_0_30cm,0.9997,Soil Depth Collinearity
+soil_sand_15_30cm,soil_sand_mean_0_30cm,0.9997,Soil Depth Collinearity
+soil_sand_0_5cm,soil_sand_5_15cm,0.9995,Soil Depth Collinearity
+soil_sand_0_5cm,soil_sand_mean_0_30cm,0.9992,Soil Depth Collinearity
+soil_sand_5_15cm,soil_sand_15_30cm,0.9988,Soil Depth Collinearity
+soil_silt_0_5cm,soil_silt_5_15cm,0.9986,Soil Depth Collinearity
+soil_silt_5_15cm,soil_silt_mean_0_30cm,0.9984,Soil Depth Collinearity
+soil_sand_0_5cm,soil_sand_15_30cm,0.998,Soil Depth Collinearity
+soil_silt_15_30cm,soil_silt_mean_0_30cm,0.9979,Soil Depth Collinearity
+soil_silt_0_5cm,soil_silt_mean_0_30cm,0.9968,Soil Depth Collinearity
+soil_phh2o_15_30cm,soil_ph_mean_0_30cm,0.9936,Soil Depth Collinearity
+soil_phh2o_5_15cm,soil_ph_mean_0_30cm,0.9932,Soil Depth Collinearity
+soil_silt_5_15cm,soil_silt_15_30cm,0.9927,Soil Depth Collinearity
+soil_phh2o_0_5cm,soil_phh2o_5_15cm,0.9922,Soil Depth Collinearity
+soil_clay_0_5cm,soil_clay_5_15cm,0.9908,Soil Depth Collinearity
+soil_silt_0_5cm,soil_silt_15_30cm,0.9899,Soil Depth Collinearity
+rma_policies_sold,rma_policies_earning_prem,0.989,Cross-Domain
+soil_clay_5_15cm,soil_clay_mean_0_30cm,0.9883,Soil Depth Collinearity
+soil_clay_15_30cm,soil_clay_mean_0_30cm,0.9874,Soil Depth Collinearity
+rma_total_premium,rma_subsidy,0.9835,Cross-Domain
+soil_phh2o_0_5cm,soil_ph_mean_0_30cm,0.9811,Soil Depth Collinearity
+soil_bdod_5_15cm,soil_bdod_mean_0_30cm,0.9762,Soil Depth Collinearity
+state_cond_poor_very_poor_mean,state_cond_rep_poor_very_poor_mean,0.9761,Cross-Domain
+soil_clay_0_5cm,soil_clay_mean_0_30cm,0.976,Soil Depth Collinearity
+noaa_prcp_annual_in,prism_ppt_mm,0.9758,Cross-Domain
+soil_phh2o_5_15cm,soil_phh2o_15_30cm,0.9742,Soil Depth Collinearity
+state_cond_poor_mean,state_cond_good_excellent_mean,0.9689,Cross-Domain
+state_cond_poor_mean,state_cond_poor_very_poor_mean,0.9683,Cross-Domain
+prism_tmean_c,prism_tmax_c,0.9674,Cross-Domain
+prism_tmean_c,prism_tmin_c,0.9659,Cross-Domain
+state_cond_good_excellent_mean,state_cond_rep_good_excellent_mean,0.9648,Cross-Domain
+state_cond_very_poor_mean,state_cond_poor_very_poor_mean,0.9645,Cross-Domain
+state_cond_very_poor_mean,state_cond_rep_poor_very_poor_mean,0.9642,Cross-Domain
+soil_bdod_15_30cm,soil_bdod_mean_0_30cm,0.9641,Soil Depth Collinearity
+noaa_tmax_jul_f,noaa_heat_stress_max_f,0.9613,Climate Collinearity
+state_cond_poor_mean,state_cond_rep_good_excellent_mean,0.9582,Cross-Domain
+soil_phh2o_0_5cm,soil_phh2o_15_30cm,0.9546,Soil Depth Collinearity
+soil_clay_5_15cm,soil_clay_15_30cm,0.9528,Soil Depth Collinearity
+soil_soc_5_15cm,soil_soc_mean_0_30cm,0.9513,Soil Depth Collinearity
+noaa_tmean_may_aug_f,noaa_tmin_may_aug_f,0.9489,Climate Collinearity
+state_cond_good_mean,state_cond_poor_mean,0.9455,Cross-Domain
+state_progress_planted_w20_pct,state_progress_emerged_w22_pct,0.9428,Cross-Domain
+noaa_tmean_may_aug_f,noaa_tmax_may_aug_f,0.9417,Climate Collinearity
+state_cond_poor_very_poor_mean,state_cond_rep_good_excellent_mean,0.9378,Cross-Domain
+state_cond_rep_good_excellent_mean,state_cond_rep_poor_very_poor_mean,0.9336,Cross-Domain
+state_progress_dented_w37_pct,state_progress_mature_w40_pct,0.9326,Cross-Domain
+soil_clay_0_5cm,soil_clay_15_30cm,0.9319,Soil Depth Collinearity
+state_cond_good_mean,state_cond_poor_very_poor_mean,0.9289,Cross-Domain
+state_cond_good_mean,state_cond_good_excellent_mean,0.9286,Cross-Domain
+state_cond_good_excellent_mean,state_cond_poor_very_poor_mean,0.9284,Cross-Domain
+noaa_prcp_may_aug_in,noaa_prcp_may_sep_in,0.9255,Climate Collinearity
+state_cond_poor_mean,state_cond_rep_poor_very_poor_mean,0.9239,Cross-Domain
+soil_sand_5_15cm,soil_silt_15_30cm,0.9184,Soil Depth Collinearity
+soil_silt_15_30cm,soil_sand_mean_0_30cm,0.9177,Soil Depth Collinearity
+soil_sand_0_5cm,soil_silt_15_30cm,0.9176,Soil Depth Collinearity
+soil_sand_15_30cm,soil_silt_15_30cm,0.9165,Soil Depth Collinearity
+state_cond_good_mean,state_cond_rep_good_excellent_mean,0.9161,Cross-Domain
+soil_sand_mean_0_30cm,soil_silt_mean_0_30cm,0.9161,Soil Depth Collinearity
+soil_sand_5_15cm,soil_silt_mean_0_30cm,0.916,Soil Depth Collinearity
+soil_sand_15_30cm,soil_silt_mean_0_30cm,0.9158,Soil Depth Collinearity
+prism_tmean_c,soil_intptlat,0.9151,Cross-Domain
+soil_sand_0_5cm,soil_silt_mean_0_30cm,0.9148,Soil Depth Collinearity
+soil_sand_15_30cm,soil_silt_5_15cm,0.9122,Soil Depth Collinearity
+soil_silt_5_15cm,soil_sand_mean_0_30cm,0.9117,Soil Depth Collinearity
+soil_sand_5_15cm,soil_silt_5_15cm,0.9109,Soil Depth Collinearity
+soil_bdod_5_15cm,soil_bdod_15_30cm,0.9108,Soil Depth Collinearity
+soil_sand_15_30cm,soil_silt_0_5cm,0.9095,Soil Depth Collinearity
+soil_sand_0_5cm,soil_silt_5_15cm,0.9095,Soil Depth Collinearity
+soil_silt_0_5cm,soil_sand_mean_0_30cm,0.9089,Soil Depth Collinearity
+soil_sand_5_15cm,soil_silt_0_5cm,0.9082,Soil Depth Collinearity
+soil_sand_0_5cm,soil_silt_0_5cm,0.9063,Soil Depth Collinearity
+prism_tmin_c,soil_intptlat,0.8912,Cross-Domain
+state_cond_good_mean,state_cond_rep_poor_very_poor_mean,0.8867,Cross-Domain
+rma_policies_earning_prem,rma_net_planted_acres,0.8866,Cross-Domain
+rma_policies_sold,rma_net_planted_acres,0.8807,Cross-Domain
+state_cond_excellent_mean,state_cond_good_excellent_mean,0.8801,Cross-Domain
+prism_tmax_c,soil_intptlat,0.8782,Cross-Domain
+rma_net_planted_acres,rma_liability_total,0.8728,Cross-Domain
+state_cond_good_excellent_mean,state_cond_rep_poor_very_poor_mean,0.8717,Cross-Domain
+rma_liability_total,rma_total_premium,0.8709,Cross-Domain
+noaa_tmean_may_aug_f,prism_tmean_c,0.8695,Cross-Domain
+prism_tmin_c,prism_tmax_c,0.8688,Cross-Domain
+state_cond_poor_mean,state_cond_very_poor_mean,0.8682,Cross-Domain
+state_progress_silking_w30_pct,state_progress_week_50pct_silking,0.866,Cross-Domain
+noaa_tmax_may_aug_f,prism_tmax_c,0.8646,Cross-Domain
+noaa_tmean_may_aug_f,prism_tmax_c,0.8615,Cross-Domain
+state_progress_silking_w30_pct,state_progress_dough_w34_pct,0.8609,Cross-Domain
+state_cond_excellent_mean,state_cond_fair_mean,0.8594,Cross-Domain
+noaa_tmin_may_aug_f,prism_tmin_c,0.8529,Cross-Domain
+noaa_tmax_aug_f,noaa_tmax_may_aug_f,0.8513,Climate Collinearity
+state_cond_very_poor_mean,state_cond_rep_good_excellent_mean,0.8507,Cross-Domain

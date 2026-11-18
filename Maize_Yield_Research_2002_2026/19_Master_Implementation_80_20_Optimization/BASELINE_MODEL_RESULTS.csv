@@ -1,0 +1,18 @@
+Rank,Model_Name,Category,Train_R2,Val_R2,Val_RMSE_bu_ac,Val_MAE_bu_ac,Test_R2,Test_RMSE_bu_ac,Test_MAE_bu_ac,Mean_Prediction_Bias,Training_Time_sec,Prediction_Time_sec
+1,LightGBM Regressor,Gradient Boosting,0.9521,0.655,17.01,13.53,0.8932,11.98,8.98,0.08,0.88,0.011
+2,Ridge Stacking Meta-Learner,Stacked Ensemble,0.9015,0.7485,15.95,12.18,0.8906,12.12,9.09,0.08,18.2,0.06
+3,Calibrated Quad-Tree Blend,Ensemble Blend,0.892,0.741,16.12,12.35,0.8827,12.55,9.43,0.08,12.5,0.05
+4,HistGradientBoosting,Gradient Boosting,0.925,0.6418,17.32,13.78,0.8814,12.62,9.46,-0.06,1.53,0.023
+5,XGBoost Regressor,Gradient Boosting,0.918,0.6435,17.29,13.73,0.8773,12.84,9.69,0.1,0.96,0.009
+6,Random Forest Regressor,Tree Ensemble,0.9653,0.5754,18.9,15.3,0.8764,12.88,9.61,0.07,0.88,0.041
+7,Extra Trees Regressor,Tree Ensemble,0.95,0.5388,19.65,16.1,0.87,13.21,9.93,0.11,0.32,0.055
+8,Multilayer Perceptron (MLP),Neural Network,0.8984,0.548,19.56,15.37,0.865,13.46,10.15,-0.72,4.41,0.004
+9,CatBoost Regressor,Gradient Boosting,0.8766,0.6515,17.16,13.6,0.8592,13.75,10.36,0.2,1.95,0.009
+10,K-Nearest Neighbors (KNN),Instance-Based,1.0,0.4816,20.85,16.88,0.8549,13.96,10.22,1.29,0.01,0.087
+11,Gradient Boosting (GBRT),Boosting Ensemble,0.8625,0.5916,18.49,14.79,0.8433,14.51,10.98,0.2,23.88,0.009
+12,Linear Regression (OLS),Linear Baseline,0.8143,0.6492,17.16,13.62,0.8078,16.07,12.2,0.21,0.04,0.001
+13,Ridge Regression,Linear Baseline,0.8087,0.6607,16.87,13.37,0.8014,16.33,12.33,0.17,0.01,0.0
+14,Support Vector Regression (SVR),Kernel / Margin,0.8078,0.6575,16.99,13.49,0.8001,16.39,12.24,1.05,0.42,0.001
+15,Lasso Regression,Linear Baseline,0.8022,0.659,16.93,13.34,0.7967,16.52,12.45,0.15,3.04,0.001
+16,ElasticNet,Linear Baseline,0.7988,0.6597,16.9,13.33,0.7939,16.64,12.48,0.18,5.24,0.001
+17,Decision Tree Regressor,Tree Baseline,0.8696,0.4514,21.55,16.89,0.781,17.15,12.65,0.14,0.57,0.003

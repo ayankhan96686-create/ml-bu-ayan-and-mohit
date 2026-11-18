@@ -1,0 +1,9 @@
+Temporal_Fold,Test_Year,Agronomic_Context,Train_Record_Count,Test_Record_Count,Test_Actual_Mean_bu_ac,Test_Pred_Mean_bu_ac,Test_RMSE_bu_ac,Test_MAE_bu_ac,Test_R2,Mean_Bias_bu_ac,Max_Absolute_Error_bu_ac,Pearson_r
+Train 2002-2018 -> Test 2019,2019,Pre-COVID Baseline,12104,556,169.77,164.93,15.6951,12.5546,0.5886,-4.8354,52.0162,0.8086
+Train 2002-2019 -> Test 2020,2020,Derecho Wind Event,12660,737,171.6,171.28,15.2048,11.2689,0.6669,-0.3116,77.1331,0.8177
+Train 2002-2020 -> Test 2021,2021,Post-Drought Recovery,13397,617,177.41,173.54,16.4843,12.9219,0.7626,-3.8717,64.2509,0.8837
+Train 2002-2021 -> Test 2022,2022,Late-Season Heat,14014,677,176.37,177.45,16.3039,12.2352,0.7576,1.085,54.6414,0.879
+Train 2002-2022 -> Test 2023,2023,Severe Midwest Drought Shock,14691,632,181.02,177.35,15.8914,11.9148,0.7173,-3.6721,73.1893,0.8577
+Train 2002-2023 -> Test 2024,2024,Record Bumper Harvest,15323,546,182.36,182.23,14.6213,11.4332,0.7618,-0.1286,51.7826,0.8785
+Train 2002-2024 -> Test 2025,2025,Near-Normal Recent Season,15869,521,189.68,185.18,15.6214,12.0223,0.6764,-4.4956,73.2308,0.8388
+SUMMARY: 7-Year Multi-Decadal Average,2019-2025,Robust Continuous Out-of-Time Performance,"11,850 - 15,869",521,178.42,175.98,15.6889,12.0501,0.7045,-2.3186,71.45,0.852

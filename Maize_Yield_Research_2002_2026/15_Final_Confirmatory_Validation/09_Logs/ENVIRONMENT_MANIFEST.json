@@ -1,0 +1,32 @@
+{
+  "project_name": "Maize/Corn Grain Yield Prediction Research Project (2002-2026)",
+  "phase": "Phase 10 \u2014 Final Independent Model Validation, Drought-Robust Optimization & Certification",
+  "timestamp_utc": "2026-11-12T09:21:56.706313+00:00",
+  "os_system": "Windows",
+  "os_release": "11",
+  "os_version": "10.0.26200",
+  "machine_architecture": "AMD64",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "python_version": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "scikit_learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1",
+    "catboost": "1.2.10",
+    "matplotlib": "3.11.1"
+  },
+  "runtime_configuration": {
+    "master_random_seed": 42,
+    "study_area": "9 US Corn Belt States (IA, IL, IN, MN, MO, NE, OH, SD, WI)",
+    "total_counties": 814,
+    "eligible_agricultural_counties": 788,
+    "quarantined_counties": 26,
+    "historical_panel_records": 16390,
+    "training_records": 14691,
+    "prospective_test_records": 1699,
+    "predictors_count": 69
+  }
+}

@@ -1,0 +1,50 @@
+{
+    "LightGBM": {
+        "n_estimators": 350,
+        "max_depth": 7,
+        "num_leaves": 45,
+        "learning_rate": 0.04,
+        "subsample": 0.85,
+        "colsample_bytree": 0.75,
+        "min_child_samples": 30,
+        "reg_alpha": 0.5,
+        "reg_lambda": 1.5,
+        "random_state": 42
+    },
+    "XGBoost": {
+        "n_estimators": 350,
+        "max_depth": 6,
+        "learning_rate": 0.04,
+        "subsample": 0.8,
+        "colsample_bytree": 0.75,
+        "reg_alpha": 0.5,
+        "reg_lambda": 2.0,
+        "random_state": 42
+    },
+    "CatBoost": {
+        "iterations": 400,
+        "depth": 6,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 4.0,
+        "random_seed": 42
+    },
+    "HistGradientBoosting": {
+        "max_iter": 350,
+        "max_depth": 7,
+        "learning_rate": 0.04,
+        "min_samples_leaf": 25,
+        "l2_regularization": 1.0,
+        "random_state": 42
+    },
+    "MLP": {
+        "hidden_layer_sizes": [
+            128,
+            64
+        ],
+        "activation": "relu",
+        "alpha": 0.01,
+        "max_iter": 200,
+        "early_stopping": true,
+        "random_state": 42
+    }
+}

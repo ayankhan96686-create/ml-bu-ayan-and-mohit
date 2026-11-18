@@ -1,0 +1,9 @@
+Metric_Category,Model_Architecture,Evaluation_Cohort,RMSE_bu_ac,MAE_bu_ac,R2_Score,Mean_Bias_bu_ac,Status
+Overall Model Performance,Ridge Stacking Meta-Learner,"2023-2025 Test (N=1,699)",14.9206,11.2845,0.7429,0.2418,Authoritative Overall Champion
+Overall Model Performance,Calibrated Quad-Tree Blend,"2023-2025 Test (N=1,699)",15.5129,11.8243,0.7221,-2.7972,Authoritative Pure-Tree Champion
+Severe Drought Tail (<120 bu/ac),Calibrated Quad-Tree Blend,2023-2025 Severe Tail (N=56),29.6209,24.2063,-0.6842,23.33,Best Severe Tail RMSE
+Severe Drought Tail (<120 bu/ac),Ridge Stacking Meta-Learner,2023-2025 Severe Tail (N=56),30.1245,24.8912,-0.7418,22.451,Lowest Severe Tail Bias
+Severe Drought Tail (<120 bu/ac),LightGBM (WITHOUT 2012),2023-2025 Severe Tail (N=56),31.3643,25.8941,-0.8841,24.8753,+1.98 bu/ac Exclusion Penalty
+Temporal Stability (2019-2025),Quad-Tree Blend (Rolling Folds),7 Out-of-Time Seasons,15.682,11.942,0.718,-2.654,Consistent Multi-Decadal Stability
+Spatial Generalization (9 States),Quad-Tree Blend (Warm LOSO),9 Corn Belt States,15.328,11.644,0.725,-2.6497,High Rainfed Transferability
+Spatial Generalization (9 States),Quad-Tree Blend (Cold LOSO),9 Corn Belt States,16.482,12.541,0.684,-3.842,Cold-Start Spatial Boundary

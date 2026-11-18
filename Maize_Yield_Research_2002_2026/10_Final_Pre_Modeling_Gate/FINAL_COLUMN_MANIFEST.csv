@@ -1,0 +1,88 @@
+column_name,in_master_83,in_feature_table_79,in_future_2026_77,engineered_lag_feature,feature_tier,domain,measurement_unit,spatial_resolution,temporal_resolution,leakage_risk,eligible_model_sets,available_prediction_horizons,authoritative_verdict
+county_fips,True,True,True,False,C: Geographic ID,Administrative,string/code,County/State,Static,None,GroupKFold_Key,All,Retain_For_Grouping_Exclude_From_X
+state_fips,True,True,True,False,C: Geographic ID,Administrative,string/code,County/State,Static,None,GroupKFold_Key,All,Retain_For_Grouping_Exclude_From_X
+state,True,True,True,False,C: Geographic ID,Administrative,string/code,County/State,Static,None,GroupKFold_Key,All,Retain_For_Grouping_Exclude_From_X
+state_name,True,True,True,False,C: Geographic ID,Administrative,string/code,County/State,Static,None,GroupKFold_Key,All,Retain_For_Grouping_Exclude_From_X
+county_name,True,True,True,False,C: Geographic ID,Administrative,string/code,County/State,Static,None,GroupKFold_Key,All,Retain_For_Grouping_Exclude_From_X
+year,True,True,True,False,D: Temporal ID,Temporal,year,County,Annual,Extrapolation_Risk_in_Trees,Temporal_Split_Key,All,Temporal_Split_Key_Exclude_Numeric_Tree_X
+corn_yield_bu_acre,True,True,False,False,A: Target,Yield,bu/acre,County,Annual,Direct_Target,Target,None,Target_Vector_y
+cv_percent,True,True,False,False,E: Target Metadata,Yield_Sampling,%,County,Annual (Post-Harvest),High_TargetMetadata,None,None,Exclude_Severe_Leakage
+noaa_prcp_may_in,True,True,True,False,B: Valid Predictor,Climate_NOAA,in,County,Monthly/Seasonal,None,"A_Env, B_Extended, C_Mgmt","August1, October1, December1",Include_Baseline_X
+noaa_prcp_jun_in,True,True,True,False,B: Valid Predictor,Climate_NOAA,in,County,Monthly/Seasonal,None,"A_Env, B_Extended, C_Mgmt","August1, October1, December1",Include_Baseline_X
+noaa_prcp_jul_in,True,True,True,False,B: Valid Predictor,Climate_NOAA,in,County,Monthly/Seasonal,None,"A_Env, B_Extended, C_Mgmt","August1, October1, December1",Include_Baseline_X
+noaa_prcp_aug_in,True,True,True,False,B: Valid Predictor,Climate_NOAA,in,County,Monthly/Seasonal,None,"A_Env, B_Extended, C_Mgmt","October1, December1",Include_Baseline_X
+noaa_prcp_sep_in,True,True,True,False,B: Valid Predictor,Climate_NOAA,in,County,Monthly/Seasonal,None,"A_Env, B_Extended, C_Mgmt","October1, December1",Include_Baseline_X
+noaa_prcp_may_aug_in,True,True,True,False,B: Valid Predictor,Climate_NOAA,in,County,Monthly/Seasonal,None,"A_Env, B_Extended, C_Mgmt","October1, December1",Include_Baseline_X
+noaa_prcp_may_sep_in,True,True,True,False,B: Valid Predictor,Climate_NOAA,in,County,Monthly/Seasonal,None,"A_Env, B_Extended, C_Mgmt","October1, December1",Include_Baseline_X
+noaa_prcp_annual_in,True,True,True,False,B: Valid Predictor,Climate_NOAA,in,County,Monthly/Seasonal,None,"A_Env, B_Extended, C_Mgmt","October1, December1",Include_Baseline_X
+noaa_tmean_may_aug_f,True,True,True,False,B: Valid Predictor,Climate_NOAA,deg_F,County,Monthly/Seasonal,None,"A_Env, B_Extended, C_Mgmt","October1, December1",Include_Baseline_X
+noaa_tmax_jul_f,True,True,True,False,B: Valid Predictor,Climate_NOAA,deg_F,County,Monthly/Seasonal,None,"A_Env, B_Extended, C_Mgmt","August1, October1, December1",Include_Baseline_X
+noaa_tmax_aug_f,True,True,True,False,B: Valid Predictor,Climate_NOAA,deg_F,County,Monthly/Seasonal,None,"A_Env, B_Extended, C_Mgmt","October1, December1",Include_Baseline_X
+noaa_tmax_may_aug_f,True,True,True,False,B: Valid Predictor,Climate_NOAA,deg_F,County,Monthly/Seasonal,None,"A_Env, B_Extended, C_Mgmt","October1, December1",Include_Baseline_X
+noaa_tmin_may_aug_f,True,True,True,False,B: Valid Predictor,Climate_NOAA,deg_F,County,Monthly/Seasonal,None,"A_Env, B_Extended, C_Mgmt","October1, December1",Include_Baseline_X
+noaa_heat_stress_max_f,True,True,True,False,B: Valid Predictor,Climate_NOAA,deg_F,County,Monthly/Seasonal,None,"A_Env, B_Extended, C_Mgmt","August1, October1, December1",Include_Baseline_X
+prism_ppt_mm,True,True,True,False,B: Valid Predictor,Climate_PRISM,mm,County,Annual_or_SeasonSum,None,"A_Env, B_Extended, C_Mgmt","October1, December1",Include_Baseline_X_With_NOAA_Fallback
+prism_tmean_c,True,True,True,False,B: Valid Predictor,Climate_PRISM,deg_C,County,Annual_or_SeasonSum,None,"A_Env, B_Extended, C_Mgmt","October1, December1",Include_Baseline_X_With_NOAA_Fallback
+prism_tmin_c,True,True,True,False,B: Valid Predictor,Climate_PRISM,deg_C,County,Annual_or_SeasonSum,None,"A_Env, B_Extended, C_Mgmt","October1, December1",Include_Baseline_X_With_NOAA_Fallback
+prism_tmax_c,True,True,True,False,B: Valid Predictor,Climate_PRISM,deg_C,County,Annual_or_SeasonSum,None,"A_Env, B_Extended, C_Mgmt","October1, December1",Include_Baseline_X_With_NOAA_Fallback
+prism_valid_coverage_pct,True,True,True,False,F: Quality Indicator,Quality_Audit,%,County,Annual,None,None,None,Exclude_From_X_Audit_Only
+soil_intptlat,True,True,True,False,C: Geographic ID,Geographic_Coordinates,decimal_degrees,County,Static,Spatial_Overfit_Risk,Spatial_Only,All,Exclude_From_Baseline_X
+soil_intptlon,True,True,True,False,C: Geographic ID,Geographic_Coordinates,decimal_degrees,County,Static,Spatial_Overfit_Risk,Spatial_Only,All,Exclude_From_Baseline_X
+soil_clay_0_5cm,True,True,True,False,B: Valid Predictor,Soil,%,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_clay_5_15cm,True,True,True,False,B: Valid Predictor,Soil,%,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_clay_15_30cm,True,True,True,False,B: Valid Predictor,Soil,%,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_sand_0_5cm,True,True,True,False,B: Valid Predictor,Soil,%,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_sand_5_15cm,True,True,True,False,B: Valid Predictor,Soil,%,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_sand_15_30cm,True,True,True,False,B: Valid Predictor,Soil,%,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_silt_0_5cm,True,True,True,False,B: Valid Predictor,Soil,%,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_silt_5_15cm,True,True,True,False,B: Valid Predictor,Soil,%,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_silt_15_30cm,True,True,True,False,B: Valid Predictor,Soil,%,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_soc_0_5cm,True,True,True,False,B: Valid Predictor,Soil,g/kg,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_soc_5_15cm,True,True,True,False,B: Valid Predictor,Soil,g/kg,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_soc_15_30cm,True,True,True,False,B: Valid Predictor,Soil,g/kg,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_phh2o_0_5cm,True,True,True,False,B: Valid Predictor,Soil,standard_pH,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_phh2o_5_15cm,True,True,True,False,B: Valid Predictor,Soil,standard_pH,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_phh2o_15_30cm,True,True,True,False,B: Valid Predictor,Soil,standard_pH,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_bdod_0_5cm,True,True,True,False,B: Valid Predictor,Soil,g/cm3,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_bdod_5_15cm,True,True,True,False,B: Valid Predictor,Soil,g/cm3,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_bdod_15_30cm,True,True,True,False,B: Valid Predictor,Soil,g/cm3,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_clay_mean_0_30cm,True,True,True,False,B: Valid Predictor,Soil,%,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_sand_mean_0_30cm,True,True,True,False,B: Valid Predictor,Soil,%,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_silt_mean_0_30cm,True,True,True,False,B: Valid Predictor,Soil,%,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_soc_mean_0_30cm,True,True,True,False,B: Valid Predictor,Soil,g/kg,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_ph_mean_0_30cm,True,True,True,False,B: Valid Predictor,Soil,standard_pH,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+soil_bdod_mean_0_30cm,True,True,True,False,B: Valid Predictor,Soil,g/cm3,County,Profile_Static,None,"A_Env, B_Extended, C_Mgmt","April1, August1, October1, December1",Include_Baseline_X
+rma_policies_sold,True,True,True,False,B: Valid Predictor,RMA_Insurance,count,County,Annual (Pre-Harvest),None,C_Mgmt,"October1, December1",Include_Mgmt_X
+rma_policies_earning_prem,True,True,True,False,B: Valid Predictor,RMA_Insurance,count,County,Annual (Pre-Harvest),None,C_Mgmt,"October1, December1",Include_Mgmt_X
+rma_net_planted_acres,True,True,True,False,B: Valid Predictor,RMA_Insurance,acres,County,Annual (Pre-Harvest),None,C_Mgmt,"October1, December1",Include_Mgmt_X
+rma_liability_total,True,True,True,False,B: Valid Predictor,RMA_Insurance,$,County,Annual (Pre-Harvest),None,C_Mgmt,"October1, December1",Include_Mgmt_X
+rma_total_premium,True,True,True,False,B: Valid Predictor,RMA_Insurance,$,County,Annual (Pre-Harvest),None,C_Mgmt,"October1, December1",Include_Mgmt_X
+rma_subsidy,True,True,True,False,B: Valid Predictor,RMA_Insurance,$,County,Annual (Pre-Harvest),None,C_Mgmt,"October1, December1",Include_Mgmt_X
+rma_postharvest_policies_indemnified,True,False,False,False,G: Post-Harvest / Leakage,RMA_Insurance,count,County,Post-Harvest,High_PostHarvest,None,December1_Retrospective_Benchmark_Only,Exclude_From_Predictive_X
+rma_postharvest_indemnity_amount,True,False,False,False,G: Post-Harvest / Leakage,RMA_Insurance,$,County,Post-Harvest,High_PostHarvest,None,December1_Retrospective_Benchmark_Only,Exclude_From_Predictive_X
+rma_liability_per_planted_acre,True,True,True,False,B: Valid Predictor,RMA_Insurance,$,County,Annual (Pre-Harvest),None,C_Mgmt,"October1, December1",Include_Mgmt_X
+rma_premium_per_planted_acre,True,True,True,False,B: Valid Predictor,RMA_Insurance,$,County,Annual (Pre-Harvest),None,C_Mgmt,"October1, December1",Include_Mgmt_X
+rma_postharvest_loss_ratio,True,False,False,False,G: Post-Harvest / Leakage,RMA_Insurance,%,County,Post-Harvest,High_PostHarvest,None,December1_Retrospective_Benchmark_Only,Exclude_From_Predictive_X
+state_cond_excellent_mean,True,True,True,False,B: Valid Predictor,Crop_Condition,%,State,Season_Mean,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_cond_good_mean,True,True,True,False,B: Valid Predictor,Crop_Condition,%,State,Season_Mean,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_cond_fair_mean,True,True,True,False,B: Valid Predictor,Crop_Condition,%,State,Season_Mean,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_cond_poor_mean,True,True,True,False,B: Valid Predictor,Crop_Condition,%,State,Season_Mean,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_cond_very_poor_mean,True,True,True,False,B: Valid Predictor,Crop_Condition,%,State,Season_Mean,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_cond_good_excellent_mean,True,True,True,False,B: Valid Predictor,Crop_Condition,%,State,Season_Mean,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_cond_poor_very_poor_mean,True,True,True,False,B: Valid Predictor,Crop_Condition,%,State,Season_Mean,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_cond_rep_good_excellent_mean,True,True,True,False,B: Valid Predictor,Crop_Condition,%,State,Season_Mean,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_cond_rep_poor_very_poor_mean,True,True,True,False,B: Valid Predictor,Crop_Condition,%,State,Season_Mean,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_progress_planted_w20_pct,True,True,True,False,B: Valid Predictor,Crop_Progress,%,State,Weekly_Progress,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_progress_emerged_w22_pct,True,True,True,False,B: Valid Predictor,Crop_Progress,%,State,Weekly_Progress,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_progress_silking_w30_pct,True,True,True,False,B: Valid Predictor,Crop_Progress,%,State,Weekly_Progress,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_progress_dough_w34_pct,True,True,True,False,B: Valid Predictor,Crop_Progress,%,State,Weekly_Progress,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_progress_dented_w37_pct,True,True,True,False,B: Valid Predictor,Crop_Progress,%,State,Weekly_Progress,None,"B_Extended, C_Mgmt","October1, December1",Include_Extended_X
+state_progress_mature_w40_pct,True,True,True,False,B: Valid Predictor,Crop_Progress,%,State,Weekly_Progress,None,"B_Extended, C_Mgmt","October1, December1",Include_Extended_X
+state_progress_week_50pct_planted,True,True,True,False,B: Valid Predictor,Crop_Progress,week_num,State,Weekly_Progress,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_progress_week_50pct_silking,True,True,True,False,B: Valid Predictor,Crop_Progress,week_num,State,Weekly_Progress,None,"B_Extended, C_Mgmt","August1, October1, December1",Include_Extended_X
+state_progress_week_50pct_mature,True,True,True,False,B: Valid Predictor,Crop_Progress,week_num,State,Weekly_Progress,None,"B_Extended, C_Mgmt","October1, December1",Include_Extended_X
+state_progress_postharvest_harvested_w44_pct,True,False,False,False,G: Post-Harvest / Leakage,Crop_Progress,%,State,Post-Harvest,High_PostHarvest,None,December1_Retrospective_Benchmark_Only,Exclude_From_Predictive_X
+yield_lag_1yr,False,False,False,True,B: Valid Predictor,Engineered_Historical_Yield,bu/acre,County,Lagged_Calendar,None (Strict Calendar Lag),D_HistYield,"April1, August1, October1, December1",Include_Lag_X
+yield_lag_2yr,False,False,False,True,B: Valid Predictor,Engineered_Historical_Yield,bu/acre,County,Lagged_Calendar,None (Strict Calendar Lag),D_HistYield,"April1, August1, October1, December1",Include_Lag_X
+yield_roll_mean_5yr,False,False,False,True,B: Valid Predictor,Engineered_Historical_Yield,bu/acre,County,Lagged_Calendar,None (Strict Calendar Lag),D_HistYield,"April1, August1, October1, December1",Include_Lag_X
+rma_missing_indicator,False,False,False,True,B: Valid Predictor,RMA_Insurance,binary,County,Annual,None,C_Mgmt,"October1, December1",Include_Mgmt_X

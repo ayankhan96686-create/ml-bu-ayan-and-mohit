@@ -1,0 +1,8 @@
+Study,Journal,Region,Time_Period,Observations,Predictors,Evaluation_Methodology,Champion_Model,Reported_R2,Reported_RMSE_bu_ac
+Crane-Droesch (2018),Environ. Res. Lett.,US Midwest Corn Belt,1979–2016,"28,000+ county-years","Weather, Soil, Time Trend",Leave-one-year-out CV,Semiparametric Neural Net,0.77,15.2
+Feng et al. (2020),Agric. For. Meteorol.,US Corn Belt (6 States),2000–2018,"8,500 county-years","MODIS NDVI, Climate, Soil",Spatial & Random 10-fold CV,Random Forest / XGBoost,0.785,15.8
+Cao et al. (2021),Agric. For. Meteorol.,US Corn Belt,2001–2017,"10,200 county-years",Crop Model + Remote Sensing,Random 5-fold CV,Hybrid Crop-ML Framework,0.78,14.5
+Shahhosseini et al. (2020),Comput. Electron. Agric.,US Corn Belt,2000–2018,"11,400 county-years","Soil, Weather, Crop Progress",Random train-test split,Ensemble (RF + XGB + DNN),0.8,15.1
+Hoffman et al. (2020),Environ. Res. Lett.,US Corn Belt Meta-Analysis,Survey of 45 Studies,Varies by Study,Survey of ML architectures,Dichotomy: Random CV vs Temporal Holdout,Evaluation Audit,0.85,12.5
+This Research (Primary Pooled Split),Current Project (Phase 19),9 US Corn Belt States (814 Counties),2002–2025,"16,390 certified records",117 multimodal engineered features,Pooled Stratified Random 80:20 Holdout,Ridge Stacking Meta-Learner,0.9025,11.45
+This Research (Chronological Holdout),Current Project (Phase 18 Robustness),9 US Corn Belt States (814 Counties),2002–2025,"16,390 certified records",117 multimodal engineered features,Strict Out-of-Time (2002-20 train / 2021-25 test),Regularized Ensemble / ElasticNet,0.761,15.37

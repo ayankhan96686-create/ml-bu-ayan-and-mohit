@@ -1,0 +1,13 @@
+Checklist_Category,Item_Description,Status
+Manuscript Formatting,"Title, Abstract (<250 words), and Keywords conform to journal author guidelines",VERIFIED
+Manuscript Formatting,All 20 figures cited sequentially in manuscript text,VERIFIED
+Manuscript Formatting,All 15 tables cited sequentially in manuscript text,VERIFIED
+Scientific Evidence,All metrics mathematically verified against underlying prediction files,VERIFIED
+Scientific Evidence,No exaggerated claims of 'drought-proof' performance,VERIFIED
+Scientific Evidence,Prospective 2026 forecast explicitly designated as unverified until 2027 NASS surveys,VERIFIED
+Literature & Citations,All 32 references verified with authentic DOIs and publisher records,VERIFIED
+Figures & Visuals,All 20 figures rendered at 300 DPI high resolution with complete legends,VERIFIED
+Submission Package,Cover letter drafted for Editor-in-Chief in both .md and .docx,VERIFIED
+Submission Package,Research highlights (3-5 bullet points) and graphical abstract generated,VERIFIED
+Open Science,Data and code availability statements included with reproducibility guide,VERIFIED
+Author Disclosures,"Placeholders provided for author affiliations, funding, and conflicts of interest",ACTION_REQUIRED_BY_AUTHORS

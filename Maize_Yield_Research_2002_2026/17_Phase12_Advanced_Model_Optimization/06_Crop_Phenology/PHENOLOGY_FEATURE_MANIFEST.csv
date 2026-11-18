@@ -1,0 +1,5 @@
+Feature_Name,Growth_Stage,Interaction,Status
+silking_thermal_interaction,R1 (Silking / Pollination),Silking % * Maximum July Heat Stress,Active
+delayed_planting_penalty,VE (Emergence / Planting),Calendar week of 50% planted exceeding threshold,Active
+grain_filling_stress,R4 (Dough / Denting),Dough stage % * August VPD drying demand,Active
+thermal_time_to_maturity,R6 (Physiological Maturity),Seasonal GDD * Mature week fraction,Active

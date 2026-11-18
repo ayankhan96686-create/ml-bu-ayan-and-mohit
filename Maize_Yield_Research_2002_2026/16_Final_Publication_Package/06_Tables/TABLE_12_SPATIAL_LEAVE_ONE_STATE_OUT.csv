@@ -1,0 +1,11 @@
+State,Eligible_Counties,Test_Records_2023_2025,Actual_Mean_Yield_bu_ac,Warm_Start_RMSE_bu_ac,Warm_Start_MAE_bu_ac,Warm_Start_R2,Warm_Start_Bias_bu_ac,Cold_Start_RMSE_bu_ac,Cold_Start_MAE_bu_ac,Cold_Start_R2,Cold_Start_Bias_bu_ac,Cold_Start_Penalty_Delta_RMSE,Spatial_Transferability_Verdict
+IA,96,239,206.65,12.6573,9.8336,0.2167,-2.6,13.9046,10.9296,0.0547,-2.3105,1.2473,Moderate Spatial Penalty
+IL,93,217,201.71,15.9095,12.3371,0.6698,-3.1854,18.5054,15.0478,0.5532,-6.8618,2.5959,High Regional Specificity (Irrigation/Soil Disparity)
+IN,84,205,197.83,13.4838,9.9595,0.3075,-4.2652,14.6568,10.8144,0.1818,-4.8838,1.173,Moderate Spatial Penalty
+MN,73,187,179.96,17.0061,13.4187,0.3848,-6.2028,17.6346,14.2004,0.3385,-6.5922,0.6285,High Transferability (Core Rainbelt)
+MO,83,171,161.54,19.9493,15.2605,0.6111,-3.4928,20.0443,15.5255,0.6074,-1.3291,0.095,High Transferability (Core Rainbelt)
+NE,78,175,184.66,16.9366,13.3157,0.6084,-3.8667,24.6531,19.1538,0.1703,-13.4631,7.7165,High Regional Specificity (Irrigation/Soil Disparity)
+OH,81,207,177.13,14.7343,10.9426,0.6416,2.5826,15.0615,11.1019,0.6255,4.3418,0.3272,High Transferability (Core Rainbelt)
+SD,55,117,154.75,15.5299,11.6483,0.7757,0.1767,20.5128,13.8161,0.6087,4.5184,4.9829,High Regional Specificity (Irrigation/Soil Disparity)
+WI,64,181,169.71,13.6236,10.9642,0.642,-3.4935,12.8283,10.3792,0.6826,-2.4478,-0.7953,High Transferability (Core Rainbelt)
+CORN_BELT_9_STATE_AVERAGE,788,1699,184.1,15.5367,11.9645,0.5397,-2.7052,17.5335,13.441,0.4247,-3.2253,1.9968,Certified Robust Geographic Portability across US Corn Belt

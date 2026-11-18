@@ -1,0 +1,7 @@
+Ablation_Experiment,Feature_Count,Test_RMSE_bu_ac,Test_MAE_bu_ac,Test_R2,Mean_Bias_bu_ac,Severe_Tail_RMSE_bu_ac,Severe_Tail_Bias_bu_ac
+1. Existing Raw Monthly Climate,17,29.28,24.2812,0.01,-17.0187,43.2553,38.9172
+2. GDD Enhanced,20,28.4585,23.6904,0.0648,-16.9316,41.6991,37.328
+3. Extreme Heat Enhanced,21,29.114,24.2075,0.0212,-17.0532,41.7401,37.7191
+4. VPD Enhanced,19,28.7671,23.7779,0.0444,-16.6463,40.8775,35.6937
+5. Drought Anomaly Enhanced,20,29.0932,24.079,0.0226,-16.985,42.3389,37.1581
+6. Full Advanced Climate Architecture,31,27.6639,22.8769,0.1163,-16.0009,40.2628,34.8392

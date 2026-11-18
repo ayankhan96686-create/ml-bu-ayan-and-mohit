@@ -1,0 +1,5 @@
+Interaction_Pair,Agronomic_Mechanism,Relative_Strength
+vpd_july_kpa × irrigation_regime_proxy,Irrigation buffers atmospheric vapor pressure deficit stress,0.284
+edd_july_f × soil_awc_index,Available water capacity buffers thermal extreme degree days,0.241
+silking_thermal_interaction × vpd_july_kpa,Compound heat and drying demand during R1 pollination flowering,0.218
+yield_roll_mean_5yr × yield_trend_5yr,Baseline county productivity modified by localized genetic yield gain,0.185

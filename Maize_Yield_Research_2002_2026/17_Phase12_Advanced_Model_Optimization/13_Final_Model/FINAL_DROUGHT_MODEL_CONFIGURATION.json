@@ -1,0 +1,6 @@
+{
+  "Model_Name": "Phase 12 Drought-Tail Mixture of Experts",
+  "Architecture": "Environmental Stress Gated Architecture with Severe Tail Residual Mitigation",
+  "Severe_Tail_RMSE_bu_ac": 28.689,
+  "Severe_Tail_Bias_bu_ac": 21.8558
+}

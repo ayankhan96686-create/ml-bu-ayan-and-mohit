@@ -1,0 +1,16 @@
+{
+  "split_strategy": "Primary Pooled 80:20 Random Stratified Split",
+  "random_state": 42,
+  "test_size": 0.2,
+  "stratification_key": "calendar_year",
+  "total_eligible_observations": 16390,
+  "train_observations": 13112,
+  "test_observations": 3278,
+  "train_percentage": 80.0,
+  "test_percentage": 20.0,
+  "unique_counties_total": 788,
+  "unique_counties_in_train": 785,
+  "unique_counties_in_test": 762,
+  "prospective_year_2026_quarantine": "Excluded from supervised evaluation due to unobserved ground truth; retained for prospective prediction",
+  "split_integrity_verified": true
+}

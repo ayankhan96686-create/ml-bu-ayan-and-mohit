@@ -1,0 +1,5 @@
+Ablation_Experiment,Feature_Count,Test_RMSE_bu_ac,Test_MAE_bu_ac,Test_R2,Mean_Bias_bu_ac,Severe_Tail_RMSE_bu_ac,Severe_Tail_Bias_bu_ac
+Lag 1-Year Only,1,28.0894,21.4828,0.0889,-12.8411,42.5855,36.9952
+Lags 1-2 Year,2,23.1565,17.7382,0.3808,-8.109,41.5941,34.1365
+Baseline 3-Memory Features,3,21.8116,16.6453,0.4506,-7.121,36.5539,26.597
+All 13 Advanced Historical Memory Features,13,20.5344,16.2992,0.5131,-6.7718,35.1201,24.7426

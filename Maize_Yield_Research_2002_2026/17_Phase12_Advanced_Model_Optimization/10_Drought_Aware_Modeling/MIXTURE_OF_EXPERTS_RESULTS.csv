@@ -1,0 +1,6 @@
+Model_Architecture,Test_RMSE_bu_ac,Test_MAE_bu_ac,Test_R2,Mean_Bias_bu_ac,Severe_Tail_RMSE_bu_ac,Severe_Tail_Bias_bu_ac
+Baseline Overall Champion (Ridge Stacking),15.5078,11.7806,0.7223,3.1797,34.9738,29.4957
+Baseline Drought Champion (Quad-Tree Blend),15.5217,11.9964,0.7218,-3.0315,28.4599,21.9186
+Sample-Weighted Drought Expert (XGBoost),16.2136,12.4755,0.6964,-3.4914,28.5971,21.5874
+Mixture of Experts (Soft-Gated Stacking + Drought Expert),15.277,11.6259,0.7305,0.3569,29.5475,22.6476
+Calibrated Ridge Stacking (Local Residual Correction),15.4841,11.7688,0.7231,3.1115,34.7861,29.2451

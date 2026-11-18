@@ -1,0 +1,7 @@
+Project_Phase,Reported_2026_Yield_bu_ac,Methodology_And_Cutoff,Reconciliation_Explanation
+Phase 3 (Initial Baseline),168.99,Early baseline LightGBM model trained on unpurified historical data; July 31 cutoff; simple county mean across 788 counties.,Superseded by rigorous feature engineering and data purification in Phases 5-9.
+Phase 6 (Red-Team Certification),178.48,Acreage-weighted regional yield using Phase 5 XGBoost model; harvested grain acreage weighting across 9 states.,Early acreage-weighted calculation before Phase 9 data correction.
+Phase 9 (Final Optimization),175.49,Calibrated Quad-Tree Blend; August 31 weather cutoff; unweighted county mean across all 814 prospective counties.,Authoritative unweighted county mean for prospective 2026 panel.
+Phase 10 (Confirmatory Validation),175.49,Identical to Phase 9 authoritative unweighted county mean across all 814 counties.,Confirmed identical unweighted value.
+Phase 11 Certified: Harvested-Acreage Weighted Regional Yield,183.51,"State-level acreage weighting across 59,422,173 harvested grain acres: sum(state_yield * harvested_acres) / sum(harvested_acres).","AUTHORITATIVE REGIONAL HARVESTED-GRAIN PRODUCTION YIELD (181.12 bu/ac, producing 12.38 billion bushels)."
+Phase 11 Certified: Planted-Acreage Weighted Regional Yield,183.13,"State-level acreage weighting across 61,541,893 planted acres.","Reflects planted footprint (180.84 bu/ac), slightly lower due to higher silage acreage in northern states."

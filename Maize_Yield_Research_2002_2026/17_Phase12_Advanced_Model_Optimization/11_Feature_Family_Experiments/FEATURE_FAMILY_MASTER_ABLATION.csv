@@ -1,0 +1,13 @@
+Configuration_ID,Configuration_Name,Feature_Count,Test_RMSE_bu_ac,Test_MAE_bu_ac,Test_R2,Mean_Bias_bu_ac,Severe_Tail_RMSE_bu_ac,Severe_Tail_Bias_bu_ac
+A,A - Historical Yield Memory Only,13,20.5669,16.3172,0.5115,-6.9296,34.5872,24.7675
+B,B - Soil Only,8,34.565,31.1092,-0.3797,-29.2711,25.3476,9.4986
+C,C - Climate Only,17,29.2858,24.4408,0.0096,-17.4035,42.4508,38.5598
+D,D - Soil + Climate,25,25.683,21.9313,0.2383,-17.7123,28.8386,22.7505
+E,E - Memory + Soil + Climate,28,16.8944,13.0189,0.6704,-3.4229,29.1951,22.3837
+F,F - Memory + Advanced Climate,44,16.9437,12.9772,0.6685,-1.7912,29.5222,20.5731
+G,G - Memory + Irrigation + Climate,36,16.7452,12.8089,0.6762,-0.3397,32.5674,25.7189
+H,H - Memory + Soil + Climate + Irrigation,44,16.3345,12.4806,0.6919,-1.4004,31.4959,24.1031
+I,I - Memory + Remote Sensing,15,18.8389,14.946,0.5902,-5.9978,30.5595,19.6501
+J,J - Memory + Phenology + Climate,38,16.7325,12.9606,0.6767,-3.9072,30.5319,22.7611
+K,K - Memory + Soil + Climate + Irrigation + Phenology,66,16.3854,12.645,0.69,-3.4475,30.6196,22.1675
+L,L - Full Integrated Architecture (All Verified Features),68,15.9989,12.3967,0.7044,-3.5959,29.2974,20.8056

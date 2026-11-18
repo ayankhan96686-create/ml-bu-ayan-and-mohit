@@ -1,0 +1,89 @@
+column_name,in_master_83,in_feature_table_79,in_future_2026_77,in_purified_hist_83,in_purified_fut_82,feature_role,operational_availability_horizon,late_season_experiment_verdict
+county_fips,True,True,True,True,True,Administrative_Key,Static,Grouping_Key_Only (Excluded from X)
+state_fips,True,True,True,True,True,Administrative_Key,Static,Grouping_Key_Only (Excluded from X)
+state,True,True,True,True,True,Administrative_Key,Static,Grouping_Key_Only (Excluded from X)
+state_name,True,True,True,True,True,Administrative_Key,Static,Grouping_Key_Only (Excluded from X)
+county_name,True,True,True,True,True,Administrative_Key,Static,Grouping_Key_Only (Excluded from X)
+year,True,True,True,True,True,Temporal_Key,Annual,Temporal_Split_Key (Excluded from Numeric Tree Splits)
+corn_yield_bu_acre,True,True,False,True,False,Target_Vector_y,Observed Post-Harvest,Target
+cv_percent,True,True,False,False,False,Target_Metadata,Observed Post-Harvest,EXCLUDED_LEAKAGE (Purged from Purified Datasets)
+noaa_prcp_may_in,True,True,True,True,True,NOAA_Growing_Season_Climate,May-September Observed,INCLUDED_BASELINE_X
+noaa_prcp_jun_in,True,True,True,True,True,NOAA_Growing_Season_Climate,May-September Observed,INCLUDED_BASELINE_X
+noaa_prcp_jul_in,True,True,True,True,True,NOAA_Growing_Season_Climate,May-September Observed,INCLUDED_BASELINE_X
+noaa_prcp_aug_in,True,True,True,True,True,NOAA_Growing_Season_Climate,May-September Observed,INCLUDED_BASELINE_X
+noaa_prcp_sep_in,True,True,True,True,True,NOAA_Growing_Season_Climate,May-September Observed,INCLUDED_BASELINE_X
+noaa_prcp_may_aug_in,True,True,True,True,True,NOAA_Growing_Season_Climate,May-September Observed,INCLUDED_BASELINE_X
+noaa_prcp_may_sep_in,True,True,True,True,True,NOAA_Growing_Season_Climate,May-September Observed,INCLUDED_BASELINE_X
+noaa_prcp_annual_in,True,True,True,True,True,Full_Year_Climate,Post-Harvest (Full Year Jan-Dec),EXCLUDED_FROM_LATE_SEASON_X (Missing in 2026; unobserved at harvest)
+noaa_tmean_may_aug_f,True,True,True,True,True,NOAA_Growing_Season_Climate,May-September Observed,INCLUDED_BASELINE_X
+noaa_tmax_jul_f,True,True,True,True,True,NOAA_Growing_Season_Climate,May-September Observed,INCLUDED_BASELINE_X
+noaa_tmax_aug_f,True,True,True,True,True,NOAA_Growing_Season_Climate,May-September Observed,INCLUDED_BASELINE_X
+noaa_tmax_may_aug_f,True,True,True,True,True,NOAA_Growing_Season_Climate,May-September Observed,INCLUDED_BASELINE_X
+noaa_tmin_may_aug_f,True,True,True,True,True,NOAA_Growing_Season_Climate,May-September Observed,INCLUDED_BASELINE_X
+noaa_heat_stress_max_f,True,True,True,True,True,NOAA_Growing_Season_Climate,May-September Observed,INCLUDED_BASELINE_X
+prism_ppt_mm,True,True,True,True,True,PRISM_Gridded_Weather,Annual in Hist; May-Oct in 2026,SECONDARY_PREDICTOR (Mismatched period; NOAA preferred)
+prism_tmean_c,True,True,True,True,True,PRISM_Gridded_Weather,Annual in Hist; May-Oct in 2026,SECONDARY_PREDICTOR (Mismatched period; NOAA preferred)
+prism_tmin_c,True,True,True,True,True,PRISM_Gridded_Weather,Annual in Hist; May-Oct in 2026,SECONDARY_PREDICTOR (Mismatched period; NOAA preferred)
+prism_tmax_c,True,True,True,True,True,PRISM_Gridded_Weather,Annual in Hist; May-Oct in 2026,SECONDARY_PREDICTOR (Mismatched period; NOAA preferred)
+prism_valid_coverage_pct,True,True,True,True,True,Quality_Indicator,Audit,Audit_Flag (Excluded from X)
+soil_intptlat,True,True,True,True,True,Spatial_Coordinates,Static,Spatial_Validation_Only (Excluded from Baseline X)
+soil_intptlon,True,True,True,True,True,Spatial_Coordinates,Static,Spatial_Validation_Only (Excluded from Baseline X)
+soil_clay_0_5cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_clay_5_15cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_clay_15_30cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_sand_0_5cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_sand_5_15cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_sand_15_30cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_silt_0_5cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_silt_5_15cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_silt_15_30cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_soc_0_5cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_soc_5_15cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_soc_15_30cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_phh2o_0_5cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_phh2o_5_15cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_phh2o_15_30cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_bdod_0_5cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_bdod_5_15cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_bdod_15_30cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_clay_mean_0_30cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_sand_mean_0_30cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_silt_mean_0_30cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_soc_mean_0_30cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_ph_mean_0_30cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+soil_bdod_mean_0_30cm,True,True,True,True,True,Soil_Physical_Property,Pre-Planting (Static),INCLUDED_BASELINE_X
+rma_policies_sold,True,True,True,True,True,RMA_Underwriting,Pre-Harvest Underwriting,INCLUDED_MANAGEMENT_X
+rma_policies_earning_prem,True,True,True,True,True,RMA_Underwriting,Pre-Harvest Underwriting,INCLUDED_MANAGEMENT_X
+rma_net_planted_acres,True,True,True,True,True,RMA_Underwriting,Pre-Harvest Underwriting,INCLUDED_MANAGEMENT_X
+rma_liability_total,True,True,True,True,True,RMA_Underwriting,Pre-Harvest Underwriting,INCLUDED_MANAGEMENT_X
+rma_total_premium,True,True,True,True,True,RMA_Underwriting,Pre-Harvest Underwriting,INCLUDED_MANAGEMENT_X
+rma_subsidy,True,True,True,True,True,RMA_Underwriting,Pre-Harvest Underwriting,INCLUDED_MANAGEMENT_X
+rma_postharvest_policies_indemnified,True,False,False,False,False,Post_Harvest_Outcome,Post-Harvest (Dec-Apr),EXCLUDED_POST_HARVEST
+rma_postharvest_indemnity_amount,True,False,False,False,False,Post_Harvest_Outcome,Post-Harvest (Dec-Apr),EXCLUDED_POST_HARVEST
+rma_liability_per_planted_acre,True,True,True,True,True,RMA_Underwriting,Pre-Harvest Underwriting,INCLUDED_MANAGEMENT_X
+rma_premium_per_planted_acre,True,True,True,True,True,RMA_Underwriting,Pre-Harvest Underwriting,INCLUDED_MANAGEMENT_X
+rma_postharvest_loss_ratio,True,False,False,False,False,Post_Harvest_Outcome,Post-Harvest (Dec-Apr),EXCLUDED_POST_HARVEST
+state_cond_excellent_mean,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_cond_good_mean,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_cond_fair_mean,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_cond_poor_mean,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_cond_very_poor_mean,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_cond_good_excellent_mean,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_cond_poor_very_poor_mean,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_cond_rep_good_excellent_mean,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_cond_rep_poor_very_poor_mean,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_progress_planted_w20_pct,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_progress_emerged_w22_pct,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_progress_silking_w30_pct,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_progress_dough_w34_pct,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_progress_dented_w37_pct,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_progress_mature_w40_pct,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_progress_week_50pct_planted,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_progress_week_50pct_silking,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_progress_week_50pct_mature,True,True,True,True,True,Crop_Phenology_Condition,In-Season Observed (May-Oct),INCLUDED_EXTENDED_X
+state_progress_postharvest_harvested_w44_pct,True,False,False,False,False,Post_Harvest_Outcome,Post-Harvest (Dec-Apr),EXCLUDED_POST_HARVEST
+eligible_for_2026_forecast,False,False,False,True,True,Operational_Scope_Filter,Static,Scope_Filter_Flag
+rma_missing_indicator,False,False,False,True,True,Management_Missing_Flag,Pre-Harvest,INCLUDED_MANAGEMENT_X
+yield_lag_1yr,False,False,False,True,True,Historical_Yield_Memory,Pre-Planting (Calendar Aligned),INCLUDED_AUTOREGRESSIVE_X
+yield_lag_2yr,False,False,False,True,True,Historical_Yield_Memory,Pre-Planting (Calendar Aligned),INCLUDED_AUTOREGRESSIVE_X
+yield_roll_mean_5yr,False,False,False,True,True,Historical_Yield_Memory,Pre-Planting (Calendar Aligned),INCLUDED_AUTOREGRESSIVE_X

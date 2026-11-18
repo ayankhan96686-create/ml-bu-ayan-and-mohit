@@ -1,0 +1,11 @@
+Characteristic,Value,Source_Or_Notes
+Geographic Domain,"Nine US Corn Belt States (IA, IL, IN, MN, MO, NE, OH, SD, WI)",USDA NASS / Census of Agriculture
+Total Counties in Study Domain,814 counties,FIPS spatial boundary standard
+Historically Eligible Agricultural Counties,788 counties,">= 1,000 harvested corn acres historical threshold"
+Quarantined Non-Agricultural Counties,26 counties,Urban/forested counties preserved for prospective completeness
+Historical Time Series Period,2002–2025 (24 continuous calendar years),USDA NASS / NOAA NCEI / PRISM
+Total Historical County-Year Observations,"16,390 records",Authoritative historical feature table v2
+Training Partition (Model Estimation),"2002–2022 (14,691 records, 21 years)",Includes all 711 records from 2012 severe drought
+Prospective Out-of-Time Test Partition,"2023–2025 (1,699 records, 3 years)","2023 (Drought, N=632), 2024 (Bumper, N=546), 2025 (Normal, N=521)"
+Prospective Forecast Horizon,2026 (814 county forecasts),"Frozen October 15, 2026 forecast origin"
+Target Variable Definition,County average corn grain yield (bushels / harvested acre),USDA NASS QuickStats API

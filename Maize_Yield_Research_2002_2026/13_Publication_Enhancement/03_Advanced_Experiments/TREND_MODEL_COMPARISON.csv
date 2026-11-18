@@ -1,0 +1,7 @@
+Model,RMSE,MAE,R2,Bias,MAPE_pct
+1. County-Specific Linear Trend (OLS),18.8837,14.4314,0.5882,-0.5554,8.58
+2. County Robust Theil-Sen Trend,20.6309,15.3737,0.5085,2.2413,9.34
+3. Historical Rolling Mean (5-Year),20.8989,16.3862,0.4956,-7.6017,9.59
+4. Historical Exponential Smoothing (Holt),19.0851,14.4338,0.5794,1.1328,8.67
+5. Hierarchical County/State Trend,17.7676,13.6869,0.6355,-0.3628,8.18
+6. Two-Stage Trend + Environmental Anomaly (Proposed),18.6322,13.7885,0.5991,3.8123,8.38

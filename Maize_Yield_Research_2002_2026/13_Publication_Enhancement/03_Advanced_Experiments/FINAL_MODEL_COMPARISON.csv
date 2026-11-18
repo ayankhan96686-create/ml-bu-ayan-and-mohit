@@ -1,0 +1,14 @@
+Model,RMSE,MAE,R2,Bias,MAPE_pct
+Stacking Meta-Learner (Ridge OOF Blender),14.8352,11.2306,0.7459,0.4757,6.69
+LightGBM Regressor (Set J Integrated),15.4729,11.8508,0.7235,-2.7963,6.94
+Optimized Tree Triad Ensemble (HistGB+LGB+XGB),15.495,11.8823,0.7227,-2.8479,6.96
+XGBoost Regressor (Set J Integrated),15.6808,12.0234,0.7161,-2.9646,7.03
+HistGradientBoosting Regressor,15.6904,12.0673,0.7157,-2.7995,7.07
+CatBoost Regressor,15.7912,11.9709,0.712,-2.8112,7.0
+Hierarchical Mixed-Effects Regression,16.1846,12.7541,0.6975,-2.32,7.42
+Generalized Additive Model (GAM / B-Splines),16.7508,12.7001,0.676,3.1556,7.69
+Multi-Layer Perceptron (MLP),18.3509,14.4304,0.6111,4.06,8.47
+Two-Stage Trend + Environmental Anomaly,18.6322,13.7885,0.5991,3.8123,8.38
+County Linear Trend (OLS),18.8837,14.4314,0.5882,-0.5554,8.58
+County Theil-Sen Robust Trend,20.6309,15.3737,0.5085,2.2413,9.34
+Historical 5-Year Rolling Mean,20.8989,16.3862,0.4956,-7.6017,9.59

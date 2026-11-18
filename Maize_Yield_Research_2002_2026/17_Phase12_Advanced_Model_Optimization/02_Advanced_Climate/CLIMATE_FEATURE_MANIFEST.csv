@@ -1,0 +1,15 @@
+Feature_Name,Family,Biophysical_Basis,Status
+gdd_seasonal_deficit,Advanced Climate,Thermal accumulation / Atmospheric dryness / Soil interaction,Active
+heat_degree_days_may_aug,Advanced Climate,Thermal accumulation / Atmospheric dryness / Soil interaction,Active
+extreme_heat_days_july,Advanced Climate,Thermal accumulation / Atmospheric dryness / Soil interaction,Active
+consecutive_dry_days_proxy,Advanced Climate,Thermal accumulation / Atmospheric dryness / Soil interaction,Active
+seasonal_moisture_stress_index,Advanced Climate,Thermal accumulation / Atmospheric dryness / Soil interaction,Active
+edd_soil_water_deficit,Advanced Climate,Thermal accumulation / Atmospheric dryness / Soil interaction,Active
+vpd_soil_water_stress,Advanced Climate,Thermal accumulation / Atmospheric dryness / Soil interaction,Active
+gdd_may_aug_c,Advanced Climate,Thermal accumulation / Atmospheric dryness / Soil interaction,Active
+gdd_july_c,Advanced Climate,Thermal accumulation / Atmospheric dryness / Soil interaction,Active
+edd_july_f,Advanced Climate,Thermal accumulation / Atmospheric dryness / Soil interaction,Active
+edd_aug_f,Advanced Climate,Thermal accumulation / Atmospheric dryness / Soil interaction,Active
+vpd_july_kpa,Advanced Climate,Thermal accumulation / Atmospheric dryness / Soil interaction,Active
+vpd_aug_kpa,Advanced Climate,Thermal accumulation / Atmospheric dryness / Soil interaction,Active
+compound_heat_drought_july,Advanced Climate,Thermal accumulation / Atmospheric dryness / Soil interaction,Active

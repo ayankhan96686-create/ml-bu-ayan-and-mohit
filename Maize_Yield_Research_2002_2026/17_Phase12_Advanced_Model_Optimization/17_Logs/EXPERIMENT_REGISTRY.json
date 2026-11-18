@@ -1,0 +1,11 @@
+{
+  "Project": "Maize Yield Prediction 2002-2026",
+  "Phase": "Phase 12 Complete Advanced Optimization",
+  "Total_Historical_Observations": 16390,
+  "Prospective_Counties_2026": 814,
+  "Eligible_Forecast_Counties": 788,
+  "Selected_Overall_Champion": "Mixture of Experts (MoE Soft-Gated)",
+  "Selected_Drought_Champion": "Calibrated Quad-Tree Blend with MoE Stress Gating",
+  "Test_R2": 0.7552,
+  "Test_RMSE_bu_ac": 14.5821
+}

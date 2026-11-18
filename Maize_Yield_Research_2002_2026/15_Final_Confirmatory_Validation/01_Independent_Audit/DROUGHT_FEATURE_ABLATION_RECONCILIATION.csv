@@ -1,0 +1,9 @@
+Ablation_Feature_Combination,Reported_Overall_RMSE,Reported_2023_Drought_RMSE,Severe_Tail_RMSE_Under_120,Tail_Penalty_vs_Baseline,Forensic_Finding
+Full Baseline (All 69 In-Season Predictors),15.6328,16.028,29.3822,0.0,Authoritative baseline reference on strict in-season variables
+"Minus Extreme Degree Days (edd_july_f, edd_aug_f)",15.6121,16.1984,29.5446,0.1624,Collinear with VPD; overall RMSE unaffected but 2023 drought RMSE increases +0.17 bu/ac
+"Minus Vapor Pressure Deficit (vpd_july_kpa, vpd_aug_kpa)",15.5754,15.7851,29.6541,0.2719,Severe drought tail RMSE increases +0.27 bu/ac; collinear temperature masks overall RMSE
+Minus Compound Heat-Drought (compound_heat_drought_july),15.4668,15.9091,29.4058,0.0236,Interaction term provides localized gain in southern fringe (MO/SD)
+Minus July Precipitation Z-Score,15.6374,16.0531,30.0981,0.7159,Strong tail impact: removing standardized precipitation increases tail error by +0.72 bu/ac
+Minus Seasonal Precipitation Totals,15.7221,15.8701,29.8408,0.4586,Both overall RMSE (+0.09) and drought tail (+0.46) degrade
+Minus All Extreme Drought and Heat Features (Linear Climatology),16.0088,16.7982,29.5718,0.1896,Severe overall breakdown: 2023 drought RMSE increases by +0.77 bu/ac (R2 drops 0.712 -> 0.684)
+Reconciliation of '+1.98 bu/ac' Drought Tail Assertion,15.7626,16.1541,31.3643,1.9821,"CONFLATION RESOLVED: +1.9821 bu/ac is the EXACT LightGBM tail penalty from EXCLUDING 2012 TRAINING DATA (31.3643 - 29.3822 = 1.9821), which prior prose conflated with removing EDD/VPD."

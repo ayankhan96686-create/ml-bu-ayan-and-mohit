@@ -1,0 +1,56 @@
+{
+  "split_strategy": "Chronological Block (No random row shuffling)",
+  "target_ratio": "80:20",
+  "total_years": 24,
+  "train_year_range": [
+    2002,
+    2020
+  ],
+  "train_years_count": 19,
+  "train_years_ratio_pct": 79.17,
+  "test_year_range": [
+    2021,
+    2025
+  ],
+  "test_years_count": 5,
+  "test_years_ratio_pct": 20.83,
+  "prospective_year_quarantine": 2026,
+  "county_assignment_policy": "Identical year boundaries applied to all counties",
+  "train_years": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "test_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "train_observation_count": 13397,
+  "test_observation_count": 2993,
+  "total_historical_observations": 16390,
+  "train_observation_pct": 81.74,
+  "test_observation_pct": 18.26,
+  "unique_counties_in_train": 787,
+  "unique_counties_in_test": 760,
+  "temporal_overlap": false,
+  "data_leakage_risk": "Zero (Strict chronological split point at year 2020/2021 boundary)"
+}

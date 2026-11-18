@@ -1,0 +1,5 @@
+Stratum,Counties,Actual_Mean_Yield,With_2012_RMSE,Without_2012_RMSE,Delta_RMSE,With_2012_Bias,Without_2012_Bias,Delta_Bias
+Low Yield Tail (< 140 bu/ac),123,117.23,24.7743,25.8237,1.0494,15.9192,17.5804,1.6612
+Severe Stress Tail (< 120 bu/ac),56,100.65,29.6209,31.1342,1.5133,23.33,24.8753,1.5453
+Normal Yield (140 - 190 bu/ac),788,170.47,14.4552,14.2433,-0.2119,0.2589,0.5894,0.3305
+Bumper Yield (>= 190 bu/ac),788,208.18,14.6324,14.7111,0.0787,-8.7747,-9.1206,-0.3459

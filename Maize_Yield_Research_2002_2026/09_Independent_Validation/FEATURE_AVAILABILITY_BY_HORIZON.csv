@@ -1,0 +1,84 @@
+feature_name,source_dataset,observation_period,publication_timing,available_pre_planting,available_mid_season_jul15,available_late_season_aug31,available_end_of_season_nov1,is_leakage_variable,notes_and_justification
+county_fips,US Census / Reference Registry,Static / Administrative,Always available,YES,YES,YES,YES,NO,Administrative identifier. Should not be used as un-regularized numeric regressor.
+state_fips,US Census / Reference Registry,Static / Administrative,Always available,YES,YES,YES,YES,NO,Administrative identifier. Should not be used as un-regularized numeric regressor.
+state,US Census / Reference Registry,Static / Administrative,Always available,YES,YES,YES,YES,NO,Administrative identifier. Should not be used as un-regularized numeric regressor.
+state_name,US Census / Reference Registry,Static / Administrative,Always available,YES,YES,YES,YES,NO,Administrative identifier. Should not be used as un-regularized numeric regressor.
+county_name,US Census / Reference Registry,Static / Administrative,Always available,YES,YES,YES,YES,NO,Administrative identifier. Should not be used as un-regularized numeric regressor.
+year,Spine Temporal Key,Annual,Known a priori,YES,YES,YES,YES,NO,Temporal index. Used for splitting / trend modeling.
+corn_yield_bu_acre,USDA NASS QuickStats,Annual harvest (October - November),Post-harvest (December - February of following year),NO,NO,NO,NO,TARGET,PRIMARY MODEL TARGET VARIABLE. Strictly excluded from feature matrix X.
+cv_percent,USDA NASS QuickStats,Annual harvest survey,Published with final annual yield estimate (following year),NO,NO,NO,NO,YES,Target-quality metadata (NASS survey sampling error CV). 77.2% missing. Must be removed from X.
+noaa_prcp_may_in,NOAA NCEI Climate Division (ClimDiv),May 1 - May 31,June 5 - 8,NO,YES,YES,YES,NO,Early vegetative climate.
+noaa_prcp_jun_in,NOAA NCEI Climate Division (ClimDiv),June 1 - June 30,July 5 - 8,NO,YES,YES,YES,NO,Mid-vegetative climate.
+noaa_prcp_jul_in,NOAA NCEI Climate Division (ClimDiv),July 1 - July 31,August 5 - 8,NO,NO,YES,YES,NO,Silking/tasseling reproductive peak climate. Available late-season.
+noaa_prcp_aug_in,NOAA NCEI Climate Division (ClimDiv),August 1 - August 31,September 5 - 8,NO,NO,YES,YES,NO,Grain fill climate. Available late-season.
+noaa_prcp_sep_in,NOAA NCEI Climate Division (ClimDiv),September (or May-Sept),October 5 - 8,NO,NO,NO,YES,NO,Maturity month climate. NOT available for August late-season prediction!
+noaa_prcp_may_aug_in,NOAA NCEI Climate Division (ClimDiv),May 1 - August 31,September 5 - 10,NO,NO,YES,YES,NO,Full summer growing season aggregate. Available only for late-season & end-of-season.
+noaa_prcp_may_sep_in,NOAA NCEI Climate Division (ClimDiv),September (or May-Sept),October 5 - 8,NO,NO,NO,YES,NO,Maturity month climate. NOT available for August late-season prediction!
+noaa_prcp_annual_in,NOAA NCEI Climate Division (ClimDiv),January 1 - December 31,January 8 - 15 of following year,NO,NO,NO,NO,YES,Full annual precipitation. Includes post-harvest Q4 rain. LEAKAGE for in-season forecasting!
+noaa_tmean_may_aug_f,NOAA NCEI Climate Division (ClimDiv),May 1 - August 31,September 5 - 10,NO,NO,YES,YES,NO,Full summer growing season aggregate. Available only for late-season & end-of-season.
+noaa_tmax_jul_f,NOAA NCEI Climate Division (ClimDiv),July 1 - July 31,August 5 - 8,NO,NO,YES,YES,NO,Silking/tasseling reproductive peak climate. Available late-season.
+noaa_tmax_aug_f,NOAA NCEI Climate Division (ClimDiv),August 1 - August 31,September 5 - 8,NO,NO,YES,YES,NO,Grain fill climate. Available late-season.
+noaa_tmax_may_aug_f,NOAA NCEI Climate Division (ClimDiv),May 1 - August 31,September 5 - 10,NO,NO,YES,YES,NO,Full summer growing season aggregate. Available only for late-season & end-of-season.
+noaa_tmin_may_aug_f,NOAA NCEI Climate Division (ClimDiv),May 1 - August 31,September 5 - 10,NO,NO,YES,YES,NO,Full summer growing season aggregate. Available only for late-season & end-of-season.
+noaa_heat_stress_max_f,Spine / Geographic Ref,Static,Pre-season,YES,YES,YES,YES,NO,Standard geographic coordinate or administrative identifier
+prism_ppt_mm,PRISM Climate Group (Oregon State),Calendar year annual grid,February of following year (final PRISM),NO,NO,NO,NO,YES,Annual PRISM aggregations span full calendar year (Jan-Dec). Retrospective only; leak for within-season.
+prism_tmean_c,PRISM Climate Group (Oregon State),Calendar year annual grid,February of following year (final PRISM),NO,NO,NO,NO,YES,Annual PRISM aggregations span full calendar year (Jan-Dec). Retrospective only; leak for within-season.
+prism_tmin_c,PRISM Climate Group (Oregon State),Calendar year annual grid,February of following year (final PRISM),NO,NO,NO,NO,YES,Annual PRISM aggregations span full calendar year (Jan-Dec). Retrospective only; leak for within-season.
+prism_tmax_c,PRISM Climate Group (Oregon State),Calendar year annual grid,February of following year (final PRISM),NO,NO,NO,NO,YES,Annual PRISM aggregations span full calendar year (Jan-Dec). Retrospective only; leak for within-season.
+prism_valid_coverage_pct,PRISM Climate Group (Oregon State),Zonal QC,Post-raster processing,YES,YES,YES,YES,NO,Data quality mask. Not an agronomic predictor.
+soil_intptlat,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_intptlon,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_clay_0_5cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_clay_5_15cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_clay_15_30cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_sand_0_5cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_sand_5_15cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_sand_15_30cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_silt_0_5cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_silt_5_15cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_silt_15_30cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_soc_0_5cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_soc_5_15cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_soc_15_30cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_phh2o_0_5cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_phh2o_5_15cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_phh2o_15_30cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_bdod_0_5cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_bdod_5_15cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_bdod_15_30cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_clay_mean_0_30cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_sand_mean_0_30cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_silt_mean_0_30cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_soc_mean_0_30cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_ph_mean_0_30cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+soil_bdod_mean_0_30cm,ISRIC SoilGrids 2.0,Static edaphic profile,Historical baseline,YES,YES,YES,YES,NO,Static physical soil property. Completely permissible across all prediction horizons.
+rma_policies_sold,USDA Risk Management Agency (RMA),Crop insurance enrollment / Acreage reporting,Acreage reporting deadline is July 15; finalized August/September,NO,CONDITIONAL,YES,YES,NO,Policy sales and liability. Only permissible after acreage reporting is finalized.
+rma_policies_earning_prem,USDA Risk Management Agency (RMA),Crop insurance enrollment / Acreage reporting,Acreage reporting deadline is July 15; finalized August/September,NO,CONDITIONAL,YES,YES,NO,Policy sales and liability. Only permissible after acreage reporting is finalized.
+rma_net_planted_acres,USDA Risk Management Agency (RMA),Crop insurance enrollment / Acreage reporting,Acreage reporting deadline is July 15; finalized August/September,NO,CONDITIONAL,YES,YES,NO,Policy sales and liability. Only permissible after acreage reporting is finalized.
+rma_liability_total,USDA Risk Management Agency (RMA),Crop insurance enrollment / Acreage reporting,Acreage reporting deadline is July 15; finalized August/September,NO,CONDITIONAL,YES,YES,NO,Policy sales and liability. Only permissible after acreage reporting is finalized.
+rma_total_premium,USDA Risk Management Agency (RMA),Crop insurance enrollment / Acreage reporting,Acreage reporting deadline is July 15; finalized August/September,NO,CONDITIONAL,YES,YES,NO,Policy sales and liability. Only permissible after acreage reporting is finalized.
+rma_subsidy,USDA Risk Management Agency (RMA),Crop insurance enrollment / Acreage reporting,Acreage reporting deadline is July 15; finalized August/September,NO,CONDITIONAL,YES,YES,NO,Policy sales and liability. Only permissible after acreage reporting is finalized.
+rma_postharvest_policies_indemnified,USDA Risk Management Agency (RMA),Full insurance crop year indemnity settlement,November - March following year,NO,NO,NO,NO,YES,DIRECT POST-HARVEST INDEMNITY LEAKAGE. Strictly prohibited from all predictive models.
+rma_postharvest_indemnity_amount,USDA Risk Management Agency (RMA),Full insurance crop year indemnity settlement,November - March following year,NO,NO,NO,NO,YES,DIRECT POST-HARVEST INDEMNITY LEAKAGE. Strictly prohibited from all predictive models.
+rma_liability_per_planted_acre,USDA Risk Management Agency (RMA),Crop insurance enrollment / Acreage reporting,Acreage reporting deadline is July 15; finalized August/September,NO,CONDITIONAL,YES,YES,NO,Policy sales and liability. Only permissible after acreage reporting is finalized.
+rma_premium_per_planted_acre,USDA Risk Management Agency (RMA),Crop insurance enrollment / Acreage reporting,Acreage reporting deadline is July 15; finalized August/September,NO,CONDITIONAL,YES,YES,NO,Policy sales and liability. Only permissible after acreage reporting is finalized.
+rma_postharvest_loss_ratio,USDA Risk Management Agency (RMA),Full insurance crop year indemnity settlement,November - March following year,NO,NO,NO,NO,YES,DIRECT POST-HARVEST INDEMNITY LEAKAGE. Strictly prohibited from all predictive models.
+state_cond_excellent_mean,USDA NASS Crop Progress & Condition,Full season weekly averages,Late October,NO,NO,NO,YES,NO,Full-season condition average. Leaks September/October condition into earlier horizons.
+state_cond_good_mean,USDA NASS Crop Progress & Condition,Full season weekly averages,Late October,NO,NO,NO,YES,NO,Full-season condition average. Leaks September/October condition into earlier horizons.
+state_cond_fair_mean,USDA NASS Crop Progress & Condition,Full season weekly averages,Late October,NO,NO,NO,YES,NO,Full-season condition average. Leaks September/October condition into earlier horizons.
+state_cond_poor_mean,USDA NASS Crop Progress & Condition,Full season weekly averages,Late October,NO,NO,NO,YES,NO,Full-season condition average. Leaks September/October condition into earlier horizons.
+state_cond_very_poor_mean,USDA NASS Crop Progress & Condition,Full season weekly averages,Late October,NO,NO,NO,YES,NO,Full-season condition average. Leaks September/October condition into earlier horizons.
+state_cond_good_excellent_mean,USDA NASS Crop Progress & Condition,Full season weekly averages,Late October,NO,NO,NO,YES,NO,Full-season condition average. Leaks September/October condition into earlier horizons.
+state_cond_poor_very_poor_mean,USDA NASS Crop Progress & Condition,Full season weekly averages,Late October,NO,NO,NO,YES,NO,Full-season condition average. Leaks September/October condition into earlier horizons.
+state_cond_rep_good_excellent_mean,USDA NASS Crop Progress & Condition,"Reproductive weeks (Weeks 28 - 42, July to mid-October)",Mid-October,NO,NO,NO,YES,NO,Includes condition through week 42 (harvest start). Inadmissible for August prediction!
+state_cond_rep_poor_very_poor_mean,USDA NASS Crop Progress & Condition,"Reproductive weeks (Weeks 28 - 42, July to mid-October)",Mid-October,NO,NO,NO,YES,NO,Includes condition through week 42 (harvest start). Inadmissible for August prediction!
+state_progress_planted_w20_pct,USDA NASS Crop Progress,Week 20 (~mid-May),Mid-May,NO,YES,YES,YES,NO,Planting progress. Available for mid-season and later.
+state_progress_emerged_w22_pct,USDA NASS Crop Progress,Week 22 (~early June),Early June,NO,YES,YES,YES,NO,Emergence progress.
+state_progress_silking_w30_pct,USDA NASS Crop Progress,Week 30 (~late July),Late July,NO,NO,YES,YES,NO,Silking progress. Available for late-season.
+state_progress_dough_w34_pct,USDA NASS Crop Progress,Week 34 (~late August),Late August,NO,NO,YES,YES,NO,Dough stage progress.
+state_progress_dented_w37_pct,USDA NASS Crop Progress,Week 37-40 (September - early October),September - October,NO,NO,NO,YES,NO,Dent and maturity progress. NOT available for August late-season horizon!
+state_progress_mature_w40_pct,USDA NASS Crop Progress,Week 37-40 (September - early October),September - October,NO,NO,NO,YES,NO,Dent and maturity progress. NOT available for August late-season horizon!
+state_progress_week_50pct_planted,USDA NASS Crop Progress,Computed phenological transition milestone,Variable depending on phase,YES,YES,YES,YES,NO,Milestone week index. Inadmissible until that specific milestone has occurred.
+state_progress_week_50pct_silking,USDA NASS Crop Progress,Computed phenological transition milestone,Variable depending on phase,YES,YES,YES,YES,NO,Milestone week index. Inadmissible until that specific milestone has occurred.
+state_progress_week_50pct_mature,USDA NASS Crop Progress,Computed phenological transition milestone,Variable depending on phase,YES,YES,YES,YES,NO,Milestone week index. Inadmissible until that specific milestone has occurred.
+state_progress_postharvest_harvested_w44_pct,USDA NASS Crop Progress,Week 44 (~early November),November,NO,NO,NO,NO,YES,POST-HARVEST HARVEST COMPLETION RATE. Pure leakage.

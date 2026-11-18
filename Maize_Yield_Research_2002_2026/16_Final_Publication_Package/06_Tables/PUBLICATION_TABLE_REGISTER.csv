@@ -1,0 +1,16 @@
+Table_Number,Table_Title,Filename,Rows
+Table 1,Characteristics of the multi-decadal US Corn Belt maize panel dataset (2002–2026),TABLE_01_DATASET_CHARACTERISTICS.csv,10
+Table 2,Feature family taxonomy and biophysical rationale for county maize yield prediction,TABLE_02_FEATURE_FAMILY_DEFINITIONS.csv,7
+Table 3,"Data sources, spatial-temporal resolutions, and operational release timelines",TABLE_03_FEATURE_SOURCES_AND_AVAILABILITY.csv,6
+Table 4,"Mathematical architectures, base algorithms, and hyperparameter specifications of evaluated models",TABLE_04_MODEL_CONFIGURATIONS.csv,12
+Table 5,"Predictive performance of baseline statistical, naïve lag, and linear reference models",TABLE_05_BASELINE_MODEL_PERFORMANCE.csv,5
+Table 6,Controlled feature-family ablation benchmark demonstrating incremental value of environmental predictors,TABLE_06_CONTROLLED_FEATURE_ABLATION.csv,5
+Table 7,Comprehensive performance benchmark of candidate architectures on prospective test set (2023–2025),TABLE_07_OVERALL_MODEL_LEADERBOARD.csv,13
+Table 8,Model performance evaluated specifically in severe drought tail (<120 bu/ac) and 2023 drought cohort,TABLE_08_DROUGHT_SPECIFIC_LEADERBOARD.csv,12
+Table 9,Impact of retaining versus excluding 2012 severe drought observations on out-of-time model performance,TABLE_09_2012_DATA_RETENTION_SENSITIVITY.csv,6
+Table 10,Systematic benchmarking of scaled and unscaled loss functions across gradient boosted tree frameworks,TABLE_10_ROBUST_LOSS_FUNCTION_COMPARISON.csv,22
+Table 11,Expanding rolling-origin temporal validation across seven distinct growing seasons (2019–2025),TABLE_11_ROLLING_ORIGIN_TEMPORAL_VALIDATION.csv,8
+Table 12,Spatial Leave-One-State-Out (LOSO) validation comparing warm-start vs cold-start transferability,TABLE_12_SPATIAL_LEAVE_ONE_STATE_OUT.csv,10
+Table 13,"Conformal prediction interval empirical coverage validation across agroclimatic regimes (80%, 90%, 95%)",TABLE_13_PREDICTION_INTERVAL_VALIDATION.csv,12
+Table 14,Historical reconciliation of prospective 2026 Corn Belt forecasts across project phases,TABLE_14_FORECAST_RECONCILIATION_HISTORY.csv,6
+Table 15,Acreage-weighted regional maize grain production aggregation across the nine Corn Belt states,TABLE_15_REGIONAL_PRODUCTION_AGGREGATION.csv,10

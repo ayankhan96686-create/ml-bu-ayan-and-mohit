@@ -1,0 +1,13 @@
+Model_Architecture,Severe_Tail_N,Severe_Tail_Actual_Mean,Severe_Tail_Predicted_Mean,Severe_Tail_RMSE_bu_ac,Severe_Tail_MAE_bu_ac,Severe_Tail_Bias_bu_ac,Severe_Tail_Loss_Capture_Pct,Drought_2023_Cohort_N,Drought_2023_RMSE_bu_ac,Drought_2023_MAE_bu_ac,Drought_2023_R2,Drought_Robustness_Rank
+Ridge Stacking Meta-Learner,56,100.65,122.45,29.259,23.9349,21.8031,72.52,632,15.9616,11.9794,0.7148,#2 Drought Robust (Overall #1)
+Calibrated Quad-Tree Blend,56,100.65,124.19,29.7241,24.357,23.5441,70.33,632,15.8914,11.9148,0.7173,#1 Pure-Tree Drought Champion
+Tree-Based Voting Metamodel,56,100.65,124.82,30.6418,25.2936,24.1706,69.54,632,16.4393,12.4795,0.6975,Baseline Candidate
+LightGBM Regressor,56,100.65,123.5,29.3822,24.0506,22.8455,71.21,632,16.028,12.167,0.7124,Baseline Candidate
+XGBoost Regressor,56,100.65,123.45,29.7439,24.3383,22.7972,71.27,632,16.0527,11.965,0.7115,Baseline Candidate
+CatBoost Regressor,56,100.65,124.59,30.1448,24.9647,23.9426,69.83,632,16.1298,11.9666,0.7088,Baseline Candidate
+HistGradientBoosting Regressor,56,100.65,125.67,30.6834,25.313,25.0156,68.47,632,16.2337,12.2504,0.705,Baseline Candidate
+Random Forest Regressor,56,100.65,127.45,34.4994,28.553,26.7951,66.23,632,20.1092,15.6565,0.5473,Baseline Candidate
+Extra Trees Regressor,56,100.65,127.36,33.6618,28.2142,26.7133,66.33,632,17.7452,13.8795,0.6475,Baseline Candidate
+Multilayer Perceptron (MLP),56,100.65,124.25,32.4798,26.8234,23.6033,70.25,632,21.9023,17.5439,0.463,Baseline Candidate
+Ridge Linear Regressor,56,100.65,132.79,37.5282,32.8215,32.1408,59.49,632,16.661,12.4795,0.6893,Baseline Candidate
+LASSO Linear Regressor,56,100.65,132.51,38.0872,32.6879,31.8605,59.85,632,16.2162,12.0781,0.7056,Baseline Candidate

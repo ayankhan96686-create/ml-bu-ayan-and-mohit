@@ -1,0 +1,7 @@
+Model,Exclusion_Method,With_2012_RMSE,Without_2012_RMSE,Delta_RMSE,With_2012_MAE,Without_2012_MAE,Delta_MAE,With_2012_R2,Without_2012_R2,Delta_R2,With_2012_Bias,Without_2012_Bias,Delta_Bias,Drought_Tail_With_RMSE,Drought_Tail_Without_RMSE,Drought_Tail_Delta_RMSE,Drought_Tail_With_Bias,Drought_Tail_Without_Bias
+LightGBM,Training Row Exclusion Only (Lags Preserved),15.6328,15.7626,0.1298,12.0089,12.0273,0.0184,0.7178,0.7131,-0.0047,-2.7219,-2.5202,0.2017,29.3822,31.3643,1.9821,22.8455,24.5945
+XGBoost,Training Row Exclusion Only (Lags Preserved),15.6914,15.6431,-0.0483,11.9732,11.9698,-0.0034,0.7157,0.7174,0.0017,-2.7466,-2.946,-0.1994,29.7439,31.1169,1.373,22.7972,24.1677
+HistGradientBoosting,Training Row Exclusion Only (Lags Preserved),15.6414,15.6915,0.0501,11.9588,11.9075,-0.0513,0.7175,0.7157,-0.0018,-3.0764,-2.3891,0.6873,30.1023,30.8941,0.7918,23.9447,24.0285
+CatBoost,Training Row Exclusion Only (Lags Preserved),15.7898,16.0195,0.2297,11.9486,12.1478,0.1992,0.7121,0.7037,-0.0084,-2.7197,-2.9398,-0.2201,30.1448,31.7764,1.6316,23.9426,26.5121
+Calibrated Quad-Tree Ensemble,Training Row Exclusion Only (Lags Preserved),15.5129,15.5803,0.0674,11.8243,11.8442,0.0199,0.7221,0.7197,-0.0024,-2.7972,-2.6841,0.1131,29.6209,31.1342,1.5133,23.33,24.8753
+LightGBM (Lag-Corrupted Simulation),Calendar Spine Deletion (2013-2017 Rolling Means Inflated +9.5 bu/ac),15.7898,15.9036,0.1138,11.9486,12.0482,0.0996,0.7121,0.7079,-0.0042,-2.7197,-3.4981,-0.7784,30.1448,30.5912,0.4464,23.9426,22.9523

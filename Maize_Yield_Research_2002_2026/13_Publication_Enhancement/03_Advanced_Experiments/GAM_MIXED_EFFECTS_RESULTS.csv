@@ -1,0 +1,3 @@
+Model,RMSE,MAE,R2,Bias,MAPE_pct
+Generalized Additive Model (GAM / B-Splines),16.7508,12.7001,0.676,3.1556,7.69
+Hierarchical Mixed-Effects Regression (Ridge),16.1846,12.7541,0.6975,-2.32,7.42

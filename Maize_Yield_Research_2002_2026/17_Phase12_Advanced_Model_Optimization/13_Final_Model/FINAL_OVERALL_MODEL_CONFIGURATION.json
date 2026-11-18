@@ -1,0 +1,14 @@
+{
+  "Model_Name": "Phase 12 Mixture of Experts (MoE Gated Stacking)",
+  "Architecture": "Dual-Expert Soft-Gated Tree Ensemble",
+  "Gating_Mechanism": "Sigmoid Environmental Stress Gating on VPD, EDD, and Soil AWC",
+  "Base_Learners": [
+    "LightGBM",
+    "XGBoost",
+    "CatBoost"
+  ],
+  "Sample_Weighted_Expert": "XGBoost Drought-Tail Specialist (Weight slope 3.0)",
+  "Features_Count": 117,
+  "Test_RMSE_bu_ac": 15.8225,
+  "Test_R2": 0.7109
+}

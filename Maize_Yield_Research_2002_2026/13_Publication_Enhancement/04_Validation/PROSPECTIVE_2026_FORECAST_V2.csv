@@ -1,0 +1,815 @@
+county_fips,state,state_name,county_name,year,forecast_version,predicted_yield_bu_acre,forecast_cutoff_date,operational_status
+19001,IA,Iowa,Adair County,2026,v2.0_Integrated_NextGen,197.31,2026-10-15,Prospective Unlabeled Forecast
+19003,IA,Iowa,Adams County,2026,v2.0_Integrated_NextGen,171.94,2026-10-15,Prospective Unlabeled Forecast
+19005,IA,Iowa,Allamakee County,2026,v2.0_Integrated_NextGen,215.79,2026-10-15,Prospective Unlabeled Forecast
+19007,IA,Iowa,Appanoose County,2026,v2.0_Integrated_NextGen,170.74,2026-10-15,Prospective Unlabeled Forecast
+19009,IA,Iowa,Audubon County,2026,v2.0_Integrated_NextGen,199.8,2026-10-15,Prospective Unlabeled Forecast
+19011,IA,Iowa,Benton County,2026,v2.0_Integrated_NextGen,207.98,2026-10-15,Prospective Unlabeled Forecast
+19013,IA,Iowa,Black Hawk County,2026,v2.0_Integrated_NextGen,215.15,2026-10-15,Prospective Unlabeled Forecast
+19015,IA,Iowa,Boone County,2026,v2.0_Integrated_NextGen,206.68,2026-10-15,Prospective Unlabeled Forecast
+19017,IA,Iowa,Bremer County,2026,v2.0_Integrated_NextGen,219.63,2026-10-15,Prospective Unlabeled Forecast
+19019,IA,Iowa,Buchanan County,2026,v2.0_Integrated_NextGen,209.71,2026-10-15,Prospective Unlabeled Forecast
+19021,IA,Iowa,Buena Vista County,2026,v2.0_Integrated_NextGen,208.08,2026-10-15,Prospective Unlabeled Forecast
+19023,IA,Iowa,Butler County,2026,v2.0_Integrated_NextGen,216.45,2026-10-15,Prospective Unlabeled Forecast
+19025,IA,Iowa,Calhoun County,2026,v2.0_Integrated_NextGen,203.02,2026-10-15,Prospective Unlabeled Forecast
+19027,IA,Iowa,Carroll County,2026,v2.0_Integrated_NextGen,197.62,2026-10-15,Prospective Unlabeled Forecast
+19029,IA,Iowa,Cass County,2026,v2.0_Integrated_NextGen,194.01,2026-10-15,Prospective Unlabeled Forecast
+19031,IA,Iowa,Cedar County,2026,v2.0_Integrated_NextGen,211.63,2026-10-15,Prospective Unlabeled Forecast
+19033,IA,Iowa,Cerro Gordo County,2026,v2.0_Integrated_NextGen,211.81,2026-10-15,Prospective Unlabeled Forecast
+19035,IA,Iowa,Cherokee County,2026,v2.0_Integrated_NextGen,210.51,2026-10-15,Prospective Unlabeled Forecast
+19037,IA,Iowa,Chickasaw County,2026,v2.0_Integrated_NextGen,216.83,2026-10-15,Prospective Unlabeled Forecast
+19039,IA,Iowa,Clarke County,2026,v2.0_Integrated_NextGen,172.78,2026-10-15,Prospective Unlabeled Forecast
+19041,IA,Iowa,Clay County,2026,v2.0_Integrated_NextGen,199.5,2026-10-15,Prospective Unlabeled Forecast
+19043,IA,Iowa,Clayton County,2026,v2.0_Integrated_NextGen,213.78,2026-10-15,Prospective Unlabeled Forecast
+19045,IA,Iowa,Clinton County,2026,v2.0_Integrated_NextGen,213.86,2026-10-15,Prospective Unlabeled Forecast
+19047,IA,Iowa,Crawford County,2026,v2.0_Integrated_NextGen,210.52,2026-10-15,Prospective Unlabeled Forecast
+19049,IA,Iowa,Dallas County,2026,v2.0_Integrated_NextGen,204.66,2026-10-15,Prospective Unlabeled Forecast
+19051,IA,Iowa,Davis County,2026,v2.0_Integrated_NextGen,180.85,2026-10-15,Prospective Unlabeled Forecast
+19053,IA,Iowa,Decatur County,2026,v2.0_Integrated_NextGen,178.22,2026-10-15,Prospective Unlabeled Forecast
+19055,IA,Iowa,Delaware County,2026,v2.0_Integrated_NextGen,209.64,2026-10-15,Prospective Unlabeled Forecast
+19057,IA,Iowa,Des Moines County,2026,v2.0_Integrated_NextGen,206.76,2026-10-15,Prospective Unlabeled Forecast
+19059,IA,Iowa,Dickinson County,2026,v2.0_Integrated_NextGen,205.99,2026-10-15,Prospective Unlabeled Forecast
+19061,IA,Iowa,Dubuque County,2026,v2.0_Integrated_NextGen,211.79,2026-10-15,Prospective Unlabeled Forecast
+19063,IA,Iowa,Emmet County,2026,v2.0_Integrated_NextGen,213.8,2026-10-15,Prospective Unlabeled Forecast
+19065,IA,Iowa,Fayette County,2026,v2.0_Integrated_NextGen,212.22,2026-10-15,Prospective Unlabeled Forecast
+19067,IA,Iowa,Floyd County,2026,v2.0_Integrated_NextGen,215.5,2026-10-15,Prospective Unlabeled Forecast
+19069,IA,Iowa,Franklin County,2026,v2.0_Integrated_NextGen,213.82,2026-10-15,Prospective Unlabeled Forecast
+19071,IA,Iowa,Fremont County,2026,v2.0_Integrated_NextGen,191.77,2026-10-15,Prospective Unlabeled Forecast
+19073,IA,Iowa,Greene County,2026,v2.0_Integrated_NextGen,204.59,2026-10-15,Prospective Unlabeled Forecast
+19075,IA,Iowa,Grundy County,2026,v2.0_Integrated_NextGen,217.22,2026-10-15,Prospective Unlabeled Forecast
+19077,IA,Iowa,Guthrie County,2026,v2.0_Integrated_NextGen,175.87,2026-10-15,Prospective Unlabeled Forecast
+19079,IA,Iowa,Hamilton County,2026,v2.0_Integrated_NextGen,216.42,2026-10-15,Prospective Unlabeled Forecast
+19081,IA,Iowa,Hancock County,2026,v2.0_Integrated_NextGen,214.17,2026-10-15,Prospective Unlabeled Forecast
+19083,IA,Iowa,Hardin County,2026,v2.0_Integrated_NextGen,214.7,2026-10-15,Prospective Unlabeled Forecast
+19085,IA,Iowa,Harrison County,2026,v2.0_Integrated_NextGen,189.22,2026-10-15,Prospective Unlabeled Forecast
+19087,IA,Iowa,Henry County,2026,v2.0_Integrated_NextGen,191.43,2026-10-15,Prospective Unlabeled Forecast
+19089,IA,Iowa,Howard County,2026,v2.0_Integrated_NextGen,218.94,2026-10-15,Prospective Unlabeled Forecast
+19091,IA,Iowa,Humboldt County,2026,v2.0_Integrated_NextGen,209.42,2026-10-15,Prospective Unlabeled Forecast
+19093,IA,Iowa,Ida County,2026,v2.0_Integrated_NextGen,214.19,2026-10-15,Prospective Unlabeled Forecast
+19095,IA,Iowa,Iowa County,2026,v2.0_Integrated_NextGen,205.46,2026-10-15,Prospective Unlabeled Forecast
+19097,IA,Iowa,Jackson County,2026,v2.0_Integrated_NextGen,210.81,2026-10-15,Prospective Unlabeled Forecast
+19099,IA,Iowa,Jasper County,2026,v2.0_Integrated_NextGen,205.42,2026-10-15,Prospective Unlabeled Forecast
+19101,IA,Iowa,Jefferson County,2026,v2.0_Integrated_NextGen,188.72,2026-10-15,Prospective Unlabeled Forecast
+19103,IA,Iowa,Johnson County,2026,v2.0_Integrated_NextGen,210.77,2026-10-15,Prospective Unlabeled Forecast
+19105,IA,Iowa,Jones County,2026,v2.0_Integrated_NextGen,209.57,2026-10-15,Prospective Unlabeled Forecast
+19107,IA,Iowa,Keokuk County,2026,v2.0_Integrated_NextGen,191.69,2026-10-15,Prospective Unlabeled Forecast
+19109,IA,Iowa,Kossuth County,2026,v2.0_Integrated_NextGen,210.39,2026-10-15,Prospective Unlabeled Forecast
+19111,IA,Iowa,Lee County,2026,v2.0_Integrated_NextGen,196.44,2026-10-15,Prospective Unlabeled Forecast
+19113,IA,Iowa,Linn County,2026,v2.0_Integrated_NextGen,209.89,2026-10-15,Prospective Unlabeled Forecast
+19115,IA,Iowa,Louisa County,2026,v2.0_Integrated_NextGen,202.52,2026-10-15,Prospective Unlabeled Forecast
+19117,IA,Iowa,Lucas County,2026,v2.0_Integrated_NextGen,176.23,2026-10-15,Prospective Unlabeled Forecast
+19119,IA,Iowa,Lyon County,2026,v2.0_Integrated_NextGen,196.46,2026-10-15,Prospective Unlabeled Forecast
+19121,IA,Iowa,Madison County,2026,v2.0_Integrated_NextGen,197.02,2026-10-15,Prospective Unlabeled Forecast
+19123,IA,Iowa,Mahaska County,2026,v2.0_Integrated_NextGen,204.52,2026-10-15,Prospective Unlabeled Forecast
+19125,IA,Iowa,Marion County,2026,v2.0_Integrated_NextGen,205.1,2026-10-15,Prospective Unlabeled Forecast
+19127,IA,Iowa,Marshall County,2026,v2.0_Integrated_NextGen,210.1,2026-10-15,Prospective Unlabeled Forecast
+19129,IA,Iowa,Mills County,2026,v2.0_Integrated_NextGen,189.64,2026-10-15,Prospective Unlabeled Forecast
+19131,IA,Iowa,Mitchell County,2026,v2.0_Integrated_NextGen,215.99,2026-10-15,Prospective Unlabeled Forecast
+19133,IA,Iowa,Monona County,2026,v2.0_Integrated_NextGen,192.5,2026-10-15,Prospective Unlabeled Forecast
+19135,IA,Iowa,Monroe County,2026,v2.0_Integrated_NextGen,184.31,2026-10-15,Prospective Unlabeled Forecast
+19137,IA,Iowa,Montgomery County,2026,v2.0_Integrated_NextGen,191.54,2026-10-15,Prospective Unlabeled Forecast
+19139,IA,Iowa,Muscatine County,2026,v2.0_Integrated_NextGen,207.25,2026-10-15,Prospective Unlabeled Forecast
+19141,IA,Iowa,O'Brien County,2026,v2.0_Integrated_NextGen,209.8,2026-10-15,Prospective Unlabeled Forecast
+19143,IA,Iowa,Osceola County,2026,v2.0_Integrated_NextGen,211.73,2026-10-15,Prospective Unlabeled Forecast
+19145,IA,Iowa,Page County,2026,v2.0_Integrated_NextGen,181.75,2026-10-15,Prospective Unlabeled Forecast
+19147,IA,Iowa,Palo Alto County,2026,v2.0_Integrated_NextGen,203.12,2026-10-15,Prospective Unlabeled Forecast
+19149,IA,Iowa,Plymouth County,2026,v2.0_Integrated_NextGen,201.58,2026-10-15,Prospective Unlabeled Forecast
+19151,IA,Iowa,Pocahontas County,2026,v2.0_Integrated_NextGen,204.79,2026-10-15,Prospective Unlabeled Forecast
+19153,IA,Iowa,Polk County,2026,v2.0_Integrated_NextGen,206.28,2026-10-15,Prospective Unlabeled Forecast
+19155,IA,Iowa,Pottawattamie County,2026,v2.0_Integrated_NextGen,192.66,2026-10-15,Prospective Unlabeled Forecast
+19157,IA,Iowa,Poweshiek County,2026,v2.0_Integrated_NextGen,203.86,2026-10-15,Prospective Unlabeled Forecast
+19159,IA,Iowa,Ringgold County,2026,v2.0_Integrated_NextGen,166.38,2026-10-15,Prospective Unlabeled Forecast
+19161,IA,Iowa,Sac County,2026,v2.0_Integrated_NextGen,213.74,2026-10-15,Prospective Unlabeled Forecast
+19163,IA,Iowa,Scott County,2026,v2.0_Integrated_NextGen,218.08,2026-10-15,Prospective Unlabeled Forecast
+19165,IA,Iowa,Shelby County,2026,v2.0_Integrated_NextGen,175.39,2026-10-15,Prospective Unlabeled Forecast
+19167,IA,Iowa,Sioux County,2026,v2.0_Integrated_NextGen,202.56,2026-10-15,Prospective Unlabeled Forecast
+19169,IA,Iowa,Story County,2026,v2.0_Integrated_NextGen,208.29,2026-10-15,Prospective Unlabeled Forecast
+19171,IA,Iowa,Tama County,2026,v2.0_Integrated_NextGen,206.28,2026-10-15,Prospective Unlabeled Forecast
+19173,IA,Iowa,Taylor County,2026,v2.0_Integrated_NextGen,175.53,2026-10-15,Prospective Unlabeled Forecast
+19175,IA,Iowa,Union County,2026,v2.0_Integrated_NextGen,192.45,2026-10-15,Prospective Unlabeled Forecast
+19177,IA,Iowa,Van Buren County,2026,v2.0_Integrated_NextGen,176.72,2026-10-15,Prospective Unlabeled Forecast
+19179,IA,Iowa,Wapello County,2026,v2.0_Integrated_NextGen,194.33,2026-10-15,Prospective Unlabeled Forecast
+19181,IA,Iowa,Warren County,2026,v2.0_Integrated_NextGen,197.87,2026-10-15,Prospective Unlabeled Forecast
+19183,IA,Iowa,Washington County,2026,v2.0_Integrated_NextGen,203.47,2026-10-15,Prospective Unlabeled Forecast
+19185,IA,Iowa,Wayne County,2026,v2.0_Integrated_NextGen,178.09,2026-10-15,Prospective Unlabeled Forecast
+19187,IA,Iowa,Webster County,2026,v2.0_Integrated_NextGen,211.25,2026-10-15,Prospective Unlabeled Forecast
+19189,IA,Iowa,Winnebago County,2026,v2.0_Integrated_NextGen,213.7,2026-10-15,Prospective Unlabeled Forecast
+19191,IA,Iowa,Winneshiek County,2026,v2.0_Integrated_NextGen,214.84,2026-10-15,Prospective Unlabeled Forecast
+19193,IA,Iowa,Woodbury County,2026,v2.0_Integrated_NextGen,203.21,2026-10-15,Prospective Unlabeled Forecast
+19195,IA,Iowa,Worth County,2026,v2.0_Integrated_NextGen,216.21,2026-10-15,Prospective Unlabeled Forecast
+19197,IA,Iowa,Wright County,2026,v2.0_Integrated_NextGen,209.13,2026-10-15,Prospective Unlabeled Forecast
+17001,IL,Illinois,Adams County,2026,v2.0_Integrated_NextGen,193.26,2026-10-15,Prospective Unlabeled Forecast
+17003,IL,Illinois,Alexander County,2026,v2.0_Integrated_NextGen,157.61,2026-10-15,Prospective Unlabeled Forecast
+17005,IL,Illinois,Bond County,2026,v2.0_Integrated_NextGen,178.35,2026-10-15,Prospective Unlabeled Forecast
+17007,IL,Illinois,Boone County,2026,v2.0_Integrated_NextGen,206.93,2026-10-15,Prospective Unlabeled Forecast
+17009,IL,Illinois,Brown County,2026,v2.0_Integrated_NextGen,182.18,2026-10-15,Prospective Unlabeled Forecast
+17011,IL,Illinois,Bureau County,2026,v2.0_Integrated_NextGen,210.46,2026-10-15,Prospective Unlabeled Forecast
+17013,IL,Illinois,Calhoun County,2026,v2.0_Integrated_NextGen,176.33,2026-10-15,Prospective Unlabeled Forecast
+17015,IL,Illinois,Carroll County,2026,v2.0_Integrated_NextGen,215.53,2026-10-15,Prospective Unlabeled Forecast
+17017,IL,Illinois,Cass County,2026,v2.0_Integrated_NextGen,184.04,2026-10-15,Prospective Unlabeled Forecast
+17019,IL,Illinois,Champaign County,2026,v2.0_Integrated_NextGen,197.0,2026-10-15,Prospective Unlabeled Forecast
+17021,IL,Illinois,Christian County,2026,v2.0_Integrated_NextGen,199.73,2026-10-15,Prospective Unlabeled Forecast
+17023,IL,Illinois,Clark County,2026,v2.0_Integrated_NextGen,194.3,2026-10-15,Prospective Unlabeled Forecast
+17025,IL,Illinois,Clay County,2026,v2.0_Integrated_NextGen,183.13,2026-10-15,Prospective Unlabeled Forecast
+17027,IL,Illinois,Clinton County,2026,v2.0_Integrated_NextGen,177.74,2026-10-15,Prospective Unlabeled Forecast
+17029,IL,Illinois,Coles County,2026,v2.0_Integrated_NextGen,201.39,2026-10-15,Prospective Unlabeled Forecast
+17031,IL,Illinois,Cook County,2026,v2.0_Integrated_NextGen,175.6,2026-10-15,Prospective Unlabeled Forecast
+17033,IL,Illinois,Crawford County,2026,v2.0_Integrated_NextGen,184.68,2026-10-15,Prospective Unlabeled Forecast
+17035,IL,Illinois,Cumberland County,2026,v2.0_Integrated_NextGen,198.04,2026-10-15,Prospective Unlabeled Forecast
+17039,IL,Illinois,De Witt County,2026,v2.0_Integrated_NextGen,170.74,2026-10-15,Prospective Unlabeled Forecast
+17037,IL,Illinois,DeKalb County,2026,v2.0_Integrated_NextGen,211.61,2026-10-15,Prospective Unlabeled Forecast
+17041,IL,Illinois,Douglas County,2026,v2.0_Integrated_NextGen,206.15,2026-10-15,Prospective Unlabeled Forecast
+17043,IL,Illinois,DuPage County,2026,v2.0_Integrated_NextGen,161.18,2026-10-15,Prospective Unlabeled Forecast
+17045,IL,Illinois,Edgar County,2026,v2.0_Integrated_NextGen,194.89,2026-10-15,Prospective Unlabeled Forecast
+17047,IL,Illinois,Edwards County,2026,v2.0_Integrated_NextGen,189.01,2026-10-15,Prospective Unlabeled Forecast
+17049,IL,Illinois,Effingham County,2026,v2.0_Integrated_NextGen,192.73,2026-10-15,Prospective Unlabeled Forecast
+17051,IL,Illinois,Fayette County,2026,v2.0_Integrated_NextGen,151.43,2026-10-15,Prospective Unlabeled Forecast
+17053,IL,Illinois,Ford County,2026,v2.0_Integrated_NextGen,196.12,2026-10-15,Prospective Unlabeled Forecast
+17055,IL,Illinois,Franklin County,2026,v2.0_Integrated_NextGen,172.5,2026-10-15,Prospective Unlabeled Forecast
+17057,IL,Illinois,Fulton County,2026,v2.0_Integrated_NextGen,197.75,2026-10-15,Prospective Unlabeled Forecast
+17059,IL,Illinois,Gallatin County,2026,v2.0_Integrated_NextGen,165.22,2026-10-15,Prospective Unlabeled Forecast
+17061,IL,Illinois,Greene County,2026,v2.0_Integrated_NextGen,191.24,2026-10-15,Prospective Unlabeled Forecast
+17063,IL,Illinois,Grundy County,2026,v2.0_Integrated_NextGen,173.6,2026-10-15,Prospective Unlabeled Forecast
+17065,IL,Illinois,Hamilton County,2026,v2.0_Integrated_NextGen,162.31,2026-10-15,Prospective Unlabeled Forecast
+17067,IL,Illinois,Hancock County,2026,v2.0_Integrated_NextGen,200.55,2026-10-15,Prospective Unlabeled Forecast
+17069,IL,Illinois,Hardin County,2026,v2.0_Integrated_NextGen,149.64,2026-10-15,Prospective Unlabeled Forecast
+17071,IL,Illinois,Henderson County,2026,v2.0_Integrated_NextGen,207.3,2026-10-15,Prospective Unlabeled Forecast
+17073,IL,Illinois,Henry County,2026,v2.0_Integrated_NextGen,201.58,2026-10-15,Prospective Unlabeled Forecast
+17075,IL,Illinois,Iroquois County,2026,v2.0_Integrated_NextGen,199.89,2026-10-15,Prospective Unlabeled Forecast
+17077,IL,Illinois,Jackson County,2026,v2.0_Integrated_NextGen,181.52,2026-10-15,Prospective Unlabeled Forecast
+17079,IL,Illinois,Jasper County,2026,v2.0_Integrated_NextGen,184.65,2026-10-15,Prospective Unlabeled Forecast
+17081,IL,Illinois,Jefferson County,2026,v2.0_Integrated_NextGen,150.06,2026-10-15,Prospective Unlabeled Forecast
+17083,IL,Illinois,Jersey County,2026,v2.0_Integrated_NextGen,190.7,2026-10-15,Prospective Unlabeled Forecast
+17085,IL,Illinois,Jo Daviess County,2026,v2.0_Integrated_NextGen,206.03,2026-10-15,Prospective Unlabeled Forecast
+17087,IL,Illinois,Johnson County,2026,v2.0_Integrated_NextGen,156.27,2026-10-15,Prospective Unlabeled Forecast
+17089,IL,Illinois,Kane County,2026,v2.0_Integrated_NextGen,202.42,2026-10-15,Prospective Unlabeled Forecast
+17091,IL,Illinois,Kankakee County,2026,v2.0_Integrated_NextGen,194.57,2026-10-15,Prospective Unlabeled Forecast
+17093,IL,Illinois,Kendall County,2026,v2.0_Integrated_NextGen,200.51,2026-10-15,Prospective Unlabeled Forecast
+17095,IL,Illinois,Knox County,2026,v2.0_Integrated_NextGen,202.04,2026-10-15,Prospective Unlabeled Forecast
+17099,IL,Illinois,LaSalle County,2026,v2.0_Integrated_NextGen,208.38,2026-10-15,Prospective Unlabeled Forecast
+17097,IL,Illinois,Lake County,2026,v2.0_Integrated_NextGen,195.04,2026-10-15,Prospective Unlabeled Forecast
+17101,IL,Illinois,Lawrence County,2026,v2.0_Integrated_NextGen,178.11,2026-10-15,Prospective Unlabeled Forecast
+17103,IL,Illinois,Lee County,2026,v2.0_Integrated_NextGen,211.18,2026-10-15,Prospective Unlabeled Forecast
+17105,IL,Illinois,Livingston County,2026,v2.0_Integrated_NextGen,200.94,2026-10-15,Prospective Unlabeled Forecast
+17107,IL,Illinois,Logan County,2026,v2.0_Integrated_NextGen,203.21,2026-10-15,Prospective Unlabeled Forecast
+17115,IL,Illinois,Macon County,2026,v2.0_Integrated_NextGen,211.38,2026-10-15,Prospective Unlabeled Forecast
+17117,IL,Illinois,Macoupin County,2026,v2.0_Integrated_NextGen,195.33,2026-10-15,Prospective Unlabeled Forecast
+17119,IL,Illinois,Madison County,2026,v2.0_Integrated_NextGen,192.76,2026-10-15,Prospective Unlabeled Forecast
+17121,IL,Illinois,Marion County,2026,v2.0_Integrated_NextGen,166.72,2026-10-15,Prospective Unlabeled Forecast
+17123,IL,Illinois,Marshall County,2026,v2.0_Integrated_NextGen,205.31,2026-10-15,Prospective Unlabeled Forecast
+17125,IL,Illinois,Mason County,2026,v2.0_Integrated_NextGen,194.74,2026-10-15,Prospective Unlabeled Forecast
+17127,IL,Illinois,Massac County,2026,v2.0_Integrated_NextGen,165.91,2026-10-15,Prospective Unlabeled Forecast
+17109,IL,Illinois,McDonough County,2026,v2.0_Integrated_NextGen,174.0,2026-10-15,Prospective Unlabeled Forecast
+17111,IL,Illinois,McHenry County,2026,v2.0_Integrated_NextGen,182.28,2026-10-15,Prospective Unlabeled Forecast
+17113,IL,Illinois,McLean County,2026,v2.0_Integrated_NextGen,203.25,2026-10-15,Prospective Unlabeled Forecast
+17129,IL,Illinois,Menard County,2026,v2.0_Integrated_NextGen,203.62,2026-10-15,Prospective Unlabeled Forecast
+17131,IL,Illinois,Mercer County,2026,v2.0_Integrated_NextGen,174.59,2026-10-15,Prospective Unlabeled Forecast
+17133,IL,Illinois,Monroe County,2026,v2.0_Integrated_NextGen,175.48,2026-10-15,Prospective Unlabeled Forecast
+17135,IL,Illinois,Montgomery County,2026,v2.0_Integrated_NextGen,196.37,2026-10-15,Prospective Unlabeled Forecast
+17137,IL,Illinois,Morgan County,2026,v2.0_Integrated_NextGen,186.67,2026-10-15,Prospective Unlabeled Forecast
+17139,IL,Illinois,Moultrie County,2026,v2.0_Integrated_NextGen,206.82,2026-10-15,Prospective Unlabeled Forecast
+17141,IL,Illinois,Ogle County,2026,v2.0_Integrated_NextGen,207.84,2026-10-15,Prospective Unlabeled Forecast
+17143,IL,Illinois,Peoria County,2026,v2.0_Integrated_NextGen,204.67,2026-10-15,Prospective Unlabeled Forecast
+17145,IL,Illinois,Perry County,2026,v2.0_Integrated_NextGen,149.09,2026-10-15,Prospective Unlabeled Forecast
+17147,IL,Illinois,Piatt County,2026,v2.0_Integrated_NextGen,209.68,2026-10-15,Prospective Unlabeled Forecast
+17149,IL,Illinois,Pike County,2026,v2.0_Integrated_NextGen,158.69,2026-10-15,Prospective Unlabeled Forecast
+17151,IL,Illinois,Pope County,2026,v2.0_Integrated_NextGen,157.54,2026-10-15,Prospective Unlabeled Forecast
+17153,IL,Illinois,Pulaski County,2026,v2.0_Integrated_NextGen,176.63,2026-10-15,Prospective Unlabeled Forecast
+17155,IL,Illinois,Putnam County,2026,v2.0_Integrated_NextGen,202.71,2026-10-15,Prospective Unlabeled Forecast
+17157,IL,Illinois,Randolph County,2026,v2.0_Integrated_NextGen,172.73,2026-10-15,Prospective Unlabeled Forecast
+17159,IL,Illinois,Richland County,2026,v2.0_Integrated_NextGen,181.06,2026-10-15,Prospective Unlabeled Forecast
+17161,IL,Illinois,Rock Island County,2026,v2.0_Integrated_NextGen,207.71,2026-10-15,Prospective Unlabeled Forecast
+17165,IL,Illinois,Saline County,2026,v2.0_Integrated_NextGen,183.42,2026-10-15,Prospective Unlabeled Forecast
+17167,IL,Illinois,Sangamon County,2026,v2.0_Integrated_NextGen,208.03,2026-10-15,Prospective Unlabeled Forecast
+17169,IL,Illinois,Schuyler County,2026,v2.0_Integrated_NextGen,193.47,2026-10-15,Prospective Unlabeled Forecast
+17171,IL,Illinois,Scott County,2026,v2.0_Integrated_NextGen,180.11,2026-10-15,Prospective Unlabeled Forecast
+17173,IL,Illinois,Shelby County,2026,v2.0_Integrated_NextGen,190.77,2026-10-15,Prospective Unlabeled Forecast
+17163,IL,Illinois,St. Clair County,2026,v2.0_Integrated_NextGen,183.57,2026-10-15,Prospective Unlabeled Forecast
+17175,IL,Illinois,Stark County,2026,v2.0_Integrated_NextGen,205.38,2026-10-15,Prospective Unlabeled Forecast
+17177,IL,Illinois,Stephenson County,2026,v2.0_Integrated_NextGen,206.25,2026-10-15,Prospective Unlabeled Forecast
+17179,IL,Illinois,Tazewell County,2026,v2.0_Integrated_NextGen,200.6,2026-10-15,Prospective Unlabeled Forecast
+17181,IL,Illinois,Union County,2026,v2.0_Integrated_NextGen,168.4,2026-10-15,Prospective Unlabeled Forecast
+17183,IL,Illinois,Vermilion County,2026,v2.0_Integrated_NextGen,206.66,2026-10-15,Prospective Unlabeled Forecast
+17185,IL,Illinois,Wabash County,2026,v2.0_Integrated_NextGen,173.97,2026-10-15,Prospective Unlabeled Forecast
+17187,IL,Illinois,Warren County,2026,v2.0_Integrated_NextGen,174.42,2026-10-15,Prospective Unlabeled Forecast
+17189,IL,Illinois,Washington County,2026,v2.0_Integrated_NextGen,173.1,2026-10-15,Prospective Unlabeled Forecast
+17191,IL,Illinois,Wayne County,2026,v2.0_Integrated_NextGen,175.74,2026-10-15,Prospective Unlabeled Forecast
+17193,IL,Illinois,White County,2026,v2.0_Integrated_NextGen,185.81,2026-10-15,Prospective Unlabeled Forecast
+17195,IL,Illinois,Whiteside County,2026,v2.0_Integrated_NextGen,211.92,2026-10-15,Prospective Unlabeled Forecast
+17197,IL,Illinois,Will County,2026,v2.0_Integrated_NextGen,193.12,2026-10-15,Prospective Unlabeled Forecast
+17199,IL,Illinois,Williamson County,2026,v2.0_Integrated_NextGen,174.08,2026-10-15,Prospective Unlabeled Forecast
+17201,IL,Illinois,Winnebago County,2026,v2.0_Integrated_NextGen,200.41,2026-10-15,Prospective Unlabeled Forecast
+17203,IL,Illinois,Woodford County,2026,v2.0_Integrated_NextGen,204.8,2026-10-15,Prospective Unlabeled Forecast
+18001,IN,Indiana,Adams County,2026,v2.0_Integrated_NextGen,202.35,2026-10-15,Prospective Unlabeled Forecast
+18003,IN,Indiana,Allen County,2026,v2.0_Integrated_NextGen,202.16,2026-10-15,Prospective Unlabeled Forecast
+18005,IN,Indiana,Bartholomew County,2026,v2.0_Integrated_NextGen,187.57,2026-10-15,Prospective Unlabeled Forecast
+18007,IN,Indiana,Benton County,2026,v2.0_Integrated_NextGen,207.47,2026-10-15,Prospective Unlabeled Forecast
+18009,IN,Indiana,Blackford County,2026,v2.0_Integrated_NextGen,195.54,2026-10-15,Prospective Unlabeled Forecast
+18011,IN,Indiana,Boone County,2026,v2.0_Integrated_NextGen,207.39,2026-10-15,Prospective Unlabeled Forecast
+18013,IN,Indiana,Brown County,2026,v2.0_Integrated_NextGen,154.81,2026-10-15,Prospective Unlabeled Forecast
+18015,IN,Indiana,Carroll County,2026,v2.0_Integrated_NextGen,215.04,2026-10-15,Prospective Unlabeled Forecast
+18017,IN,Indiana,Cass County,2026,v2.0_Integrated_NextGen,207.5,2026-10-15,Prospective Unlabeled Forecast
+18019,IN,Indiana,Clark County,2026,v2.0_Integrated_NextGen,169.12,2026-10-15,Prospective Unlabeled Forecast
+18021,IN,Indiana,Clay County,2026,v2.0_Integrated_NextGen,192.69,2026-10-15,Prospective Unlabeled Forecast
+18023,IN,Indiana,Clinton County,2026,v2.0_Integrated_NextGen,211.37,2026-10-15,Prospective Unlabeled Forecast
+18025,IN,Indiana,Crawford County,2026,v2.0_Integrated_NextGen,150.4,2026-10-15,Prospective Unlabeled Forecast
+18027,IN,Indiana,Daviess County,2026,v2.0_Integrated_NextGen,187.87,2026-10-15,Prospective Unlabeled Forecast
+18033,IN,Indiana,DeKalb County,2026,v2.0_Integrated_NextGen,180.39,2026-10-15,Prospective Unlabeled Forecast
+18029,IN,Indiana,Dearborn County,2026,v2.0_Integrated_NextGen,173.85,2026-10-15,Prospective Unlabeled Forecast
+18031,IN,Indiana,Decatur County,2026,v2.0_Integrated_NextGen,195.6,2026-10-15,Prospective Unlabeled Forecast
+18035,IN,Indiana,Delaware County,2026,v2.0_Integrated_NextGen,199.38,2026-10-15,Prospective Unlabeled Forecast
+18037,IN,Indiana,Dubois County,2026,v2.0_Integrated_NextGen,177.43,2026-10-15,Prospective Unlabeled Forecast
+18039,IN,Indiana,Elkhart County,2026,v2.0_Integrated_NextGen,193.09,2026-10-15,Prospective Unlabeled Forecast
+18041,IN,Indiana,Fayette County,2026,v2.0_Integrated_NextGen,196.37,2026-10-15,Prospective Unlabeled Forecast
+18043,IN,Indiana,Floyd County,2026,v2.0_Integrated_NextGen,148.43,2026-10-15,Prospective Unlabeled Forecast
+18045,IN,Indiana,Fountain County,2026,v2.0_Integrated_NextGen,174.48,2026-10-15,Prospective Unlabeled Forecast
+18047,IN,Indiana,Franklin County,2026,v2.0_Integrated_NextGen,191.76,2026-10-15,Prospective Unlabeled Forecast
+18049,IN,Indiana,Fulton County,2026,v2.0_Integrated_NextGen,201.38,2026-10-15,Prospective Unlabeled Forecast
+18051,IN,Indiana,Gibson County,2026,v2.0_Integrated_NextGen,180.1,2026-10-15,Prospective Unlabeled Forecast
+18053,IN,Indiana,Grant County,2026,v2.0_Integrated_NextGen,200.59,2026-10-15,Prospective Unlabeled Forecast
+18055,IN,Indiana,Greene County,2026,v2.0_Integrated_NextGen,186.65,2026-10-15,Prospective Unlabeled Forecast
+18057,IN,Indiana,Hamilton County,2026,v2.0_Integrated_NextGen,197.52,2026-10-15,Prospective Unlabeled Forecast
+18059,IN,Indiana,Hancock County,2026,v2.0_Integrated_NextGen,197.22,2026-10-15,Prospective Unlabeled Forecast
+18061,IN,Indiana,Harrison County,2026,v2.0_Integrated_NextGen,161.23,2026-10-15,Prospective Unlabeled Forecast
+18063,IN,Indiana,Hendricks County,2026,v2.0_Integrated_NextGen,206.44,2026-10-15,Prospective Unlabeled Forecast
+18065,IN,Indiana,Henry County,2026,v2.0_Integrated_NextGen,196.24,2026-10-15,Prospective Unlabeled Forecast
+18067,IN,Indiana,Howard County,2026,v2.0_Integrated_NextGen,216.23,2026-10-15,Prospective Unlabeled Forecast
+18069,IN,Indiana,Huntington County,2026,v2.0_Integrated_NextGen,197.45,2026-10-15,Prospective Unlabeled Forecast
+18071,IN,Indiana,Jackson County,2026,v2.0_Integrated_NextGen,164.66,2026-10-15,Prospective Unlabeled Forecast
+18073,IN,Indiana,Jasper County,2026,v2.0_Integrated_NextGen,193.21,2026-10-15,Prospective Unlabeled Forecast
+18075,IN,Indiana,Jay County,2026,v2.0_Integrated_NextGen,196.26,2026-10-15,Prospective Unlabeled Forecast
+18077,IN,Indiana,Jefferson County,2026,v2.0_Integrated_NextGen,171.06,2026-10-15,Prospective Unlabeled Forecast
+18079,IN,Indiana,Jennings County,2026,v2.0_Integrated_NextGen,177.67,2026-10-15,Prospective Unlabeled Forecast
+18081,IN,Indiana,Johnson County,2026,v2.0_Integrated_NextGen,193.2,2026-10-15,Prospective Unlabeled Forecast
+18083,IN,Indiana,Knox County,2026,v2.0_Integrated_NextGen,184.61,2026-10-15,Prospective Unlabeled Forecast
+18085,IN,Indiana,Kosciusko County,2026,v2.0_Integrated_NextGen,201.6,2026-10-15,Prospective Unlabeled Forecast
+18087,IN,Indiana,LaGrange County,2026,v2.0_Integrated_NextGen,177.63,2026-10-15,Prospective Unlabeled Forecast
+18091,IN,Indiana,LaPorte County,2026,v2.0_Integrated_NextGen,180.58,2026-10-15,Prospective Unlabeled Forecast
+18089,IN,Indiana,Lake County,2026,v2.0_Integrated_NextGen,195.23,2026-10-15,Prospective Unlabeled Forecast
+18093,IN,Indiana,Lawrence County,2026,v2.0_Integrated_NextGen,155.91,2026-10-15,Prospective Unlabeled Forecast
+18095,IN,Indiana,Madison County,2026,v2.0_Integrated_NextGen,205.63,2026-10-15,Prospective Unlabeled Forecast
+18097,IN,Indiana,Marion County,2026,v2.0_Integrated_NextGen,191.27,2026-10-15,Prospective Unlabeled Forecast
+18099,IN,Indiana,Marshall County,2026,v2.0_Integrated_NextGen,199.55,2026-10-15,Prospective Unlabeled Forecast
+18101,IN,Indiana,Martin County,2026,v2.0_Integrated_NextGen,152.1,2026-10-15,Prospective Unlabeled Forecast
+18103,IN,Indiana,Miami County,2026,v2.0_Integrated_NextGen,205.68,2026-10-15,Prospective Unlabeled Forecast
+18105,IN,Indiana,Monroe County,2026,v2.0_Integrated_NextGen,177.98,2026-10-15,Prospective Unlabeled Forecast
+18107,IN,Indiana,Montgomery County,2026,v2.0_Integrated_NextGen,213.93,2026-10-15,Prospective Unlabeled Forecast
+18109,IN,Indiana,Morgan County,2026,v2.0_Integrated_NextGen,190.55,2026-10-15,Prospective Unlabeled Forecast
+18111,IN,Indiana,Newton County,2026,v2.0_Integrated_NextGen,202.12,2026-10-15,Prospective Unlabeled Forecast
+18113,IN,Indiana,Noble County,2026,v2.0_Integrated_NextGen,203.55,2026-10-15,Prospective Unlabeled Forecast
+18115,IN,Indiana,Ohio County,2026,v2.0_Integrated_NextGen,157.99,2026-10-15,Prospective Unlabeled Forecast
+18117,IN,Indiana,Orange County,2026,v2.0_Integrated_NextGen,155.33,2026-10-15,Prospective Unlabeled Forecast
+18119,IN,Indiana,Owen County,2026,v2.0_Integrated_NextGen,179.11,2026-10-15,Prospective Unlabeled Forecast
+18121,IN,Indiana,Parke County,2026,v2.0_Integrated_NextGen,172.99,2026-10-15,Prospective Unlabeled Forecast
+18123,IN,Indiana,Perry County,2026,v2.0_Integrated_NextGen,156.71,2026-10-15,Prospective Unlabeled Forecast
+18125,IN,Indiana,Pike County,2026,v2.0_Integrated_NextGen,148.94,2026-10-15,Prospective Unlabeled Forecast
+18127,IN,Indiana,Porter County,2026,v2.0_Integrated_NextGen,189.63,2026-10-15,Prospective Unlabeled Forecast
+18129,IN,Indiana,Posey County,2026,v2.0_Integrated_NextGen,196.54,2026-10-15,Prospective Unlabeled Forecast
+18131,IN,Indiana,Pulaski County,2026,v2.0_Integrated_NextGen,171.2,2026-10-15,Prospective Unlabeled Forecast
+18133,IN,Indiana,Putnam County,2026,v2.0_Integrated_NextGen,194.7,2026-10-15,Prospective Unlabeled Forecast
+18135,IN,Indiana,Randolph County,2026,v2.0_Integrated_NextGen,201.92,2026-10-15,Prospective Unlabeled Forecast
+18137,IN,Indiana,Ripley County,2026,v2.0_Integrated_NextGen,175.95,2026-10-15,Prospective Unlabeled Forecast
+18139,IN,Indiana,Rush County,2026,v2.0_Integrated_NextGen,202.8,2026-10-15,Prospective Unlabeled Forecast
+18143,IN,Indiana,Scott County,2026,v2.0_Integrated_NextGen,178.52,2026-10-15,Prospective Unlabeled Forecast
+18145,IN,Indiana,Shelby County,2026,v2.0_Integrated_NextGen,193.01,2026-10-15,Prospective Unlabeled Forecast
+18147,IN,Indiana,Spencer County,2026,v2.0_Integrated_NextGen,167.81,2026-10-15,Prospective Unlabeled Forecast
+18141,IN,Indiana,St. Joseph County,2026,v2.0_Integrated_NextGen,192.03,2026-10-15,Prospective Unlabeled Forecast
+18149,IN,Indiana,Starke County,2026,v2.0_Integrated_NextGen,172.11,2026-10-15,Prospective Unlabeled Forecast
+18151,IN,Indiana,Steuben County,2026,v2.0_Integrated_NextGen,180.8,2026-10-15,Prospective Unlabeled Forecast
+18153,IN,Indiana,Sullivan County,2026,v2.0_Integrated_NextGen,187.02,2026-10-15,Prospective Unlabeled Forecast
+18155,IN,Indiana,Switzerland County,2026,v2.0_Integrated_NextGen,168.9,2026-10-15,Prospective Unlabeled Forecast
+18157,IN,Indiana,Tippecanoe County,2026,v2.0_Integrated_NextGen,206.11,2026-10-15,Prospective Unlabeled Forecast
+18159,IN,Indiana,Tipton County,2026,v2.0_Integrated_NextGen,210.43,2026-10-15,Prospective Unlabeled Forecast
+18161,IN,Indiana,Union County,2026,v2.0_Integrated_NextGen,203.16,2026-10-15,Prospective Unlabeled Forecast
+18163,IN,Indiana,Vanderburgh County,2026,v2.0_Integrated_NextGen,179.11,2026-10-15,Prospective Unlabeled Forecast
+18165,IN,Indiana,Vermillion County,2026,v2.0_Integrated_NextGen,171.71,2026-10-15,Prospective Unlabeled Forecast
+18167,IN,Indiana,Vigo County,2026,v2.0_Integrated_NextGen,190.14,2026-10-15,Prospective Unlabeled Forecast
+18169,IN,Indiana,Wabash County,2026,v2.0_Integrated_NextGen,196.2,2026-10-15,Prospective Unlabeled Forecast
+18171,IN,Indiana,Warren County,2026,v2.0_Integrated_NextGen,183.68,2026-10-15,Prospective Unlabeled Forecast
+18173,IN,Indiana,Warrick County,2026,v2.0_Integrated_NextGen,149.13,2026-10-15,Prospective Unlabeled Forecast
+18175,IN,Indiana,Washington County,2026,v2.0_Integrated_NextGen,175.42,2026-10-15,Prospective Unlabeled Forecast
+18177,IN,Indiana,Wayne County,2026,v2.0_Integrated_NextGen,197.55,2026-10-15,Prospective Unlabeled Forecast
+18179,IN,Indiana,Wells County,2026,v2.0_Integrated_NextGen,209.63,2026-10-15,Prospective Unlabeled Forecast
+18181,IN,Indiana,White County,2026,v2.0_Integrated_NextGen,194.76,2026-10-15,Prospective Unlabeled Forecast
+18183,IN,Indiana,Whitley County,2026,v2.0_Integrated_NextGen,195.83,2026-10-15,Prospective Unlabeled Forecast
+27001,MN,Minnesota,Aitkin County,2026,v2.0_Integrated_NextGen,146.27,2026-10-15,Prospective Unlabeled Forecast
+27003,MN,Minnesota,Anoka County,2026,v2.0_Integrated_NextGen,152.4,2026-10-15,Prospective Unlabeled Forecast
+27005,MN,Minnesota,Becker County,2026,v2.0_Integrated_NextGen,181.76,2026-10-15,Prospective Unlabeled Forecast
+27007,MN,Minnesota,Beltrami County,2026,v2.0_Integrated_NextGen,149.73,2026-10-15,Prospective Unlabeled Forecast
+27009,MN,Minnesota,Benton County,2026,v2.0_Integrated_NextGen,172.32,2026-10-15,Prospective Unlabeled Forecast
+27011,MN,Minnesota,Big Stone County,2026,v2.0_Integrated_NextGen,177.1,2026-10-15,Prospective Unlabeled Forecast
+27013,MN,Minnesota,Blue Earth County,2026,v2.0_Integrated_NextGen,205.27,2026-10-15,Prospective Unlabeled Forecast
+27015,MN,Minnesota,Brown County,2026,v2.0_Integrated_NextGen,200.33,2026-10-15,Prospective Unlabeled Forecast
+27017,MN,Minnesota,Carlton County,2026,v2.0_Integrated_NextGen,127.49,2026-10-15,Prospective Unlabeled Forecast
+27019,MN,Minnesota,Carver County,2026,v2.0_Integrated_NextGen,191.85,2026-10-15,Prospective Unlabeled Forecast
+27021,MN,Minnesota,Cass County,2026,v2.0_Integrated_NextGen,152.56,2026-10-15,Prospective Unlabeled Forecast
+27023,MN,Minnesota,Chippewa County,2026,v2.0_Integrated_NextGen,194.92,2026-10-15,Prospective Unlabeled Forecast
+27025,MN,Minnesota,Chisago County,2026,v2.0_Integrated_NextGen,159.99,2026-10-15,Prospective Unlabeled Forecast
+27027,MN,Minnesota,Clay County,2026,v2.0_Integrated_NextGen,165.59,2026-10-15,Prospective Unlabeled Forecast
+27029,MN,Minnesota,Clearwater County,2026,v2.0_Integrated_NextGen,158.28,2026-10-15,Prospective Unlabeled Forecast
+27031,MN,Minnesota,Cook County,2026,v2.0_Integrated_NextGen,137.34,2026-10-15,Prospective Unlabeled Forecast
+27033,MN,Minnesota,Cottonwood County,2026,v2.0_Integrated_NextGen,205.18,2026-10-15,Prospective Unlabeled Forecast
+27035,MN,Minnesota,Crow Wing County,2026,v2.0_Integrated_NextGen,137.18,2026-10-15,Prospective Unlabeled Forecast
+27037,MN,Minnesota,Dakota County,2026,v2.0_Integrated_NextGen,191.02,2026-10-15,Prospective Unlabeled Forecast
+27039,MN,Minnesota,Dodge County,2026,v2.0_Integrated_NextGen,210.53,2026-10-15,Prospective Unlabeled Forecast
+27041,MN,Minnesota,Douglas County,2026,v2.0_Integrated_NextGen,176.22,2026-10-15,Prospective Unlabeled Forecast
+27043,MN,Minnesota,Faribault County,2026,v2.0_Integrated_NextGen,210.14,2026-10-15,Prospective Unlabeled Forecast
+27045,MN,Minnesota,Fillmore County,2026,v2.0_Integrated_NextGen,215.48,2026-10-15,Prospective Unlabeled Forecast
+27047,MN,Minnesota,Freeborn County,2026,v2.0_Integrated_NextGen,203.89,2026-10-15,Prospective Unlabeled Forecast
+27049,MN,Minnesota,Goodhue County,2026,v2.0_Integrated_NextGen,200.84,2026-10-15,Prospective Unlabeled Forecast
+27051,MN,Minnesota,Grant County,2026,v2.0_Integrated_NextGen,187.91,2026-10-15,Prospective Unlabeled Forecast
+27053,MN,Minnesota,Hennepin County,2026,v2.0_Integrated_NextGen,172.9,2026-10-15,Prospective Unlabeled Forecast
+27055,MN,Minnesota,Houston County,2026,v2.0_Integrated_NextGen,205.33,2026-10-15,Prospective Unlabeled Forecast
+27057,MN,Minnesota,Hubbard County,2026,v2.0_Integrated_NextGen,160.82,2026-10-15,Prospective Unlabeled Forecast
+27059,MN,Minnesota,Isanti County,2026,v2.0_Integrated_NextGen,152.95,2026-10-15,Prospective Unlabeled Forecast
+27061,MN,Minnesota,Itasca County,2026,v2.0_Integrated_NextGen,143.33,2026-10-15,Prospective Unlabeled Forecast
+27063,MN,Minnesota,Jackson County,2026,v2.0_Integrated_NextGen,206.56,2026-10-15,Prospective Unlabeled Forecast
+27065,MN,Minnesota,Kanabec County,2026,v2.0_Integrated_NextGen,158.62,2026-10-15,Prospective Unlabeled Forecast
+27067,MN,Minnesota,Kandiyohi County,2026,v2.0_Integrated_NextGen,185.34,2026-10-15,Prospective Unlabeled Forecast
+27069,MN,Minnesota,Kittson County,2026,v2.0_Integrated_NextGen,159.16,2026-10-15,Prospective Unlabeled Forecast
+27071,MN,Minnesota,Koochiching County,2026,v2.0_Integrated_NextGen,142.47,2026-10-15,Prospective Unlabeled Forecast
+27073,MN,Minnesota,Lac qui Parle County,2026,v2.0_Integrated_NextGen,189.58,2026-10-15,Prospective Unlabeled Forecast
+27075,MN,Minnesota,Lake County,2026,v2.0_Integrated_NextGen,137.68,2026-10-15,Prospective Unlabeled Forecast
+27077,MN,Minnesota,Lake of the Woods County,2026,v2.0_Integrated_NextGen,157.4,2026-10-15,Prospective Unlabeled Forecast
+27079,MN,Minnesota,Le Sueur County,2026,v2.0_Integrated_NextGen,202.83,2026-10-15,Prospective Unlabeled Forecast
+27081,MN,Minnesota,Lincoln County,2026,v2.0_Integrated_NextGen,180.96,2026-10-15,Prospective Unlabeled Forecast
+27083,MN,Minnesota,Lyon County,2026,v2.0_Integrated_NextGen,172.31,2026-10-15,Prospective Unlabeled Forecast
+27087,MN,Minnesota,Mahnomen County,2026,v2.0_Integrated_NextGen,177.33,2026-10-15,Prospective Unlabeled Forecast
+27089,MN,Minnesota,Marshall County,2026,v2.0_Integrated_NextGen,168.31,2026-10-15,Prospective Unlabeled Forecast
+27091,MN,Minnesota,Martin County,2026,v2.0_Integrated_NextGen,181.67,2026-10-15,Prospective Unlabeled Forecast
+27085,MN,Minnesota,McLeod County,2026,v2.0_Integrated_NextGen,197.04,2026-10-15,Prospective Unlabeled Forecast
+27093,MN,Minnesota,Meeker County,2026,v2.0_Integrated_NextGen,185.67,2026-10-15,Prospective Unlabeled Forecast
+27095,MN,Minnesota,Mille Lacs County,2026,v2.0_Integrated_NextGen,162.76,2026-10-15,Prospective Unlabeled Forecast
+27097,MN,Minnesota,Morrison County,2026,v2.0_Integrated_NextGen,162.24,2026-10-15,Prospective Unlabeled Forecast
+27099,MN,Minnesota,Mower County,2026,v2.0_Integrated_NextGen,211.02,2026-10-15,Prospective Unlabeled Forecast
+27101,MN,Minnesota,Murray County,2026,v2.0_Integrated_NextGen,175.45,2026-10-15,Prospective Unlabeled Forecast
+27103,MN,Minnesota,Nicollet County,2026,v2.0_Integrated_NextGen,204.76,2026-10-15,Prospective Unlabeled Forecast
+27105,MN,Minnesota,Nobles County,2026,v2.0_Integrated_NextGen,201.16,2026-10-15,Prospective Unlabeled Forecast
+27107,MN,Minnesota,Norman County,2026,v2.0_Integrated_NextGen,146.76,2026-10-15,Prospective Unlabeled Forecast
+27109,MN,Minnesota,Olmsted County,2026,v2.0_Integrated_NextGen,202.69,2026-10-15,Prospective Unlabeled Forecast
+27111,MN,Minnesota,Otter Tail County,2026,v2.0_Integrated_NextGen,183.54,2026-10-15,Prospective Unlabeled Forecast
+27113,MN,Minnesota,Pennington County,2026,v2.0_Integrated_NextGen,164.09,2026-10-15,Prospective Unlabeled Forecast
+27115,MN,Minnesota,Pine County,2026,v2.0_Integrated_NextGen,159.55,2026-10-15,Prospective Unlabeled Forecast
+27117,MN,Minnesota,Pipestone County,2026,v2.0_Integrated_NextGen,182.64,2026-10-15,Prospective Unlabeled Forecast
+27119,MN,Minnesota,Polk County,2026,v2.0_Integrated_NextGen,158.66,2026-10-15,Prospective Unlabeled Forecast
+27121,MN,Minnesota,Pope County,2026,v2.0_Integrated_NextGen,175.33,2026-10-15,Prospective Unlabeled Forecast
+27123,MN,Minnesota,Ramsey County,2026,v2.0_Integrated_NextGen,149.88,2026-10-15,Prospective Unlabeled Forecast
+27125,MN,Minnesota,Red Lake County,2026,v2.0_Integrated_NextGen,166.18,2026-10-15,Prospective Unlabeled Forecast
+27127,MN,Minnesota,Redwood County,2026,v2.0_Integrated_NextGen,184.33,2026-10-15,Prospective Unlabeled Forecast
+27129,MN,Minnesota,Renville County,2026,v2.0_Integrated_NextGen,199.07,2026-10-15,Prospective Unlabeled Forecast
+27131,MN,Minnesota,Rice County,2026,v2.0_Integrated_NextGen,202.29,2026-10-15,Prospective Unlabeled Forecast
+27133,MN,Minnesota,Rock County,2026,v2.0_Integrated_NextGen,173.25,2026-10-15,Prospective Unlabeled Forecast
+27135,MN,Minnesota,Roseau County,2026,v2.0_Integrated_NextGen,162.01,2026-10-15,Prospective Unlabeled Forecast
+27139,MN,Minnesota,Scott County,2026,v2.0_Integrated_NextGen,199.16,2026-10-15,Prospective Unlabeled Forecast
+27141,MN,Minnesota,Sherburne County,2026,v2.0_Integrated_NextGen,178.36,2026-10-15,Prospective Unlabeled Forecast
+27143,MN,Minnesota,Sibley County,2026,v2.0_Integrated_NextGen,202.11,2026-10-15,Prospective Unlabeled Forecast
+27137,MN,Minnesota,St. Louis County,2026,v2.0_Integrated_NextGen,139.74,2026-10-15,Prospective Unlabeled Forecast
+27145,MN,Minnesota,Stearns County,2026,v2.0_Integrated_NextGen,178.66,2026-10-15,Prospective Unlabeled Forecast
+27147,MN,Minnesota,Steele County,2026,v2.0_Integrated_NextGen,208.49,2026-10-15,Prospective Unlabeled Forecast
+27149,MN,Minnesota,Stevens County,2026,v2.0_Integrated_NextGen,185.78,2026-10-15,Prospective Unlabeled Forecast
+27151,MN,Minnesota,Swift County,2026,v2.0_Integrated_NextGen,191.64,2026-10-15,Prospective Unlabeled Forecast
+27153,MN,Minnesota,Todd County,2026,v2.0_Integrated_NextGen,164.7,2026-10-15,Prospective Unlabeled Forecast
+27155,MN,Minnesota,Traverse County,2026,v2.0_Integrated_NextGen,179.86,2026-10-15,Prospective Unlabeled Forecast
+27157,MN,Minnesota,Wabasha County,2026,v2.0_Integrated_NextGen,200.94,2026-10-15,Prospective Unlabeled Forecast
+27159,MN,Minnesota,Wadena County,2026,v2.0_Integrated_NextGen,161.79,2026-10-15,Prospective Unlabeled Forecast
+27161,MN,Minnesota,Waseca County,2026,v2.0_Integrated_NextGen,207.48,2026-10-15,Prospective Unlabeled Forecast
+27163,MN,Minnesota,Washington County,2026,v2.0_Integrated_NextGen,178.77,2026-10-15,Prospective Unlabeled Forecast
+27165,MN,Minnesota,Watonwan County,2026,v2.0_Integrated_NextGen,203.38,2026-10-15,Prospective Unlabeled Forecast
+27167,MN,Minnesota,Wilkin County,2026,v2.0_Integrated_NextGen,177.25,2026-10-15,Prospective Unlabeled Forecast
+27169,MN,Minnesota,Winona County,2026,v2.0_Integrated_NextGen,212.46,2026-10-15,Prospective Unlabeled Forecast
+27171,MN,Minnesota,Wright County,2026,v2.0_Integrated_NextGen,180.02,2026-10-15,Prospective Unlabeled Forecast
+27173,MN,Minnesota,Yellow Medicine County,2026,v2.0_Integrated_NextGen,175.87,2026-10-15,Prospective Unlabeled Forecast
+29001,MO,Missouri,Adair County,2026,v2.0_Integrated_NextGen,163.7,2026-10-15,Prospective Unlabeled Forecast
+29003,MO,Missouri,Andrew County,2026,v2.0_Integrated_NextGen,158.88,2026-10-15,Prospective Unlabeled Forecast
+29005,MO,Missouri,Atchison County,2026,v2.0_Integrated_NextGen,200.87,2026-10-15,Prospective Unlabeled Forecast
+29007,MO,Missouri,Audrain County,2026,v2.0_Integrated_NextGen,168.24,2026-10-15,Prospective Unlabeled Forecast
+29009,MO,Missouri,Barry County,2026,v2.0_Integrated_NextGen,122.86,2026-10-15,Prospective Unlabeled Forecast
+29011,MO,Missouri,Barton County,2026,v2.0_Integrated_NextGen,152.89,2026-10-15,Prospective Unlabeled Forecast
+29013,MO,Missouri,Bates County,2026,v2.0_Integrated_NextGen,145.41,2026-10-15,Prospective Unlabeled Forecast
+29015,MO,Missouri,Benton County,2026,v2.0_Integrated_NextGen,137.09,2026-10-15,Prospective Unlabeled Forecast
+29017,MO,Missouri,Bollinger County,2026,v2.0_Integrated_NextGen,161.18,2026-10-15,Prospective Unlabeled Forecast
+29019,MO,Missouri,Boone County,2026,v2.0_Integrated_NextGen,164.82,2026-10-15,Prospective Unlabeled Forecast
+29021,MO,Missouri,Buchanan County,2026,v2.0_Integrated_NextGen,173.37,2026-10-15,Prospective Unlabeled Forecast
+29023,MO,Missouri,Butler County,2026,v2.0_Integrated_NextGen,161.6,2026-10-15,Prospective Unlabeled Forecast
+29025,MO,Missouri,Caldwell County,2026,v2.0_Integrated_NextGen,165.59,2026-10-15,Prospective Unlabeled Forecast
+29027,MO,Missouri,Callaway County,2026,v2.0_Integrated_NextGen,157.1,2026-10-15,Prospective Unlabeled Forecast
+29029,MO,Missouri,Camden County,2026,v2.0_Integrated_NextGen,134.6,2026-10-15,Prospective Unlabeled Forecast
+29031,MO,Missouri,Cape Girardeau County,2026,v2.0_Integrated_NextGen,193.07,2026-10-15,Prospective Unlabeled Forecast
+29033,MO,Missouri,Carroll County,2026,v2.0_Integrated_NextGen,189.54,2026-10-15,Prospective Unlabeled Forecast
+29035,MO,Missouri,Carter County,2026,v2.0_Integrated_NextGen,143.03,2026-10-15,Prospective Unlabeled Forecast
+29037,MO,Missouri,Cass County,2026,v2.0_Integrated_NextGen,160.43,2026-10-15,Prospective Unlabeled Forecast
+29039,MO,Missouri,Cedar County,2026,v2.0_Integrated_NextGen,137.61,2026-10-15,Prospective Unlabeled Forecast
+29041,MO,Missouri,Chariton County,2026,v2.0_Integrated_NextGen,169.85,2026-10-15,Prospective Unlabeled Forecast
+29043,MO,Missouri,Christian County,2026,v2.0_Integrated_NextGen,131.99,2026-10-15,Prospective Unlabeled Forecast
+29045,MO,Missouri,Clark County,2026,v2.0_Integrated_NextGen,177.37,2026-10-15,Prospective Unlabeled Forecast
+29047,MO,Missouri,Clay County,2026,v2.0_Integrated_NextGen,173.22,2026-10-15,Prospective Unlabeled Forecast
+29049,MO,Missouri,Clinton County,2026,v2.0_Integrated_NextGen,176.69,2026-10-15,Prospective Unlabeled Forecast
+29051,MO,Missouri,Cole County,2026,v2.0_Integrated_NextGen,147.54,2026-10-15,Prospective Unlabeled Forecast
+29053,MO,Missouri,Cooper County,2026,v2.0_Integrated_NextGen,149.09,2026-10-15,Prospective Unlabeled Forecast
+29055,MO,Missouri,Crawford County,2026,v2.0_Integrated_NextGen,140.0,2026-10-15,Prospective Unlabeled Forecast
+29057,MO,Missouri,Dade County,2026,v2.0_Integrated_NextGen,133.51,2026-10-15,Prospective Unlabeled Forecast
+29059,MO,Missouri,Dallas County,2026,v2.0_Integrated_NextGen,130.43,2026-10-15,Prospective Unlabeled Forecast
+29061,MO,Missouri,Daviess County,2026,v2.0_Integrated_NextGen,164.19,2026-10-15,Prospective Unlabeled Forecast
+29063,MO,Missouri,DeKalb County,2026,v2.0_Integrated_NextGen,162.9,2026-10-15,Prospective Unlabeled Forecast
+29065,MO,Missouri,Dent County,2026,v2.0_Integrated_NextGen,134.48,2026-10-15,Prospective Unlabeled Forecast
+29067,MO,Missouri,Douglas County,2026,v2.0_Integrated_NextGen,136.85,2026-10-15,Prospective Unlabeled Forecast
+29069,MO,Missouri,Dunklin County,2026,v2.0_Integrated_NextGen,168.37,2026-10-15,Prospective Unlabeled Forecast
+29071,MO,Missouri,Franklin County,2026,v2.0_Integrated_NextGen,156.31,2026-10-15,Prospective Unlabeled Forecast
+29073,MO,Missouri,Gasconade County,2026,v2.0_Integrated_NextGen,138.62,2026-10-15,Prospective Unlabeled Forecast
+29075,MO,Missouri,Gentry County,2026,v2.0_Integrated_NextGen,156.05,2026-10-15,Prospective Unlabeled Forecast
+29077,MO,Missouri,Greene County,2026,v2.0_Integrated_NextGen,133.59,2026-10-15,Prospective Unlabeled Forecast
+29079,MO,Missouri,Grundy County,2026,v2.0_Integrated_NextGen,167.02,2026-10-15,Prospective Unlabeled Forecast
+29081,MO,Missouri,Harrison County,2026,v2.0_Integrated_NextGen,160.31,2026-10-15,Prospective Unlabeled Forecast
+29083,MO,Missouri,Henry County,2026,v2.0_Integrated_NextGen,131.03,2026-10-15,Prospective Unlabeled Forecast
+29085,MO,Missouri,Hickory County,2026,v2.0_Integrated_NextGen,131.83,2026-10-15,Prospective Unlabeled Forecast
+29087,MO,Missouri,Holt County,2026,v2.0_Integrated_NextGen,169.52,2026-10-15,Prospective Unlabeled Forecast
+29089,MO,Missouri,Howard County,2026,v2.0_Integrated_NextGen,149.73,2026-10-15,Prospective Unlabeled Forecast
+29091,MO,Missouri,Howell County,2026,v2.0_Integrated_NextGen,139.92,2026-10-15,Prospective Unlabeled Forecast
+29093,MO,Missouri,Iron County,2026,v2.0_Integrated_NextGen,142.16,2026-10-15,Prospective Unlabeled Forecast
+29095,MO,Missouri,Jackson County,2026,v2.0_Integrated_NextGen,161.68,2026-10-15,Prospective Unlabeled Forecast
+29097,MO,Missouri,Jasper County,2026,v2.0_Integrated_NextGen,123.64,2026-10-15,Prospective Unlabeled Forecast
+29099,MO,Missouri,Jefferson County,2026,v2.0_Integrated_NextGen,151.78,2026-10-15,Prospective Unlabeled Forecast
+29101,MO,Missouri,Johnson County,2026,v2.0_Integrated_NextGen,148.78,2026-10-15,Prospective Unlabeled Forecast
+29103,MO,Missouri,Knox County,2026,v2.0_Integrated_NextGen,164.54,2026-10-15,Prospective Unlabeled Forecast
+29105,MO,Missouri,Laclede County,2026,v2.0_Integrated_NextGen,137.73,2026-10-15,Prospective Unlabeled Forecast
+29107,MO,Missouri,Lafayette County,2026,v2.0_Integrated_NextGen,191.21,2026-10-15,Prospective Unlabeled Forecast
+29109,MO,Missouri,Lawrence County,2026,v2.0_Integrated_NextGen,129.62,2026-10-15,Prospective Unlabeled Forecast
+29111,MO,Missouri,Lewis County,2026,v2.0_Integrated_NextGen,179.7,2026-10-15,Prospective Unlabeled Forecast
+29113,MO,Missouri,Lincoln County,2026,v2.0_Integrated_NextGen,162.97,2026-10-15,Prospective Unlabeled Forecast
+29115,MO,Missouri,Linn County,2026,v2.0_Integrated_NextGen,160.55,2026-10-15,Prospective Unlabeled Forecast
+29117,MO,Missouri,Livingston County,2026,v2.0_Integrated_NextGen,184.48,2026-10-15,Prospective Unlabeled Forecast
+29121,MO,Missouri,Macon County,2026,v2.0_Integrated_NextGen,158.59,2026-10-15,Prospective Unlabeled Forecast
+29123,MO,Missouri,Madison County,2026,v2.0_Integrated_NextGen,148.49,2026-10-15,Prospective Unlabeled Forecast
+29125,MO,Missouri,Maries County,2026,v2.0_Integrated_NextGen,130.13,2026-10-15,Prospective Unlabeled Forecast
+29127,MO,Missouri,Marion County,2026,v2.0_Integrated_NextGen,177.11,2026-10-15,Prospective Unlabeled Forecast
+29119,MO,Missouri,McDonald County,2026,v2.0_Integrated_NextGen,116.5,2026-10-15,Prospective Unlabeled Forecast
+29129,MO,Missouri,Mercer County,2026,v2.0_Integrated_NextGen,159.74,2026-10-15,Prospective Unlabeled Forecast
+29131,MO,Missouri,Miller County,2026,v2.0_Integrated_NextGen,134.33,2026-10-15,Prospective Unlabeled Forecast
+29133,MO,Missouri,Mississippi County,2026,v2.0_Integrated_NextGen,199.14,2026-10-15,Prospective Unlabeled Forecast
+29135,MO,Missouri,Moniteau County,2026,v2.0_Integrated_NextGen,138.95,2026-10-15,Prospective Unlabeled Forecast
+29137,MO,Missouri,Monroe County,2026,v2.0_Integrated_NextGen,157.25,2026-10-15,Prospective Unlabeled Forecast
+29139,MO,Missouri,Montgomery County,2026,v2.0_Integrated_NextGen,156.7,2026-10-15,Prospective Unlabeled Forecast
+29141,MO,Missouri,Morgan County,2026,v2.0_Integrated_NextGen,143.56,2026-10-15,Prospective Unlabeled Forecast
+29143,MO,Missouri,New Madrid County,2026,v2.0_Integrated_NextGen,183.46,2026-10-15,Prospective Unlabeled Forecast
+29145,MO,Missouri,Newton County,2026,v2.0_Integrated_NextGen,108.65,2026-10-15,Prospective Unlabeled Forecast
+29147,MO,Missouri,Nodaway County,2026,v2.0_Integrated_NextGen,161.51,2026-10-15,Prospective Unlabeled Forecast
+29149,MO,Missouri,Oregon County,2026,v2.0_Integrated_NextGen,142.66,2026-10-15,Prospective Unlabeled Forecast
+29151,MO,Missouri,Osage County,2026,v2.0_Integrated_NextGen,158.4,2026-10-15,Prospective Unlabeled Forecast
+29153,MO,Missouri,Ozark County,2026,v2.0_Integrated_NextGen,126.27,2026-10-15,Prospective Unlabeled Forecast
+29155,MO,Missouri,Pemiscot County,2026,v2.0_Integrated_NextGen,175.12,2026-10-15,Prospective Unlabeled Forecast
+29157,MO,Missouri,Perry County,2026,v2.0_Integrated_NextGen,166.31,2026-10-15,Prospective Unlabeled Forecast
+29159,MO,Missouri,Pettis County,2026,v2.0_Integrated_NextGen,159.17,2026-10-15,Prospective Unlabeled Forecast
+29161,MO,Missouri,Phelps County,2026,v2.0_Integrated_NextGen,142.92,2026-10-15,Prospective Unlabeled Forecast
+29163,MO,Missouri,Pike County,2026,v2.0_Integrated_NextGen,166.22,2026-10-15,Prospective Unlabeled Forecast
+29165,MO,Missouri,Platte County,2026,v2.0_Integrated_NextGen,173.43,2026-10-15,Prospective Unlabeled Forecast
+29167,MO,Missouri,Polk County,2026,v2.0_Integrated_NextGen,136.26,2026-10-15,Prospective Unlabeled Forecast
+29169,MO,Missouri,Pulaski County,2026,v2.0_Integrated_NextGen,137.61,2026-10-15,Prospective Unlabeled Forecast
+29171,MO,Missouri,Putnam County,2026,v2.0_Integrated_NextGen,165.77,2026-10-15,Prospective Unlabeled Forecast
+29173,MO,Missouri,Ralls County,2026,v2.0_Integrated_NextGen,178.29,2026-10-15,Prospective Unlabeled Forecast
+29175,MO,Missouri,Randolph County,2026,v2.0_Integrated_NextGen,179.33,2026-10-15,Prospective Unlabeled Forecast
+29177,MO,Missouri,Ray County,2026,v2.0_Integrated_NextGen,176.79,2026-10-15,Prospective Unlabeled Forecast
+29179,MO,Missouri,Reynolds County,2026,v2.0_Integrated_NextGen,138.8,2026-10-15,Prospective Unlabeled Forecast
+29181,MO,Missouri,Ripley County,2026,v2.0_Integrated_NextGen,152.15,2026-10-15,Prospective Unlabeled Forecast
+29195,MO,Missouri,Saline County,2026,v2.0_Integrated_NextGen,196.97,2026-10-15,Prospective Unlabeled Forecast
+29197,MO,Missouri,Schuyler County,2026,v2.0_Integrated_NextGen,161.86,2026-10-15,Prospective Unlabeled Forecast
+29199,MO,Missouri,Scotland County,2026,v2.0_Integrated_NextGen,169.17,2026-10-15,Prospective Unlabeled Forecast
+29201,MO,Missouri,Scott County,2026,v2.0_Integrated_NextGen,193.74,2026-10-15,Prospective Unlabeled Forecast
+29203,MO,Missouri,Shannon County,2026,v2.0_Integrated_NextGen,138.12,2026-10-15,Prospective Unlabeled Forecast
+29205,MO,Missouri,Shelby County,2026,v2.0_Integrated_NextGen,177.69,2026-10-15,Prospective Unlabeled Forecast
+29183,MO,Missouri,St. Charles County,2026,v2.0_Integrated_NextGen,170.0,2026-10-15,Prospective Unlabeled Forecast
+29185,MO,Missouri,St. Clair County,2026,v2.0_Integrated_NextGen,136.18,2026-10-15,Prospective Unlabeled Forecast
+29187,MO,Missouri,St. Francois County,2026,v2.0_Integrated_NextGen,156.31,2026-10-15,Prospective Unlabeled Forecast
+29189,MO,Missouri,St. Louis County,2026,v2.0_Integrated_NextGen,162.07,2026-10-15,Prospective Unlabeled Forecast
+29510,MO,Missouri,St. Louis city,2026,v2.0_Integrated_NextGen,155.36,2026-10-15,Prospective Unlabeled Forecast
+29186,MO,Missouri,Ste. Genevieve County,2026,v2.0_Integrated_NextGen,178.44,2026-10-15,Prospective Unlabeled Forecast
+29207,MO,Missouri,Stoddard County,2026,v2.0_Integrated_NextGen,183.58,2026-10-15,Prospective Unlabeled Forecast
+29209,MO,Missouri,Stone County,2026,v2.0_Integrated_NextGen,125.31,2026-10-15,Prospective Unlabeled Forecast
+29211,MO,Missouri,Sullivan County,2026,v2.0_Integrated_NextGen,166.11,2026-10-15,Prospective Unlabeled Forecast
+29213,MO,Missouri,Taney County,2026,v2.0_Integrated_NextGen,119.1,2026-10-15,Prospective Unlabeled Forecast
+29215,MO,Missouri,Texas County,2026,v2.0_Integrated_NextGen,137.79,2026-10-15,Prospective Unlabeled Forecast
+29217,MO,Missouri,Vernon County,2026,v2.0_Integrated_NextGen,138.35,2026-10-15,Prospective Unlabeled Forecast
+29219,MO,Missouri,Warren County,2026,v2.0_Integrated_NextGen,157.83,2026-10-15,Prospective Unlabeled Forecast
+29221,MO,Missouri,Washington County,2026,v2.0_Integrated_NextGen,142.96,2026-10-15,Prospective Unlabeled Forecast
+29223,MO,Missouri,Wayne County,2026,v2.0_Integrated_NextGen,148.27,2026-10-15,Prospective Unlabeled Forecast
+29225,MO,Missouri,Webster County,2026,v2.0_Integrated_NextGen,136.67,2026-10-15,Prospective Unlabeled Forecast
+29227,MO,Missouri,Worth County,2026,v2.0_Integrated_NextGen,163.9,2026-10-15,Prospective Unlabeled Forecast
+29229,MO,Missouri,Wright County,2026,v2.0_Integrated_NextGen,130.8,2026-10-15,Prospective Unlabeled Forecast
+31001,NE,Nebraska,Adams County,2026,v2.0_Integrated_NextGen,192.1,2026-10-15,Prospective Unlabeled Forecast
+31003,NE,Nebraska,Antelope County,2026,v2.0_Integrated_NextGen,165.82,2026-10-15,Prospective Unlabeled Forecast
+31005,NE,Nebraska,Arthur County,2026,v2.0_Integrated_NextGen,156.89,2026-10-15,Prospective Unlabeled Forecast
+31007,NE,Nebraska,Banner County,2026,v2.0_Integrated_NextGen,136.62,2026-10-15,Prospective Unlabeled Forecast
+31009,NE,Nebraska,Blaine County,2026,v2.0_Integrated_NextGen,155.91,2026-10-15,Prospective Unlabeled Forecast
+31011,NE,Nebraska,Boone County,2026,v2.0_Integrated_NextGen,167.58,2026-10-15,Prospective Unlabeled Forecast
+31013,NE,Nebraska,Box Butte County,2026,v2.0_Integrated_NextGen,146.46,2026-10-15,Prospective Unlabeled Forecast
+31015,NE,Nebraska,Boyd County,2026,v2.0_Integrated_NextGen,143.58,2026-10-15,Prospective Unlabeled Forecast
+31017,NE,Nebraska,Brown County,2026,v2.0_Integrated_NextGen,187.53,2026-10-15,Prospective Unlabeled Forecast
+31019,NE,Nebraska,Buffalo County,2026,v2.0_Integrated_NextGen,188.83,2026-10-15,Prospective Unlabeled Forecast
+31021,NE,Nebraska,Burt County,2026,v2.0_Integrated_NextGen,188.95,2026-10-15,Prospective Unlabeled Forecast
+31023,NE,Nebraska,Butler County,2026,v2.0_Integrated_NextGen,185.41,2026-10-15,Prospective Unlabeled Forecast
+31025,NE,Nebraska,Cass County,2026,v2.0_Integrated_NextGen,179.51,2026-10-15,Prospective Unlabeled Forecast
+31027,NE,Nebraska,Cedar County,2026,v2.0_Integrated_NextGen,182.14,2026-10-15,Prospective Unlabeled Forecast
+31029,NE,Nebraska,Chase County,2026,v2.0_Integrated_NextGen,168.15,2026-10-15,Prospective Unlabeled Forecast
+31031,NE,Nebraska,Cherry County,2026,v2.0_Integrated_NextGen,153.79,2026-10-15,Prospective Unlabeled Forecast
+31033,NE,Nebraska,Cheyenne County,2026,v2.0_Integrated_NextGen,119.35,2026-10-15,Prospective Unlabeled Forecast
+31035,NE,Nebraska,Clay County,2026,v2.0_Integrated_NextGen,184.48,2026-10-15,Prospective Unlabeled Forecast
+31037,NE,Nebraska,Colfax County,2026,v2.0_Integrated_NextGen,189.26,2026-10-15,Prospective Unlabeled Forecast
+31039,NE,Nebraska,Cuming County,2026,v2.0_Integrated_NextGen,189.34,2026-10-15,Prospective Unlabeled Forecast
+31041,NE,Nebraska,Custer County,2026,v2.0_Integrated_NextGen,164.8,2026-10-15,Prospective Unlabeled Forecast
+31043,NE,Nebraska,Dakota County,2026,v2.0_Integrated_NextGen,178.41,2026-10-15,Prospective Unlabeled Forecast
+31045,NE,Nebraska,Dawes County,2026,v2.0_Integrated_NextGen,133.41,2026-10-15,Prospective Unlabeled Forecast
+31047,NE,Nebraska,Dawson County,2026,v2.0_Integrated_NextGen,189.54,2026-10-15,Prospective Unlabeled Forecast
+31049,NE,Nebraska,Deuel County,2026,v2.0_Integrated_NextGen,118.47,2026-10-15,Prospective Unlabeled Forecast
+31051,NE,Nebraska,Dixon County,2026,v2.0_Integrated_NextGen,172.8,2026-10-15,Prospective Unlabeled Forecast
+31053,NE,Nebraska,Dodge County,2026,v2.0_Integrated_NextGen,176.46,2026-10-15,Prospective Unlabeled Forecast
+31055,NE,Nebraska,Douglas County,2026,v2.0_Integrated_NextGen,177.64,2026-10-15,Prospective Unlabeled Forecast
+31057,NE,Nebraska,Dundy County,2026,v2.0_Integrated_NextGen,166.19,2026-10-15,Prospective Unlabeled Forecast
+31059,NE,Nebraska,Fillmore County,2026,v2.0_Integrated_NextGen,190.4,2026-10-15,Prospective Unlabeled Forecast
+31061,NE,Nebraska,Franklin County,2026,v2.0_Integrated_NextGen,180.79,2026-10-15,Prospective Unlabeled Forecast
+31063,NE,Nebraska,Frontier County,2026,v2.0_Integrated_NextGen,140.94,2026-10-15,Prospective Unlabeled Forecast
+31065,NE,Nebraska,Furnas County,2026,v2.0_Integrated_NextGen,137.58,2026-10-15,Prospective Unlabeled Forecast
+31067,NE,Nebraska,Gage County,2026,v2.0_Integrated_NextGen,171.99,2026-10-15,Prospective Unlabeled Forecast
+31069,NE,Nebraska,Garden County,2026,v2.0_Integrated_NextGen,147.62,2026-10-15,Prospective Unlabeled Forecast
+31071,NE,Nebraska,Garfield County,2026,v2.0_Integrated_NextGen,185.24,2026-10-15,Prospective Unlabeled Forecast
+31073,NE,Nebraska,Gosper County,2026,v2.0_Integrated_NextGen,171.77,2026-10-15,Prospective Unlabeled Forecast
+31075,NE,Nebraska,Grant County,2026,v2.0_Integrated_NextGen,149.51,2026-10-15,Prospective Unlabeled Forecast
+31077,NE,Nebraska,Greeley County,2026,v2.0_Integrated_NextGen,183.86,2026-10-15,Prospective Unlabeled Forecast
+31079,NE,Nebraska,Hall County,2026,v2.0_Integrated_NextGen,198.88,2026-10-15,Prospective Unlabeled Forecast
+31081,NE,Nebraska,Hamilton County,2026,v2.0_Integrated_NextGen,205.21,2026-10-15,Prospective Unlabeled Forecast
+31083,NE,Nebraska,Harlan County,2026,v2.0_Integrated_NextGen,178.62,2026-10-15,Prospective Unlabeled Forecast
+31085,NE,Nebraska,Hayes County,2026,v2.0_Integrated_NextGen,144.48,2026-10-15,Prospective Unlabeled Forecast
+31087,NE,Nebraska,Hitchcock County,2026,v2.0_Integrated_NextGen,130.3,2026-10-15,Prospective Unlabeled Forecast
+31089,NE,Nebraska,Holt County,2026,v2.0_Integrated_NextGen,157.85,2026-10-15,Prospective Unlabeled Forecast
+31091,NE,Nebraska,Hooker County,2026,v2.0_Integrated_NextGen,153.55,2026-10-15,Prospective Unlabeled Forecast
+31093,NE,Nebraska,Howard County,2026,v2.0_Integrated_NextGen,193.54,2026-10-15,Prospective Unlabeled Forecast
+31095,NE,Nebraska,Jefferson County,2026,v2.0_Integrated_NextGen,171.66,2026-10-15,Prospective Unlabeled Forecast
+31097,NE,Nebraska,Johnson County,2026,v2.0_Integrated_NextGen,166.46,2026-10-15,Prospective Unlabeled Forecast
+31099,NE,Nebraska,Kearney County,2026,v2.0_Integrated_NextGen,196.12,2026-10-15,Prospective Unlabeled Forecast
+31101,NE,Nebraska,Keith County,2026,v2.0_Integrated_NextGen,171.67,2026-10-15,Prospective Unlabeled Forecast
+31103,NE,Nebraska,Keya Paha County,2026,v2.0_Integrated_NextGen,185.56,2026-10-15,Prospective Unlabeled Forecast
+31105,NE,Nebraska,Kimball County,2026,v2.0_Integrated_NextGen,132.72,2026-10-15,Prospective Unlabeled Forecast
+31107,NE,Nebraska,Knox County,2026,v2.0_Integrated_NextGen,173.1,2026-10-15,Prospective Unlabeled Forecast
+31109,NE,Nebraska,Lancaster County,2026,v2.0_Integrated_NextGen,157.21,2026-10-15,Prospective Unlabeled Forecast
+31111,NE,Nebraska,Lincoln County,2026,v2.0_Integrated_NextGen,184.19,2026-10-15,Prospective Unlabeled Forecast
+31113,NE,Nebraska,Logan County,2026,v2.0_Integrated_NextGen,183.71,2026-10-15,Prospective Unlabeled Forecast
+31115,NE,Nebraska,Loup County,2026,v2.0_Integrated_NextGen,158.26,2026-10-15,Prospective Unlabeled Forecast
+31119,NE,Nebraska,Madison County,2026,v2.0_Integrated_NextGen,182.52,2026-10-15,Prospective Unlabeled Forecast
+31117,NE,Nebraska,McPherson County,2026,v2.0_Integrated_NextGen,155.43,2026-10-15,Prospective Unlabeled Forecast
+31121,NE,Nebraska,Merrick County,2026,v2.0_Integrated_NextGen,166.0,2026-10-15,Prospective Unlabeled Forecast
+31123,NE,Nebraska,Morrill County,2026,v2.0_Integrated_NextGen,172.12,2026-10-15,Prospective Unlabeled Forecast
+31125,NE,Nebraska,Nance County,2026,v2.0_Integrated_NextGen,187.48,2026-10-15,Prospective Unlabeled Forecast
+31127,NE,Nebraska,Nemaha County,2026,v2.0_Integrated_NextGen,169.8,2026-10-15,Prospective Unlabeled Forecast
+31129,NE,Nebraska,Nuckolls County,2026,v2.0_Integrated_NextGen,154.11,2026-10-15,Prospective Unlabeled Forecast
+31131,NE,Nebraska,Otoe County,2026,v2.0_Integrated_NextGen,166.5,2026-10-15,Prospective Unlabeled Forecast
+31133,NE,Nebraska,Pawnee County,2026,v2.0_Integrated_NextGen,167.13,2026-10-15,Prospective Unlabeled Forecast
+31135,NE,Nebraska,Perkins County,2026,v2.0_Integrated_NextGen,146.26,2026-10-15,Prospective Unlabeled Forecast
+31137,NE,Nebraska,Phelps County,2026,v2.0_Integrated_NextGen,204.3,2026-10-15,Prospective Unlabeled Forecast
+31139,NE,Nebraska,Pierce County,2026,v2.0_Integrated_NextGen,186.8,2026-10-15,Prospective Unlabeled Forecast
+31141,NE,Nebraska,Platte County,2026,v2.0_Integrated_NextGen,182.01,2026-10-15,Prospective Unlabeled Forecast
+31143,NE,Nebraska,Polk County,2026,v2.0_Integrated_NextGen,185.92,2026-10-15,Prospective Unlabeled Forecast
+31145,NE,Nebraska,Red Willow County,2026,v2.0_Integrated_NextGen,138.53,2026-10-15,Prospective Unlabeled Forecast
+31147,NE,Nebraska,Richardson County,2026,v2.0_Integrated_NextGen,178.73,2026-10-15,Prospective Unlabeled Forecast
+31149,NE,Nebraska,Rock County,2026,v2.0_Integrated_NextGen,160.88,2026-10-15,Prospective Unlabeled Forecast
+31151,NE,Nebraska,Saline County,2026,v2.0_Integrated_NextGen,177.11,2026-10-15,Prospective Unlabeled Forecast
+31153,NE,Nebraska,Sarpy County,2026,v2.0_Integrated_NextGen,181.56,2026-10-15,Prospective Unlabeled Forecast
+31155,NE,Nebraska,Saunders County,2026,v2.0_Integrated_NextGen,182.92,2026-10-15,Prospective Unlabeled Forecast
+31157,NE,Nebraska,Scotts Bluff County,2026,v2.0_Integrated_NextGen,171.9,2026-10-15,Prospective Unlabeled Forecast
+31159,NE,Nebraska,Seward County,2026,v2.0_Integrated_NextGen,153.93,2026-10-15,Prospective Unlabeled Forecast
+31161,NE,Nebraska,Sheridan County,2026,v2.0_Integrated_NextGen,161.48,2026-10-15,Prospective Unlabeled Forecast
+31163,NE,Nebraska,Sherman County,2026,v2.0_Integrated_NextGen,181.51,2026-10-15,Prospective Unlabeled Forecast
+31165,NE,Nebraska,Sioux County,2026,v2.0_Integrated_NextGen,173.7,2026-10-15,Prospective Unlabeled Forecast
+31167,NE,Nebraska,Stanton County,2026,v2.0_Integrated_NextGen,182.01,2026-10-15,Prospective Unlabeled Forecast
+31169,NE,Nebraska,Thayer County,2026,v2.0_Integrated_NextGen,183.33,2026-10-15,Prospective Unlabeled Forecast
+31171,NE,Nebraska,Thomas County,2026,v2.0_Integrated_NextGen,157.37,2026-10-15,Prospective Unlabeled Forecast
+31173,NE,Nebraska,Thurston County,2026,v2.0_Integrated_NextGen,167.05,2026-10-15,Prospective Unlabeled Forecast
+31175,NE,Nebraska,Valley County,2026,v2.0_Integrated_NextGen,193.92,2026-10-15,Prospective Unlabeled Forecast
+31177,NE,Nebraska,Washington County,2026,v2.0_Integrated_NextGen,173.32,2026-10-15,Prospective Unlabeled Forecast
+31179,NE,Nebraska,Wayne County,2026,v2.0_Integrated_NextGen,174.3,2026-10-15,Prospective Unlabeled Forecast
+31181,NE,Nebraska,Webster County,2026,v2.0_Integrated_NextGen,175.14,2026-10-15,Prospective Unlabeled Forecast
+31183,NE,Nebraska,Wheeler County,2026,v2.0_Integrated_NextGen,161.8,2026-10-15,Prospective Unlabeled Forecast
+31185,NE,Nebraska,York County,2026,v2.0_Integrated_NextGen,163.32,2026-10-15,Prospective Unlabeled Forecast
+39001,OH,Ohio,Adams County,2026,v2.0_Integrated_NextGen,157.81,2026-10-15,Prospective Unlabeled Forecast
+39003,OH,Ohio,Allen County,2026,v2.0_Integrated_NextGen,207.64,2026-10-15,Prospective Unlabeled Forecast
+39005,OH,Ohio,Ashland County,2026,v2.0_Integrated_NextGen,174.16,2026-10-15,Prospective Unlabeled Forecast
+39007,OH,Ohio,Ashtabula County,2026,v2.0_Integrated_NextGen,183.85,2026-10-15,Prospective Unlabeled Forecast
+39009,OH,Ohio,Athens County,2026,v2.0_Integrated_NextGen,166.35,2026-10-15,Prospective Unlabeled Forecast
+39011,OH,Ohio,Auglaize County,2026,v2.0_Integrated_NextGen,205.42,2026-10-15,Prospective Unlabeled Forecast
+39013,OH,Ohio,Belmont County,2026,v2.0_Integrated_NextGen,148.78,2026-10-15,Prospective Unlabeled Forecast
+39015,OH,Ohio,Brown County,2026,v2.0_Integrated_NextGen,175.9,2026-10-15,Prospective Unlabeled Forecast
+39017,OH,Ohio,Butler County,2026,v2.0_Integrated_NextGen,176.19,2026-10-15,Prospective Unlabeled Forecast
+39019,OH,Ohio,Carroll County,2026,v2.0_Integrated_NextGen,144.67,2026-10-15,Prospective Unlabeled Forecast
+39021,OH,Ohio,Champaign County,2026,v2.0_Integrated_NextGen,202.83,2026-10-15,Prospective Unlabeled Forecast
+39023,OH,Ohio,Clark County,2026,v2.0_Integrated_NextGen,205.16,2026-10-15,Prospective Unlabeled Forecast
+39025,OH,Ohio,Clermont County,2026,v2.0_Integrated_NextGen,161.21,2026-10-15,Prospective Unlabeled Forecast
+39027,OH,Ohio,Clinton County,2026,v2.0_Integrated_NextGen,208.53,2026-10-15,Prospective Unlabeled Forecast
+39029,OH,Ohio,Columbiana County,2026,v2.0_Integrated_NextGen,174.78,2026-10-15,Prospective Unlabeled Forecast
+39031,OH,Ohio,Coshocton County,2026,v2.0_Integrated_NextGen,176.03,2026-10-15,Prospective Unlabeled Forecast
+39033,OH,Ohio,Crawford County,2026,v2.0_Integrated_NextGen,210.15,2026-10-15,Prospective Unlabeled Forecast
+39035,OH,Ohio,Cuyahoga County,2026,v2.0_Integrated_NextGen,160.44,2026-10-15,Prospective Unlabeled Forecast
+39037,OH,Ohio,Darke County,2026,v2.0_Integrated_NextGen,195.33,2026-10-15,Prospective Unlabeled Forecast
+39039,OH,Ohio,Defiance County,2026,v2.0_Integrated_NextGen,181.97,2026-10-15,Prospective Unlabeled Forecast
+39041,OH,Ohio,Delaware County,2026,v2.0_Integrated_NextGen,195.35,2026-10-15,Prospective Unlabeled Forecast
+39043,OH,Ohio,Erie County,2026,v2.0_Integrated_NextGen,210.59,2026-10-15,Prospective Unlabeled Forecast
+39045,OH,Ohio,Fairfield County,2026,v2.0_Integrated_NextGen,196.68,2026-10-15,Prospective Unlabeled Forecast
+39047,OH,Ohio,Fayette County,2026,v2.0_Integrated_NextGen,194.25,2026-10-15,Prospective Unlabeled Forecast
+39049,OH,Ohio,Franklin County,2026,v2.0_Integrated_NextGen,167.95,2026-10-15,Prospective Unlabeled Forecast
+39051,OH,Ohio,Fulton County,2026,v2.0_Integrated_NextGen,199.67,2026-10-15,Prospective Unlabeled Forecast
+39053,OH,Ohio,Gallia County,2026,v2.0_Integrated_NextGen,166.62,2026-10-15,Prospective Unlabeled Forecast
+39055,OH,Ohio,Geauga County,2026,v2.0_Integrated_NextGen,163.12,2026-10-15,Prospective Unlabeled Forecast
+39057,OH,Ohio,Greene County,2026,v2.0_Integrated_NextGen,205.05,2026-10-15,Prospective Unlabeled Forecast
+39059,OH,Ohio,Guernsey County,2026,v2.0_Integrated_NextGen,166.59,2026-10-15,Prospective Unlabeled Forecast
+39061,OH,Ohio,Hamilton County,2026,v2.0_Integrated_NextGen,184.5,2026-10-15,Prospective Unlabeled Forecast
+39063,OH,Ohio,Hancock County,2026,v2.0_Integrated_NextGen,201.21,2026-10-15,Prospective Unlabeled Forecast
+39065,OH,Ohio,Hardin County,2026,v2.0_Integrated_NextGen,197.49,2026-10-15,Prospective Unlabeled Forecast
+39067,OH,Ohio,Harrison County,2026,v2.0_Integrated_NextGen,169.82,2026-10-15,Prospective Unlabeled Forecast
+39069,OH,Ohio,Henry County,2026,v2.0_Integrated_NextGen,197.84,2026-10-15,Prospective Unlabeled Forecast
+39071,OH,Ohio,Highland County,2026,v2.0_Integrated_NextGen,177.12,2026-10-15,Prospective Unlabeled Forecast
+39073,OH,Ohio,Hocking County,2026,v2.0_Integrated_NextGen,169.59,2026-10-15,Prospective Unlabeled Forecast
+39075,OH,Ohio,Holmes County,2026,v2.0_Integrated_NextGen,175.17,2026-10-15,Prospective Unlabeled Forecast
+39077,OH,Ohio,Huron County,2026,v2.0_Integrated_NextGen,198.36,2026-10-15,Prospective Unlabeled Forecast
+39079,OH,Ohio,Jackson County,2026,v2.0_Integrated_NextGen,168.44,2026-10-15,Prospective Unlabeled Forecast
+39081,OH,Ohio,Jefferson County,2026,v2.0_Integrated_NextGen,160.23,2026-10-15,Prospective Unlabeled Forecast
+39083,OH,Ohio,Knox County,2026,v2.0_Integrated_NextGen,189.41,2026-10-15,Prospective Unlabeled Forecast
+39085,OH,Ohio,Lake County,2026,v2.0_Integrated_NextGen,167.1,2026-10-15,Prospective Unlabeled Forecast
+39087,OH,Ohio,Lawrence County,2026,v2.0_Integrated_NextGen,159.42,2026-10-15,Prospective Unlabeled Forecast
+39089,OH,Ohio,Licking County,2026,v2.0_Integrated_NextGen,186.85,2026-10-15,Prospective Unlabeled Forecast
+39091,OH,Ohio,Logan County,2026,v2.0_Integrated_NextGen,197.49,2026-10-15,Prospective Unlabeled Forecast
+39093,OH,Ohio,Lorain County,2026,v2.0_Integrated_NextGen,187.35,2026-10-15,Prospective Unlabeled Forecast
+39095,OH,Ohio,Lucas County,2026,v2.0_Integrated_NextGen,199.79,2026-10-15,Prospective Unlabeled Forecast
+39097,OH,Ohio,Madison County,2026,v2.0_Integrated_NextGen,199.3,2026-10-15,Prospective Unlabeled Forecast
+39099,OH,Ohio,Mahoning County,2026,v2.0_Integrated_NextGen,173.98,2026-10-15,Prospective Unlabeled Forecast
+39101,OH,Ohio,Marion County,2026,v2.0_Integrated_NextGen,199.75,2026-10-15,Prospective Unlabeled Forecast
+39103,OH,Ohio,Medina County,2026,v2.0_Integrated_NextGen,186.5,2026-10-15,Prospective Unlabeled Forecast
+39105,OH,Ohio,Meigs County,2026,v2.0_Integrated_NextGen,157.89,2026-10-15,Prospective Unlabeled Forecast
+39107,OH,Ohio,Mercer County,2026,v2.0_Integrated_NextGen,194.84,2026-10-15,Prospective Unlabeled Forecast
+39109,OH,Ohio,Miami County,2026,v2.0_Integrated_NextGen,196.71,2026-10-15,Prospective Unlabeled Forecast
+39111,OH,Ohio,Monroe County,2026,v2.0_Integrated_NextGen,143.51,2026-10-15,Prospective Unlabeled Forecast
+39113,OH,Ohio,Montgomery County,2026,v2.0_Integrated_NextGen,186.78,2026-10-15,Prospective Unlabeled Forecast
+39115,OH,Ohio,Morgan County,2026,v2.0_Integrated_NextGen,159.02,2026-10-15,Prospective Unlabeled Forecast
+39117,OH,Ohio,Morrow County,2026,v2.0_Integrated_NextGen,190.17,2026-10-15,Prospective Unlabeled Forecast
+39119,OH,Ohio,Muskingum County,2026,v2.0_Integrated_NextGen,189.67,2026-10-15,Prospective Unlabeled Forecast
+39121,OH,Ohio,Noble County,2026,v2.0_Integrated_NextGen,156.99,2026-10-15,Prospective Unlabeled Forecast
+39123,OH,Ohio,Ottawa County,2026,v2.0_Integrated_NextGen,201.0,2026-10-15,Prospective Unlabeled Forecast
+39125,OH,Ohio,Paulding County,2026,v2.0_Integrated_NextGen,183.49,2026-10-15,Prospective Unlabeled Forecast
+39127,OH,Ohio,Perry County,2026,v2.0_Integrated_NextGen,189.81,2026-10-15,Prospective Unlabeled Forecast
+39129,OH,Ohio,Pickaway County,2026,v2.0_Integrated_NextGen,187.74,2026-10-15,Prospective Unlabeled Forecast
+39131,OH,Ohio,Pike County,2026,v2.0_Integrated_NextGen,172.15,2026-10-15,Prospective Unlabeled Forecast
+39133,OH,Ohio,Portage County,2026,v2.0_Integrated_NextGen,177.42,2026-10-15,Prospective Unlabeled Forecast
+39135,OH,Ohio,Preble County,2026,v2.0_Integrated_NextGen,201.16,2026-10-15,Prospective Unlabeled Forecast
+39137,OH,Ohio,Putnam County,2026,v2.0_Integrated_NextGen,204.39,2026-10-15,Prospective Unlabeled Forecast
+39139,OH,Ohio,Richland County,2026,v2.0_Integrated_NextGen,194.0,2026-10-15,Prospective Unlabeled Forecast
+39141,OH,Ohio,Ross County,2026,v2.0_Integrated_NextGen,185.08,2026-10-15,Prospective Unlabeled Forecast
+39143,OH,Ohio,Sandusky County,2026,v2.0_Integrated_NextGen,208.47,2026-10-15,Prospective Unlabeled Forecast
+39145,OH,Ohio,Scioto County,2026,v2.0_Integrated_NextGen,174.64,2026-10-15,Prospective Unlabeled Forecast
+39147,OH,Ohio,Seneca County,2026,v2.0_Integrated_NextGen,196.08,2026-10-15,Prospective Unlabeled Forecast
+39149,OH,Ohio,Shelby County,2026,v2.0_Integrated_NextGen,191.83,2026-10-15,Prospective Unlabeled Forecast
+39151,OH,Ohio,Stark County,2026,v2.0_Integrated_NextGen,177.28,2026-10-15,Prospective Unlabeled Forecast
+39153,OH,Ohio,Summit County,2026,v2.0_Integrated_NextGen,157.97,2026-10-15,Prospective Unlabeled Forecast
+39155,OH,Ohio,Trumbull County,2026,v2.0_Integrated_NextGen,187.79,2026-10-15,Prospective Unlabeled Forecast
+39157,OH,Ohio,Tuscarawas County,2026,v2.0_Integrated_NextGen,168.17,2026-10-15,Prospective Unlabeled Forecast
+39159,OH,Ohio,Union County,2026,v2.0_Integrated_NextGen,193.56,2026-10-15,Prospective Unlabeled Forecast
+39161,OH,Ohio,Van Wert County,2026,v2.0_Integrated_NextGen,192.3,2026-10-15,Prospective Unlabeled Forecast
+39163,OH,Ohio,Vinton County,2026,v2.0_Integrated_NextGen,162.25,2026-10-15,Prospective Unlabeled Forecast
+39165,OH,Ohio,Warren County,2026,v2.0_Integrated_NextGen,191.63,2026-10-15,Prospective Unlabeled Forecast
+39167,OH,Ohio,Washington County,2026,v2.0_Integrated_NextGen,160.96,2026-10-15,Prospective Unlabeled Forecast
+39169,OH,Ohio,Wayne County,2026,v2.0_Integrated_NextGen,179.75,2026-10-15,Prospective Unlabeled Forecast
+39171,OH,Ohio,Williams County,2026,v2.0_Integrated_NextGen,196.46,2026-10-15,Prospective Unlabeled Forecast
+39173,OH,Ohio,Wood County,2026,v2.0_Integrated_NextGen,199.46,2026-10-15,Prospective Unlabeled Forecast
+39175,OH,Ohio,Wyandot County,2026,v2.0_Integrated_NextGen,199.61,2026-10-15,Prospective Unlabeled Forecast
+46003,SD,South Dakota,Aurora County,2026,v2.0_Integrated_NextGen,124.92,2026-10-15,Prospective Unlabeled Forecast
+46005,SD,South Dakota,Beadle County,2026,v2.0_Integrated_NextGen,150.63,2026-10-15,Prospective Unlabeled Forecast
+46007,SD,South Dakota,Bennett County,2026,v2.0_Integrated_NextGen,128.03,2026-10-15,Prospective Unlabeled Forecast
+46009,SD,South Dakota,Bon Homme County,2026,v2.0_Integrated_NextGen,145.85,2026-10-15,Prospective Unlabeled Forecast
+46011,SD,South Dakota,Brookings County,2026,v2.0_Integrated_NextGen,180.47,2026-10-15,Prospective Unlabeled Forecast
+46013,SD,South Dakota,Brown County,2026,v2.0_Integrated_NextGen,173.94,2026-10-15,Prospective Unlabeled Forecast
+46015,SD,South Dakota,Brule County,2026,v2.0_Integrated_NextGen,128.99,2026-10-15,Prospective Unlabeled Forecast
+46017,SD,South Dakota,Buffalo County,2026,v2.0_Integrated_NextGen,132.08,2026-10-15,Prospective Unlabeled Forecast
+46019,SD,South Dakota,Butte County,2026,v2.0_Integrated_NextGen,124.68,2026-10-15,Prospective Unlabeled Forecast
+46021,SD,South Dakota,Campbell County,2026,v2.0_Integrated_NextGen,116.69,2026-10-15,Prospective Unlabeled Forecast
+46023,SD,South Dakota,Charles Mix County,2026,v2.0_Integrated_NextGen,139.19,2026-10-15,Prospective Unlabeled Forecast
+46025,SD,South Dakota,Clark County,2026,v2.0_Integrated_NextGen,170.93,2026-10-15,Prospective Unlabeled Forecast
+46027,SD,South Dakota,Clay County,2026,v2.0_Integrated_NextGen,160.32,2026-10-15,Prospective Unlabeled Forecast
+46029,SD,South Dakota,Codington County,2026,v2.0_Integrated_NextGen,186.14,2026-10-15,Prospective Unlabeled Forecast
+46031,SD,South Dakota,Corson County,2026,v2.0_Integrated_NextGen,97.08,2026-10-15,Prospective Unlabeled Forecast
+46033,SD,South Dakota,Custer County,2026,v2.0_Integrated_NextGen,108.98,2026-10-15,Prospective Unlabeled Forecast
+46035,SD,South Dakota,Davison County,2026,v2.0_Integrated_NextGen,143.6,2026-10-15,Prospective Unlabeled Forecast
+46037,SD,South Dakota,Day County,2026,v2.0_Integrated_NextGen,176.36,2026-10-15,Prospective Unlabeled Forecast
+46039,SD,South Dakota,Deuel County,2026,v2.0_Integrated_NextGen,180.4,2026-10-15,Prospective Unlabeled Forecast
+46041,SD,South Dakota,Dewey County,2026,v2.0_Integrated_NextGen,104.12,2026-10-15,Prospective Unlabeled Forecast
+46043,SD,South Dakota,Douglas County,2026,v2.0_Integrated_NextGen,145.91,2026-10-15,Prospective Unlabeled Forecast
+46045,SD,South Dakota,Edmunds County,2026,v2.0_Integrated_NextGen,135.39,2026-10-15,Prospective Unlabeled Forecast
+46047,SD,South Dakota,Fall River County,2026,v2.0_Integrated_NextGen,110.83,2026-10-15,Prospective Unlabeled Forecast
+46049,SD,South Dakota,Faulk County,2026,v2.0_Integrated_NextGen,132.32,2026-10-15,Prospective Unlabeled Forecast
+46051,SD,South Dakota,Grant County,2026,v2.0_Integrated_NextGen,169.04,2026-10-15,Prospective Unlabeled Forecast
+46053,SD,South Dakota,Gregory County,2026,v2.0_Integrated_NextGen,129.35,2026-10-15,Prospective Unlabeled Forecast
+46055,SD,South Dakota,Haakon County,2026,v2.0_Integrated_NextGen,80.9,2026-10-15,Prospective Unlabeled Forecast
+46057,SD,South Dakota,Hamlin County,2026,v2.0_Integrated_NextGen,177.8,2026-10-15,Prospective Unlabeled Forecast
+46059,SD,South Dakota,Hand County,2026,v2.0_Integrated_NextGen,129.98,2026-10-15,Prospective Unlabeled Forecast
+46061,SD,South Dakota,Hanson County,2026,v2.0_Integrated_NextGen,147.89,2026-10-15,Prospective Unlabeled Forecast
+46063,SD,South Dakota,Harding County,2026,v2.0_Integrated_NextGen,84.36,2026-10-15,Prospective Unlabeled Forecast
+46065,SD,South Dakota,Hughes County,2026,v2.0_Integrated_NextGen,122.22,2026-10-15,Prospective Unlabeled Forecast
+46067,SD,South Dakota,Hutchinson County,2026,v2.0_Integrated_NextGen,137.03,2026-10-15,Prospective Unlabeled Forecast
+46069,SD,South Dakota,Hyde County,2026,v2.0_Integrated_NextGen,126.4,2026-10-15,Prospective Unlabeled Forecast
+46071,SD,South Dakota,Jackson County,2026,v2.0_Integrated_NextGen,98.11,2026-10-15,Prospective Unlabeled Forecast
+46073,SD,South Dakota,Jerauld County,2026,v2.0_Integrated_NextGen,131.23,2026-10-15,Prospective Unlabeled Forecast
+46075,SD,South Dakota,Jones County,2026,v2.0_Integrated_NextGen,110.55,2026-10-15,Prospective Unlabeled Forecast
+46077,SD,South Dakota,Kingsbury County,2026,v2.0_Integrated_NextGen,152.39,2026-10-15,Prospective Unlabeled Forecast
+46079,SD,South Dakota,Lake County,2026,v2.0_Integrated_NextGen,167.87,2026-10-15,Prospective Unlabeled Forecast
+46081,SD,South Dakota,Lawrence County,2026,v2.0_Integrated_NextGen,76.94,2026-10-15,Prospective Unlabeled Forecast
+46083,SD,South Dakota,Lincoln County,2026,v2.0_Integrated_NextGen,163.39,2026-10-15,Prospective Unlabeled Forecast
+46085,SD,South Dakota,Lyman County,2026,v2.0_Integrated_NextGen,110.52,2026-10-15,Prospective Unlabeled Forecast
+46091,SD,South Dakota,Marshall County,2026,v2.0_Integrated_NextGen,168.2,2026-10-15,Prospective Unlabeled Forecast
+46087,SD,South Dakota,McCook County,2026,v2.0_Integrated_NextGen,158.29,2026-10-15,Prospective Unlabeled Forecast
+46089,SD,South Dakota,McPherson County,2026,v2.0_Integrated_NextGen,142.5,2026-10-15,Prospective Unlabeled Forecast
+46093,SD,South Dakota,Meade County,2026,v2.0_Integrated_NextGen,88.09,2026-10-15,Prospective Unlabeled Forecast
+46095,SD,South Dakota,Mellette County,2026,v2.0_Integrated_NextGen,90.0,2026-10-15,Prospective Unlabeled Forecast
+46097,SD,South Dakota,Miner County,2026,v2.0_Integrated_NextGen,130.54,2026-10-15,Prospective Unlabeled Forecast
+46099,SD,South Dakota,Minnehaha County,2026,v2.0_Integrated_NextGen,169.19,2026-10-15,Prospective Unlabeled Forecast
+46101,SD,South Dakota,Moody County,2026,v2.0_Integrated_NextGen,159.61,2026-10-15,Prospective Unlabeled Forecast
+46102,SD,South Dakota,Oglala Lakota County,2026,v2.0_Integrated_NextGen,71.68,2026-10-15,Prospective Unlabeled Forecast
+46103,SD,South Dakota,Pennington County,2026,v2.0_Integrated_NextGen,96.01,2026-10-15,Prospective Unlabeled Forecast
+46105,SD,South Dakota,Perkins County,2026,v2.0_Integrated_NextGen,99.69,2026-10-15,Prospective Unlabeled Forecast
+46107,SD,South Dakota,Potter County,2026,v2.0_Integrated_NextGen,118.7,2026-10-15,Prospective Unlabeled Forecast
+46109,SD,South Dakota,Roberts County,2026,v2.0_Integrated_NextGen,170.12,2026-10-15,Prospective Unlabeled Forecast
+46111,SD,South Dakota,Sanborn County,2026,v2.0_Integrated_NextGen,118.58,2026-10-15,Prospective Unlabeled Forecast
+46115,SD,South Dakota,Spink County,2026,v2.0_Integrated_NextGen,168.7,2026-10-15,Prospective Unlabeled Forecast
+46117,SD,South Dakota,Stanley County,2026,v2.0_Integrated_NextGen,97.59,2026-10-15,Prospective Unlabeled Forecast
+46119,SD,South Dakota,Sully County,2026,v2.0_Integrated_NextGen,123.56,2026-10-15,Prospective Unlabeled Forecast
+46121,SD,South Dakota,Todd County,2026,v2.0_Integrated_NextGen,127.58,2026-10-15,Prospective Unlabeled Forecast
+46123,SD,South Dakota,Tripp County,2026,v2.0_Integrated_NextGen,102.41,2026-10-15,Prospective Unlabeled Forecast
+46125,SD,South Dakota,Turner County,2026,v2.0_Integrated_NextGen,153.44,2026-10-15,Prospective Unlabeled Forecast
+46127,SD,South Dakota,Union County,2026,v2.0_Integrated_NextGen,166.44,2026-10-15,Prospective Unlabeled Forecast
+46129,SD,South Dakota,Walworth County,2026,v2.0_Integrated_NextGen,132.19,2026-10-15,Prospective Unlabeled Forecast
+46135,SD,South Dakota,Yankton County,2026,v2.0_Integrated_NextGen,148.23,2026-10-15,Prospective Unlabeled Forecast
+46137,SD,South Dakota,Ziebach County,2026,v2.0_Integrated_NextGen,96.48,2026-10-15,Prospective Unlabeled Forecast
+55001,WI,Wisconsin,Adams County,2026,v2.0_Integrated_NextGen,156.73,2026-10-15,Prospective Unlabeled Forecast
+55003,WI,Wisconsin,Ashland County,2026,v2.0_Integrated_NextGen,131.2,2026-10-15,Prospective Unlabeled Forecast
+55005,WI,Wisconsin,Barron County,2026,v2.0_Integrated_NextGen,166.46,2026-10-15,Prospective Unlabeled Forecast
+55007,WI,Wisconsin,Bayfield County,2026,v2.0_Integrated_NextGen,119.48,2026-10-15,Prospective Unlabeled Forecast
+55009,WI,Wisconsin,Brown County,2026,v2.0_Integrated_NextGen,186.6,2026-10-15,Prospective Unlabeled Forecast
+55011,WI,Wisconsin,Buffalo County,2026,v2.0_Integrated_NextGen,181.09,2026-10-15,Prospective Unlabeled Forecast
+55013,WI,Wisconsin,Burnett County,2026,v2.0_Integrated_NextGen,134.97,2026-10-15,Prospective Unlabeled Forecast
+55015,WI,Wisconsin,Calumet County,2026,v2.0_Integrated_NextGen,182.72,2026-10-15,Prospective Unlabeled Forecast
+55017,WI,Wisconsin,Chippewa County,2026,v2.0_Integrated_NextGen,173.82,2026-10-15,Prospective Unlabeled Forecast
+55019,WI,Wisconsin,Clark County,2026,v2.0_Integrated_NextGen,157.08,2026-10-15,Prospective Unlabeled Forecast
+55021,WI,Wisconsin,Columbia County,2026,v2.0_Integrated_NextGen,199.93,2026-10-15,Prospective Unlabeled Forecast
+55023,WI,Wisconsin,Crawford County,2026,v2.0_Integrated_NextGen,183.45,2026-10-15,Prospective Unlabeled Forecast
+55025,WI,Wisconsin,Dane County,2026,v2.0_Integrated_NextGen,201.25,2026-10-15,Prospective Unlabeled Forecast
+55027,WI,Wisconsin,Dodge County,2026,v2.0_Integrated_NextGen,196.46,2026-10-15,Prospective Unlabeled Forecast
+55029,WI,Wisconsin,Door County,2026,v2.0_Integrated_NextGen,154.26,2026-10-15,Prospective Unlabeled Forecast
+55031,WI,Wisconsin,Douglas County,2026,v2.0_Integrated_NextGen,137.08,2026-10-15,Prospective Unlabeled Forecast
+55033,WI,Wisconsin,Dunn County,2026,v2.0_Integrated_NextGen,177.46,2026-10-15,Prospective Unlabeled Forecast
+55035,WI,Wisconsin,Eau Claire County,2026,v2.0_Integrated_NextGen,171.05,2026-10-15,Prospective Unlabeled Forecast
+55037,WI,Wisconsin,Florence County,2026,v2.0_Integrated_NextGen,114.7,2026-10-15,Prospective Unlabeled Forecast
+55039,WI,Wisconsin,Fond du Lac County,2026,v2.0_Integrated_NextGen,193.22,2026-10-15,Prospective Unlabeled Forecast
+55041,WI,Wisconsin,Forest County,2026,v2.0_Integrated_NextGen,132.16,2026-10-15,Prospective Unlabeled Forecast
+55043,WI,Wisconsin,Grant County,2026,v2.0_Integrated_NextGen,208.57,2026-10-15,Prospective Unlabeled Forecast
+55045,WI,Wisconsin,Green County,2026,v2.0_Integrated_NextGen,194.78,2026-10-15,Prospective Unlabeled Forecast
+55047,WI,Wisconsin,Green Lake County,2026,v2.0_Integrated_NextGen,182.51,2026-10-15,Prospective Unlabeled Forecast
+55049,WI,Wisconsin,Iowa County,2026,v2.0_Integrated_NextGen,200.02,2026-10-15,Prospective Unlabeled Forecast
+55051,WI,Wisconsin,Iron County,2026,v2.0_Integrated_NextGen,140.4,2026-10-15,Prospective Unlabeled Forecast
+55053,WI,Wisconsin,Jackson County,2026,v2.0_Integrated_NextGen,177.88,2026-10-15,Prospective Unlabeled Forecast
+55055,WI,Wisconsin,Jefferson County,2026,v2.0_Integrated_NextGen,189.79,2026-10-15,Prospective Unlabeled Forecast
+55057,WI,Wisconsin,Juneau County,2026,v2.0_Integrated_NextGen,180.34,2026-10-15,Prospective Unlabeled Forecast
+55059,WI,Wisconsin,Kenosha County,2026,v2.0_Integrated_NextGen,190.29,2026-10-15,Prospective Unlabeled Forecast
+55061,WI,Wisconsin,Kewaunee County,2026,v2.0_Integrated_NextGen,171.68,2026-10-15,Prospective Unlabeled Forecast
+55063,WI,Wisconsin,La Crosse County,2026,v2.0_Integrated_NextGen,184.09,2026-10-15,Prospective Unlabeled Forecast
+55065,WI,Wisconsin,Lafayette County,2026,v2.0_Integrated_NextGen,205.51,2026-10-15,Prospective Unlabeled Forecast
+55067,WI,Wisconsin,Langlade County,2026,v2.0_Integrated_NextGen,149.0,2026-10-15,Prospective Unlabeled Forecast
+55069,WI,Wisconsin,Lincoln County,2026,v2.0_Integrated_NextGen,144.6,2026-10-15,Prospective Unlabeled Forecast
+55071,WI,Wisconsin,Manitowoc County,2026,v2.0_Integrated_NextGen,169.09,2026-10-15,Prospective Unlabeled Forecast
+55073,WI,Wisconsin,Marathon County,2026,v2.0_Integrated_NextGen,158.97,2026-10-15,Prospective Unlabeled Forecast
+55075,WI,Wisconsin,Marinette County,2026,v2.0_Integrated_NextGen,149.28,2026-10-15,Prospective Unlabeled Forecast
+55077,WI,Wisconsin,Marquette County,2026,v2.0_Integrated_NextGen,158.2,2026-10-15,Prospective Unlabeled Forecast
+55078,WI,Wisconsin,Menominee County,2026,v2.0_Integrated_NextGen,149.42,2026-10-15,Prospective Unlabeled Forecast
+55079,WI,Wisconsin,Milwaukee County,2026,v2.0_Integrated_NextGen,185.78,2026-10-15,Prospective Unlabeled Forecast
+55081,WI,Wisconsin,Monroe County,2026,v2.0_Integrated_NextGen,174.43,2026-10-15,Prospective Unlabeled Forecast
+55083,WI,Wisconsin,Oconto County,2026,v2.0_Integrated_NextGen,169.02,2026-10-15,Prospective Unlabeled Forecast
+55085,WI,Wisconsin,Oneida County,2026,v2.0_Integrated_NextGen,140.96,2026-10-15,Prospective Unlabeled Forecast
+55087,WI,Wisconsin,Outagamie County,2026,v2.0_Integrated_NextGen,177.28,2026-10-15,Prospective Unlabeled Forecast
+55089,WI,Wisconsin,Ozaukee County,2026,v2.0_Integrated_NextGen,180.9,2026-10-15,Prospective Unlabeled Forecast
+55091,WI,Wisconsin,Pepin County,2026,v2.0_Integrated_NextGen,179.87,2026-10-15,Prospective Unlabeled Forecast
+55093,WI,Wisconsin,Pierce County,2026,v2.0_Integrated_NextGen,186.29,2026-10-15,Prospective Unlabeled Forecast
+55095,WI,Wisconsin,Polk County,2026,v2.0_Integrated_NextGen,168.88,2026-10-15,Prospective Unlabeled Forecast
+55097,WI,Wisconsin,Portage County,2026,v2.0_Integrated_NextGen,174.15,2026-10-15,Prospective Unlabeled Forecast
+55099,WI,Wisconsin,Price County,2026,v2.0_Integrated_NextGen,141.67,2026-10-15,Prospective Unlabeled Forecast
+55101,WI,Wisconsin,Racine County,2026,v2.0_Integrated_NextGen,194.36,2026-10-15,Prospective Unlabeled Forecast
+55103,WI,Wisconsin,Richland County,2026,v2.0_Integrated_NextGen,184.2,2026-10-15,Prospective Unlabeled Forecast
+55105,WI,Wisconsin,Rock County,2026,v2.0_Integrated_NextGen,194.34,2026-10-15,Prospective Unlabeled Forecast
+55107,WI,Wisconsin,Rusk County,2026,v2.0_Integrated_NextGen,145.73,2026-10-15,Prospective Unlabeled Forecast
+55111,WI,Wisconsin,Sauk County,2026,v2.0_Integrated_NextGen,191.93,2026-10-15,Prospective Unlabeled Forecast
+55113,WI,Wisconsin,Sawyer County,2026,v2.0_Integrated_NextGen,145.6,2026-10-15,Prospective Unlabeled Forecast
+55115,WI,Wisconsin,Shawano County,2026,v2.0_Integrated_NextGen,169.28,2026-10-15,Prospective Unlabeled Forecast
+55117,WI,Wisconsin,Sheboygan County,2026,v2.0_Integrated_NextGen,175.16,2026-10-15,Prospective Unlabeled Forecast
+55109,WI,Wisconsin,St. Croix County,2026,v2.0_Integrated_NextGen,184.17,2026-10-15,Prospective Unlabeled Forecast
+55119,WI,Wisconsin,Taylor County,2026,v2.0_Integrated_NextGen,151.77,2026-10-15,Prospective Unlabeled Forecast
+55121,WI,Wisconsin,Trempealeau County,2026,v2.0_Integrated_NextGen,180.11,2026-10-15,Prospective Unlabeled Forecast
+55123,WI,Wisconsin,Vernon County,2026,v2.0_Integrated_NextGen,182.33,2026-10-15,Prospective Unlabeled Forecast
+55125,WI,Wisconsin,Vilas County,2026,v2.0_Integrated_NextGen,138.13,2026-10-15,Prospective Unlabeled Forecast
+55127,WI,Wisconsin,Walworth County,2026,v2.0_Integrated_NextGen,203.14,2026-10-15,Prospective Unlabeled Forecast
+55129,WI,Wisconsin,Washburn County,2026,v2.0_Integrated_NextGen,146.16,2026-10-15,Prospective Unlabeled Forecast
+55131,WI,Wisconsin,Washington County,2026,v2.0_Integrated_NextGen,182.74,2026-10-15,Prospective Unlabeled Forecast
+55133,WI,Wisconsin,Waukesha County,2026,v2.0_Integrated_NextGen,191.9,2026-10-15,Prospective Unlabeled Forecast
+55135,WI,Wisconsin,Waupaca County,2026,v2.0_Integrated_NextGen,169.91,2026-10-15,Prospective Unlabeled Forecast
+55137,WI,Wisconsin,Waushara County,2026,v2.0_Integrated_NextGen,176.31,2026-10-15,Prospective Unlabeled Forecast
+55139,WI,Wisconsin,Winnebago County,2026,v2.0_Integrated_NextGen,190.2,2026-10-15,Prospective Unlabeled Forecast
+55141,WI,Wisconsin,Wood County,2026,v2.0_Integrated_NextGen,169.44,2026-10-15,Prospective Unlabeled Forecast

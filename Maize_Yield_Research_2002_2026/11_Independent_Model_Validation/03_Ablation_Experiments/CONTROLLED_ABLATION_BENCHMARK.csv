@@ -1,0 +1,9 @@
+model_name,split,num_features,rmse,mae,r2,imp_over_model_a_pct,imp_over_model_b_pct
+Model A (Lag-1 Only),Validation (2020-2022),1,30.09,23.75,0.0684,-0.57,-39.31
+Model A (Lag-1 Only),Test (2023-2025),1,29.92,22.87,-0.0334,0.0,-38.52
+Model B (Full Historical Lags),Validation (2020-2022),3,22.28,16.91,0.489,25.53,-3.15
+Model B (Full Historical Lags),Test (2023-2025),3,21.6,16.64,0.4612,27.81,0.0
+Model C (Pure Environmental - Soil+Climate),Validation (2020-2022),37,26.87,23.43,0.257,10.19,-24.4
+Model C (Pure Environmental - Soil+Climate),Test (2023-2025),37,29.26,25.6,0.0114,2.21,-35.46
+Model D (Integrated - Soil+Climate+Lags),Validation (2020-2022),40,17.32,13.44,0.6914,42.11,19.81
+Model D (Integrated - Soil+Climate+Lags),Test (2023-2025),40,17.7,13.69,0.6383,40.84,18.06

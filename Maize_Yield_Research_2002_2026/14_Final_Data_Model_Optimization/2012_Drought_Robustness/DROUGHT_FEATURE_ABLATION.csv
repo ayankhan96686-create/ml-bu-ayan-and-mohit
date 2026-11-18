@@ -1,0 +1,9 @@
+Ablation_Experiment,Feature_Count,Overall_Test_RMSE,Overall_Test_MAE,Overall_Test_R2,Overall_Test_Bias,Drought_Year_2023_RMSE,Drought_Year_2023_R2,Severe_Drought_Tail_RMSE,Severe_Drought_Tail_Bias,Tail_RMSE_Penalty_vs_Baseline
+Full Baseline (All 69 In-Season Features),69,15.6328,12.0089,0.7178,-2.7219,16.028,0.7124,29.3822,22.8455,0.0
+"Minus Extreme Degree Days (edd_july_f, edd_aug_f)",67,15.6121,12.0286,0.7185,-2.68,16.1984,0.7063,29.5446,22.9139,0.1624
+"Minus Vapor Pressure Deficit (vpd_july_kpa, vpd_aug_kpa)",67,15.5754,11.9366,0.7199,-2.2577,15.7851,0.7211,29.6541,23.5013,0.2719
+Minus Compound Heat-Drought (compound_heat_drought_july),68,15.4668,11.8837,0.7238,-2.7485,15.9091,0.7167,29.4058,22.6484,0.0236
+Minus July Precip Z-Score (noaa_prcp_jul_in_zscore),68,15.6374,12.0016,0.7176,-2.5999,16.0531,0.7115,30.0981,23.5528,0.7159
+"Minus Seasonal Precip Totals (may_aug, may_sep, jul, aug)",65,15.7221,12.0383,0.7146,-2.2351,15.8701,0.7181,29.8408,22.3006,0.4586
+"Minus Irrigation Features (regime_proxy, drought_buffer)",67,15.5732,11.9035,0.7199,-2.8139,15.91,0.7167,29.0943,22.4594,-0.2879
+Minus All Extreme Drought & Heat Features (Pure Linear Climatology),61,16.0088,12.3825,0.7041,-3.1813,16.7982,0.6841,29.5718,23.2768,0.1896

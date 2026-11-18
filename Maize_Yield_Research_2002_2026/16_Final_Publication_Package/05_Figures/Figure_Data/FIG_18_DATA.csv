@@ -1,0 +1,6 @@
+Regime,Coverage_80,Coverage_90,Coverage_95
+Overall (N=1699),80.45,90.23,95.12
+Bumper (>190),82.1,91.8,96.2
+Normal (140-190),81.5,91.5,95.8
+Mod Drought (120-140),76.2,87.1,92.4
+Severe Drought (<120),58.9,68.2,79.5

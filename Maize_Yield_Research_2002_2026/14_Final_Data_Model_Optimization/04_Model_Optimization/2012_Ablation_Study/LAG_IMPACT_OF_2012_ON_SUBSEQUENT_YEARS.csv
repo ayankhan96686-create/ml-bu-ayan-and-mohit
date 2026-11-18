@@ -1,0 +1,6 @@
+Year,Observations,Mean_Yield_Lag_1yr,Mean_Yield_Lag_2yr,Mean_Yield_Roll_5yr,Includes_2012_In_Lag1,Includes_2012_In_Lag2,Includes_2012_In_Roll5
+2013,683,114.17,146.24,145.19,True,False,True
+2014,695,157.61,114.25,146.54,False,True,True
+2015,653,171.49,158.46,148.8,False,False,True
+2016,674,166.52,171.41,151.12,False,False,True
+2017,676,175.83,166.09,156.97,False,False,True

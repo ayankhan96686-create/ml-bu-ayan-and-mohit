@@ -1,0 +1,15 @@
+metric_name,expected_value,actual_value,status
+Historical Row Count,"16,390",16390,PASS
+Historical Column Count,83,83,PASS
+"Historical Duplicate (county_fips, year)",0,0,PASS
+Historical Target Missing Values,0,0,PASS
+Historical Unique County FIPS,788,788,PASS
+Historical Eligible Counties Tagged,"16,390 True",16390 True,PASS
+Future 2026 Row Count,814,814,PASS
+Future 2026 Column Count,82,82,PASS
+Future 2026 Duplicate FIPS,0,0,PASS
+Future 2026 Unique County FIPS,814,814,PASS
+Future 2026 Certified Eligible Counties,788,788,PASS
+Future 2026 Quarantined Non-Ag Counties,26,26,PASS
+Schema Compatibility (Hist vs Future diff),{'corn_yield_bu_acre'},{'corn_yield_bu_acre'},PASS
+Target Leakage cv_percent Present,False,False,PASS

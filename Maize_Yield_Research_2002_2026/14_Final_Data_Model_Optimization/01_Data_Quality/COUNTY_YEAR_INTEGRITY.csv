@@ -1,0 +1,789 @@
+County_FIPS_5Digit,State_Abbr,State_Name,County_Name,Total_Historical_Years,Min_Year,Max_Year,Is_Chronologically_Continuous,Eligible_For_2026_Forecast,Cook_County_Special_Handling,Oglala_Lakota_Special_Handling
+17001,IL,Illinois,Adams County,22,2002,2025,False,True,False,False
+17003,IL,Illinois,Alexander County,17,2002,2022,False,True,False,False
+17005,IL,Illinois,Bond County,20,2002,2025,False,True,False,False
+17007,IL,Illinois,Boone County,23,2002,2025,False,True,False,False
+17009,IL,Illinois,Brown County,22,2002,2024,False,True,False,False
+17011,IL,Illinois,Bureau County,24,2002,2025,True,True,False,False
+17013,IL,Illinois,Calhoun County,20,2002,2025,False,True,False,False
+17015,IL,Illinois,Carroll County,24,2002,2025,True,True,False,False
+17017,IL,Illinois,Cass County,22,2002,2023,True,True,False,False
+17019,IL,Illinois,Champaign County,22,2002,2023,True,True,False,False
+17021,IL,Illinois,Christian County,22,2002,2023,True,True,False,False
+17023,IL,Illinois,Clark County,21,2002,2025,False,True,False,False
+17025,IL,Illinois,Clay County,23,2002,2025,False,True,False,False
+17027,IL,Illinois,Clinton County,23,2002,2024,True,True,False,False
+17029,IL,Illinois,Coles County,22,2002,2025,False,True,False,False
+17031,IL,Illinois,Cook County,11,2002,2021,False,True,True,False
+17033,IL,Illinois,Crawford County,23,2002,2025,False,True,False,False
+17035,IL,Illinois,Cumberland County,21,2002,2024,False,True,False,False
+17037,IL,Illinois,DeKalb County,23,2002,2025,False,True,False,False
+17039,IL,Illinois,De Witt County,19,2002,2022,False,True,False,False
+17041,IL,Illinois,Douglas County,23,2002,2025,False,True,False,False
+17043,IL,Illinois,DuPage County,8,2002,2022,False,True,False,False
+17045,IL,Illinois,Edgar County,22,2002,2024,False,True,False,False
+17047,IL,Illinois,Edwards County,20,2002,2024,False,True,False,False
+17049,IL,Illinois,Effingham County,24,2002,2025,True,True,False,False
+17051,IL,Illinois,Fayette County,20,2002,2023,False,True,False,False
+17053,IL,Illinois,Ford County,22,2002,2023,True,True,False,False
+17055,IL,Illinois,Franklin County,24,2002,2025,True,True,False,False
+17057,IL,Illinois,Fulton County,24,2002,2025,True,True,False,False
+17059,IL,Illinois,Gallatin County,21,2002,2022,True,True,False,False
+17061,IL,Illinois,Greene County,24,2002,2025,True,True,False,False
+17063,IL,Illinois,Grundy County,21,2002,2022,True,True,False,False
+17065,IL,Illinois,Hamilton County,17,2002,2022,False,True,False,False
+17067,IL,Illinois,Hancock County,22,2002,2024,False,True,False,False
+17069,IL,Illinois,Hardin County,8,2002,2021,False,True,False,False
+17071,IL,Illinois,Henderson County,22,2002,2025,False,True,False,False
+17073,IL,Illinois,Henry County,22,2002,2023,True,True,False,False
+17075,IL,Illinois,Iroquois County,23,2002,2024,True,True,False,False
+17077,IL,Illinois,Jackson County,23,2002,2025,False,True,False,False
+17079,IL,Illinois,Jasper County,22,2002,2025,False,True,False,False
+17081,IL,Illinois,Jefferson County,23,2002,2025,False,True,False,False
+17083,IL,Illinois,Jersey County,21,2002,2024,False,True,False,False
+17085,IL,Illinois,Jo Daviess County,24,2002,2025,True,True,False,False
+17087,IL,Illinois,Johnson County,18,2002,2025,False,True,False,False
+17089,IL,Illinois,Kane County,23,2002,2024,True,True,False,False
+17091,IL,Illinois,Kankakee County,21,2002,2023,False,True,False,False
+17093,IL,Illinois,Kendall County,20,2002,2023,False,True,False,False
+17095,IL,Illinois,Knox County,24,2002,2025,True,True,False,False
+17097,IL,Illinois,Lake County,20,2002,2025,False,True,False,False
+17099,IL,Illinois,LaSalle County,23,2002,2025,False,True,False,False
+17101,IL,Illinois,Lawrence County,21,2002,2025,False,True,False,False
+17103,IL,Illinois,Lee County,23,2002,2025,False,True,False,False
+17105,IL,Illinois,Livingston County,24,2002,2025,True,True,False,False
+17107,IL,Illinois,Logan County,23,2002,2024,True,True,False,False
+17109,IL,Illinois,McDonough County,21,2002,2023,False,True,False,False
+17111,IL,Illinois,McHenry County,19,2002,2025,False,True,False,False
+17113,IL,Illinois,McLean County,24,2002,2025,True,True,False,False
+17115,IL,Illinois,Macon County,24,2002,2025,True,True,False,False
+17117,IL,Illinois,Macoupin County,24,2002,2025,True,True,False,False
+17119,IL,Illinois,Madison County,24,2002,2025,True,True,False,False
+17121,IL,Illinois,Marion County,24,2002,2025,True,True,False,False
+17123,IL,Illinois,Marshall County,22,2002,2025,False,True,False,False
+17125,IL,Illinois,Mason County,22,2002,2025,False,True,False,False
+17127,IL,Illinois,Massac County,20,2002,2025,False,True,False,False
+17129,IL,Illinois,Menard County,21,2002,2025,False,True,False,False
+17131,IL,Illinois,Mercer County,21,2002,2023,False,True,False,False
+17133,IL,Illinois,Monroe County,24,2002,2025,True,True,False,False
+17135,IL,Illinois,Montgomery County,23,2002,2024,True,True,False,False
+17137,IL,Illinois,Morgan County,22,2002,2024,False,True,False,False
+17139,IL,Illinois,Moultrie County,23,2002,2025,False,True,False,False
+17141,IL,Illinois,Ogle County,24,2002,2025,True,True,False,False
+17143,IL,Illinois,Peoria County,24,2002,2025,True,True,False,False
+17145,IL,Illinois,Perry County,21,2002,2025,False,True,False,False
+17147,IL,Illinois,Piatt County,24,2002,2025,True,True,False,False
+17149,IL,Illinois,Pike County,20,2002,2024,False,True,False,False
+17151,IL,Illinois,Pope County,14,2002,2025,False,True,False,False
+17153,IL,Illinois,Pulaski County,23,2002,2025,False,True,False,False
+17155,IL,Illinois,Putnam County,21,2002,2025,False,True,False,False
+17157,IL,Illinois,Randolph County,23,2002,2025,False,True,False,False
+17159,IL,Illinois,Richland County,21,2002,2025,False,True,False,False
+17161,IL,Illinois,Rock Island County,21,2002,2025,False,True,False,False
+17163,IL,Illinois,St. Clair County,24,2002,2025,True,True,False,False
+17165,IL,Illinois,Saline County,21,2002,2023,False,True,False,False
+17167,IL,Illinois,Sangamon County,24,2002,2025,True,True,False,False
+17169,IL,Illinois,Schuyler County,22,2002,2023,True,True,False,False
+17171,IL,Illinois,Scott County,21,2002,2024,False,True,False,False
+17173,IL,Illinois,Shelby County,23,2002,2025,False,True,False,False
+17175,IL,Illinois,Stark County,24,2002,2025,True,True,False,False
+17177,IL,Illinois,Stephenson County,24,2002,2025,True,True,False,False
+17179,IL,Illinois,Tazewell County,24,2002,2025,True,True,False,False
+17181,IL,Illinois,Union County,20,2002,2023,False,True,False,False
+17183,IL,Illinois,Vermilion County,23,2002,2025,False,True,False,False
+17185,IL,Illinois,Wabash County,23,2002,2025,False,True,False,False
+17187,IL,Illinois,Warren County,20,2002,2022,False,True,False,False
+17189,IL,Illinois,Washington County,24,2002,2025,True,True,False,False
+17191,IL,Illinois,Wayne County,20,2002,2025,False,True,False,False
+17193,IL,Illinois,White County,23,2002,2024,True,True,False,False
+17195,IL,Illinois,Whiteside County,24,2002,2025,True,True,False,False
+17197,IL,Illinois,Will County,22,2002,2025,False,True,False,False
+17199,IL,Illinois,Williamson County,22,2002,2024,False,True,False,False
+17201,IL,Illinois,Winnebago County,24,2002,2025,True,True,False,False
+17203,IL,Illinois,Woodford County,23,2002,2025,False,True,False,False
+18001,IN,Indiana,Adams County,23,2002,2025,False,True,False,False
+18003,IN,Indiana,Allen County,24,2002,2025,True,True,False,False
+18005,IN,Indiana,Bartholomew County,22,2002,2025,False,True,False,False
+18007,IN,Indiana,Benton County,24,2002,2025,True,True,False,False
+18009,IN,Indiana,Blackford County,22,2002,2025,False,True,False,False
+18011,IN,Indiana,Boone County,24,2002,2025,True,True,False,False
+18013,IN,Indiana,Brown County,5,2009,2023,False,True,False,False
+18015,IN,Indiana,Carroll County,22,2002,2025,False,True,False,False
+18017,IN,Indiana,Cass County,21,2002,2025,False,True,False,False
+18019,IN,Indiana,Clark County,23,2002,2024,True,True,False,False
+18021,IN,Indiana,Clay County,22,2002,2025,False,True,False,False
+18023,IN,Indiana,Clinton County,23,2002,2025,False,True,False,False
+18025,IN,Indiana,Crawford County,2,2010,2019,False,True,False,False
+18027,IN,Indiana,Daviess County,24,2002,2025,True,True,False,False
+18029,IN,Indiana,Dearborn County,23,2002,2024,True,True,False,False
+18031,IN,Indiana,Decatur County,24,2002,2025,True,True,False,False
+18033,IN,Indiana,DeKalb County,22,2002,2025,False,True,False,False
+18035,IN,Indiana,Delaware County,24,2002,2025,True,True,False,False
+18037,IN,Indiana,Dubois County,23,2002,2025,False,True,False,False
+18039,IN,Indiana,Elkhart County,22,2002,2024,False,True,False,False
+18041,IN,Indiana,Fayette County,24,2002,2025,True,True,False,False
+18043,IN,Indiana,Floyd County,10,2008,2021,False,True,False,False
+18045,IN,Indiana,Fountain County,18,2002,2022,False,True,False,False
+18047,IN,Indiana,Franklin County,24,2002,2025,True,True,False,False
+18049,IN,Indiana,Fulton County,22,2002,2025,False,True,False,False
+18051,IN,Indiana,Gibson County,22,2002,2025,False,True,False,False
+18053,IN,Indiana,Grant County,19,2002,2025,False,True,False,False
+18055,IN,Indiana,Greene County,19,2002,2025,False,True,False,False
+18057,IN,Indiana,Hamilton County,24,2002,2025,True,True,False,False
+18059,IN,Indiana,Hancock County,24,2002,2025,True,True,False,False
+18061,IN,Indiana,Harrison County,24,2002,2025,True,True,False,False
+18063,IN,Indiana,Hendricks County,24,2002,2025,True,True,False,False
+18065,IN,Indiana,Henry County,21,2002,2025,False,True,False,False
+18067,IN,Indiana,Howard County,23,2002,2025,False,True,False,False
+18069,IN,Indiana,Huntington County,22,2002,2024,False,True,False,False
+18071,IN,Indiana,Jackson County,20,2002,2024,False,True,False,False
+18073,IN,Indiana,Jasper County,21,2002,2025,False,True,False,False
+18075,IN,Indiana,Jay County,22,2002,2025,False,True,False,False
+18077,IN,Indiana,Jefferson County,19,2002,2024,False,True,False,False
+18079,IN,Indiana,Jennings County,23,2002,2024,True,True,False,False
+18081,IN,Indiana,Johnson County,23,2002,2025,False,True,False,False
+18083,IN,Indiana,Knox County,21,2002,2024,False,True,False,False
+18085,IN,Indiana,Kosciusko County,24,2002,2025,True,True,False,False
+18087,IN,Indiana,LaGrange County,24,2002,2025,True,True,False,False
+18089,IN,Indiana,Lake County,21,2002,2025,False,True,False,False
+18091,IN,Indiana,LaPorte County,24,2002,2025,True,True,False,False
+18093,IN,Indiana,Lawrence County,20,2002,2022,False,True,False,False
+18095,IN,Indiana,Madison County,24,2002,2025,True,True,False,False
+18097,IN,Indiana,Marion County,17,2002,2025,False,True,False,False
+18099,IN,Indiana,Marshall County,24,2002,2025,True,True,False,False
+18101,IN,Indiana,Martin County,18,2002,2022,False,True,False,False
+18103,IN,Indiana,Miami County,22,2002,2025,False,True,False,False
+18105,IN,Indiana,Monroe County,23,2002,2024,True,True,False,False
+18107,IN,Indiana,Montgomery County,22,2002,2025,False,True,False,False
+18109,IN,Indiana,Morgan County,23,2002,2025,False,True,False,False
+18111,IN,Indiana,Newton County,24,2002,2025,True,True,False,False
+18113,IN,Indiana,Noble County,24,2002,2025,True,True,False,False
+18115,IN,Indiana,Ohio County,13,2008,2024,False,True,False,False
+18117,IN,Indiana,Orange County,20,2002,2021,True,True,False,False
+18119,IN,Indiana,Owen County,21,2002,2024,False,True,False,False
+18121,IN,Indiana,Parke County,19,2002,2022,False,True,False,False
+18123,IN,Indiana,Perry County,15,2002,2025,False,True,False,False
+18125,IN,Indiana,Pike County,16,2002,2023,False,True,False,False
+18127,IN,Indiana,Porter County,22,2002,2023,True,True,False,False
+18129,IN,Indiana,Posey County,24,2002,2025,True,True,False,False
+18131,IN,Indiana,Pulaski County,22,2002,2024,False,True,False,False
+18133,IN,Indiana,Putnam County,22,2002,2024,False,True,False,False
+18135,IN,Indiana,Randolph County,24,2002,2025,True,True,False,False
+18137,IN,Indiana,Ripley County,22,2002,2024,False,True,False,False
+18139,IN,Indiana,Rush County,24,2002,2025,True,True,False,False
+18141,IN,Indiana,St. Joseph County,24,2002,2025,True,True,False,False
+18143,IN,Indiana,Scott County,21,2002,2024,False,True,False,False
+18145,IN,Indiana,Shelby County,24,2002,2025,True,True,False,False
+18147,IN,Indiana,Spencer County,21,2002,2025,False,True,False,False
+18149,IN,Indiana,Starke County,21,2002,2024,False,True,False,False
+18151,IN,Indiana,Steuben County,21,2002,2025,False,True,False,False
+18153,IN,Indiana,Sullivan County,22,2002,2025,False,True,False,False
+18155,IN,Indiana,Switzerland County,15,2008,2023,False,True,False,False
+18157,IN,Indiana,Tippecanoe County,23,2002,2025,False,True,False,False
+18159,IN,Indiana,Tipton County,24,2002,2025,True,True,False,False
+18161,IN,Indiana,Union County,24,2002,2025,True,True,False,False
+18163,IN,Indiana,Vanderburgh County,23,2002,2024,True,True,False,False
+18165,IN,Indiana,Vermillion County,21,2002,2022,True,True,False,False
+18167,IN,Indiana,Vigo County,21,2002,2024,False,True,False,False
+18169,IN,Indiana,Wabash County,22,2002,2024,False,True,False,False
+18171,IN,Indiana,Warren County,21,2002,2025,False,True,False,False
+18173,IN,Indiana,Warrick County,21,2002,2023,False,True,False,False
+18175,IN,Indiana,Washington County,22,2002,2025,False,True,False,False
+18177,IN,Indiana,Wayne County,24,2002,2025,True,True,False,False
+18179,IN,Indiana,Wells County,21,2002,2025,False,True,False,False
+18181,IN,Indiana,White County,22,2002,2025,False,True,False,False
+18183,IN,Indiana,Whitley County,24,2002,2025,True,True,False,False
+19001,IA,Iowa,Adair County,22,2002,2025,False,True,False,False
+19003,IA,Iowa,Adams County,18,2002,2020,False,True,False,False
+19005,IA,Iowa,Allamakee County,24,2002,2025,True,True,False,False
+19007,IA,Iowa,Appanoose County,21,2002,2023,False,True,False,False
+19009,IA,Iowa,Audubon County,24,2002,2025,True,True,False,False
+19011,IA,Iowa,Benton County,23,2002,2024,True,True,False,False
+19013,IA,Iowa,Black Hawk County,23,2002,2025,False,True,False,False
+19015,IA,Iowa,Boone County,24,2002,2025,True,True,False,False
+19017,IA,Iowa,Bremer County,24,2002,2025,True,True,False,False
+19019,IA,Iowa,Buchanan County,24,2002,2025,True,True,False,False
+19021,IA,Iowa,Buena Vista County,23,2002,2025,False,True,False,False
+19023,IA,Iowa,Butler County,24,2002,2025,True,True,False,False
+19025,IA,Iowa,Calhoun County,24,2002,2025,True,True,False,False
+19027,IA,Iowa,Carroll County,23,2002,2024,True,True,False,False
+19029,IA,Iowa,Cass County,23,2002,2025,False,True,False,False
+19031,IA,Iowa,Cedar County,24,2002,2025,True,True,False,False
+19033,IA,Iowa,Cerro Gordo County,23,2002,2025,False,True,False,False
+19035,IA,Iowa,Cherokee County,23,2002,2025,False,True,False,False
+19037,IA,Iowa,Chickasaw County,24,2002,2025,True,True,False,False
+19039,IA,Iowa,Clarke County,18,2002,2024,False,True,False,False
+19041,IA,Iowa,Clay County,24,2002,2025,True,True,False,False
+19043,IA,Iowa,Clayton County,24,2002,2025,True,True,False,False
+19045,IA,Iowa,Clinton County,24,2002,2025,True,True,False,False
+19047,IA,Iowa,Crawford County,24,2002,2025,True,True,False,False
+19049,IA,Iowa,Dallas County,23,2002,2025,False,True,False,False
+19051,IA,Iowa,Davis County,23,2002,2025,False,True,False,False
+19053,IA,Iowa,Decatur County,21,2002,2025,False,True,False,False
+19055,IA,Iowa,Delaware County,24,2002,2025,True,True,False,False
+19057,IA,Iowa,Des Moines County,23,2002,2025,False,True,False,False
+19059,IA,Iowa,Dickinson County,24,2002,2025,True,True,False,False
+19061,IA,Iowa,Dubuque County,24,2002,2025,True,True,False,False
+19063,IA,Iowa,Emmet County,21,2002,2025,False,True,False,False
+19065,IA,Iowa,Fayette County,23,2002,2024,True,True,False,False
+19067,IA,Iowa,Floyd County,24,2002,2025,True,True,False,False
+19069,IA,Iowa,Franklin County,24,2002,2025,True,True,False,False
+19071,IA,Iowa,Fremont County,23,2002,2025,False,True,False,False
+19073,IA,Iowa,Greene County,24,2002,2025,True,True,False,False
+19075,IA,Iowa,Grundy County,23,2002,2025,False,True,False,False
+19077,IA,Iowa,Guthrie County,21,2002,2022,True,True,False,False
+19079,IA,Iowa,Hamilton County,23,2002,2025,False,True,False,False
+19081,IA,Iowa,Hancock County,24,2002,2025,True,True,False,False
+19083,IA,Iowa,Hardin County,23,2002,2025,False,True,False,False
+19085,IA,Iowa,Harrison County,21,2002,2025,False,True,False,False
+19087,IA,Iowa,Henry County,24,2002,2025,True,True,False,False
+19089,IA,Iowa,Howard County,24,2002,2025,True,True,False,False
+19091,IA,Iowa,Humboldt County,24,2002,2025,True,True,False,False
+19093,IA,Iowa,Ida County,23,2002,2025,False,True,False,False
+19095,IA,Iowa,Iowa County,23,2002,2025,False,True,False,False
+19097,IA,Iowa,Jackson County,24,2002,2025,True,True,False,False
+19099,IA,Iowa,Jasper County,21,2002,2023,False,True,False,False
+19101,IA,Iowa,Jefferson County,24,2002,2025,True,True,False,False
+19103,IA,Iowa,Johnson County,23,2002,2025,False,True,False,False
+19105,IA,Iowa,Jones County,23,2002,2025,False,True,False,False
+19107,IA,Iowa,Keokuk County,23,2002,2025,False,True,False,False
+19109,IA,Iowa,Kossuth County,22,2002,2025,False,True,False,False
+19111,IA,Iowa,Lee County,24,2002,2025,True,True,False,False
+19113,IA,Iowa,Linn County,23,2002,2025,False,True,False,False
+19115,IA,Iowa,Louisa County,22,2002,2024,False,True,False,False
+19117,IA,Iowa,Lucas County,20,2002,2025,False,True,False,False
+19119,IA,Iowa,Lyon County,23,2002,2024,True,True,False,False
+19121,IA,Iowa,Madison County,23,2002,2025,False,True,False,False
+19123,IA,Iowa,Mahaska County,24,2002,2025,True,True,False,False
+19125,IA,Iowa,Marion County,23,2002,2025,False,True,False,False
+19127,IA,Iowa,Marshall County,22,2002,2024,False,True,False,False
+19129,IA,Iowa,Mills County,22,2002,2025,False,True,False,False
+19131,IA,Iowa,Mitchell County,24,2002,2025,True,True,False,False
+19133,IA,Iowa,Monona County,24,2002,2025,True,True,False,False
+19135,IA,Iowa,Monroe County,23,2002,2025,False,True,False,False
+19137,IA,Iowa,Montgomery County,24,2002,2025,True,True,False,False
+19139,IA,Iowa,Muscatine County,24,2002,2025,True,True,False,False
+19141,IA,Iowa,O'Brien County,24,2002,2025,True,True,False,False
+19143,IA,Iowa,Osceola County,23,2002,2025,False,True,False,False
+19145,IA,Iowa,Page County,23,2002,2024,True,True,False,False
+19147,IA,Iowa,Palo Alto County,24,2002,2025,True,True,False,False
+19149,IA,Iowa,Plymouth County,22,2002,2024,False,True,False,False
+19151,IA,Iowa,Pocahontas County,23,2002,2025,False,True,False,False
+19153,IA,Iowa,Polk County,24,2002,2025,True,True,False,False
+19155,IA,Iowa,Pottawattamie County,21,2002,2023,False,True,False,False
+19157,IA,Iowa,Poweshiek County,24,2002,2025,True,True,False,False
+19159,IA,Iowa,Ringgold County,20,2002,2022,False,True,False,False
+19161,IA,Iowa,Sac County,24,2002,2025,True,True,False,False
+19163,IA,Iowa,Scott County,24,2002,2025,True,True,False,False
+19165,IA,Iowa,Shelby County,21,2002,2023,False,True,False,False
+19167,IA,Iowa,Sioux County,22,2002,2023,True,True,False,False
+19169,IA,Iowa,Story County,24,2002,2025,True,True,False,False
+19171,IA,Iowa,Tama County,22,2002,2023,True,True,False,False
+19173,IA,Iowa,Taylor County,23,2002,2025,False,True,False,False
+19175,IA,Iowa,Union County,22,2002,2025,False,True,False,False
+19177,IA,Iowa,Van Buren County,22,2002,2023,True,True,False,False
+19179,IA,Iowa,Wapello County,22,2002,2025,False,True,False,False
+19181,IA,Iowa,Warren County,21,2002,2025,False,True,False,False
+19183,IA,Iowa,Washington County,22,2002,2025,False,True,False,False
+19185,IA,Iowa,Wayne County,21,2002,2024,False,True,False,False
+19187,IA,Iowa,Webster County,24,2002,2025,True,True,False,False
+19189,IA,Iowa,Winnebago County,24,2002,2025,True,True,False,False
+19191,IA,Iowa,Winneshiek County,24,2002,2025,True,True,False,False
+19193,IA,Iowa,Woodbury County,24,2002,2025,True,True,False,False
+19195,IA,Iowa,Worth County,24,2002,2025,True,True,False,False
+19197,IA,Iowa,Wright County,23,2002,2025,False,True,False,False
+27001,MN,Minnesota,Aitkin County,12,2007,2025,False,True,False,False
+27003,MN,Minnesota,Anoka County,22,2002,2025,False,True,False,False
+27005,MN,Minnesota,Becker County,20,2002,2025,False,True,False,False
+27007,MN,Minnesota,Beltrami County,7,2002,2022,False,True,False,False
+27009,MN,Minnesota,Benton County,24,2002,2025,True,True,False,False
+27011,MN,Minnesota,Big Stone County,24,2002,2025,True,True,False,False
+27013,MN,Minnesota,Blue Earth County,24,2002,2025,True,True,False,False
+27015,MN,Minnesota,Brown County,24,2002,2025,True,True,False,False
+27017,MN,Minnesota,Carlton County,11,2002,2025,False,True,False,False
+27019,MN,Minnesota,Carver County,24,2002,2025,True,True,False,False
+27021,MN,Minnesota,Cass County,7,2002,2023,False,True,False,False
+27023,MN,Minnesota,Chippewa County,22,2002,2025,False,True,False,False
+27025,MN,Minnesota,Chisago County,23,2002,2024,True,True,False,False
+27027,MN,Minnesota,Clay County,23,2002,2025,False,True,False,False
+27029,MN,Minnesota,Clearwater County,13,2002,2024,False,True,False,False
+27033,MN,Minnesota,Cottonwood County,24,2002,2025,True,True,False,False
+27035,MN,Minnesota,Crow Wing County,17,2002,2024,False,True,False,False
+27037,MN,Minnesota,Dakota County,24,2002,2025,True,True,False,False
+27039,MN,Minnesota,Dodge County,23,2002,2025,False,True,False,False
+27041,MN,Minnesota,Douglas County,20,2002,2025,False,True,False,False
+27043,MN,Minnesota,Faribault County,22,2002,2025,False,True,False,False
+27045,MN,Minnesota,Fillmore County,24,2002,2025,True,True,False,False
+27047,MN,Minnesota,Freeborn County,24,2002,2025,True,True,False,False
+27049,MN,Minnesota,Goodhue County,24,2002,2025,True,True,False,False
+27051,MN,Minnesota,Grant County,23,2002,2025,False,True,False,False
+27053,MN,Minnesota,Hennepin County,22,2002,2024,False,True,False,False
+27055,MN,Minnesota,Houston County,24,2002,2025,True,True,False,False
+27057,MN,Minnesota,Hubbard County,11,2002,2025,False,True,False,False
+27059,MN,Minnesota,Isanti County,23,2002,2025,False,True,False,False
+27061,MN,Minnesota,Itasca County,3,2020,2022,True,True,False,False
+27063,MN,Minnesota,Jackson County,24,2002,2025,True,True,False,False
+27065,MN,Minnesota,Kanabec County,16,2002,2025,False,True,False,False
+27067,MN,Minnesota,Kandiyohi County,21,2002,2025,False,True,False,False
+27069,MN,Minnesota,Kittson County,11,2002,2020,False,True,False,False
+27071,MN,Minnesota,Koochiching County,2,2013,2022,False,True,False,False
+27073,MN,Minnesota,Lac qui Parle County,22,2002,2025,False,True,False,False
+27079,MN,Minnesota,Le Sueur County,23,2002,2025,False,True,False,False
+27081,MN,Minnesota,Lincoln County,21,2002,2024,False,True,False,False
+27083,MN,Minnesota,Lyon County,21,2002,2022,True,True,False,False
+27085,MN,Minnesota,McLeod County,24,2002,2025,True,True,False,False
+27087,MN,Minnesota,Mahnomen County,19,2002,2025,False,True,False,False
+27089,MN,Minnesota,Marshall County,22,2002,2025,False,True,False,False
+27091,MN,Minnesota,Martin County,21,2002,2022,True,True,False,False
+27093,MN,Minnesota,Meeker County,22,2002,2025,False,True,False,False
+27095,MN,Minnesota,Mille Lacs County,23,2002,2025,False,True,False,False
+27097,MN,Minnesota,Morrison County,24,2002,2025,True,True,False,False
+27099,MN,Minnesota,Mower County,23,2002,2025,False,True,False,False
+27101,MN,Minnesota,Murray County,21,2002,2022,True,True,False,False
+27103,MN,Minnesota,Nicollet County,24,2002,2025,True,True,False,False
+27105,MN,Minnesota,Nobles County,23,2002,2024,True,True,False,False
+27107,MN,Minnesota,Norman County,21,2002,2025,False,True,False,False
+27109,MN,Minnesota,Olmsted County,24,2002,2025,True,True,False,False
+27111,MN,Minnesota,Otter Tail County,24,2002,2025,True,True,False,False
+27113,MN,Minnesota,Pennington County,10,2002,2025,False,True,False,False
+27115,MN,Minnesota,Pine County,22,2002,2025,False,True,False,False
+27117,MN,Minnesota,Pipestone County,22,2002,2024,False,True,False,False
+27119,MN,Minnesota,Polk County,20,2002,2025,False,True,False,False
+27121,MN,Minnesota,Pope County,24,2002,2025,True,True,False,False
+27125,MN,Minnesota,Red Lake County,20,2002,2025,False,True,False,False
+27127,MN,Minnesota,Redwood County,23,2002,2024,True,True,False,False
+27129,MN,Minnesota,Renville County,24,2002,2025,True,True,False,False
+27131,MN,Minnesota,Rice County,23,2002,2025,False,True,False,False
+27133,MN,Minnesota,Rock County,21,2002,2022,True,True,False,False
+27135,MN,Minnesota,Roseau County,17,2002,2021,False,True,False,False
+27137,MN,Minnesota,St. Louis County,2,2015,2016,True,True,False,False
+27139,MN,Minnesota,Scott County,22,2002,2025,False,True,False,False
+27141,MN,Minnesota,Sherburne County,23,2002,2025,False,True,False,False
+27143,MN,Minnesota,Sibley County,24,2002,2025,True,True,False,False
+27145,MN,Minnesota,Stearns County,24,2002,2025,True,True,False,False
+27147,MN,Minnesota,Steele County,24,2002,2025,True,True,False,False
+27149,MN,Minnesota,Stevens County,24,2002,2025,True,True,False,False
+27151,MN,Minnesota,Swift County,23,2002,2025,False,True,False,False
+27153,MN,Minnesota,Todd County,23,2002,2024,True,True,False,False
+27155,MN,Minnesota,Traverse County,23,2002,2025,False,True,False,False
+27157,MN,Minnesota,Wabasha County,23,2002,2025,False,True,False,False
+27159,MN,Minnesota,Wadena County,24,2002,2025,True,True,False,False
+27161,MN,Minnesota,Waseca County,24,2002,2025,True,True,False,False
+27163,MN,Minnesota,Washington County,24,2002,2025,True,True,False,False
+27165,MN,Minnesota,Watonwan County,24,2002,2025,True,True,False,False
+27167,MN,Minnesota,Wilkin County,22,2002,2025,False,True,False,False
+27169,MN,Minnesota,Winona County,24,2002,2025,True,True,False,False
+27171,MN,Minnesota,Wright County,21,2002,2025,False,True,False,False
+27173,MN,Minnesota,Yellow Medicine County,21,2002,2023,False,True,False,False
+29001,MO,Missouri,Adair County,19,2002,2022,False,True,False,False
+29003,MO,Missouri,Andrew County,16,2002,2023,False,True,False,False
+29005,MO,Missouri,Atchison County,21,2002,2025,False,True,False,False
+29007,MO,Missouri,Audrain County,23,2002,2025,False,True,False,False
+29009,MO,Missouri,Barry County,19,2002,2024,False,True,False,False
+29011,MO,Missouri,Barton County,23,2002,2025,False,True,False,False
+29013,MO,Missouri,Bates County,17,2002,2025,False,True,False,False
+29015,MO,Missouri,Benton County,16,2002,2022,False,True,False,False
+29017,MO,Missouri,Bollinger County,18,2002,2023,False,True,False,False
+29019,MO,Missouri,Boone County,21,2002,2025,False,True,False,False
+29021,MO,Missouri,Buchanan County,20,2002,2024,False,True,False,False
+29023,MO,Missouri,Butler County,16,2002,2022,False,True,False,False
+29025,MO,Missouri,Caldwell County,22,2002,2025,False,True,False,False
+29027,MO,Missouri,Callaway County,18,2002,2024,False,True,False,False
+29031,MO,Missouri,Cape Girardeau County,22,2002,2025,False,True,False,False
+29033,MO,Missouri,Carroll County,21,2002,2025,False,True,False,False
+29037,MO,Missouri,Cass County,21,2002,2025,False,True,False,False
+29039,MO,Missouri,Cedar County,15,2002,2024,False,True,False,False
+29041,MO,Missouri,Chariton County,17,2002,2025,False,True,False,False
+29043,MO,Missouri,Christian County,8,2008,2020,False,True,False,False
+29045,MO,Missouri,Clark County,14,2002,2025,False,True,False,False
+29047,MO,Missouri,Clay County,20,2002,2024,False,True,False,False
+29049,MO,Missouri,Clinton County,24,2002,2025,True,True,False,False
+29051,MO,Missouri,Cole County,22,2002,2024,False,True,False,False
+29053,MO,Missouri,Cooper County,16,2002,2023,False,True,False,False
+29055,MO,Missouri,Crawford County,1,2010,2010,True,True,False,False
+29057,MO,Missouri,Dade County,23,2002,2025,False,True,False,False
+29059,MO,Missouri,Dallas County,8,2011,2023,False,True,False,False
+29061,MO,Missouri,Daviess County,18,2002,2024,False,True,False,False
+29063,MO,Missouri,DeKalb County,19,2002,2023,False,True,False,False
+29065,MO,Missouri,Dent County,1,2022,2022,True,True,False,False
+29069,MO,Missouri,Dunklin County,22,2002,2025,False,True,False,False
+29071,MO,Missouri,Franklin County,22,2002,2025,False,True,False,False
+29073,MO,Missouri,Gasconade County,23,2002,2025,False,True,False,False
+29075,MO,Missouri,Gentry County,15,2002,2023,False,True,False,False
+29077,MO,Missouri,Greene County,13,2002,2021,False,True,False,False
+29079,MO,Missouri,Grundy County,17,2002,2024,False,True,False,False
+29081,MO,Missouri,Harrison County,16,2002,2025,False,True,False,False
+29083,MO,Missouri,Henry County,20,2002,2023,False,True,False,False
+29085,MO,Missouri,Hickory County,12,2002,2023,False,True,False,False
+29087,MO,Missouri,Holt County,17,2002,2023,False,True,False,False
+29089,MO,Missouri,Howard County,15,2002,2023,False,True,False,False
+29091,MO,Missouri,Howell County,5,2009,2025,False,True,False,False
+29095,MO,Missouri,Jackson County,20,2002,2024,False,True,False,False
+29097,MO,Missouri,Jasper County,17,2002,2025,False,True,False,False
+29099,MO,Missouri,Jefferson County,22,2002,2023,True,True,False,False
+29101,MO,Missouri,Johnson County,22,2002,2024,False,True,False,False
+29103,MO,Missouri,Knox County,17,2002,2023,False,True,False,False
+29105,MO,Missouri,Laclede County,18,2002,2023,False,True,False,False
+29107,MO,Missouri,Lafayette County,23,2002,2025,False,True,False,False
+29109,MO,Missouri,Lawrence County,19,2002,2024,False,True,False,False
+29111,MO,Missouri,Lewis County,22,2002,2025,False,True,False,False
+29113,MO,Missouri,Lincoln County,19,2002,2025,False,True,False,False
+29115,MO,Missouri,Linn County,17,2002,2023,False,True,False,False
+29117,MO,Missouri,Livingston County,21,2002,2025,False,True,False,False
+29119,MO,Missouri,McDonald County,1,2009,2009,True,True,False,False
+29121,MO,Missouri,Macon County,14,2002,2024,False,True,False,False
+29123,MO,Missouri,Madison County,1,2016,2016,True,True,False,False
+29125,MO,Missouri,Maries County,20,2002,2024,False,True,False,False
+29127,MO,Missouri,Marion County,21,2002,2025,False,True,False,False
+29129,MO,Missouri,Mercer County,12,2002,2020,False,True,False,False
+29131,MO,Missouri,Miller County,23,2002,2025,False,True,False,False
+29133,MO,Missouri,Mississippi County,24,2002,2025,True,True,False,False
+29135,MO,Missouri,Moniteau County,19,2002,2024,False,True,False,False
+29137,MO,Missouri,Monroe County,22,2002,2024,False,True,False,False
+29139,MO,Missouri,Montgomery County,19,2002,2025,False,True,False,False
+29141,MO,Missouri,Morgan County,21,2002,2022,True,True,False,False
+29143,MO,Missouri,New Madrid County,22,2002,2025,False,True,False,False
+29145,MO,Missouri,Newton County,14,2002,2025,False,True,False,False
+29147,MO,Missouri,Nodaway County,17,2002,2018,True,True,False,False
+29151,MO,Missouri,Osage County,23,2002,2025,False,True,False,False
+29155,MO,Missouri,Pemiscot County,19,2002,2024,False,True,False,False
+29157,MO,Missouri,Perry County,21,2002,2024,False,True,False,False
+29159,MO,Missouri,Pettis County,22,2002,2025,False,True,False,False
+29163,MO,Missouri,Pike County,21,2002,2025,False,True,False,False
+29165,MO,Missouri,Platte County,21,2002,2025,False,True,False,False
+29167,MO,Missouri,Polk County,16,2002,2023,False,True,False,False
+29169,MO,Missouri,Pulaski County,1,2012,2012,True,True,False,False
+29171,MO,Missouri,Putnam County,14,2002,2024,False,True,False,False
+29173,MO,Missouri,Ralls County,23,2002,2025,False,True,False,False
+29175,MO,Missouri,Randolph County,23,2002,2025,False,True,False,False
+29177,MO,Missouri,Ray County,20,2002,2025,False,True,False,False
+29181,MO,Missouri,Ripley County,8,2002,2013,False,True,False,False
+29183,MO,Missouri,St. Charles County,23,2002,2024,True,True,False,False
+29185,MO,Missouri,St. Clair County,17,2002,2025,False,True,False,False
+29186,MO,Missouri,Ste. Genevieve County,23,2002,2025,False,True,False,False
+29187,MO,Missouri,St. Francois County,15,2002,2023,False,True,False,False
+29189,MO,Missouri,St. Louis County,18,2002,2021,False,True,False,False
+29195,MO,Missouri,Saline County,22,2002,2025,False,True,False,False
+29197,MO,Missouri,Schuyler County,11,2002,2022,False,True,False,False
+29199,MO,Missouri,Scotland County,17,2002,2024,False,True,False,False
+29201,MO,Missouri,Scott County,19,2002,2024,False,True,False,False
+29205,MO,Missouri,Shelby County,20,2002,2025,False,True,False,False
+29207,MO,Missouri,Stoddard County,23,2002,2025,False,True,False,False
+29209,MO,Missouri,Stone County,1,2010,2010,True,True,False,False
+29211,MO,Missouri,Sullivan County,20,2002,2025,False,True,False,False
+29215,MO,Missouri,Texas County,5,2008,2020,False,True,False,False
+29217,MO,Missouri,Vernon County,16,2002,2023,False,True,False,False
+29219,MO,Missouri,Warren County,22,2002,2025,False,True,False,False
+29223,MO,Missouri,Wayne County,12,2002,2023,False,True,False,False
+29225,MO,Missouri,Webster County,16,2002,2022,False,True,False,False
+29227,MO,Missouri,Worth County,23,2002,2025,False,True,False,False
+29229,MO,Missouri,Wright County,1,2009,2009,True,True,False,False
+31001,NE,Nebraska,Adams County,23,2002,2024,True,True,False,False
+31003,NE,Nebraska,Antelope County,18,2002,2019,True,True,False,False
+31005,NE,Nebraska,Arthur County,6,2002,2007,True,True,False,False
+31007,NE,Nebraska,Banner County,12,2002,2016,False,True,False,False
+31009,NE,Nebraska,Blaine County,9,2002,2016,False,True,False,False
+31011,NE,Nebraska,Boone County,20,2002,2022,False,True,False,False
+31013,NE,Nebraska,Box Butte County,24,2002,2025,True,True,False,False
+31015,NE,Nebraska,Boyd County,20,2002,2025,False,True,False,False
+31017,NE,Nebraska,Brown County,21,2002,2024,False,True,False,False
+31019,NE,Nebraska,Buffalo County,23,2002,2025,False,True,False,False
+31021,NE,Nebraska,Burt County,24,2002,2025,True,True,False,False
+31023,NE,Nebraska,Butler County,24,2002,2025,True,True,False,False
+31025,NE,Nebraska,Cass County,23,2002,2025,False,True,False,False
+31027,NE,Nebraska,Cedar County,24,2002,2025,True,True,False,False
+31029,NE,Nebraska,Chase County,24,2002,2025,True,True,False,False
+31031,NE,Nebraska,Cherry County,17,2002,2021,False,True,False,False
+31033,NE,Nebraska,Cheyenne County,15,2002,2024,False,True,False,False
+31035,NE,Nebraska,Clay County,23,2002,2025,False,True,False,False
+31037,NE,Nebraska,Colfax County,24,2002,2025,True,True,False,False
+31039,NE,Nebraska,Cuming County,24,2002,2025,True,True,False,False
+31041,NE,Nebraska,Custer County,21,2002,2024,False,True,False,False
+31043,NE,Nebraska,Dakota County,18,2002,2023,False,True,False,False
+31045,NE,Nebraska,Dawes County,14,2002,2020,False,True,False,False
+31047,NE,Nebraska,Dawson County,21,2002,2024,False,True,False,False
+31049,NE,Nebraska,Deuel County,18,2002,2024,False,True,False,False
+31051,NE,Nebraska,Dixon County,20,2002,2025,False,True,False,False
+31053,NE,Nebraska,Dodge County,22,2002,2023,True,True,False,False
+31055,NE,Nebraska,Douglas County,22,2002,2025,False,True,False,False
+31057,NE,Nebraska,Dundy County,23,2002,2025,False,True,False,False
+31059,NE,Nebraska,Fillmore County,22,2002,2024,False,True,False,False
+31061,NE,Nebraska,Franklin County,24,2002,2025,True,True,False,False
+31063,NE,Nebraska,Frontier County,21,2002,2024,False,True,False,False
+31065,NE,Nebraska,Furnas County,24,2002,2025,True,True,False,False
+31067,NE,Nebraska,Gage County,23,2002,2025,False,True,False,False
+31069,NE,Nebraska,Garden County,16,2002,2023,False,True,False,False
+31071,NE,Nebraska,Garfield County,23,2002,2024,True,True,False,False
+31073,NE,Nebraska,Gosper County,20,2002,2023,False,True,False,False
+31077,NE,Nebraska,Greeley County,22,2002,2023,True,True,False,False
+31079,NE,Nebraska,Hall County,23,2002,2025,False,True,False,False
+31081,NE,Nebraska,Hamilton County,23,2002,2025,False,True,False,False
+31083,NE,Nebraska,Harlan County,24,2002,2025,True,True,False,False
+31085,NE,Nebraska,Hayes County,24,2002,2025,True,True,False,False
+31087,NE,Nebraska,Hitchcock County,20,2002,2024,False,True,False,False
+31089,NE,Nebraska,Holt County,21,2002,2023,False,True,False,False
+31093,NE,Nebraska,Howard County,24,2002,2025,True,True,False,False
+31095,NE,Nebraska,Jefferson County,23,2002,2025,False,True,False,False
+31097,NE,Nebraska,Johnson County,23,2002,2025,False,True,False,False
+31099,NE,Nebraska,Kearney County,23,2002,2025,False,True,False,False
+31101,NE,Nebraska,Keith County,21,2002,2025,False,True,False,False
+31103,NE,Nebraska,Keya Paha County,23,2002,2025,False,True,False,False
+31105,NE,Nebraska,Kimball County,15,2002,2022,False,True,False,False
+31107,NE,Nebraska,Knox County,24,2002,2025,True,True,False,False
+31109,NE,Nebraska,Lancaster County,23,2002,2024,True,True,False,False
+31111,NE,Nebraska,Lincoln County,24,2002,2025,True,True,False,False
+31113,NE,Nebraska,Logan County,22,2002,2025,False,True,False,False
+31115,NE,Nebraska,Loup County,13,2002,2023,False,True,False,False
+31117,NE,Nebraska,McPherson County,8,2002,2016,False,True,False,False
+31119,NE,Nebraska,Madison County,22,2002,2023,True,True,False,False
+31121,NE,Nebraska,Merrick County,20,2002,2023,False,True,False,False
+31123,NE,Nebraska,Morrill County,24,2002,2025,True,True,False,False
+31125,NE,Nebraska,Nance County,21,2002,2025,False,True,False,False
+31127,NE,Nebraska,Nemaha County,23,2002,2025,False,True,False,False
+31129,NE,Nebraska,Nuckolls County,21,2002,2024,False,True,False,False
+31131,NE,Nebraska,Otoe County,22,2002,2025,False,True,False,False
+31133,NE,Nebraska,Pawnee County,24,2002,2025,True,True,False,False
+31135,NE,Nebraska,Perkins County,20,2002,2021,True,True,False,False
+31137,NE,Nebraska,Phelps County,24,2002,2025,True,True,False,False
+31139,NE,Nebraska,Pierce County,22,2002,2024,False,True,False,False
+31141,NE,Nebraska,Platte County,23,2002,2024,True,True,False,False
+31143,NE,Nebraska,Polk County,21,2002,2024,False,True,False,False
+31145,NE,Nebraska,Red Willow County,21,2002,2025,False,True,False,False
+31147,NE,Nebraska,Richardson County,23,2002,2025,False,True,False,False
+31149,NE,Nebraska,Rock County,16,2002,2023,False,True,False,False
+31151,NE,Nebraska,Saline County,23,2002,2025,False,True,False,False
+31153,NE,Nebraska,Sarpy County,22,2002,2025,False,True,False,False
+31155,NE,Nebraska,Saunders County,22,2002,2025,False,True,False,False
+31157,NE,Nebraska,Scotts Bluff County,23,2002,2024,True,True,False,False
+31159,NE,Nebraska,Seward County,21,2002,2022,True,True,False,False
+31161,NE,Nebraska,Sheridan County,21,2002,2025,False,True,False,False
+31163,NE,Nebraska,Sherman County,24,2002,2025,True,True,False,False
+31165,NE,Nebraska,Sioux County,21,2002,2023,False,True,False,False
+31167,NE,Nebraska,Stanton County,23,2002,2025,False,True,False,False
+31169,NE,Nebraska,Thayer County,23,2002,2024,True,True,False,False
+31171,NE,Nebraska,Thomas County,2,2006,2015,False,True,False,False
+31173,NE,Nebraska,Thurston County,18,2002,2022,False,True,False,False
+31175,NE,Nebraska,Valley County,23,2002,2025,False,True,False,False
+31177,NE,Nebraska,Washington County,23,2002,2024,True,True,False,False
+31179,NE,Nebraska,Wayne County,23,2002,2024,True,True,False,False
+31181,NE,Nebraska,Webster County,21,2002,2025,False,True,False,False
+31183,NE,Nebraska,Wheeler County,14,2002,2024,False,True,False,False
+31185,NE,Nebraska,York County,21,2002,2024,False,True,False,False
+39001,OH,Ohio,Adams County,22,2002,2025,False,True,False,False
+39003,OH,Ohio,Allen County,23,2002,2025,False,True,False,False
+39005,OH,Ohio,Ashland County,19,2002,2025,False,True,False,False
+39007,OH,Ohio,Ashtabula County,24,2002,2025,True,True,False,False
+39009,OH,Ohio,Athens County,24,2002,2025,True,True,False,False
+39011,OH,Ohio,Auglaize County,24,2002,2025,True,True,False,False
+39013,OH,Ohio,Belmont County,12,2003,2025,False,True,False,False
+39015,OH,Ohio,Brown County,24,2002,2025,True,True,False,False
+39017,OH,Ohio,Butler County,23,2002,2025,False,True,False,False
+39019,OH,Ohio,Carroll County,23,2002,2025,False,True,False,False
+39021,OH,Ohio,Champaign County,24,2002,2025,True,True,False,False
+39023,OH,Ohio,Clark County,24,2002,2025,True,True,False,False
+39025,OH,Ohio,Clermont County,19,2002,2022,False,True,False,False
+39027,OH,Ohio,Clinton County,24,2002,2025,True,True,False,False
+39029,OH,Ohio,Columbiana County,24,2002,2025,True,True,False,False
+39031,OH,Ohio,Coshocton County,24,2002,2025,True,True,False,False
+39033,OH,Ohio,Crawford County,24,2002,2025,True,True,False,False
+39037,OH,Ohio,Darke County,22,2002,2023,True,True,False,False
+39039,OH,Ohio,Defiance County,24,2002,2025,True,True,False,False
+39041,OH,Ohio,Delaware County,23,2002,2025,False,True,False,False
+39043,OH,Ohio,Erie County,22,2002,2025,False,True,False,False
+39045,OH,Ohio,Fairfield County,23,2002,2025,False,True,False,False
+39047,OH,Ohio,Fayette County,23,2002,2025,False,True,False,False
+39049,OH,Ohio,Franklin County,18,2002,2022,False,True,False,False
+39051,OH,Ohio,Fulton County,24,2002,2025,True,True,False,False
+39053,OH,Ohio,Gallia County,20,2002,2024,False,True,False,False
+39055,OH,Ohio,Geauga County,21,2002,2025,False,True,False,False
+39057,OH,Ohio,Greene County,24,2002,2025,True,True,False,False
+39059,OH,Ohio,Guernsey County,23,2002,2025,False,True,False,False
+39061,OH,Ohio,Hamilton County,20,2002,2025,False,True,False,False
+39063,OH,Ohio,Hancock County,21,2002,2025,False,True,False,False
+39065,OH,Ohio,Hardin County,24,2002,2025,True,True,False,False
+39067,OH,Ohio,Harrison County,20,2002,2025,False,True,False,False
+39069,OH,Ohio,Henry County,23,2002,2025,False,True,False,False
+39071,OH,Ohio,Highland County,24,2002,2025,True,True,False,False
+39073,OH,Ohio,Hocking County,15,2002,2022,False,True,False,False
+39075,OH,Ohio,Holmes County,24,2002,2025,True,True,False,False
+39077,OH,Ohio,Huron County,23,2002,2025,False,True,False,False
+39079,OH,Ohio,Jackson County,20,2002,2025,False,True,False,False
+39081,OH,Ohio,Jefferson County,18,2003,2025,False,True,False,False
+39083,OH,Ohio,Knox County,24,2002,2025,True,True,False,False
+39085,OH,Ohio,Lake County,2,2020,2022,False,True,False,False
+39087,OH,Ohio,Lawrence County,17,2002,2025,False,True,False,False
+39089,OH,Ohio,Licking County,20,2002,2023,False,True,False,False
+39091,OH,Ohio,Logan County,24,2002,2025,True,True,False,False
+39093,OH,Ohio,Lorain County,19,2002,2023,False,True,False,False
+39095,OH,Ohio,Lucas County,24,2002,2025,True,True,False,False
+39097,OH,Ohio,Madison County,24,2002,2025,True,True,False,False
+39099,OH,Ohio,Mahoning County,24,2002,2025,True,True,False,False
+39101,OH,Ohio,Marion County,23,2002,2025,False,True,False,False
+39103,OH,Ohio,Medina County,23,2002,2025,False,True,False,False
+39105,OH,Ohio,Meigs County,21,2002,2025,False,True,False,False
+39107,OH,Ohio,Mercer County,22,2002,2023,True,True,False,False
+39109,OH,Ohio,Miami County,23,2002,2025,False,True,False,False
+39111,OH,Ohio,Monroe County,10,2002,2024,False,True,False,False
+39113,OH,Ohio,Montgomery County,24,2002,2025,True,True,False,False
+39115,OH,Ohio,Morgan County,24,2002,2025,True,True,False,False
+39117,OH,Ohio,Morrow County,20,2002,2024,False,True,False,False
+39119,OH,Ohio,Muskingum County,24,2002,2025,True,True,False,False
+39121,OH,Ohio,Noble County,12,2002,2023,False,True,False,False
+39123,OH,Ohio,Ottawa County,23,2002,2025,False,True,False,False
+39125,OH,Ohio,Paulding County,23,2002,2025,False,True,False,False
+39127,OH,Ohio,Perry County,19,2002,2025,False,True,False,False
+39129,OH,Ohio,Pickaway County,24,2002,2025,True,True,False,False
+39131,OH,Ohio,Pike County,21,2002,2025,False,True,False,False
+39133,OH,Ohio,Portage County,23,2002,2025,False,True,False,False
+39135,OH,Ohio,Preble County,24,2002,2025,True,True,False,False
+39137,OH,Ohio,Putnam County,24,2002,2025,True,True,False,False
+39139,OH,Ohio,Richland County,22,2002,2025,False,True,False,False
+39141,OH,Ohio,Ross County,23,2002,2025,False,True,False,False
+39143,OH,Ohio,Sandusky County,23,2002,2025,False,True,False,False
+39145,OH,Ohio,Scioto County,23,2002,2025,False,True,False,False
+39147,OH,Ohio,Seneca County,22,2002,2024,False,True,False,False
+39149,OH,Ohio,Shelby County,23,2002,2024,True,True,False,False
+39151,OH,Ohio,Stark County,23,2002,2025,False,True,False,False
+39153,OH,Ohio,Summit County,9,2002,2020,False,True,False,False
+39155,OH,Ohio,Trumbull County,24,2002,2025,True,True,False,False
+39157,OH,Ohio,Tuscarawas County,24,2002,2025,True,True,False,False
+39159,OH,Ohio,Union County,24,2002,2025,True,True,False,False
+39161,OH,Ohio,Van Wert County,22,2002,2023,True,True,False,False
+39163,OH,Ohio,Vinton County,11,2002,2021,False,True,False,False
+39165,OH,Ohio,Warren County,24,2002,2025,True,True,False,False
+39167,OH,Ohio,Washington County,23,2002,2024,True,True,False,False
+39169,OH,Ohio,Wayne County,24,2002,2025,True,True,False,False
+39171,OH,Ohio,Williams County,23,2002,2025,False,True,False,False
+39173,OH,Ohio,Wood County,23,2002,2025,False,True,False,False
+39175,OH,Ohio,Wyandot County,24,2002,2025,True,True,False,False
+46003,SD,South Dakota,Aurora County,23,2002,2025,False,True,False,False
+46005,SD,South Dakota,Beadle County,21,2002,2025,False,True,False,False
+46007,SD,South Dakota,Bennett County,13,2002,2021,False,True,False,False
+46009,SD,South Dakota,Bon Homme County,23,2002,2025,False,True,False,False
+46011,SD,South Dakota,Brookings County,23,2002,2025,False,True,False,False
+46013,SD,South Dakota,Brown County,24,2002,2025,True,True,False,False
+46015,SD,South Dakota,Brule County,24,2002,2025,True,True,False,False
+46017,SD,South Dakota,Buffalo County,12,2002,2024,False,True,False,False
+46019,SD,South Dakota,Butte County,16,2002,2023,False,True,False,False
+46021,SD,South Dakota,Campbell County,22,2002,2024,False,True,False,False
+46023,SD,South Dakota,Charles Mix County,24,2002,2025,True,True,False,False
+46025,SD,South Dakota,Clark County,22,2002,2025,False,True,False,False
+46027,SD,South Dakota,Clay County,23,2002,2025,False,True,False,False
+46029,SD,South Dakota,Codington County,17,2002,2025,False,True,False,False
+46031,SD,South Dakota,Corson County,20,2002,2023,False,True,False,False
+46033,SD,South Dakota,Custer County,7,2002,2023,False,True,False,False
+46035,SD,South Dakota,Davison County,18,2002,2025,False,True,False,False
+46037,SD,South Dakota,Day County,20,2002,2025,False,True,False,False
+46039,SD,South Dakota,Deuel County,20,2002,2025,False,True,False,False
+46041,SD,South Dakota,Dewey County,13,2002,2024,False,True,False,False
+46043,SD,South Dakota,Douglas County,23,2002,2025,False,True,False,False
+46045,SD,South Dakota,Edmunds County,20,2002,2024,False,True,False,False
+46047,SD,South Dakota,Fall River County,11,2002,2024,False,True,False,False
+46049,SD,South Dakota,Faulk County,20,2002,2022,False,True,False,False
+46051,SD,South Dakota,Grant County,24,2002,2025,True,True,False,False
+46053,SD,South Dakota,Gregory County,18,2002,2021,False,True,False,False
+46055,SD,South Dakota,Haakon County,18,2002,2025,False,True,False,False
+46057,SD,South Dakota,Hamlin County,22,2002,2025,False,True,False,False
+46059,SD,South Dakota,Hand County,23,2002,2024,True,True,False,False
+46061,SD,South Dakota,Hanson County,21,2002,2025,False,True,False,False
+46063,SD,South Dakota,Harding County,11,2002,2025,False,True,False,False
+46065,SD,South Dakota,Hughes County,19,2002,2025,False,True,False,False
+46067,SD,South Dakota,Hutchinson County,22,2002,2025,False,True,False,False
+46069,SD,South Dakota,Hyde County,13,2002,2024,False,True,False,False
+46071,SD,South Dakota,Jackson County,5,2002,2013,False,True,False,False
+46073,SD,South Dakota,Jerauld County,21,2002,2024,False,True,False,False
+46075,SD,South Dakota,Jones County,13,2002,2020,False,True,False,False
+46077,SD,South Dakota,Kingsbury County,20,2002,2022,False,True,False,False
+46079,SD,South Dakota,Lake County,23,2002,2025,False,True,False,False
+46081,SD,South Dakota,Lawrence County,6,2002,2013,False,True,False,False
+46083,SD,South Dakota,Lincoln County,24,2002,2025,True,True,False,False
+46085,SD,South Dakota,Lyman County,23,2002,2025,False,True,False,False
+46087,SD,South Dakota,McCook County,24,2002,2025,True,True,False,False
+46089,SD,South Dakota,McPherson County,21,2002,2025,False,True,False,False
+46091,SD,South Dakota,Marshall County,21,2002,2024,False,True,False,False
+46093,SD,South Dakota,Meade County,15,2002,2025,False,True,False,False
+46095,SD,South Dakota,Mellette County,14,2002,2024,False,True,False,False
+46097,SD,South Dakota,Miner County,20,2002,2024,False,True,False,False
+46099,SD,South Dakota,Minnehaha County,21,2002,2025,False,True,False,False
+46101,SD,South Dakota,Moody County,20,2002,2024,False,True,False,False
+46102,SD,South Dakota,Oglala Lakota County,10,2002,2025,False,True,False,True
+46103,SD,South Dakota,Pennington County,11,2002,2021,False,True,False,False
+46105,SD,South Dakota,Perkins County,11,2002,2023,False,True,False,False
+46107,SD,South Dakota,Potter County,21,2002,2025,False,True,False,False
+46109,SD,South Dakota,Roberts County,22,2002,2025,False,True,False,False
+46111,SD,South Dakota,Sanborn County,18,2002,2024,False,True,False,False
+46115,SD,South Dakota,Spink County,22,2002,2025,False,True,False,False
+46117,SD,South Dakota,Stanley County,7,2002,2013,False,True,False,False
+46119,SD,South Dakota,Sully County,22,2002,2025,False,True,False,False
+46121,SD,South Dakota,Todd County,15,2002,2021,False,True,False,False
+46123,SD,South Dakota,Tripp County,23,2002,2025,False,True,False,False
+46125,SD,South Dakota,Turner County,24,2002,2025,True,True,False,False
+46127,SD,South Dakota,Union County,22,2002,2024,False,True,False,False
+46129,SD,South Dakota,Walworth County,20,2002,2025,False,True,False,False
+46135,SD,South Dakota,Yankton County,24,2002,2025,True,True,False,False
+46137,SD,South Dakota,Ziebach County,18,2002,2022,False,True,False,False
+55001,WI,Wisconsin,Adams County,22,2002,2025,False,True,False,False
+55003,WI,Wisconsin,Ashland County,6,2008,2017,False,True,False,False
+55005,WI,Wisconsin,Barron County,24,2002,2025,True,True,False,False
+55007,WI,Wisconsin,Bayfield County,4,2020,2023,True,True,False,False
+55009,WI,Wisconsin,Brown County,20,2002,2025,False,True,False,False
+55011,WI,Wisconsin,Buffalo County,24,2002,2025,True,True,False,False
+55013,WI,Wisconsin,Burnett County,24,2002,2025,True,True,False,False
+55015,WI,Wisconsin,Calumet County,22,2002,2025,False,True,False,False
+55017,WI,Wisconsin,Chippewa County,24,2002,2025,True,True,False,False
+55019,WI,Wisconsin,Clark County,23,2002,2025,False,True,False,False
+55021,WI,Wisconsin,Columbia County,24,2002,2025,True,True,False,False
+55023,WI,Wisconsin,Crawford County,24,2002,2025,True,True,False,False
+55025,WI,Wisconsin,Dane County,24,2002,2025,True,True,False,False
+55027,WI,Wisconsin,Dodge County,24,2002,2025,True,True,False,False
+55029,WI,Wisconsin,Door County,21,2002,2025,False,True,False,False
+55033,WI,Wisconsin,Dunn County,24,2002,2025,True,True,False,False
+55035,WI,Wisconsin,Eau Claire County,23,2002,2025,False,True,False,False
+55039,WI,Wisconsin,Fond du Lac County,24,2002,2025,True,True,False,False
+55043,WI,Wisconsin,Grant County,24,2002,2025,True,True,False,False
+55045,WI,Wisconsin,Green County,23,2002,2025,False,True,False,False
+55047,WI,Wisconsin,Green Lake County,23,2002,2025,False,True,False,False
+55049,WI,Wisconsin,Iowa County,24,2002,2025,True,True,False,False
+55053,WI,Wisconsin,Jackson County,24,2002,2025,True,True,False,False
+55055,WI,Wisconsin,Jefferson County,23,2002,2025,False,True,False,False
+55057,WI,Wisconsin,Juneau County,24,2002,2025,True,True,False,False
+55059,WI,Wisconsin,Kenosha County,22,2002,2025,False,True,False,False
+55061,WI,Wisconsin,Kewaunee County,20,2002,2024,False,True,False,False
+55063,WI,Wisconsin,La Crosse County,24,2002,2025,True,True,False,False
+55065,WI,Wisconsin,Lafayette County,24,2002,2025,True,True,False,False
+55067,WI,Wisconsin,Langlade County,16,2002,2025,False,True,False,False
+55069,WI,Wisconsin,Lincoln County,22,2002,2025,False,True,False,False
+55071,WI,Wisconsin,Manitowoc County,24,2002,2025,True,True,False,False
+55073,WI,Wisconsin,Marathon County,23,2002,2025,False,True,False,False
+55075,WI,Wisconsin,Marinette County,22,2002,2025,False,True,False,False
+55077,WI,Wisconsin,Marquette County,23,2002,2025,False,True,False,False
+55079,WI,Wisconsin,Milwaukee County,14,2002,2023,False,True,False,False
+55081,WI,Wisconsin,Monroe County,24,2002,2025,True,True,False,False
+55083,WI,Wisconsin,Oconto County,24,2002,2025,True,True,False,False
+55087,WI,Wisconsin,Outagamie County,24,2002,2025,True,True,False,False
+55089,WI,Wisconsin,Ozaukee County,18,2002,2025,False,True,False,False
+55091,WI,Wisconsin,Pepin County,24,2002,2025,True,True,False,False
+55093,WI,Wisconsin,Pierce County,24,2002,2025,True,True,False,False
+55095,WI,Wisconsin,Polk County,24,2002,2025,True,True,False,False
+55097,WI,Wisconsin,Portage County,24,2002,2025,True,True,False,False
+55099,WI,Wisconsin,Price County,17,2002,2025,False,True,False,False
+55101,WI,Wisconsin,Racine County,24,2002,2025,True,True,False,False
+55103,WI,Wisconsin,Richland County,24,2002,2025,True,True,False,False
+55105,WI,Wisconsin,Rock County,24,2002,2025,True,True,False,False
+55107,WI,Wisconsin,Rusk County,23,2002,2025,False,True,False,False
+55109,WI,Wisconsin,St. Croix County,24,2002,2025,True,True,False,False
+55111,WI,Wisconsin,Sauk County,24,2002,2025,True,True,False,False
+55113,WI,Wisconsin,Sawyer County,19,2002,2024,False,True,False,False
+55115,WI,Wisconsin,Shawano County,23,2002,2025,False,True,False,False
+55117,WI,Wisconsin,Sheboygan County,24,2002,2025,True,True,False,False
+55119,WI,Wisconsin,Taylor County,20,2002,2025,False,True,False,False
+55121,WI,Wisconsin,Trempealeau County,24,2002,2025,True,True,False,False
+55123,WI,Wisconsin,Vernon County,24,2002,2025,True,True,False,False
+55127,WI,Wisconsin,Walworth County,24,2002,2025,True,True,False,False
+55129,WI,Wisconsin,Washburn County,24,2002,2025,True,True,False,False
+55131,WI,Wisconsin,Washington County,24,2002,2025,True,True,False,False
+55133,WI,Wisconsin,Waukesha County,24,2002,2025,True,True,False,False
+55135,WI,Wisconsin,Waupaca County,24,2002,2025,True,True,False,False
+55137,WI,Wisconsin,Waushara County,24,2002,2025,True,True,False,False
+55139,WI,Wisconsin,Winnebago County,23,2002,2025,False,True,False,False
+55141,WI,Wisconsin,Wood County,24,2002,2025,True,True,False,False

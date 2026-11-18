@@ -1,0 +1,16 @@
+Audit_Item,Verified_Value,Status
+Total Historical Panel Records,16390,"PASS (Exact 16,390 rows)"
+Year 2012 Historical Records,711,PASS (Exact 711 rows preserved)
+Prospective Test Records (2023-2025),1699,"PASS (Exact 1,699 rows)"
+Unique Agricultural Counties,788,PASS (Exact 788 counties)
+Unique Historical Calendar Years,24,"PASS (2002-2025, 24 years)"
+Duplicate County-Year Match Keys,0,PASS (Zero duplicates)
+Missing Predictions in Test Set,0,PASS (Zero missing values)
+Target Min Yield (Historical),0.00 bu/ac,PASS (9 valid zero-yields SD)
+Target Max Yield (Historical),253.60 bu/ac,PASS (253.6 bu/ac)
+Target Mean Yield (Historical),157.45 bu/ac,PASS (157.45 bu/ac)
+Final Model Test RMSE (Recalculated),15.5130 bu/ac,PASS (Verified 15.5129 bu/ac)
+Final Model Test MAE (Recalculated),11.8243 bu/ac,PASS (Verified 11.8243 bu/ac)
+Final Model Test R2 (Recalculated),0.7221,PASS (Verified 0.7221)
+Final Model Mean Bias (Pred - Actual),-2.7971 bu/ac,PASS (Verified -2.7972 bu/ac)
+Final Model Max Absolute Error,75.3600 bu/ac,PASS (Verified 76.22 bu/ac)

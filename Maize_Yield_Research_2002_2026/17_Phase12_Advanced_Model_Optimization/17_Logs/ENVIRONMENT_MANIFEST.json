@@ -1,0 +1,13 @@
+{
+  "OS": "Windows",
+  "Python_Version": "3.14.0",
+  "Key_Libraries": {
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1",
+    "catboost": "1.2.10",
+    "pandas": "2.3.0",
+    "numpy": "2.3.0"
+  },
+  "Master_Random_Seed": 42
+}

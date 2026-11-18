@@ -1,0 +1,4 @@
+nominal_level,alpha,half_width_bu_ac,full_width_bu_ac,empirical_test_coverage_pct,coverage_error_pct,binomial_95ci_coverage,includes_nominal_target,exchangeability_status,audit_verdict
+80% Prediction Interval,0.2,20.92,41.84,78.4,-1.6,"[76.44%, 80.36%]",YES,Temporal drift observed across calendar years,VERIFIED_WITH_LIMITATIONS (Valid average coverage; not distribution-free under drift)
+90% Prediction Interval,0.1,27.73,55.46,89.46,-0.54,"[88.0%, 90.92%]","YES (89.46% inside [88.0%, 90.9%])",Temporal drift observed across calendar years,VERIFIED_WITH_LIMITATIONS (Valid average coverage; not distribution-free under drift)
+95% Prediction Interval,0.05,34.18,68.36,94.94,-0.06,"[93.9%, 95.98%]","YES (94.94% inside [93.9%, 96.0%])",Temporal drift observed across calendar years,VERIFIED_WITH_LIMITATIONS (Valid average coverage; not distribution-free under drift)

@@ -1,0 +1,13 @@
+Model_Architecture,Model_Type,Base_Learners,Meta_Model,Key_Hyperparameters
+Ridge Stacking Meta-Learner,Multi-Model Super-Learner,"LightGBM, XGBoost, CatBoost, HistGB, MLP",Ridge(alpha=150.0),5-fold OOF cross-validation meta-fit; L2 penalty
+Calibrated Quad-Tree Blend,Convex GBDT Ensemble,"LightGBM (35%), CatBoost (25%), HistGB (20%), XGBoost (20%)",Linear convex combination,Zero scaling; native missing value handling
+Tree-Based Voting Metamodel,Averaging Tree Ensemble,"LGB (30%), XGB (25%), Cat (15%), RF (15%), ExtraTrees (15%)",Weighted voting,Incorporates bagged and randomized trees
+LightGBM Regressor,Gradient Boosted Decision Trees,Single model,None,"n_est=350, depth=7, leaves=45, lr=0.04, colsample=0.75"
+XGBoost Regressor,Extreme Gradient Boosting,Single model,None,"n_est=350, depth=6, lr=0.04, subsample=0.80, colsample=0.75"
+CatBoost Regressor,Oblivious Decision Trees,Single model,None,"iter=400, depth=6, lr=0.04, random_seed=42"
+HistGradientBoosting,Binned Gradient Boosting,Single model,None,"max_iter=300, depth=7, lr=0.04, min_leaf=25"
+Random Forest Regressor,Bagged Decision Trees,Single model,None,"n_est=200, depth=14, min_leaf=10, random_state=42"
+Extra Trees Regressor,Extremely Randomized Trees,Single model,None,"n_est=200, depth=14, min_leaf=10, random_state=42"
+Multilayer Perceptron (MLP),Feedforward Neural Network,Single model,None,"layers=(128, 64), activation=relu, adam, early_stopping"
+Ridge Linear Regressor,L2 Regularized Linear Model,Single model,None,"alpha=100.0, standard scaled features"
+LASSO Linear Regressor,L1 Regularized Sparse Linear,Single model,None,"alpha=0.5, max_iter=2000, standard scaled features"

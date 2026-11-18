@@ -1,0 +1,6 @@
+Base_Model,Raw_Ridge_Weight,Normalized_Weight,Model_Family,OOF_Correlation_With_Target
+lgb,0.1591,0.1578,Tree (Leaf-wise),0.8382
+xgb,0.5107,0.5065,Tree (Depth-wise),0.8408
+hgb,0.0,0.0,Tree (Histogram),0.8347
+cat,0.0657,0.0652,Tree (Symmetric),0.829
+mlp,0.2728,0.2706,Neural Network,0.8058

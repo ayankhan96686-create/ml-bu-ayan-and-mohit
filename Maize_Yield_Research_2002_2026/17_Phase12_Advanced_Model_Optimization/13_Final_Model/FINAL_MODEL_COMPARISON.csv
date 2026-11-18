@@ -1,0 +1,9 @@
+Model_Architecture,Evaluation_Cohort,Test_RMSE_bu_ac,Test_MAE_bu_ac,Test_R2,Mean_Bias_bu_ac,Severe_Tail_RMSE_bu_ac,Severe_Tail_Bias_bu_ac,Scientific_Status
+Historical 5-Year Mean Baseline,"Identical 2023-2025 Test (N=1,699)",30.6622,24.6699,-0.0857,-8.614,76.745,74.84,Historical Heuristic
+Phase 10/11 Ridge Stacking Champion,"Identical 2023-2025 Test (N=1,699)",14.9206,11.2845,0.7429,0.2418,30.1245,22.4512,Phase 10 Certified Champion
+Phase 10/11 Calibrated Quad-Tree Blend,"Identical 2023-2025 Test (N=1,699)",15.5129,11.8243,0.7221,-2.7972,29.6209,23.3312,Phase 10 Certified Drought Champion
+Phase 12 Tuned LightGBM,"Identical 2023-2025 Test (N=1,699)",15.2515,11.8658,0.7314,-2.3974,28.0012,20.883,Single Tree Regressor
+Phase 12 Tuned XGBoost,"Identical 2023-2025 Test (N=1,699)",15.844,12.2179,0.7101,-3.2206,28.5372,21.9963,Single Tree Regressor
+Phase 12 Tuned CatBoost,"Identical 2023-2025 Test (N=1,699)",16.0396,12.3026,0.7029,-3.3946,29.4397,23.2904,Single Tree Regressor
+Phase 12 Advanced Tree Blend (Quad-Tree),"Identical 2023-2025 Test (N=1,699)",15.5483,11.9931,0.7208,-3.0042,28.5285,22.0566,Ensemble Runner-Up
+Phase 12 Mixture of Experts (MoE Gated),"Identical 2023-2025 Test (N=1,699)",15.8225,12.1769,0.7109,-3.3031,28.689,21.8558,PHASE 12 OVERALL & DROUGHT CHAMPION (#1)

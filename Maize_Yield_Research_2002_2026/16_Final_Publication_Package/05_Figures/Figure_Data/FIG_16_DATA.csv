@@ -1,0 +1,13 @@
+Feature,Mean_Abs_SHAP_Pct
+yield_roll_mean_5yr,28.4
+yield_lag_1yr,18.2
+vpd_july_kpa,12.1
+edd_july_f,9.8
+noaa_prcp_jul_in_zscore,7.5
+soil_awc_index,6.2
+compound_heat_drought_july,5.1
+gdd_may_aug_c,4.3
+silking_thermal_interaction,3.2
+subsoil_clay_contrast,2.4
+irrigation_drought_buffer,1.8
+delayed_planting_penalty,1.2

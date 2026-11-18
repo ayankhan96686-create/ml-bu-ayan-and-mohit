@@ -1,0 +1,36 @@
+Variable_Name,Data_Type,Measurement_Units,Feature_Family,Description
+county_fips,String (5-digit),FIPS Code,Spatial Identifier,Zero-padded 5-digit Federal Information Processing Standard county code.
+year,Integer,Calendar Year,Temporal Identifier,"Crop harvest calendar year (2002–2025 historical, 2026 prospective)."
+state,String (2-letter),Postal Code,Spatial Identifier,"US State postal code abbreviation (IA, IL, IN, MN, MO, NE, OH, SD, WI)."
+corn_yield_bu_acre,Float,bu / harvested acre,Target Variable,Official USDA NASS harvested corn grain yield.
+yield_lag_1yr,Float,bu / acre,Historical Memory,Harvested corn yield in prior calendar year t-1.
+yield_lag_2yr,Float,bu / acre,Historical Memory,Harvested corn yield in year t-2.
+yield_roll_mean_5yr,Float,bu / acre,Historical Memory,5-year rolling harmonic/arithmetic average yield (t-5 to t-1).
+soil_awc_index,Float,mm,Soil Hydraulic,Root-zone Profile Available Water Storage Capacity integrated over top 100 cm.
+subsoil_clay_contrast,Float,Ratio / Difference,Soil Hydraulic,Clay content contrast between surface (0–15 cm) and subsoil (30–60 cm).
+edd_july_f,Float,Degree Days (°F),Extreme Heat Stress,Accumulated Extreme Degree Days above 30°C (86°F) during July silking window.
+edd_aug_f,Float,Degree Days (°F),Extreme Heat Stress,Accumulated Extreme Degree Days above 30°C (86°F) during August grain fill.
+vpd_july_kpa,Float,kPa,Atmospheric Drought,Mean July afternoon Vapor Pressure Deficit (saturation minus actual vapor pressure).
+vpd_aug_kpa,Float,kPa,Atmospheric Drought,Mean August afternoon Vapor Pressure Deficit.
+compound_heat_drought_july,Float,Index (Z-score product),Compound Stress,Bivariate interaction index: Normalized July EDD multiplied by negative July precipitation Z-score.
+noaa_prcp_jul_in_zscore,Float,Z-score (std dev),Climate Anomaly,Standardized July precipitation anomaly relative to 24-year county climatological normal.
+irrigation_regime_proxy,Float,Fraction (0 to 1),Irrigation Buffer,Proxy capturing center-pivot groundwater irrigation intensity.
+irrigation_drought_buffer,Float,Interaction,Irrigation Buffer,Interaction between irrigation regime proxy and July vapor pressure deficit.
+rma_liability_per_planted_acre,Float,$ / planted acre,Risk & Management,Federal crop insurance liability coverage density per planted acre.
+silking_thermal_interaction,Float,Index,Phenology Alignment,Coincidence index between regional silking peak timing and extreme heat events.
+delayed_planting_penalty,Float,Index,Phenology Alignment,Quadratic agronomic penalty for corn acreage planted past optimal window (post-May 20).
+soil_clay_fraction_0_5cm,Float,g/kg,Soil Profile,Clay fraction at depth 0_5cm from SoilGrids 250m.
+soil_sand_fraction_0_5cm,Float,g/kg,Soil Profile,Sand fraction at depth 0_5cm from SoilGrids 250m.
+soil_ph_0_5cm,Float,pH x 10,Soil Profile,Soil pH in H2O at depth 0_5cm.
+soil_clay_fraction_5_15cm,Float,g/kg,Soil Profile,Clay fraction at depth 5_15cm from SoilGrids 250m.
+soil_sand_fraction_5_15cm,Float,g/kg,Soil Profile,Sand fraction at depth 5_15cm from SoilGrids 250m.
+soil_ph_5_15cm,Float,pH x 10,Soil Profile,Soil pH in H2O at depth 5_15cm.
+soil_clay_fraction_15_30cm,Float,g/kg,Soil Profile,Clay fraction at depth 15_30cm from SoilGrids 250m.
+soil_sand_fraction_15_30cm,Float,g/kg,Soil Profile,Sand fraction at depth 15_30cm from SoilGrids 250m.
+soil_ph_15_30cm,Float,pH x 10,Soil Profile,Soil pH in H2O at depth 15_30cm.
+soil_clay_fraction_30_60cm,Float,g/kg,Soil Profile,Clay fraction at depth 30_60cm from SoilGrids 250m.
+soil_sand_fraction_30_60cm,Float,g/kg,Soil Profile,Sand fraction at depth 30_60cm from SoilGrids 250m.
+soil_ph_30_60cm,Float,pH x 10,Soil Profile,Soil pH in H2O at depth 30_60cm.
+soil_clay_fraction_60_100cm,Float,g/kg,Soil Profile,Clay fraction at depth 60_100cm from SoilGrids 250m.
+soil_sand_fraction_60_100cm,Float,g/kg,Soil Profile,Sand fraction at depth 60_100cm from SoilGrids 250m.
+soil_ph_60_100cm,Float,pH x 10,Soil Profile,Soil pH in H2O at depth 60_100cm.

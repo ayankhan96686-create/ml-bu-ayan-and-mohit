@@ -1,0 +1,14 @@
+Model_Architecture,Evaluation_Cohort,Test_RMSE_bu_ac,Test_MAE_bu_ac,Test_R2,Mean_Bias_bu_ac,Max_Absolute_Error_bu_ac,Pearson_Correlation_r,Spearman_Rank_Correlation_rho,Training_Fit_Time_sec,Inference_Time_1699_sec,Scientific_Status
+Ridge Stacking Meta-Learner,"Identical 2023-2025 Test (N=1,699)",15.2264,11.614,0.7323,-0.3921,71.8442,0.8576,0.853,24.96,0.0592,"CHAMPION (#1 Overall Model, Lowest RMSE & MAE)"
+Calibrated Quad-Tree Blend,"Identical 2023-2025 Test (N=1,699)",15.5263,11.8485,0.7216,-2.7651,75.4703,0.8547,0.8534,10.45,0.0564,RUNNER-UP (#1 Pure-Tree Drought Champion)
+Tree-Based Voting Metamodel,"Identical 2023-2025 Test (N=1,699)",15.9304,12.2057,0.7069,-3.2156,77.3288,0.8479,0.8482,24.96,0.125,Alternative Tree Ensemble (Includes RF + ExtraTrees)
+LightGBM Regressor,"Identical 2023-2025 Test (N=1,699)",15.6328,12.0089,0.7178,-2.7219,73.6597,0.8523,0.8501,1.16,0.0153,Single GBDT Anchor
+XGBoost Regressor,"Identical 2023-2025 Test (N=1,699)",15.6914,11.9732,0.7157,-2.7466,74.1308,0.8512,0.8494,3.52,0.0108,Single GBDT Anchor (Lowest Severe Tail RMSE among trees)
+CatBoost Regressor,"Identical 2023-2025 Test (N=1,699)",15.7898,11.9486,0.7121,-2.7197,79.927,0.8489,0.847,3.82,0.0074,Single GBDT Anchor (Oblivious Trees)
+HistGradientBoosting Regressor,"Identical 2023-2025 Test (N=1,699)",15.7216,12.0728,0.7146,-2.916,74.6148,0.8513,0.8504,1.95,0.0229,Single GBDT Anchor (Exact Binning)
+Random Forest Regressor,"Identical 2023-2025 Test (N=1,699)",18.2862,14.0694,0.6139,-3.7756,85.3852,0.7957,0.7958,13.24,0.0528,Bagged Trees Baseline
+Extra Trees Regressor,"Identical 2023-2025 Test (N=1,699)",17.2211,13.417,0.6575,-4.9205,82.6601,0.8284,0.831,3.22,0.0387,Extremely Randomized Trees Baseline
+Multilayer Perceptron (MLP),"Identical 2023-2025 Test (N=1,699)",18.5343,14.6039,0.6033,4.2748,71.4169,0.8168,0.8081,14.51,0.0026,Deep Neural Network Baseline
+Ridge Linear Regressor,"Identical 2023-2025 Test (N=1,699)",16.2015,12.2793,0.6969,1.0187,89.8208,0.8368,0.8362,0.01,0.0003,L2 Regularized Linear Baseline
+LASSO Linear Regressor,"Identical 2023-2025 Test (N=1,699)",16.2431,12.225,0.6953,-0.2922,87.7892,0.834,0.8324,2.22,0.0004,L1 Sparse Linear Baseline
+Ecological Niche Viability Classifier (RF),"Identical 2023-2025 Test (N=1,699)",N/A (Classifier),N/A (Classifier),ROC-AUC: 0.892,Precision: 0.865,Recall: 0.841,N/A,N/A,8.42,0.082,Classifies Optimal (>160 bu/ac) vs Stressed (<120 bu/ac) Regimes

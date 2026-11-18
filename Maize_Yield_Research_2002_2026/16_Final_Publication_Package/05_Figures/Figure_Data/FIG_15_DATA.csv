@@ -1,0 +1,5 @@
+Model_Condition,Nebraska_RMSE
+Warm-Start (Rainfed + Irrigated Training),17.0381
+Cold-Start (Pure Rainfed Training),19.5142
+Cold-Start + RMA Liability Feature,18.841
+Cold-Start + Irrigation Buffer Proxy,18.214

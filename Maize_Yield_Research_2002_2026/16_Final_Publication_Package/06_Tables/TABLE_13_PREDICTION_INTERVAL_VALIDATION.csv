@@ -1,0 +1,13 @@
+Agroclimatic_Regime,Record_Count,Nominal_80_Coverage_Pct,Empirical_80_Coverage_Pct,Coverage_Error_80_Pct,Nominal_90_Coverage_Pct,Empirical_90_Coverage_Pct,Coverage_Error_90_Pct,Nominal_95_Coverage_Pct,Empirical_95_Coverage_Pct,Coverage_Error_95_Pct,Interval_Half_Width_80_bu_ac,Interval_Half_Width_90_bu_ac,Interval_Half_Width_95_bu_ac,Calibration_Status
+Overall Prospective Test Cohort (2023-2025),1699,80.0,58.33,-21.67,90.0,70.22,-19.78,95.0,78.75,-16.25,11.39,15.1,18.43,UNDERCOVERED (Extreme Stress Tail)
+Drought Year 2023 Cohort,632,80.0,58.23,-21.77,90.0,70.09,-19.91,95.0,79.27,-15.73,11.39,15.1,18.43,UNDERCOVERED (Extreme Stress Tail)
+Bumper Year 2024 Cohort,546,80.0,58.79,-21.21,90.0,71.98,-18.02,95.0,80.04,-14.96,11.39,15.1,18.43,UNDERCOVERED (Extreme Stress Tail)
+Near-Normal Year 2025 Cohort,521,80.0,57.97,-22.03,90.0,68.52,-21.48,95.0,76.78,-18.22,11.39,15.1,18.43,UNDERCOVERED (Extreme Stress Tail)
+Severe Drought Tail (< 120 bu/ac),56,80.0,30.36,-49.64,90.0,33.93,-56.07,95.0,41.07,-53.93,11.39,15.1,18.43,UNDERCOVERED (Extreme Stress Tail)
+Moderate Drought Tail (120 - 140 bu/ac),67,80.0,40.3,-39.7,90.0,53.73,-36.27,95.0,59.7,-35.3,11.39,15.1,18.43,UNDERCOVERED (Extreme Stress Tail)
+Normal Climate Regime (140 - 190 bu/ac),788,80.0,60.15,-19.85,90.0,71.83,-18.17,95.0,80.46,-14.54,11.39,15.1,18.43,UNDERCOVERED (Extreme Stress Tail)
+Bumper Yield Regime (>= 190 bu/ac),788,80.0,60.03,-19.97,90.0,72.59,-17.41,95.0,81.35,-13.65,11.39,15.1,18.43,UNDERCOVERED (Extreme Stress Tail)
+High Heat Stress (July EDD > 50),236,80.0,50.0,-30.0,90.0,58.9,-31.1,95.0,68.64,-26.36,11.39,15.1,18.43,UNDERCOVERED (Extreme Stress Tail)
+High Atmospheric Thirst (July VPD > 2.8 kPa),126,80.0,46.83,-33.17,90.0,56.35,-33.65,95.0,61.9,-33.1,11.39,15.1,18.43,UNDERCOVERED (Extreme Stress Tail)
+Irrigated Regime (Nebraska),175,80.0,54.29,-25.71,90.0,64.57,-25.43,95.0,71.43,-23.57,11.39,15.1,18.43,UNDERCOVERED (Extreme Stress Tail)
+Rainfed Regime (All Other 8 States),1524,80.0,58.79,-21.21,90.0,70.87,-19.13,95.0,79.59,-15.41,11.39,15.1,18.43,UNDERCOVERED (Extreme Stress Tail)

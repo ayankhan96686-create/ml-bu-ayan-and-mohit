@@ -1,0 +1,4 @@
+Model,RMSE,MAE,R2,Bias,MAPE_pct
+Equal-Weighted 5-Model Ensemble (HistGB+LGB+XGB+Cat+MLP),14.9293,11.3693,0.7426,-1.4623,6.7
+Optimized Tree Triad Ensemble (HistGB 35% + LightGBM 35% + XGBoost 30%),15.495,11.8823,0.7227,-2.8479,6.96
+Stacking Meta-Learner (Ridge on Expanding OOF Predictions),14.8352,11.2306,0.7459,0.4757,6.69

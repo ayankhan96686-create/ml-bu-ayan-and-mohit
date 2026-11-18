@@ -1,0 +1,6 @@
+Feature_Name,Description,Range
+irrigation_regime_proxy,County-level corn acreage irrigation fraction from USDA Census / RMA practices,"[0, 1]"
+groundwater_ogallala_proxy,Binary indicator for counties overlying the Ogallala / High Plains Aquifer,"{0, 1}"
+vpd_irrigation_interaction,Atmospheric drying demand buffered by groundwater irrigation,>= 0 kPa
+edd_irrigation_interaction,Extreme heat degree days buffered by evaporative cooling from center pivots,>= 0 °F
+irrigation_awc_interaction,Interaction between irrigation application and soil available water capacity,"[0, 1]"

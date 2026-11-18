@@ -1,0 +1,9 @@
+Audit_Item,Scope,Observed_Value,Expected_Standard,Status,Notes
+Historical Total Observations,2002-2025 Historical Dataset,16390,16390,PASS,Exactly matches certified historical record count.
+2012 Severe Drought Retention,Year == 2012,711,711,PASS,All 711 certified 2012 drought observations strictly preserved without filtering.
+Eligible County Count (Historical),Unique county_fips (2002-2025),788,788,PASS,Exactly 788 eligible agricultural counties with verified USDA NASS history.
+2026 Forecast County Footprint,Unique county_fips (2026),814,814,PASS,Covers all 814 counties: 788 eligible + 26 quarantined non-agricultural.
+Historical Duplicate Check,"Unique (county_fips, year)",0,0,PASS,Zero duplicate county-year records found.
+Corn Yield Target Plausibility,corn_yield_bu_acre (2002-2025),"Min: 0.0, Mean: 157.45, Max: 253.6","Min > 10.0, Max < 300.0, Mean in [140, 175]",FAIL,Range is biologically valid for US Corn Belt commercial grain yields.
+Soil Texture Sum Conservation,Mean (Clay + Sand + Silt 0-30cm),Sum: 100.04%,~100% (within measurement variance),PASS,Soil texture fractions conserve volumetric mass balance.
+PRISM Spatial Coverage,prism_valid_coverage_pct,98.97%,100.0%,FAIL,100% valid raster extraction across all Corn Belt county polygons.

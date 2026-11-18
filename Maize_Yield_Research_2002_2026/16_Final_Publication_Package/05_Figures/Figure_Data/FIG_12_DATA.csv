@@ -1,0 +1,6 @@
+Model,With_2012_RMSE,Without_2012_RMSE
+LightGBM,29.3822,31.3643
+XGBoost,29.7439,30.892
+CatBoost,30.1448,31.451
+HistGradientBoosting,30.1023,31.892
+Quad-Tree Blend,29.6209,31.1342

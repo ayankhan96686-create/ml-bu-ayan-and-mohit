@@ -1,0 +1,815 @@
+county_fips,county_fips_5digit,state,state_name,county_name,eligible_for_2026_forecast,predicted_yield_bu_acre,conformal_lower_90,conformal_upper_90
+19001,19001,IA,Iowa,Adair County,True,195.31,181.54,209.08
+19003,19003,IA,Iowa,Adams County,True,166.46,152.69,180.23
+19005,19005,IA,Iowa,Allamakee County,True,212.59,198.82,226.36
+19007,19007,IA,Iowa,Appanoose County,True,174.64,160.87,188.41
+19009,19009,IA,Iowa,Audubon County,True,203.95,190.18,217.72
+19011,19011,IA,Iowa,Benton County,True,209.55,195.78,223.32
+19013,19013,IA,Iowa,Black Hawk County,True,212.93,199.16,226.7
+19015,19015,IA,Iowa,Boone County,True,210.19,196.42,223.96
+19017,19017,IA,Iowa,Bremer County,True,216.89,203.12,230.66
+19019,19019,IA,Iowa,Buchanan County,True,206.4,192.63,220.17
+19021,19021,IA,Iowa,Buena Vista County,True,204.19,190.42,217.96
+19023,19023,IA,Iowa,Butler County,True,213.3,199.53,227.07
+19025,19025,IA,Iowa,Calhoun County,True,203.55,189.78,217.32
+19027,19027,IA,Iowa,Carroll County,True,202.05,188.28,215.82
+19029,19029,IA,Iowa,Cass County,True,195.2,181.43,208.97
+19031,19031,IA,Iowa,Cedar County,True,208.75,194.98,222.52
+19033,19033,IA,Iowa,Cerro Gordo County,True,212.25,198.48,226.02
+19035,19035,IA,Iowa,Cherokee County,True,211.61,197.84,225.38
+19037,19037,IA,Iowa,Chickasaw County,True,216.97,203.2,230.74
+19039,19039,IA,Iowa,Clarke County,True,169.1,155.33,182.87
+19041,19041,IA,Iowa,Clay County,True,202.85,189.08,216.62
+19043,19043,IA,Iowa,Clayton County,True,214.92,201.15,228.69
+19045,19045,IA,Iowa,Clinton County,True,214.53,200.76,228.3
+19047,19047,IA,Iowa,Crawford County,True,214.97,201.2,228.74
+19049,19049,IA,Iowa,Dallas County,True,204.76,190.99,218.53
+19051,19051,IA,Iowa,Davis County,True,186.96,173.19,200.73
+19053,19053,IA,Iowa,Decatur County,True,177.82,164.05,191.59
+19055,19055,IA,Iowa,Delaware County,True,212.28,198.51,226.05
+19057,19057,IA,Iowa,Des Moines County,True,211.62,197.85,225.39
+19059,19059,IA,Iowa,Dickinson County,True,204.31,190.54,218.08
+19061,19061,IA,Iowa,Dubuque County,True,207.18,193.41,220.95
+19063,19063,IA,Iowa,Emmet County,True,211.12,197.35,224.89
+19065,19065,IA,Iowa,Fayette County,True,212.64,198.87,226.41
+19067,19067,IA,Iowa,Floyd County,True,213.89,200.12,227.66
+19069,19069,IA,Iowa,Franklin County,True,214.02,200.25,227.79
+19071,19071,IA,Iowa,Fremont County,True,196.53,182.76,210.3
+19073,19073,IA,Iowa,Greene County,True,205.62,191.85,219.39
+19075,19075,IA,Iowa,Grundy County,True,215.13,201.36,228.9
+19077,19077,IA,Iowa,Guthrie County,True,173.2,159.43,186.97
+19079,19079,IA,Iowa,Hamilton County,True,215.77,202.0,229.54
+19081,19081,IA,Iowa,Hancock County,True,213.7,199.93,227.47
+19083,19083,IA,Iowa,Hardin County,True,210.17,196.4,223.94
+19085,19085,IA,Iowa,Harrison County,True,187.83,174.06,201.6
+19087,19087,IA,Iowa,Henry County,True,198.6,184.83,212.37
+19089,19089,IA,Iowa,Howard County,True,219.91,206.14,233.68
+19091,19091,IA,Iowa,Humboldt County,True,209.55,195.78,223.32
+19093,19093,IA,Iowa,Ida County,True,216.64,202.87,230.41
+19095,19095,IA,Iowa,Iowa County,True,205.83,192.06,219.6
+19097,19097,IA,Iowa,Jackson County,True,208.31,194.54,222.08
+19099,19099,IA,Iowa,Jasper County,True,205.29,191.52,219.06
+19101,19101,IA,Iowa,Jefferson County,True,194.33,180.56,208.1
+19103,19103,IA,Iowa,Johnson County,True,205.77,192.0,219.54
+19105,19105,IA,Iowa,Jones County,True,206.12,192.35,219.89
+19107,19107,IA,Iowa,Keokuk County,True,188.96,175.19,202.73
+19109,19109,IA,Iowa,Kossuth County,True,209.06,195.29,222.83
+19111,19111,IA,Iowa,Lee County,True,200.99,187.22,214.76
+19113,19113,IA,Iowa,Linn County,True,210.23,196.46,224.0
+19115,19115,IA,Iowa,Louisa County,True,200.1,186.33,213.87
+19117,19117,IA,Iowa,Lucas County,True,178.76,164.99,192.53
+19119,19119,IA,Iowa,Lyon County,True,200.85,187.08,214.62
+19121,19121,IA,Iowa,Madison County,True,195.74,181.97,209.51
+19123,19123,IA,Iowa,Mahaska County,True,205.73,191.96,219.5
+19125,19125,IA,Iowa,Marion County,True,204.26,190.49,218.03
+19127,19127,IA,Iowa,Marshall County,True,209.38,195.61,223.15
+19129,19129,IA,Iowa,Mills County,True,193.43,179.66,207.2
+19131,19131,IA,Iowa,Mitchell County,True,212.4,198.63,226.17
+19133,19133,IA,Iowa,Monona County,True,193.41,179.64,207.18
+19135,19135,IA,Iowa,Monroe County,True,187.17,173.4,200.94
+19137,19137,IA,Iowa,Montgomery County,True,195.34,181.57,209.11
+19139,19139,IA,Iowa,Muscatine County,True,204.56,190.79,218.33
+19141,19141,IA,Iowa,O'Brien County,True,211.11,197.34,224.88
+19143,19143,IA,Iowa,Osceola County,True,212.1,198.33,225.87
+19145,19145,IA,Iowa,Page County,True,190.85,177.08,204.62
+19147,19147,IA,Iowa,Palo Alto County,True,205.04,191.27,218.81
+19149,19149,IA,Iowa,Plymouth County,True,200.65,186.88,214.42
+19151,19151,IA,Iowa,Pocahontas County,True,204.61,190.84,218.38
+19153,19153,IA,Iowa,Polk County,True,208.09,194.32,221.86
+19155,19155,IA,Iowa,Pottawattamie County,True,191.97,178.2,205.74
+19157,19157,IA,Iowa,Poweshiek County,True,204.68,190.91,218.45
+19159,19159,IA,Iowa,Ringgold County,True,166.21,152.44,179.98
+19161,19161,IA,Iowa,Sac County,True,211.77,198.0,225.54
+19163,19163,IA,Iowa,Scott County,True,217.05,203.28,230.82
+19165,19165,IA,Iowa,Shelby County,True,174.57,160.8,188.34
+19167,19167,IA,Iowa,Sioux County,True,203.58,189.81,217.35
+19169,19169,IA,Iowa,Story County,True,207.57,193.8,221.34
+19171,19171,IA,Iowa,Tama County,True,205.69,191.92,219.46
+19173,19173,IA,Iowa,Taylor County,True,179.61,165.84,193.38
+19175,19175,IA,Iowa,Union County,True,188.31,174.54,202.08
+19177,19177,IA,Iowa,Van Buren County,True,178.88,165.11,192.65
+19179,19179,IA,Iowa,Wapello County,True,192.84,179.07,206.61
+19181,19181,IA,Iowa,Warren County,True,196.66,182.89,210.43
+19183,19183,IA,Iowa,Washington County,True,204.1,190.33,217.87
+19185,19185,IA,Iowa,Wayne County,True,183.93,170.16,197.7
+19187,19187,IA,Iowa,Webster County,True,211.65,197.88,225.42
+19189,19189,IA,Iowa,Winnebago County,True,212.69,198.92,226.46
+19191,19191,IA,Iowa,Winneshiek County,True,212.0,198.23,225.77
+19193,19193,IA,Iowa,Woodbury County,True,207.21,193.44,220.98
+19195,19195,IA,Iowa,Worth County,True,214.25,200.48,228.02
+19197,19197,IA,Iowa,Wright County,True,207.27,193.5,221.04
+17001,17001,IL,Illinois,Adams County,True,192.44,178.67,206.21
+17003,17003,IL,Illinois,Alexander County,True,161.68,147.91,175.45
+17005,17005,IL,Illinois,Bond County,True,183.67,169.9,197.44
+17007,17007,IL,Illinois,Boone County,True,206.63,192.86,220.4
+17009,17009,IL,Illinois,Brown County,True,189.64,175.87,203.41
+17011,17011,IL,Illinois,Bureau County,True,214.7,200.93,228.47
+17013,17013,IL,Illinois,Calhoun County,True,182.25,168.48,196.02
+17015,17015,IL,Illinois,Carroll County,True,216.88,203.11,230.65
+17017,17017,IL,Illinois,Cass County,True,186.94,173.17,200.71
+17019,17019,IL,Illinois,Champaign County,True,198.34,184.57,212.11
+17021,17021,IL,Illinois,Christian County,True,200.74,186.97,214.51
+17023,17023,IL,Illinois,Clark County,True,196.45,182.68,210.22
+17025,17025,IL,Illinois,Clay County,True,182.03,168.26,195.8
+17027,17027,IL,Illinois,Clinton County,True,179.2,165.43,192.97
+17029,17029,IL,Illinois,Coles County,True,200.9,187.13,214.67
+17031,17031,IL,Illinois,Cook County,True,175.4,161.63,189.17
+17033,17033,IL,Illinois,Crawford County,True,188.98,175.21,202.75
+17035,17035,IL,Illinois,Cumberland County,True,197.46,183.69,211.23
+17039,17039,IL,Illinois,De Witt County,True,175.51,161.74,189.28
+17037,17037,IL,Illinois,DeKalb County,True,212.41,198.64,226.18
+17041,17041,IL,Illinois,Douglas County,True,206.19,192.42,219.96
+17043,17043,IL,Illinois,DuPage County,True,163.96,150.19,177.73
+17045,17045,IL,Illinois,Edgar County,True,197.15,183.38,210.92
+17047,17047,IL,Illinois,Edwards County,True,187.48,173.71,201.25
+17049,17049,IL,Illinois,Effingham County,True,195.88,182.11,209.65
+17051,17051,IL,Illinois,Fayette County,True,156.12,142.35,169.89
+17053,17053,IL,Illinois,Ford County,True,194.81,181.04,208.58
+17055,17055,IL,Illinois,Franklin County,True,174.75,160.98,188.52
+17057,17057,IL,Illinois,Fulton County,True,198.26,184.49,212.03
+17059,17059,IL,Illinois,Gallatin County,True,168.47,154.7,182.24
+17061,17061,IL,Illinois,Greene County,True,199.04,185.27,212.81
+17063,17063,IL,Illinois,Grundy County,True,170.78,157.01,184.55
+17065,17065,IL,Illinois,Hamilton County,True,164.94,151.17,178.71
+17067,17067,IL,Illinois,Hancock County,True,204.58,190.81,218.35
+17069,17069,IL,Illinois,Hardin County,True,152.23,138.46,166.0
+17071,17071,IL,Illinois,Henderson County,True,207.84,194.07,221.61
+17073,17073,IL,Illinois,Henry County,True,204.39,190.62,218.16
+17075,17075,IL,Illinois,Iroquois County,True,203.07,189.3,216.84
+17077,17077,IL,Illinois,Jackson County,True,180.42,166.65,194.19
+17079,17079,IL,Illinois,Jasper County,True,186.81,173.04,200.58
+17081,17081,IL,Illinois,Jefferson County,True,151.65,137.88,165.42
+17083,17083,IL,Illinois,Jersey County,True,193.74,179.97,207.51
+17085,17085,IL,Illinois,Jo Daviess County,True,210.83,197.06,224.6
+17087,17087,IL,Illinois,Johnson County,True,160.87,147.1,174.64
+17089,17089,IL,Illinois,Kane County,True,208.56,194.79,222.33
+17091,17091,IL,Illinois,Kankakee County,True,194.92,181.15,208.69
+17093,17093,IL,Illinois,Kendall County,True,202.99,189.22,216.76
+17095,17095,IL,Illinois,Knox County,True,204.51,190.74,218.28
+17099,17099,IL,Illinois,LaSalle County,True,210.05,196.28,223.82
+17097,17097,IL,Illinois,Lake County,True,194.66,180.89,208.43
+17101,17101,IL,Illinois,Lawrence County,True,183.62,169.85,197.39
+17103,17103,IL,Illinois,Lee County,True,211.51,197.74,225.28
+17105,17105,IL,Illinois,Livingston County,True,199.49,185.72,213.26
+17107,17107,IL,Illinois,Logan County,True,204.27,190.5,218.04
+17115,17115,IL,Illinois,Macon County,True,214.25,200.48,228.02
+17117,17117,IL,Illinois,Macoupin County,True,202.58,188.81,216.35
+17119,17119,IL,Illinois,Madison County,True,196.4,182.63,210.17
+17121,17121,IL,Illinois,Marion County,True,166.64,152.87,180.41
+17123,17123,IL,Illinois,Marshall County,True,208.59,194.82,222.36
+17125,17125,IL,Illinois,Mason County,True,196.6,182.83,210.37
+17127,17127,IL,Illinois,Massac County,True,169.46,155.69,183.23
+17109,17109,IL,Illinois,McDonough County,True,176.03,162.26,189.8
+17111,17111,IL,Illinois,McHenry County,True,176.26,162.49,190.03
+17113,17113,IL,Illinois,McLean County,True,205.31,191.54,219.08
+17129,17129,IL,Illinois,Menard County,True,201.7,187.93,215.47
+17131,17131,IL,Illinois,Mercer County,True,176.58,162.81,190.35
+17133,17133,IL,Illinois,Monroe County,True,177.04,163.27,190.81
+17135,17135,IL,Illinois,Montgomery County,True,196.9,183.13,210.67
+17137,17137,IL,Illinois,Morgan County,True,190.71,176.94,204.48
+17139,17139,IL,Illinois,Moultrie County,True,206.61,192.84,220.38
+17141,17141,IL,Illinois,Ogle County,True,213.81,200.04,227.58
+17143,17143,IL,Illinois,Peoria County,True,206.03,192.26,219.8
+17145,17145,IL,Illinois,Perry County,True,153.18,139.41,166.95
+17147,17147,IL,Illinois,Piatt County,True,210.73,196.96,224.5
+17149,17149,IL,Illinois,Pike County,True,162.8,149.03,176.57
+17151,17151,IL,Illinois,Pope County,True,159.23,145.46,173.0
+17153,17153,IL,Illinois,Pulaski County,True,180.33,166.56,194.1
+17155,17155,IL,Illinois,Putnam County,True,203.64,189.87,217.41
+17157,17157,IL,Illinois,Randolph County,True,172.28,158.51,186.05
+17159,17159,IL,Illinois,Richland County,True,183.0,169.23,196.77
+17161,17161,IL,Illinois,Rock Island County,True,207.82,194.05,221.59
+17165,17165,IL,Illinois,Saline County,True,183.78,170.01,197.55
+17167,17167,IL,Illinois,Sangamon County,True,210.26,196.49,224.03
+17169,17169,IL,Illinois,Schuyler County,True,190.49,176.72,204.26
+17171,17171,IL,Illinois,Scott County,True,185.89,172.12,199.66
+17173,17173,IL,Illinois,Shelby County,True,192.0,178.23,205.77
+17163,17163,IL,Illinois,St. Clair County,True,184.94,171.17,198.71
+17175,17175,IL,Illinois,Stark County,True,210.07,196.3,223.84
+17177,17177,IL,Illinois,Stephenson County,True,208.66,194.89,222.43
+17179,17179,IL,Illinois,Tazewell County,True,204.6,190.83,218.37
+17181,17181,IL,Illinois,Union County,True,170.33,156.56,184.1
+17183,17183,IL,Illinois,Vermilion County,True,208.66,194.89,222.43
+17185,17185,IL,Illinois,Wabash County,True,176.69,162.92,190.46
+17187,17187,IL,Illinois,Warren County,True,175.75,161.98,189.52
+17189,17189,IL,Illinois,Washington County,True,173.44,159.67,187.21
+17191,17191,IL,Illinois,Wayne County,True,179.54,165.77,193.31
+17193,17193,IL,Illinois,White County,True,185.96,172.19,199.73
+17195,17195,IL,Illinois,Whiteside County,True,215.27,201.5,229.04
+17197,17197,IL,Illinois,Will County,True,197.23,183.46,211.0
+17199,17199,IL,Illinois,Williamson County,True,175.61,161.84,189.38
+17201,17201,IL,Illinois,Winnebago County,True,204.62,190.85,218.39
+17203,17203,IL,Illinois,Woodford County,True,205.61,191.84,219.38
+18001,18001,IN,Indiana,Adams County,True,202.51,188.74,216.28
+18003,18003,IN,Indiana,Allen County,True,203.23,189.46,217.0
+18005,18005,IN,Indiana,Bartholomew County,True,189.99,176.22,203.76
+18007,18007,IN,Indiana,Benton County,True,210.39,196.62,224.16
+18009,18009,IN,Indiana,Blackford County,True,195.01,181.24,208.78
+18011,18011,IN,Indiana,Boone County,True,207.66,193.89,221.43
+18013,18013,IN,Indiana,Brown County,True,154.3,140.53,168.07
+18015,18015,IN,Indiana,Carroll County,True,215.42,201.65,229.19
+18017,18017,IN,Indiana,Cass County,True,209.33,195.56,223.1
+18019,18019,IN,Indiana,Clark County,True,175.87,162.1,189.64
+18021,18021,IN,Indiana,Clay County,True,193.1,179.33,206.87
+18023,18023,IN,Indiana,Clinton County,True,208.63,194.86,222.4
+18025,18025,IN,Indiana,Crawford County,True,148.51,134.74,162.28
+18027,18027,IN,Indiana,Daviess County,True,192.06,178.29,205.83
+18033,18033,IN,Indiana,DeKalb County,True,184.04,170.27,197.81
+18029,18029,IN,Indiana,Dearborn County,True,176.61,162.84,190.38
+18031,18031,IN,Indiana,Decatur County,True,201.79,188.02,215.56
+18035,18035,IN,Indiana,Delaware County,True,200.99,187.22,214.76
+18037,18037,IN,Indiana,Dubois County,True,182.57,168.8,196.34
+18039,18039,IN,Indiana,Elkhart County,True,192.9,179.13,206.67
+18041,18041,IN,Indiana,Fayette County,True,198.56,184.79,212.33
+18043,18043,IN,Indiana,Floyd County,True,149.71,135.94,163.48
+18045,18045,IN,Indiana,Fountain County,True,175.15,161.38,188.92
+18047,18047,IN,Indiana,Franklin County,True,189.69,175.92,203.46
+18049,18049,IN,Indiana,Fulton County,True,202.02,188.25,215.79
+18051,18051,IN,Indiana,Gibson County,True,181.64,167.87,195.41
+18053,18053,IN,Indiana,Grant County,True,197.62,183.85,211.39
+18055,18055,IN,Indiana,Greene County,True,187.46,173.69,201.23
+18057,18057,IN,Indiana,Hamilton County,True,201.38,187.61,215.15
+18059,18059,IN,Indiana,Hancock County,True,198.33,184.56,212.1
+18061,18061,IN,Indiana,Harrison County,True,165.67,151.9,179.44
+18063,18063,IN,Indiana,Hendricks County,True,206.45,192.68,220.22
+18065,18065,IN,Indiana,Henry County,True,195.67,181.9,209.44
+18067,18067,IN,Indiana,Howard County,True,216.39,202.62,230.16
+18069,18069,IN,Indiana,Huntington County,True,200.31,186.54,214.08
+18071,18071,IN,Indiana,Jackson County,True,164.42,150.65,178.19
+18073,18073,IN,Indiana,Jasper County,True,194.92,181.15,208.69
+18075,18075,IN,Indiana,Jay County,True,195.65,181.88,209.42
+18077,18077,IN,Indiana,Jefferson County,True,177.86,164.09,191.63
+18079,18079,IN,Indiana,Jennings County,True,179.43,165.66,193.2
+18081,18081,IN,Indiana,Johnson County,True,196.39,182.62,210.16
+18083,18083,IN,Indiana,Knox County,True,188.96,175.19,202.73
+18085,18085,IN,Indiana,Kosciusko County,True,202.63,188.86,216.4
+18087,18087,IN,Indiana,LaGrange County,True,181.49,167.72,195.26
+18091,18091,IN,Indiana,LaPorte County,True,182.38,168.61,196.15
+18089,18089,IN,Indiana,Lake County,True,194.85,181.08,208.62
+18093,18093,IN,Indiana,Lawrence County,True,158.42,144.65,172.19
+18095,18095,IN,Indiana,Madison County,True,208.52,194.75,222.29
+18097,18097,IN,Indiana,Marion County,True,190.07,176.3,203.84
+18099,18099,IN,Indiana,Marshall County,True,200.19,186.42,213.96
+18101,18101,IN,Indiana,Martin County,True,155.07,141.3,168.84
+18103,18103,IN,Indiana,Miami County,True,205.22,191.45,218.99
+18105,18105,IN,Indiana,Monroe County,True,180.87,167.1,194.64
+18107,18107,IN,Indiana,Montgomery County,True,214.18,200.41,227.95
+18109,18109,IN,Indiana,Morgan County,True,192.19,178.42,205.96
+18111,18111,IN,Indiana,Newton County,True,202.06,188.29,215.83
+18113,18113,IN,Indiana,Noble County,True,203.76,189.99,217.53
+18115,18115,IN,Indiana,Ohio County,True,163.5,149.73,177.27
+18117,18117,IN,Indiana,Orange County,True,155.95,142.18,169.72
+18119,18119,IN,Indiana,Owen County,True,179.3,165.53,193.07
+18121,18121,IN,Indiana,Parke County,True,171.01,157.24,184.78
+18123,18123,IN,Indiana,Perry County,True,154.61,140.84,168.38
+18125,18125,IN,Indiana,Pike County,True,151.78,138.01,165.55
+18127,18127,IN,Indiana,Porter County,True,190.93,177.16,204.7
+18129,18129,IN,Indiana,Posey County,True,191.97,178.2,205.74
+18131,18131,IN,Indiana,Pulaski County,True,177.04,163.27,190.81
+18133,18133,IN,Indiana,Putnam County,True,195.24,181.47,209.01
+18135,18135,IN,Indiana,Randolph County,True,205.48,191.71,219.25
+18137,18137,IN,Indiana,Ripley County,True,176.66,162.89,190.43
+18139,18139,IN,Indiana,Rush County,True,202.23,188.46,216.0
+18143,18143,IN,Indiana,Scott County,True,182.45,168.68,196.22
+18145,18145,IN,Indiana,Shelby County,True,196.78,183.01,210.55
+18147,18147,IN,Indiana,Spencer County,True,172.0,158.23,185.77
+18141,18141,IN,Indiana,St. Joseph County,True,192.71,178.94,206.48
+18149,18149,IN,Indiana,Starke County,True,175.67,161.9,189.44
+18151,18151,IN,Indiana,Steuben County,True,186.49,172.72,200.26
+18153,18153,IN,Indiana,Sullivan County,True,186.96,173.19,200.73
+18155,18155,IN,Indiana,Switzerland County,True,175.62,161.85,189.39
+18157,18157,IN,Indiana,Tippecanoe County,True,206.71,192.94,220.48
+18159,18159,IN,Indiana,Tipton County,True,210.51,196.74,224.28
+18161,18161,IN,Indiana,Union County,True,200.6,186.83,214.37
+18163,18163,IN,Indiana,Vanderburgh County,True,177.28,163.51,191.05
+18165,18165,IN,Indiana,Vermillion County,True,171.81,158.04,185.58
+18167,18167,IN,Indiana,Vigo County,True,191.35,177.58,205.12
+18169,18169,IN,Indiana,Wabash County,True,198.14,184.37,211.91
+18171,18171,IN,Indiana,Warren County,True,184.57,170.8,198.34
+18173,18173,IN,Indiana,Warrick County,True,151.45,137.68,165.22
+18175,18175,IN,Indiana,Washington County,True,179.23,165.46,193.0
+18177,18177,IN,Indiana,Wayne County,True,199.57,185.8,213.34
+18179,18179,IN,Indiana,Wells County,True,210.15,196.38,223.92
+18181,18181,IN,Indiana,White County,True,196.95,183.18,210.72
+18183,18183,IN,Indiana,Whitley County,True,196.37,182.6,210.14
+27001,27001,MN,Minnesota,Aitkin County,True,142.29,128.52,156.06
+27003,27003,MN,Minnesota,Anoka County,True,149.41,135.64,163.18
+27005,27005,MN,Minnesota,Becker County,True,176.24,162.47,190.01
+27007,27007,MN,Minnesota,Beltrami County,True,151.59,137.82,165.36
+27009,27009,MN,Minnesota,Benton County,True,173.97,160.2,187.74
+27011,27011,MN,Minnesota,Big Stone County,True,174.03,160.26,187.8
+27013,27013,MN,Minnesota,Blue Earth County,True,205.1,191.33,218.87
+27015,27015,MN,Minnesota,Brown County,True,197.87,184.1,211.64
+27017,27017,MN,Minnesota,Carlton County,True,124.05,110.28,137.82
+27019,27019,MN,Minnesota,Carver County,True,189.54,175.77,203.31
+27021,27021,MN,Minnesota,Cass County,True,145.53,131.76,159.3
+27023,27023,MN,Minnesota,Chippewa County,True,189.45,175.68,203.22
+27025,27025,MN,Minnesota,Chisago County,True,156.51,142.74,170.28
+27027,27027,MN,Minnesota,Clay County,True,163.49,149.72,177.26
+27029,27029,MN,Minnesota,Clearwater County,True,152.48,138.71,166.25
+27031,27031,MN,Minnesota,Cook County,False,139.06,125.29,152.83
+27033,27033,MN,Minnesota,Cottonwood County,True,198.9,185.13,212.67
+27035,27035,MN,Minnesota,Crow Wing County,True,129.69,115.92,143.46
+27037,27037,MN,Minnesota,Dakota County,True,184.1,170.33,197.87
+27039,27039,MN,Minnesota,Dodge County,True,206.82,193.05,220.59
+27041,27041,MN,Minnesota,Douglas County,True,174.51,160.74,188.28
+27043,27043,MN,Minnesota,Faribault County,True,210.04,196.27,223.81
+27045,27045,MN,Minnesota,Fillmore County,True,211.55,197.78,225.32
+27047,27047,MN,Minnesota,Freeborn County,True,201.71,187.94,215.48
+27049,27049,MN,Minnesota,Goodhue County,True,197.37,183.6,211.14
+27051,27051,MN,Minnesota,Grant County,True,185.76,171.99,199.53
+27053,27053,MN,Minnesota,Hennepin County,True,164.4,150.63,178.17
+27055,27055,MN,Minnesota,Houston County,True,203.03,189.26,216.8
+27057,27057,MN,Minnesota,Hubbard County,True,155.92,142.15,169.69
+27059,27059,MN,Minnesota,Isanti County,True,147.44,133.67,161.21
+27061,27061,MN,Minnesota,Itasca County,True,143.01,129.24,156.78
+27063,27063,MN,Minnesota,Jackson County,True,205.49,191.72,219.26
+27065,27065,MN,Minnesota,Kanabec County,True,157.37,143.6,171.14
+27067,27067,MN,Minnesota,Kandiyohi County,True,182.7,168.93,196.47
+27069,27069,MN,Minnesota,Kittson County,True,148.11,134.34,161.88
+27071,27071,MN,Minnesota,Koochiching County,True,136.58,122.81,150.35
+27073,27073,MN,Minnesota,Lac qui Parle County,True,184.71,170.94,198.48
+27075,27075,MN,Minnesota,Lake County,False,136.52,122.75,150.29
+27077,27077,MN,Minnesota,Lake of the Woods County,False,158.66,144.89,172.43
+27079,27079,MN,Minnesota,Le Sueur County,True,201.21,187.44,214.98
+27081,27081,MN,Minnesota,Lincoln County,True,181.1,167.33,194.87
+27083,27083,MN,Minnesota,Lyon County,True,170.01,156.24,183.78
+27087,27087,MN,Minnesota,Mahnomen County,True,169.86,156.09,183.63
+27089,27089,MN,Minnesota,Marshall County,True,160.39,146.62,174.16
+27091,27091,MN,Minnesota,Martin County,True,179.46,165.69,193.23
+27085,27085,MN,Minnesota,McLeod County,True,194.28,180.51,208.05
+27093,27093,MN,Minnesota,Meeker County,True,180.94,167.17,194.71
+27095,27095,MN,Minnesota,Mille Lacs County,True,160.07,146.3,173.84
+27097,27097,MN,Minnesota,Morrison County,True,164.99,151.22,178.76
+27099,27099,MN,Minnesota,Mower County,True,209.37,195.6,223.14
+27101,27101,MN,Minnesota,Murray County,True,174.51,160.74,188.28
+27103,27103,MN,Minnesota,Nicollet County,True,204.36,190.59,218.13
+27105,27105,MN,Minnesota,Nobles County,True,198.86,185.09,212.63
+27107,27107,MN,Minnesota,Norman County,True,142.66,128.89,156.43
+27109,27109,MN,Minnesota,Olmsted County,True,204.39,190.62,218.16
+27111,27111,MN,Minnesota,Otter Tail County,True,184.9,171.13,198.67
+27113,27113,MN,Minnesota,Pennington County,True,156.25,142.48,170.02
+27115,27115,MN,Minnesota,Pine County,True,151.16,137.39,164.93
+27117,27117,MN,Minnesota,Pipestone County,True,182.58,168.81,196.35
+27119,27119,MN,Minnesota,Polk County,True,151.59,137.82,165.36
+27121,27121,MN,Minnesota,Pope County,True,175.37,161.6,189.14
+27123,27123,MN,Minnesota,Ramsey County,False,146.23,132.46,160.0
+27125,27125,MN,Minnesota,Red Lake County,True,157.44,143.67,171.21
+27127,27127,MN,Minnesota,Redwood County,True,180.93,167.16,194.7
+27129,27129,MN,Minnesota,Renville County,True,195.21,181.44,208.98
+27131,27131,MN,Minnesota,Rice County,True,200.28,186.51,214.05
+27133,27133,MN,Minnesota,Rock County,True,168.72,154.95,182.49
+27135,27135,MN,Minnesota,Roseau County,True,155.87,142.1,169.64
+27139,27139,MN,Minnesota,Scott County,True,194.81,181.04,208.58
+27141,27141,MN,Minnesota,Sherburne County,True,175.25,161.48,189.02
+27143,27143,MN,Minnesota,Sibley County,True,199.95,186.18,213.72
+27137,27137,MN,Minnesota,St. Louis County,True,136.97,123.2,150.74
+27145,27145,MN,Minnesota,Stearns County,True,176.96,163.19,190.73
+27147,27147,MN,Minnesota,Steele County,True,205.71,191.94,219.48
+27149,27149,MN,Minnesota,Stevens County,True,184.39,170.62,198.16
+27151,27151,MN,Minnesota,Swift County,True,185.85,172.08,199.62
+27153,27153,MN,Minnesota,Todd County,True,163.39,149.62,177.16
+27155,27155,MN,Minnesota,Traverse County,True,178.46,164.69,192.23
+27157,27157,MN,Minnesota,Wabasha County,True,195.86,182.09,209.63
+27159,27159,MN,Minnesota,Wadena County,True,164.21,150.44,177.98
+27161,27161,MN,Minnesota,Waseca County,True,204.74,190.97,218.51
+27163,27163,MN,Minnesota,Washington County,True,176.08,162.31,189.85
+27165,27165,MN,Minnesota,Watonwan County,True,203.12,189.35,216.89
+27167,27167,MN,Minnesota,Wilkin County,True,170.81,157.04,184.58
+27169,27169,MN,Minnesota,Winona County,True,208.36,194.59,222.13
+27171,27171,MN,Minnesota,Wright County,True,177.1,163.33,190.87
+27173,27173,MN,Minnesota,Yellow Medicine County,True,170.98,157.21,184.75
+29001,29001,MO,Missouri,Adair County,True,163.47,149.7,177.24
+29003,29003,MO,Missouri,Andrew County,True,163.21,149.44,176.98
+29005,29005,MO,Missouri,Atchison County,True,202.26,188.49,216.03
+29007,29007,MO,Missouri,Audrain County,True,175.14,161.37,188.91
+29009,29009,MO,Missouri,Barry County,True,123.94,110.17,137.71
+29011,29011,MO,Missouri,Barton County,True,152.5,138.73,166.27
+29013,29013,MO,Missouri,Bates County,True,151.05,137.28,164.82
+29015,29015,MO,Missouri,Benton County,True,142.81,129.04,156.58
+29017,29017,MO,Missouri,Bollinger County,True,163.07,149.3,176.84
+29019,29019,MO,Missouri,Boone County,True,166.42,152.65,180.19
+29021,29021,MO,Missouri,Buchanan County,True,177.69,163.92,191.46
+29023,29023,MO,Missouri,Butler County,True,161.42,147.65,175.19
+29025,29025,MO,Missouri,Caldwell County,True,167.96,154.19,181.73
+29027,29027,MO,Missouri,Callaway County,True,162.44,148.67,176.21
+29029,29029,MO,Missouri,Camden County,False,138.08,124.31,151.85
+29031,29031,MO,Missouri,Cape Girardeau County,True,185.46,171.69,199.23
+29033,29033,MO,Missouri,Carroll County,True,191.25,177.48,205.02
+29035,29035,MO,Missouri,Carter County,False,146.81,133.04,160.58
+29037,29037,MO,Missouri,Cass County,True,164.6,150.83,178.37
+29039,29039,MO,Missouri,Cedar County,True,136.07,122.3,149.84
+29041,29041,MO,Missouri,Chariton County,True,169.49,155.72,183.26
+29043,29043,MO,Missouri,Christian County,True,128.92,115.15,142.69
+29045,29045,MO,Missouri,Clark County,True,175.48,161.71,189.25
+29047,29047,MO,Missouri,Clay County,True,177.74,163.97,191.51
+29049,29049,MO,Missouri,Clinton County,True,179.4,165.63,193.17
+29051,29051,MO,Missouri,Cole County,True,151.42,137.65,165.19
+29053,29053,MO,Missouri,Cooper County,True,154.62,140.85,168.39
+29055,29055,MO,Missouri,Crawford County,True,141.6,127.83,155.37
+29057,29057,MO,Missouri,Dade County,True,130.24,116.47,144.01
+29059,29059,MO,Missouri,Dallas County,True,130.27,116.5,144.04
+29061,29061,MO,Missouri,Daviess County,True,167.84,154.07,181.61
+29063,29063,MO,Missouri,DeKalb County,True,167.09,153.32,180.86
+29065,29065,MO,Missouri,Dent County,True,140.19,126.42,153.96
+29067,29067,MO,Missouri,Douglas County,False,133.94,120.17,147.71
+29069,29069,MO,Missouri,Dunklin County,True,174.49,160.72,188.26
+29071,29071,MO,Missouri,Franklin County,True,155.64,141.87,169.41
+29073,29073,MO,Missouri,Gasconade County,True,145.08,131.31,158.85
+29075,29075,MO,Missouri,Gentry County,True,157.65,143.88,171.42
+29077,29077,MO,Missouri,Greene County,True,135.49,121.72,149.26
+29079,29079,MO,Missouri,Grundy County,True,166.57,152.8,180.34
+29081,29081,MO,Missouri,Harrison County,True,165.92,152.15,179.69
+29083,29083,MO,Missouri,Henry County,True,138.49,124.72,152.26
+29085,29085,MO,Missouri,Hickory County,True,135.57,121.8,149.34
+29087,29087,MO,Missouri,Holt County,True,170.17,156.4,183.94
+29089,29089,MO,Missouri,Howard County,True,153.52,139.75,167.29
+29091,29091,MO,Missouri,Howell County,True,137.74,123.97,151.51
+29093,29093,MO,Missouri,Iron County,False,147.54,133.77,161.31
+29095,29095,MO,Missouri,Jackson County,True,165.37,151.6,179.14
+29097,29097,MO,Missouri,Jasper County,True,128.36,114.59,142.13
+29099,29099,MO,Missouri,Jefferson County,True,158.47,144.7,172.24
+29101,29101,MO,Missouri,Johnson County,True,154.99,141.22,168.76
+29103,29103,MO,Missouri,Knox County,True,164.89,151.12,178.66
+29105,29105,MO,Missouri,Laclede County,True,137.41,123.64,151.18
+29107,29107,MO,Missouri,Lafayette County,True,193.72,179.95,207.49
+29109,29109,MO,Missouri,Lawrence County,True,123.95,110.18,137.72
+29111,29111,MO,Missouri,Lewis County,True,179.32,165.55,193.09
+29113,29113,MO,Missouri,Lincoln County,True,164.67,150.9,178.44
+29115,29115,MO,Missouri,Linn County,True,162.45,148.68,176.22
+29117,29117,MO,Missouri,Livingston County,True,189.13,175.36,202.9
+29121,29121,MO,Missouri,Macon County,True,162.85,149.08,176.62
+29123,29123,MO,Missouri,Madison County,True,151.97,138.2,165.74
+29125,29125,MO,Missouri,Maries County,True,134.58,120.81,148.35
+29127,29127,MO,Missouri,Marion County,True,177.49,163.72,191.26
+29119,29119,MO,Missouri,McDonald County,True,119.24,105.47,133.01
+29129,29129,MO,Missouri,Mercer County,True,162.22,148.45,175.99
+29131,29131,MO,Missouri,Miller County,True,141.52,127.75,155.29
+29133,29133,MO,Missouri,Mississippi County,True,197.42,183.65,211.19
+29135,29135,MO,Missouri,Moniteau County,True,145.92,132.15,159.69
+29137,29137,MO,Missouri,Monroe County,True,160.93,147.16,174.7
+29139,29139,MO,Missouri,Montgomery County,True,162.95,149.18,176.72
+29141,29141,MO,Missouri,Morgan County,True,145.7,131.93,159.47
+29143,29143,MO,Missouri,New Madrid County,True,186.01,172.24,199.78
+29145,29145,MO,Missouri,Newton County,True,115.76,101.99,129.53
+29147,29147,MO,Missouri,Nodaway County,True,164.72,150.95,178.49
+29149,29149,MO,Missouri,Oregon County,False,147.06,133.29,160.83
+29151,29151,MO,Missouri,Osage County,True,158.65,144.88,172.42
+29153,29153,MO,Missouri,Ozark County,False,129.64,115.87,143.41
+29155,29155,MO,Missouri,Pemiscot County,True,181.07,167.3,194.84
+29157,29157,MO,Missouri,Perry County,True,167.64,153.87,181.41
+29159,29159,MO,Missouri,Pettis County,True,157.84,144.07,171.61
+29161,29161,MO,Missouri,Phelps County,False,143.01,129.24,156.78
+29163,29163,MO,Missouri,Pike County,True,169.46,155.69,183.23
+29165,29165,MO,Missouri,Platte County,True,177.6,163.83,191.37
+29167,29167,MO,Missouri,Polk County,True,131.46,117.69,145.23
+29169,29169,MO,Missouri,Pulaski County,True,143.62,129.85,157.39
+29171,29171,MO,Missouri,Putnam County,True,166.59,152.82,180.36
+29173,29173,MO,Missouri,Ralls County,True,184.09,170.32,197.86
+29175,29175,MO,Missouri,Randolph County,True,183.14,169.37,196.91
+29177,29177,MO,Missouri,Ray County,True,176.88,163.11,190.65
+29179,29179,MO,Missouri,Reynolds County,False,140.85,127.08,154.62
+29181,29181,MO,Missouri,Ripley County,True,152.52,138.75,166.29
+29195,29195,MO,Missouri,Saline County,True,200.26,186.49,214.03
+29197,29197,MO,Missouri,Schuyler County,True,163.58,149.81,177.35
+29199,29199,MO,Missouri,Scotland County,True,174.47,160.7,188.24
+29201,29201,MO,Missouri,Scott County,True,193.7,179.93,207.47
+29203,29203,MO,Missouri,Shannon County,False,137.61,123.84,151.38
+29205,29205,MO,Missouri,Shelby County,True,188.1,174.33,201.87
+29183,29183,MO,Missouri,St. Charles County,True,175.12,161.35,188.89
+29185,29185,MO,Missouri,St. Clair County,True,139.88,126.11,153.65
+29187,29187,MO,Missouri,St. Francois County,True,162.66,148.89,176.43
+29189,29189,MO,Missouri,St. Louis County,True,164.72,150.95,178.49
+29510,29510,MO,Missouri,St. Louis city,False,158.8,145.03,172.57
+29186,29186,MO,Missouri,Ste. Genevieve County,True,179.18,165.41,192.95
+29207,29207,MO,Missouri,Stoddard County,True,183.91,170.14,197.68
+29209,29209,MO,Missouri,Stone County,True,128.62,114.85,142.39
+29211,29211,MO,Missouri,Sullivan County,True,166.47,152.7,180.24
+29213,29213,MO,Missouri,Taney County,False,128.02,114.25,141.79
+29215,29215,MO,Missouri,Texas County,True,139.23,125.46,153.0
+29217,29217,MO,Missouri,Vernon County,True,139.35,125.58,153.12
+29219,29219,MO,Missouri,Warren County,True,159.58,145.81,173.35
+29221,29221,MO,Missouri,Washington County,False,148.08,134.31,161.85
+29223,29223,MO,Missouri,Wayne County,True,153.83,140.06,167.6
+29225,29225,MO,Missouri,Webster County,True,138.52,124.75,152.29
+29227,29227,MO,Missouri,Worth County,True,171.21,157.44,184.98
+29229,29229,MO,Missouri,Wright County,True,132.43,118.66,146.2
+31001,31001,NE,Nebraska,Adams County,True,196.32,182.55,210.09
+31003,31003,NE,Nebraska,Antelope County,True,161.4,147.63,175.17
+31005,31005,NE,Nebraska,Arthur County,True,155.11,141.34,168.88
+31007,31007,NE,Nebraska,Banner County,True,133.41,119.64,147.18
+31009,31009,NE,Nebraska,Blaine County,True,151.9,138.13,165.67
+31011,31011,NE,Nebraska,Boone County,True,163.84,150.07,177.61
+31013,31013,NE,Nebraska,Box Butte County,True,149.09,135.32,162.86
+31015,31015,NE,Nebraska,Boyd County,True,145.06,131.29,158.83
+31017,31017,NE,Nebraska,Brown County,True,193.89,180.12,207.66
+31019,31019,NE,Nebraska,Buffalo County,True,192.95,179.18,206.72
+31021,31021,NE,Nebraska,Burt County,True,194.97,181.2,208.74
+31023,31023,NE,Nebraska,Butler County,True,188.26,174.49,202.03
+31025,31025,NE,Nebraska,Cass County,True,183.52,169.75,197.29
+31027,31027,NE,Nebraska,Cedar County,True,182.88,169.11,196.65
+31029,31029,NE,Nebraska,Chase County,True,170.54,156.77,184.31
+31031,31031,NE,Nebraska,Cherry County,True,156.0,142.23,169.77
+31033,31033,NE,Nebraska,Cheyenne County,True,118.07,104.3,131.84
+31035,31035,NE,Nebraska,Clay County,True,192.38,178.61,206.15
+31037,31037,NE,Nebraska,Colfax County,True,190.83,177.06,204.6
+31039,31039,NE,Nebraska,Cuming County,True,194.36,180.59,208.13
+31041,31041,NE,Nebraska,Custer County,True,163.31,149.54,177.08
+31043,31043,NE,Nebraska,Dakota County,True,179.76,165.99,193.53
+31045,31045,NE,Nebraska,Dawes County,True,140.7,126.93,154.47
+31047,31047,NE,Nebraska,Dawson County,True,197.33,183.56,211.1
+31049,31049,NE,Nebraska,Deuel County,True,119.91,106.14,133.68
+31051,31051,NE,Nebraska,Dixon County,True,172.38,158.61,186.15
+31053,31053,NE,Nebraska,Dodge County,True,182.74,168.97,196.51
+31055,31055,NE,Nebraska,Douglas County,True,179.48,165.71,193.25
+31057,31057,NE,Nebraska,Dundy County,True,163.14,149.37,176.91
+31059,31059,NE,Nebraska,Fillmore County,True,195.37,181.6,209.14
+31061,31061,NE,Nebraska,Franklin County,True,188.35,174.58,202.12
+31063,31063,NE,Nebraska,Frontier County,True,141.38,127.61,155.15
+31065,31065,NE,Nebraska,Furnas County,True,140.71,126.94,154.48
+31067,31067,NE,Nebraska,Gage County,True,170.33,156.56,184.1
+31069,31069,NE,Nebraska,Garden County,True,147.78,134.01,161.55
+31071,31071,NE,Nebraska,Garfield County,True,187.74,173.97,201.51
+31073,31073,NE,Nebraska,Gosper County,True,177.24,163.47,191.01
+31075,31075,NE,Nebraska,Grant County,False,148.81,135.04,162.58
+31077,31077,NE,Nebraska,Greeley County,True,188.2,174.43,201.97
+31079,31079,NE,Nebraska,Hall County,True,198.95,185.18,212.72
+31081,31081,NE,Nebraska,Hamilton County,True,209.43,195.66,223.2
+31083,31083,NE,Nebraska,Harlan County,True,179.24,165.47,193.01
+31085,31085,NE,Nebraska,Hayes County,True,145.73,131.96,159.5
+31087,31087,NE,Nebraska,Hitchcock County,True,135.0,121.23,148.77
+31089,31089,NE,Nebraska,Holt County,True,161.58,147.81,175.35
+31091,31091,NE,Nebraska,Hooker County,False,152.25,138.48,166.02
+31093,31093,NE,Nebraska,Howard County,True,193.64,179.87,207.41
+31095,31095,NE,Nebraska,Jefferson County,True,173.1,159.33,186.87
+31097,31097,NE,Nebraska,Johnson County,True,164.06,150.29,177.83
+31099,31099,NE,Nebraska,Kearney County,True,198.03,184.26,211.8
+31101,31101,NE,Nebraska,Keith County,True,166.96,153.19,180.73
+31103,31103,NE,Nebraska,Keya Paha County,True,191.21,177.44,204.98
+31105,31105,NE,Nebraska,Kimball County,True,131.48,117.71,145.25
+31107,31107,NE,Nebraska,Knox County,True,177.15,163.38,190.92
+31109,31109,NE,Nebraska,Lancaster County,True,159.3,145.53,173.07
+31111,31111,NE,Nebraska,Lincoln County,True,183.48,169.71,197.25
+31113,31113,NE,Nebraska,Logan County,True,186.17,172.4,199.94
+31115,31115,NE,Nebraska,Loup County,True,158.69,144.92,172.46
+31119,31119,NE,Nebraska,Madison County,True,180.75,166.98,194.52
+31117,31117,NE,Nebraska,McPherson County,True,154.02,140.25,167.79
+31121,31121,NE,Nebraska,Merrick County,True,164.29,150.52,178.06
+31123,31123,NE,Nebraska,Morrill County,True,172.65,158.88,186.42
+31125,31125,NE,Nebraska,Nance County,True,186.14,172.37,199.91
+31127,31127,NE,Nebraska,Nemaha County,True,173.73,159.96,187.5
+31129,31129,NE,Nebraska,Nuckolls County,True,159.69,145.92,173.46
+31131,31131,NE,Nebraska,Otoe County,True,167.84,154.07,181.61
+31133,31133,NE,Nebraska,Pawnee County,True,169.25,155.48,183.02
+31135,31135,NE,Nebraska,Perkins County,True,145.61,131.84,159.38
+31137,31137,NE,Nebraska,Phelps County,True,203.27,189.5,217.04
+31139,31139,NE,Nebraska,Pierce County,True,188.46,174.69,202.23
+31141,31141,NE,Nebraska,Platte County,True,188.46,174.69,202.23
+31143,31143,NE,Nebraska,Polk County,True,191.07,177.3,204.84
+31145,31145,NE,Nebraska,Red Willow County,True,140.41,126.64,154.18
+31147,31147,NE,Nebraska,Richardson County,True,181.51,167.74,195.28
+31149,31149,NE,Nebraska,Rock County,True,160.37,146.6,174.14
+31151,31151,NE,Nebraska,Saline County,True,176.96,163.19,190.73
+31153,31153,NE,Nebraska,Sarpy County,True,183.83,170.06,197.6
+31155,31155,NE,Nebraska,Saunders County,True,184.41,170.64,198.18
+31157,31157,NE,Nebraska,Scotts Bluff County,True,169.13,155.36,182.9
+31159,31159,NE,Nebraska,Seward County,True,158.74,144.97,172.51
+31161,31161,NE,Nebraska,Sheridan County,True,159.8,146.03,173.57
+31163,31163,NE,Nebraska,Sherman County,True,188.09,174.32,201.86
+31165,31165,NE,Nebraska,Sioux County,True,166.84,153.07,180.61
+31167,31167,NE,Nebraska,Stanton County,True,184.29,170.52,198.06
+31169,31169,NE,Nebraska,Thayer County,True,187.68,173.91,201.45
+31171,31171,NE,Nebraska,Thomas County,True,154.48,140.71,168.25
+31173,31173,NE,Nebraska,Thurston County,True,162.45,148.68,176.22
+31175,31175,NE,Nebraska,Valley County,True,194.63,180.86,208.4
+31177,31177,NE,Nebraska,Washington County,True,175.99,162.22,189.76
+31179,31179,NE,Nebraska,Wayne County,True,174.67,160.9,188.44
+31181,31181,NE,Nebraska,Webster County,True,174.63,160.86,188.4
+31183,31183,NE,Nebraska,Wheeler County,True,163.5,149.73,177.27
+31185,31185,NE,Nebraska,York County,True,165.21,151.44,178.98
+39001,39001,OH,Ohio,Adams County,True,160.3,146.53,174.07
+39003,39003,OH,Ohio,Allen County,True,206.68,192.91,220.45
+39005,39005,OH,Ohio,Ashland County,True,170.51,156.74,184.28
+39007,39007,OH,Ohio,Ashtabula County,True,180.87,167.1,194.64
+39009,39009,OH,Ohio,Athens County,True,162.8,149.03,176.57
+39011,39011,OH,Ohio,Auglaize County,True,206.02,192.25,219.79
+39013,39013,OH,Ohio,Belmont County,True,149.06,135.29,162.83
+39015,39015,OH,Ohio,Brown County,True,179.08,165.31,192.85
+39017,39017,OH,Ohio,Butler County,True,177.81,164.04,191.58
+39019,39019,OH,Ohio,Carroll County,True,148.41,134.64,162.18
+39021,39021,OH,Ohio,Champaign County,True,199.09,185.32,212.86
+39023,39023,OH,Ohio,Clark County,True,204.09,190.32,217.86
+39025,39025,OH,Ohio,Clermont County,True,164.87,151.1,178.64
+39027,39027,OH,Ohio,Clinton County,True,205.45,191.68,219.22
+39029,39029,OH,Ohio,Columbiana County,True,171.16,157.39,184.93
+39031,39031,OH,Ohio,Coshocton County,True,173.81,160.04,187.58
+39033,39033,OH,Ohio,Crawford County,True,209.81,196.04,223.58
+39035,39035,OH,Ohio,Cuyahoga County,False,161.29,147.52,175.06
+39037,39037,OH,Ohio,Darke County,True,196.73,182.96,210.5
+39039,39039,OH,Ohio,Defiance County,True,179.88,166.11,193.65
+39041,39041,OH,Ohio,Delaware County,True,194.11,180.34,207.88
+39043,39043,OH,Ohio,Erie County,True,206.58,192.81,220.35
+39045,39045,OH,Ohio,Fairfield County,True,193.61,179.84,207.38
+39047,39047,OH,Ohio,Fayette County,True,192.41,178.64,206.18
+39049,39049,OH,Ohio,Franklin County,True,168.86,155.09,182.63
+39051,39051,OH,Ohio,Fulton County,True,198.14,184.37,211.91
+39053,39053,OH,Ohio,Gallia County,True,164.92,151.15,178.69
+39055,39055,OH,Ohio,Geauga County,True,165.89,152.12,179.66
+39057,39057,OH,Ohio,Greene County,True,202.05,188.28,215.82
+39059,39059,OH,Ohio,Guernsey County,True,164.98,151.21,178.75
+39061,39061,OH,Ohio,Hamilton County,True,186.89,173.12,200.66
+39063,39063,OH,Ohio,Hancock County,True,199.86,186.09,213.63
+39065,39065,OH,Ohio,Hardin County,True,199.4,185.63,213.17
+39067,39067,OH,Ohio,Harrison County,True,168.19,154.42,181.96
+39069,39069,OH,Ohio,Henry County,True,199.24,185.47,213.01
+39071,39071,OH,Ohio,Highland County,True,179.2,165.43,192.97
+39073,39073,OH,Ohio,Hocking County,True,164.95,151.18,178.72
+39075,39075,OH,Ohio,Holmes County,True,170.09,156.32,183.86
+39077,39077,OH,Ohio,Huron County,True,197.14,183.37,210.91
+39079,39079,OH,Ohio,Jackson County,True,167.78,154.01,181.55
+39081,39081,OH,Ohio,Jefferson County,True,160.59,146.82,174.36
+39083,39083,OH,Ohio,Knox County,True,187.73,173.96,201.5
+39085,39085,OH,Ohio,Lake County,True,161.18,147.41,174.95
+39087,39087,OH,Ohio,Lawrence County,True,156.61,142.84,170.38
+39089,39089,OH,Ohio,Licking County,True,184.03,170.26,197.8
+39091,39091,OH,Ohio,Logan County,True,196.07,182.3,209.84
+39093,39093,OH,Ohio,Lorain County,True,186.53,172.76,200.3
+39095,39095,OH,Ohio,Lucas County,True,197.63,183.86,211.4
+39097,39097,OH,Ohio,Madison County,True,198.74,184.97,212.51
+39099,39099,OH,Ohio,Mahoning County,True,175.79,162.02,189.56
+39101,39101,OH,Ohio,Marion County,True,195.16,181.39,208.93
+39103,39103,OH,Ohio,Medina County,True,185.23,171.46,199.0
+39105,39105,OH,Ohio,Meigs County,True,155.66,141.89,169.43
+39107,39107,OH,Ohio,Mercer County,True,197.81,184.04,211.58
+39109,39109,OH,Ohio,Miami County,True,198.52,184.75,212.29
+39111,39111,OH,Ohio,Monroe County,True,143.26,129.49,157.03
+39113,39113,OH,Ohio,Montgomery County,True,186.71,172.94,200.48
+39115,39115,OH,Ohio,Morgan County,True,154.88,141.11,168.65
+39117,39117,OH,Ohio,Morrow County,True,190.88,177.11,204.65
+39119,39119,OH,Ohio,Muskingum County,True,182.35,168.58,196.12
+39121,39121,OH,Ohio,Noble County,True,152.74,138.97,166.51
+39123,39123,OH,Ohio,Ottawa County,True,196.41,182.64,210.18
+39125,39125,OH,Ohio,Paulding County,True,181.96,168.19,195.73
+39127,39127,OH,Ohio,Perry County,True,183.3,169.53,197.07
+39129,39129,OH,Ohio,Pickaway County,True,185.7,171.93,199.47
+39131,39131,OH,Ohio,Pike County,True,175.29,161.52,189.06
+39133,39133,OH,Ohio,Portage County,True,177.44,163.67,191.21
+39135,39135,OH,Ohio,Preble County,True,202.35,188.58,216.12
+39137,39137,OH,Ohio,Putnam County,True,201.34,187.57,215.11
+39139,39139,OH,Ohio,Richland County,True,191.27,177.5,205.04
+39141,39141,OH,Ohio,Ross County,True,182.64,168.87,196.41
+39143,39143,OH,Ohio,Sandusky County,True,208.71,194.94,222.48
+39145,39145,OH,Ohio,Scioto County,True,176.29,162.52,190.06
+39147,39147,OH,Ohio,Seneca County,True,198.66,184.89,212.43
+39149,39149,OH,Ohio,Shelby County,True,197.29,183.52,211.06
+39151,39151,OH,Ohio,Stark County,True,176.84,163.07,190.61
+39153,39153,OH,Ohio,Summit County,True,156.82,143.05,170.59
+39155,39155,OH,Ohio,Trumbull County,True,184.6,170.83,198.37
+39157,39157,OH,Ohio,Tuscarawas County,True,169.42,155.65,183.19
+39159,39159,OH,Ohio,Union County,True,194.77,181.0,208.54
+39161,39161,OH,Ohio,Van Wert County,True,196.8,183.03,210.57
+39163,39163,OH,Ohio,Vinton County,True,158.39,144.62,172.16
+39165,39165,OH,Ohio,Warren County,True,193.19,179.42,206.96
+39167,39167,OH,Ohio,Washington County,True,159.22,145.45,172.99
+39169,39169,OH,Ohio,Wayne County,True,178.99,165.22,192.76
+39171,39171,OH,Ohio,Williams County,True,195.23,181.46,209.0
+39173,39173,OH,Ohio,Wood County,True,198.47,184.7,212.24
+39175,39175,OH,Ohio,Wyandot County,True,198.3,184.53,212.07
+46003,46003,SD,South Dakota,Aurora County,True,122.01,108.24,135.78
+46005,46005,SD,South Dakota,Beadle County,True,147.26,133.49,161.03
+46007,46007,SD,South Dakota,Bennett County,True,124.12,110.35,137.89
+46009,46009,SD,South Dakota,Bon Homme County,True,140.54,126.77,154.31
+46011,46011,SD,South Dakota,Brookings County,True,185.41,171.64,199.18
+46013,46013,SD,South Dakota,Brown County,True,176.26,162.49,190.03
+46015,46015,SD,South Dakota,Brule County,True,129.52,115.75,143.29
+46017,46017,SD,South Dakota,Buffalo County,True,131.54,117.77,145.31
+46019,46019,SD,South Dakota,Butte County,True,123.77,110.0,137.54
+46021,46021,SD,South Dakota,Campbell County,True,113.13,99.36,126.9
+46023,46023,SD,South Dakota,Charles Mix County,True,136.28,122.51,150.05
+46025,46025,SD,South Dakota,Clark County,True,174.07,160.3,187.84
+46027,46027,SD,South Dakota,Clay County,True,160.2,146.43,173.97
+46029,46029,SD,South Dakota,Codington County,True,181.23,167.46,195.0
+46031,46031,SD,South Dakota,Corson County,True,99.28,85.51,113.05
+46033,46033,SD,South Dakota,Custer County,True,112.9,99.13,126.67
+46035,46035,SD,South Dakota,Davison County,True,141.61,127.84,155.38
+46037,46037,SD,South Dakota,Day County,True,179.07,165.3,192.84
+46039,46039,SD,South Dakota,Deuel County,True,178.11,164.34,191.88
+46041,46041,SD,South Dakota,Dewey County,True,104.27,90.5,118.04
+46043,46043,SD,South Dakota,Douglas County,True,142.57,128.8,156.34
+46045,46045,SD,South Dakota,Edmunds County,True,134.6,120.83,148.37
+46047,46047,SD,South Dakota,Fall River County,True,108.16,94.39,121.93
+46049,46049,SD,South Dakota,Faulk County,True,136.56,122.79,150.33
+46051,46051,SD,South Dakota,Grant County,True,169.53,155.76,183.3
+46053,46053,SD,South Dakota,Gregory County,True,127.63,113.86,141.4
+46055,46055,SD,South Dakota,Haakon County,True,75.18,61.41,88.95
+46057,46057,SD,South Dakota,Hamlin County,True,173.97,160.2,187.74
+46059,46059,SD,South Dakota,Hand County,True,128.28,114.51,142.05
+46061,46061,SD,South Dakota,Hanson County,True,145.79,132.02,159.56
+46063,46063,SD,South Dakota,Harding County,True,86.47,72.7,100.24
+46065,46065,SD,South Dakota,Hughes County,True,118.61,104.84,132.38
+46067,46067,SD,South Dakota,Hutchinson County,True,141.07,127.3,154.84
+46069,46069,SD,South Dakota,Hyde County,True,123.85,110.08,137.62
+46071,46071,SD,South Dakota,Jackson County,True,99.72,85.95,113.49
+46073,46073,SD,South Dakota,Jerauld County,True,128.21,114.44,141.98
+46075,46075,SD,South Dakota,Jones County,True,112.57,98.8,126.34
+46077,46077,SD,South Dakota,Kingsbury County,True,151.63,137.86,165.4
+46079,46079,SD,South Dakota,Lake County,True,165.93,152.16,179.7
+46081,46081,SD,South Dakota,Lawrence County,True,76.41,62.64,90.18
+46083,46083,SD,South Dakota,Lincoln County,True,164.05,150.28,177.82
+46085,46085,SD,South Dakota,Lyman County,True,109.16,95.39,122.93
+46091,46091,SD,South Dakota,Marshall County,True,173.34,159.57,187.11
+46087,46087,SD,South Dakota,McCook County,True,153.83,140.06,167.6
+46089,46089,SD,South Dakota,McPherson County,True,142.68,128.91,156.45
+46093,46093,SD,South Dakota,Meade County,True,80.39,66.62,94.16
+46095,46095,SD,South Dakota,Mellette County,True,94.76,80.99,108.53
+46097,46097,SD,South Dakota,Miner County,True,131.41,117.64,145.18
+46099,46099,SD,South Dakota,Minnehaha County,True,161.4,147.63,175.17
+46101,46101,SD,South Dakota,Moody County,True,159.9,146.13,173.67
+46102,46102,SD,South Dakota,Oglala Lakota County,True,78.17,64.4,91.94
+46103,46103,SD,South Dakota,Pennington County,True,100.05,86.28,113.82
+46105,46105,SD,South Dakota,Perkins County,True,98.78,85.01,112.55
+46107,46107,SD,South Dakota,Potter County,True,113.67,99.9,127.44
+46109,46109,SD,South Dakota,Roberts County,True,173.08,159.31,186.85
+46111,46111,SD,South Dakota,Sanborn County,True,118.39,104.62,132.16
+46115,46115,SD,South Dakota,Spink County,True,169.48,155.71,183.25
+46117,46117,SD,South Dakota,Stanley County,True,100.82,87.05,114.59
+46119,46119,SD,South Dakota,Sully County,True,119.79,106.02,133.56
+46121,46121,SD,South Dakota,Todd County,True,126.7,112.93,140.47
+46123,46123,SD,South Dakota,Tripp County,True,103.16,89.39,116.93
+46125,46125,SD,South Dakota,Turner County,True,150.06,136.29,163.83
+46127,46127,SD,South Dakota,Union County,True,167.41,153.64,181.18
+46129,46129,SD,South Dakota,Walworth County,True,130.37,116.6,144.14
+46135,46135,SD,South Dakota,Yankton County,True,146.93,133.16,160.7
+46137,46137,SD,South Dakota,Ziebach County,True,104.14,90.37,117.91
+55001,55001,WI,Wisconsin,Adams County,True,157.42,143.65,171.19
+55003,55003,WI,Wisconsin,Ashland County,True,129.0,115.23,142.77
+55005,55005,WI,Wisconsin,Barron County,True,163.68,149.91,177.45
+55007,55007,WI,Wisconsin,Bayfield County,True,117.05,103.28,130.82
+55009,55009,WI,Wisconsin,Brown County,True,182.69,168.92,196.46
+55011,55011,WI,Wisconsin,Buffalo County,True,180.4,166.63,194.17
+55013,55013,WI,Wisconsin,Burnett County,True,138.2,124.43,151.97
+55015,55015,WI,Wisconsin,Calumet County,True,177.8,164.03,191.57
+55017,55017,WI,Wisconsin,Chippewa County,True,170.41,156.64,184.18
+55019,55019,WI,Wisconsin,Clark County,True,153.31,139.54,167.08
+55021,55021,WI,Wisconsin,Columbia County,True,202.13,188.36,215.9
+55023,55023,WI,Wisconsin,Crawford County,True,183.4,169.63,197.17
+55025,55025,WI,Wisconsin,Dane County,True,201.42,187.65,215.19
+55027,55027,WI,Wisconsin,Dodge County,True,197.14,183.37,210.91
+55029,55029,WI,Wisconsin,Door County,True,154.82,141.05,168.59
+55031,55031,WI,Wisconsin,Douglas County,False,137.18,123.41,150.95
+55033,55033,WI,Wisconsin,Dunn County,True,173.6,159.83,187.37
+55035,55035,WI,Wisconsin,Eau Claire County,True,172.15,158.38,185.92
+55037,55037,WI,Wisconsin,Florence County,False,119.61,105.84,133.38
+55039,55039,WI,Wisconsin,Fond du Lac County,True,194.63,180.86,208.4
+55041,55041,WI,Wisconsin,Forest County,False,134.0,120.23,147.77
+55043,55043,WI,Wisconsin,Grant County,True,207.75,193.98,221.52
+55045,55045,WI,Wisconsin,Green County,True,194.32,180.55,208.09
+55047,55047,WI,Wisconsin,Green Lake County,True,181.29,167.52,195.06
+55049,55049,WI,Wisconsin,Iowa County,True,201.49,187.72,215.26
+55051,55051,WI,Wisconsin,Iron County,False,135.46,121.69,149.23
+55053,55053,WI,Wisconsin,Jackson County,True,179.37,165.6,193.14
+55055,55055,WI,Wisconsin,Jefferson County,True,187.0,173.23,200.77
+55057,55057,WI,Wisconsin,Juneau County,True,173.72,159.95,187.49
+55059,55059,WI,Wisconsin,Kenosha County,True,190.82,177.05,204.59
+55061,55061,WI,Wisconsin,Kewaunee County,True,169.34,155.57,183.11
+55063,55063,WI,Wisconsin,La Crosse County,True,183.3,169.53,197.07
+55065,55065,WI,Wisconsin,Lafayette County,True,202.99,189.22,216.76
+55067,55067,WI,Wisconsin,Langlade County,True,147.45,133.68,161.22
+55069,55069,WI,Wisconsin,Lincoln County,True,139.68,125.91,153.45
+55071,55071,WI,Wisconsin,Manitowoc County,True,168.79,155.02,182.56
+55073,55073,WI,Wisconsin,Marathon County,True,152.27,138.5,166.04
+55075,55075,WI,Wisconsin,Marinette County,True,146.18,132.41,159.95
+55077,55077,WI,Wisconsin,Marquette County,True,155.41,141.64,169.18
+55078,55078,WI,Wisconsin,Menominee County,False,150.26,136.49,164.03
+55079,55079,WI,Wisconsin,Milwaukee County,True,186.92,173.15,200.69
+55081,55081,WI,Wisconsin,Monroe County,True,176.26,162.49,190.03
+55083,55083,WI,Wisconsin,Oconto County,True,169.12,155.35,182.89
+55085,55085,WI,Wisconsin,Oneida County,False,140.27,126.5,154.04
+55087,55087,WI,Wisconsin,Outagamie County,True,177.37,163.6,191.14
+55089,55089,WI,Wisconsin,Ozaukee County,True,178.73,164.96,192.5
+55091,55091,WI,Wisconsin,Pepin County,True,174.41,160.64,188.18
+55093,55093,WI,Wisconsin,Pierce County,True,182.99,169.22,196.76
+55095,55095,WI,Wisconsin,Polk County,True,166.28,152.51,180.05
+55097,55097,WI,Wisconsin,Portage County,True,171.77,158.0,185.54
+55099,55099,WI,Wisconsin,Price County,True,135.34,121.57,149.11
+55101,55101,WI,Wisconsin,Racine County,True,196.18,182.41,209.95
+55103,55103,WI,Wisconsin,Richland County,True,181.4,167.63,195.17
+55105,55105,WI,Wisconsin,Rock County,True,193.21,179.44,206.98
+55107,55107,WI,Wisconsin,Rusk County,True,143.69,129.92,157.46
+55111,55111,WI,Wisconsin,Sauk County,True,186.35,172.58,200.12
+55113,55113,WI,Wisconsin,Sawyer County,True,143.61,129.84,157.38
+55115,55115,WI,Wisconsin,Shawano County,True,171.53,157.76,185.3
+55117,55117,WI,Wisconsin,Sheboygan County,True,173.98,160.21,187.75
+55109,55109,WI,Wisconsin,St. Croix County,True,178.41,164.64,192.18
+55119,55119,WI,Wisconsin,Taylor County,True,148.03,134.26,161.8
+55121,55121,WI,Wisconsin,Trempealeau County,True,176.66,162.89,190.43
+55123,55123,WI,Wisconsin,Vernon County,True,180.87,167.1,194.64
+55125,55125,WI,Wisconsin,Vilas County,False,136.03,122.26,149.8
+55127,55127,WI,Wisconsin,Walworth County,True,205.04,191.27,218.81
+55129,55129,WI,Wisconsin,Washburn County,True,147.0,133.23,160.77
+55131,55131,WI,Wisconsin,Washington County,True,178.52,164.75,192.29
+55133,55133,WI,Wisconsin,Waukesha County,True,189.61,175.84,203.38
+55135,55135,WI,Wisconsin,Waupaca County,True,170.92,157.15,184.69
+55137,55137,WI,Wisconsin,Waushara County,True,174.93,161.16,188.7
+55139,55139,WI,Wisconsin,Winnebago County,True,182.51,168.74,196.28
+55141,55141,WI,Wisconsin,Wood County,True,165.27,151.5,179.04

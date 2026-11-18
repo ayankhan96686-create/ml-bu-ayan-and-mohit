@@ -1,0 +1,6 @@
+Metric,Ridge_Stacking,Quad_Tree_Blend
+Overall RMSE,14.9206,15.5129
+Overall MAE,11.2845,11.8243
+Severe Tail RMSE (<120),30.1245,29.6209
+Severe Tail MAE (<120),24.8912,24.2063
+2023 Drought RMSE,15.3412,15.8643

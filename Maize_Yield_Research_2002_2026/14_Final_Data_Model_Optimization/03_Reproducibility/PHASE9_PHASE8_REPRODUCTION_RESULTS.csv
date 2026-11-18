@@ -1,0 +1,10 @@
+Model,Rep_RMSE,Rep_MAE,Rep_R2,Rep_Bias,Max_Abs_Error,Test_Samples,Unique_Counties,Test_Years,Reported_Phase8_RMSE,Reported_Phase8_R2,RMSE_Discrepancy,R2_Discrepancy,Reproduction_Certification
+Stacking Meta-Learner (Ridge on OOF),14.8352,11.2306,0.7459,0.4757,73.6785,1699,707,2023-2025,14.8352,0.7459,0.0,0.0,PASS (Exact Reproducibility)
+LightGBM Regressor (Set J Integrated),15.4729,11.8508,0.7235,-2.7963,76.1241,1699,707,2023-2025,15.4729,0.7235,0.0,0.0,PASS (Exact Reproducibility)
+Optimized Tree Triad (HistGB+LGB+XGB),15.495,11.8823,0.7227,-2.8479,75.9574,1699,707,2023-2025,15.495,0.7227,0.0,0.0,PASS (Exact Reproducibility)
+XGBoost Regressor (Set J Integrated),15.6808,12.0234,0.7161,-2.9646,75.8127,1699,707,2023-2025,15.6808,0.7161,0.0,0.0,PASS (Exact Reproducibility)
+HistGradientBoosting Regressor,15.6904,12.0673,0.7157,-2.7995,78.06,1699,707,2023-2025,15.6904,0.7157,0.0,0.0,PASS (Exact Reproducibility)
+CatBoost Regressor,15.7912,11.9709,0.712,-2.8112,83.3811,1699,707,2023-2025,15.7912,0.712,0.0,0.0,PASS (Exact Reproducibility)
+XGBoost Regressor (Set H: Baseline + Irrigation),16.2309,12.2859,0.6958,0.2823,83.5823,1699,707,2023-2025,16.2309,0.6958,0.0,0.0,PASS (Exact Reproducibility)
+XGBoost Regressor (Set E: Certified Baseline 71),16.4062,12.3915,0.6892,-1.1988,94.7002,1699,707,2023-2025,16.4062,0.6892,0.0,0.0,PASS (Exact Reproducibility)
+Multi-Layer Perceptron (MLP),18.3509,14.4304,0.6111,4.06,70.9427,1699,707,2023-2025,18.3509,0.6111,0.0,0.0,PASS (Exact Reproducibility)

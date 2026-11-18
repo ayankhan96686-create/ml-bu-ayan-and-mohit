@@ -1,0 +1,13 @@
+Model_Architecture,RMSE_float
+Ridge Stacking Meta-Learner,15.2264
+Calibrated Quad-Tree Blend,15.5263
+LightGBM Regressor,15.6328
+XGBoost Regressor,15.6914
+HistGradientBoosting Regressor,15.7216
+CatBoost Regressor,15.7898
+Tree-Based Voting Metamodel,15.9304
+Ridge Linear Regressor,16.2015
+LASSO Linear Regressor,16.2431
+Extra Trees Regressor,17.2211
+Random Forest Regressor,18.2862
+Multilayer Perceptron (MLP),18.5343

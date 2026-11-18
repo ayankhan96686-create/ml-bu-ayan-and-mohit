@@ -1,0 +1,8 @@
+Rank,Model_Name,R2,RMSE_bu_ac,MAE_bu_ac,MAPE_pct,Mean_Bias_bu_ac,Max_Error_bu_ac,Severe_Tail_RMSE,Severe_Tail_Bias
+1,Optimized XGBoost,0.8986,11.67,8.74,6.71,0.11,65.88,17.15,8.08
+2,Optimized LightGBM,0.8944,11.91,8.9,6.85,0.13,77.57,17.58,8.2
+3,Optimized Ridge Stacking Meta-Learner,0.8931,11.98,8.97,6.92,0.15,73.22,17.7,8.7
+4,Calibrated Quad-Blend,0.8825,12.56,9.44,7.39,0.16,83.01,19.01,10.46
+5,Optimized CatBoost,0.87,13.22,9.96,7.73,0.2,74.77,19.58,9.98
+6,Optimized Ridge,0.7998,16.4,12.36,9.99,0.18,113.8,26.43,15.56
+7,Optimized ElasticNet,0.7968,16.52,12.42,10.08,0.19,110.53,26.91,16.11

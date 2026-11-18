@@ -1,0 +1,12 @@
+Model,RMSE,MAE,R2,Bias,Max_Abs_Error
+Stacking Meta-Learner (Ridge on OOF),14.9206,11.2776,0.7429,0.2436,72.4719
+Optimized Quad-Tree Ensemble (LGB+XGB+HGB+Cat),15.5636,11.8766,0.7203,-2.7564,76.223
+Optimized Tree Triad (HistGB+LGB+XGB),15.6009,11.9288,0.7189,-2.7951,75.2982
+LightGBM Regressor (Optimized In-Season),15.6216,11.9988,0.7182,-2.7703,74.6697
+XGBoost Regressor (Optimized In-Season),15.6862,11.9414,0.7159,-2.5292,76.3571
+CatBoost Regressor (Optimized In-Season),15.7941,11.9355,0.7119,-2.6173,82.3584
+HistGradientBoosting (Optimized In-Season),15.8008,12.1079,0.7117,-3.0476,76.1106
+Hierarchical Mixed-Effects Regression,15.9389,12.6089,0.7066,-3.7395,58.4708
+Generalized Additive Model (GAM / B-Splines),16.5051,12.5497,0.6854,2.5951,84.3546
+Multi-Layer Perceptron (MLP),17.2115,13.5476,0.6579,2.563,65.835
+County Theil-Sen Robust Trend Baseline,20.6309,15.3737,0.5085,2.2413,175.0913

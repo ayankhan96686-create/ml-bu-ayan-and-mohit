@@ -1,0 +1,14 @@
+Algorithm,Loss_Function,Test_RMSE,Test_MAE,Test_R2,Test_Bias,Drought_Tail_RMSE,Drought_Tail_MAE,Drought_Tail_Bias,Robustness_Verdict
+LightGBM,Squared Error (L2 / standard),15.6328,12.0089,0.7178,-2.7219,29.3822,24.0506,22.8455,Best Overall
+LightGBM,Huber Loss (alpha=0.9),34.0356,28.6342,-0.3377,-22.3942,50.4518,47.5936,47.5936,Robust Huber
+LightGBM,Absolute Error (L1 / MAE),15.7561,12.0626,0.7133,-2.7587,32.4936,27.708,26.4778,Best MAE
+LightGBM,Fair Loss (fair_c=1.0),48.4726,31.4437,-1.7132,7.4312,43.4243,37.7419,32.9265,Robust Huber
+XGBoost,Squared Error (reg:squarederror),15.6914,11.9732,0.7157,-2.7466,29.7439,24.3383,22.7972,Robust Huber
+XGBoost,Pseudo-Huber Loss (reg:pseudohubererror),15.888,12.0564,0.7085,0.0452,33.8887,28.5552,27.0044,Robust Huber
+XGBoost,Absolute Error (reg:absoluteerror),15.6776,11.9464,0.7162,-2.854,31.5821,26.1766,25.061,Best MAE
+HistGradientBoosting,Squared Error,15.6414,11.9588,0.7175,-3.0764,30.1023,24.5625,23.9447,Robust Huber
+HistGradientBoosting,Quantile Loss (median / alpha=0.5),15.638,11.9359,0.7176,-2.227,32.6669,27.2825,26.4706,Robust Huber
+HistGradientBoosting,Absolute Error,15.638,11.9359,0.7176,-2.227,32.6669,27.2825,26.4706,Best MAE
+CatBoost,Squared Error (RMSE),15.7898,11.9486,0.7121,-2.7197,30.1448,24.9647,23.9426,Robust Huber
+CatBoost,Huber Loss (delta=1.5),23.8908,17.7962,0.3409,-5.9306,27.0066,21.584,16.4122,Robust Huber
+CatBoost,Absolute Error (MAE),15.6614,11.8282,0.7168,-1.7895,32.4808,27.3933,26.5122,Best MAE

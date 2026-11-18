@@ -1,0 +1,12 @@
+metric,value
+count,16390.0
+mean,157.447
+std,36.254
+min,0.0
+q25,137.1
+median,161.9
+q75,182.5
+max,253.6
+skewness,-0.744
+kurtosis,0.815
+iqr,45.4

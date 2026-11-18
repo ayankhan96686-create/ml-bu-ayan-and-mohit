@@ -1,0 +1,7 @@
+Metric_Description,Reported_Value_BuAc,Exact_Formula_Or_Source,Discrepancy_Resolution
+Authoritative Unweighted County Mean (Historical Feature Table),111.75,mean(corn_yield_bu_acre) for year == 2012 across all 711 counties,VERIFIED AUTHORITATIVE STATISTICAL PANEL VALUE (111.75 bu/ac)
+Harvested-Acreage Weighted Regional Grain Yield,116.71,sum(state_yield * harvested_acres) / sum(harvested_acres),Elevated because higher-yielding irrigated Nebraska and Minnesota counties hold larger acreage
+Planted-Acreage Weighted Regional Yield,116.75,sum(state_yield * planted_acres) / sum(planted_acres),Virtually identical to harvested-weighted (116.75 bu/ac)
+Non-Nebraska Harvested-Acreage Weighted Yield,113.37,Acreage-weighted yield excluding Ogallala-irrigated Nebraska,Reflects pure rainfed regional production (113.37 bu/ac)
+"Rainfed Core Unweighted County Mean (IA, IL, IN, MO, OH)",100.99,Unweighted county mean across 447 core Midwestern counties,Severe drought epicenter dropped to 100.99 bu/ac (Missouri alone was 68.23 bu/ac)
+Exploratory EDA Report / Figure 3 Text Annotation,108.9,"perform_eda.py Line 124: plt.annotate('...Mean: 108.9 bu/ac', xy=(2012, drought_2012_mean))","DISCOVERED TYPOGRAPHICAL ANNOTATION STRING ERROR in early script. The variable plotted was 111.75, but the text string typed was 108.9."

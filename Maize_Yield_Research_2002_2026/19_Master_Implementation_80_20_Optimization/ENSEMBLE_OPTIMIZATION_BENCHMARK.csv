@@ -1,0 +1,3 @@
+Ensemble_Architecture,Weights,Test_R2,Test_RMSE_bu_ac,Test_MAE_bu_ac
+Equal Weight Voting (3M),"LightGBM: 33%, XGBoost: 33%, CatBoost: 33%",0.8927,12.0,8.99
+Calibrated Ridge Stacking,"LightGBM: 40%, XGBoost: 30%, CatBoost: 30%",0.8931,11.98,8.97

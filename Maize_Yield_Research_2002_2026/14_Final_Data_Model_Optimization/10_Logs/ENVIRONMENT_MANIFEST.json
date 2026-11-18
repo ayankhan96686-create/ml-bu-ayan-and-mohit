@@ -1,0 +1,46 @@
+{
+    "Project": "County-Level Maize/Corn Grain Yield Prediction Research Project (2002-2026)",
+    "Execution_Phase": "Phase 9 \u2014 Complete Data Correction, Data Leakage Audit, Advanced ML Optimization & Final Model Validation",
+    "Timestamp_UTC": "2026-11-12T06:04:20.989302Z",
+    "Operating_System": {
+        "System": "Windows",
+        "Release": "11",
+        "Version": "10.0.26200",
+        "Architecture": "AMD64",
+        "Processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+        "Node": "Venator"
+    },
+    "Python_Runtime": {
+        "Python_Version": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+        "Executable": "C:\\Users\\MSI\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "Build": [
+            "tags/v3.14.4:23116f9",
+            "Apr  7 2026 14:10:54"
+        ],
+        "Compiler": "MSC v.1944 64 bit (AMD64)"
+    },
+    "Installed_Scientific_Libraries": {
+        "numpy": "2.5.1",
+        "pandas": "3.0.5",
+        "scipy": "1.18.0",
+        "scikit-learn": "error: No module named 'scikit_learn'",
+        "xgboost": "3.4.1",
+        "lightgbm": "4.7.0",
+        "catboost": "1.2.10",
+        "shap": "0.54.1",
+        "joblib": "1.5.3"
+    },
+    "Random_Seeds": {
+        "Global_Master_Seed": 42,
+        "Numpy_Seed": 42,
+        "LightGBM_Seed": 42,
+        "XGBoost_Seed": 42,
+        "CatBoost_Seed": 42,
+        "HistGradientBoosting_Seed": 42
+    },
+    "Hardware_Concurrency": {
+        "CPU_Count": 16,
+        "OMP_NUM_THREADS": "default",
+        "MKL_NUM_THREADS": "default"
+    }
+}

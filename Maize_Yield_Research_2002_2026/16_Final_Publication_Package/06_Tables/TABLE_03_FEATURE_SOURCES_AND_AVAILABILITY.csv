@@ -1,0 +1,7 @@
+Data_Source,Domain,Spatial_Resolution,Temporal_Resolution,Release_Schedule
+USDA NASS QuickStats,"Target yield, planted acres, harvested grain acres",County,Annual (2002–2025),Survey estimates released February post-harvest
+USDA NASS Weekly Crop Progress,"Planting, emergence, silking, dough progress; crop condition",State,Weekly (May–August),Mondays 4:00 PM EST throughout season
+PRISM Climate Group (Oregon State),"Gridded PPT, Tmin, Tmean, Tmax (4km grid)",County zonal average,Monthly (2002–2025),Early monthly provisional; stable post-season
+NOAA NCEI Climate Division,"Monthly divisional precipitation, temperatures, heat indices",Climate Division / County,Monthly (2002–2025),1st week of following month
+ISRIC SoilGrids 250m,Physical/chemical soil properties across 6 standard depth layers,250m gridded / county mean,Static baseline profile,Global release v2.0
+USDA Risk Management Agency (RMA),Crop insurance liability and premium volume,County,Annual (2002–2025),Mid-season public book of business

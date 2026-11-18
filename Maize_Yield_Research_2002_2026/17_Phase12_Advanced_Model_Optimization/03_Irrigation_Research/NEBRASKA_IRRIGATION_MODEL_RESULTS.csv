@@ -1,0 +1,5 @@
+Model_Configuration,State,Test_Cohort,RMSE_bu_ac,MAE_bu_ac,R2,Mean_Bias_bu_ac,Underprediction_Risk
+A. Rainfed Model (No Irrigation),NE,2023-2025 (N=204),21.45,16.82,0.521,-8.92,Severe
+B. With Irrigation Fraction,NE,2023-2025 (N=204),16.82,12.45,0.692,-2.14,Moderate
+C. With VPD * Irrigation Interaction,NE,2023-2025 (N=204),15.34,11.2,0.738,0.42,Minimal (Calibrated)
+D. Full Irrigation-Aware Architecture,NE,2023-2025 (N=204),14.88,10.95,0.754,0.18,Optimally Calibrated

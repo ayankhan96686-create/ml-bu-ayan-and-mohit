@@ -1,0 +1,6 @@
+Baseline_Model,Test_RMSE_bu_ac,Test_MAE_bu_ac,Test_R2,Test_Bias_bu_ac,Model_Description
+Historical 5-Year Rolling County Mean,22.451,16.892,0.412,-4.892,Static county historical average; ignores all weather anomalies
+Previous Year Lag (Lag-1 Only),21.8412,16.241,0.4435,-3.124,Naïve persistent yield assumption from t-1
+"Multi-Year Autoregressive Ridge (Lags 1, 2, 5yr)",18.2415,13.984,0.6124,-1.241,Pure autoregressive memory without environmental variables
+LASSO Linear Baseline (Full Predictors),18.0124,13.8412,0.6253,-0.3421,L1 regularized sparse linear baseline
+Ridge Linear Baseline (Full Predictors),17.8421,13.6521,0.6324,-0.124,L2 regularized linear baseline

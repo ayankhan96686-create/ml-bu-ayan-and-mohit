@@ -1,0 +1,9 @@
+feature_family,feature_count,val_rmse,val_r2,test_rmse,test_mae,test_r2
+1. Soil Only,24,31.36,-0.0118,37.59,33.99,-0.6319
+2. Precipitation Only (May-Sep),7,36.88,-0.3998,42.01,36.36,-1.0382
+3. Temperature Only (May-Sep),4,32.15,-0.0634,33.04,27.74,-0.2608
+4. Full Climate Only (Precip + Temp),11,30.3,0.0554,34.14,28.72,-0.3456
+5. Historical Lags Only,3,22.28,0.489,21.6,16.64,0.4612
+6. Soil + Lags,27,22.71,0.4694,23.0,18.52,0.3889
+7. Climate + Lags,14,17.49,0.6851,18.32,13.92,0.6126
+8. Full Model (Soil + Climate + Lags),38,17.21,0.6953,17.29,13.34,0.6549

@@ -1,0 +1,31 @@
+Dataset,Variable_Name,Data_Type,Units,Description,Spatial_Resolution,Temporal_Resolution
+USDA NASS Corn Yield,Year,Integer,Year (YYYY),Observation crop calendar year (2002-2025),County,Annual
+USDA NASS Corn Yield,State,String,Text Name,"State name within US Corn Belt (e.g. IOWA, ILLINOIS)",State,Static
+USDA NASS Corn Yield,State ANSI,String (2-digit),FIPS Code,Official 2-digit Federal Information Processing Standard state code,State,Static
+USDA NASS Corn Yield,County,String,Text Name,County name or 'OTHER COUNTIES' residual,County,Static
+USDA NASS Corn Yield,County ANSI,String (3-digit),FIPS Code,Official 3-digit Federal Information Processing Standard county code,County,Static
+USDA NASS Corn Yield,Commodity,String,Text,Crop commodity name ('CORN'),County,Annual
+USDA NASS Corn Yield,Data Item,String,Text Specification,"Precise statistic: 'CORN, GRAIN - YIELD, MEASURED IN BU / ACRE'",County,Annual
+USDA NASS Corn Yield,Value,Float,Bushels per Acre (bu/acre),Actual observed corn grain yield (original unaltered source values),County,Annual
+USDA NASS Corn Yield,CV (%),Float / Empty,Percentage (%),Coefficient of variation for survey statistical reliability,County,Annual
+NOAA NCEI ClimDiv,State_FIPS,String (2-digit),FIPS Code,State FIPS identifier,County,Static
+NOAA NCEI ClimDiv,County_FIPS,String (3-digit),FIPS Code,County FIPS identifier,County,Static
+NOAA NCEI ClimDiv,Element_Code,String (2-digit),Code,"Climate element: 01=Precipitation, 02=Mean Temp, 27=Max Temp, 28=Min Temp",County,Static
+NOAA NCEI ClimDiv,Month_01 to Month_12,Float,Inches (pcpn) / Deg F (temp),Monthly county observed climate value; missing coded as -9.99 or -99.99,County,Monthly
+PRISM 4km Grids,ppt,Raster Float32,Millimeters (mm),Gridded total precipitation at 4km spatial resolution,4 km grid cell,Annual & Monthly
+PRISM 4km Grids,tmean,Raster Float32,Degrees Celsius (°C),Gridded mean air temperature,4 km grid cell,Annual & Monthly
+PRISM 4km Grids,tmin,Raster Float32,Degrees Celsius (°C),Gridded minimum air temperature,4 km grid cell,Annual & Monthly
+PRISM 4km Grids,tmax,Raster Float32,Degrees Celsius (°C),Gridded maximum air temperature,4 km grid cell,Annual & Monthly
+USDA RMA Summary of Business,Net_Planted_Acres,Float,Acres,Net insured corn planted acreage,County,Annual
+USDA RMA Summary of Business,Liability,Float,USD ($),Total crop insurance liability underwritten for corn,County,Annual
+USDA RMA Summary of Business,Loss_Ratio,Float,Ratio (Indemnity / Total Premium),"Actuarial loss ratio reflecting catastrophic drought, flood, or yield loss",County,Annual
+USDA Cropland Data Layer,CDL_Code,Integer (1-255),Categorical Class ID,Land cover classification: Code 1 represents Corn for grain,30 meters,Annual
+ISRIC SoilGrids,clay,Raster Int16,"g/kg (permille, 0-1000)",Proportion of clay particles (<0.002 mm) in the fine earth fraction,250 meters,Static baseline
+ISRIC SoilGrids,sand,Raster Int16,"g/kg (permille, 0-1000)",Proportion of sand particles (0.05-2 mm) in the fine earth fraction,250 meters,Static baseline
+ISRIC SoilGrids,silt,Raster Int16,"g/kg (permille, 0-1000)",Proportion of silt particles (0.002-0.05 mm) in the fine earth fraction,250 meters,Static baseline
+ISRIC SoilGrids,soc,Raster Int16,dg/kg (0.1 g/kg),Soil organic carbon content in fine earth fraction,250 meters,Static baseline
+ISRIC SoilGrids,phh2o,Raster Int16,pH x 10,Soil pH measured in water,250 meters,Static baseline
+ISRIC SoilGrids,bdod,Raster Int16,cg/cm^3 (0.01 g/cm^3),Bulk density of fine earth fraction,250 meters,Static baseline
+USDA NASS Crop Progress,CORN - PROGRESS (PLANTED),Float,Percent (%),Cumulative percent of corn crop planted by week ending date,State,Weekly
+USDA NASS Crop Progress,CORN - PROGRESS (SILKING),Float,Percent (%),Cumulative percent of corn crop entering critical reproductive silking stage,State,Weekly
+USDA NASS Crop Progress,CORN - PROGRESS (HARVESTED),Float,Percent (%),Cumulative percent of corn grain harvested by week ending date,State,Weekly

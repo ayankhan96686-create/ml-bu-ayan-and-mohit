@@ -1,0 +1,6 @@
+Ablation_Experiment,Feature_Count,Test_RMSE_bu_ac,Test_MAE_bu_ac,Test_R2,Mean_Bias_bu_ac,Severe_Tail_RMSE_bu_ac,Severe_Tail_Bias_bu_ac
+A. Base Model Without Irrigation,18,17.7103,13.966,0.6378,-3.7332,31.6736,24.3589
+B. With Verified Irrigation Fraction,19,16.6163,12.8122,0.6812,0.4771,32.9977,25.6517
+C. With Heat * Irrigation Interactions,20,16.6979,12.8352,0.678,0.4319,33.2245,25.7622
+D. With VPD * Irrigation Interactions,20,16.5324,12.7495,0.6844,0.3006,34.1172,27.0032
+E. Full Irrigation-Aware Architecture,23,16.5801,12.776,0.6826,0.4683,34.3182,27.2224

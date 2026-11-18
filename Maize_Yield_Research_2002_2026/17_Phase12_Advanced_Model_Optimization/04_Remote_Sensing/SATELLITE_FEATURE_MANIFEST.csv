@@ -1,0 +1,3 @@
+Feature_Name,Sensor,Resolution,Timing,Status
+modis_peak_ndvi_proxy,MODIS Terra MOD13Q1,250m county aggregated,Late July Peak Greenness,Active
+modis_evi_anomaly_proxy,MODIS Terra MOD13Q1,250m county aggregated,Reproductive Window Anomaly,Active

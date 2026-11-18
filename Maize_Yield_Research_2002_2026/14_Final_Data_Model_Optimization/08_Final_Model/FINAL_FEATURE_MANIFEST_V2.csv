@@ -1,0 +1,70 @@
+Feature_Index,Feature_Name,Feature_Family,Data_Type,Available_Oct15_Cutoff,Imputation_Policy
+1,yield_lag_1yr,Historical Yield Memory,float64,True,Training-Fold Column Median
+2,yield_lag_2yr,Historical Yield Memory,float64,True,Training-Fold Column Median
+3,yield_roll_mean_5yr,Historical Yield Memory,float64,True,Training-Fold Column Median
+4,soil_bdod_0_5cm,Soil Properties,float64,True,Training-Fold Column Median
+5,soil_bdod_15_30cm,Soil Properties,float64,True,Training-Fold Column Median
+6,soil_bdod_5_15cm,Soil Properties,float64,True,Training-Fold Column Median
+7,soil_bdod_mean_0_30cm,Soil Properties,float64,True,Training-Fold Column Median
+8,soil_clay_0_5cm,Soil Properties,float64,True,Training-Fold Column Median
+9,soil_clay_15_30cm,Soil Properties,float64,True,Training-Fold Column Median
+10,soil_clay_5_15cm,Soil Properties,float64,True,Training-Fold Column Median
+11,soil_clay_mean_0_30cm,Soil Properties,float64,True,Training-Fold Column Median
+12,soil_intptlat,Soil Properties,float64,True,Training-Fold Column Median
+13,soil_intptlon,Soil Properties,float64,True,Training-Fold Column Median
+14,soil_ph_mean_0_30cm,Soil Properties,float64,True,Training-Fold Column Median
+15,soil_phh2o_0_5cm,Soil Properties,float64,True,Training-Fold Column Median
+16,soil_phh2o_15_30cm,Soil Properties,float64,True,Training-Fold Column Median
+17,soil_phh2o_5_15cm,Soil Properties,float64,True,Training-Fold Column Median
+18,soil_sand_0_5cm,Soil Properties,float64,True,Training-Fold Column Median
+19,soil_sand_15_30cm,Soil Properties,float64,True,Training-Fold Column Median
+20,soil_sand_5_15cm,Soil Properties,float64,True,Training-Fold Column Median
+21,soil_sand_mean_0_30cm,Soil Properties,float64,True,Training-Fold Column Median
+22,soil_silt_0_5cm,Soil Properties,float64,True,Training-Fold Column Median
+23,soil_silt_15_30cm,Soil Properties,float64,True,Training-Fold Column Median
+24,soil_silt_5_15cm,Soil Properties,float64,True,Training-Fold Column Median
+25,soil_silt_mean_0_30cm,Soil Properties,float64,True,Training-Fold Column Median
+26,soil_soc_0_5cm,Soil Properties,float64,True,Training-Fold Column Median
+27,soil_soc_15_30cm,Soil Properties,float64,True,Training-Fold Column Median
+28,soil_soc_5_15cm,Soil Properties,float64,True,Training-Fold Column Median
+29,soil_soc_mean_0_30cm,Soil Properties,float64,True,Training-Fold Column Median
+30,noaa_heat_stress_max_f,Raw Climate Grids,float64,True,Training-Fold Column Median
+31,noaa_prcp_aug_in,Raw Climate Grids,float64,True,Training-Fold Column Median
+32,noaa_prcp_jul_in,Raw Climate Grids,float64,True,Training-Fold Column Median
+33,noaa_prcp_jun_in,Raw Climate Grids,float64,True,Training-Fold Column Median
+34,noaa_prcp_may_aug_in,Raw Climate Grids,float64,True,Training-Fold Column Median
+35,noaa_prcp_may_in,Raw Climate Grids,float64,True,Training-Fold Column Median
+36,noaa_prcp_may_sep_in,Raw Climate Grids,float64,True,Training-Fold Column Median
+37,noaa_prcp_sep_in,Raw Climate Grids,float64,True,Training-Fold Column Median
+38,noaa_tmax_aug_f,Raw Climate Grids,float64,True,Training-Fold Column Median
+39,noaa_tmax_jul_f,Raw Climate Grids,float64,True,Training-Fold Column Median
+40,noaa_tmax_may_aug_f,Raw Climate Grids,float64,True,Training-Fold Column Median
+41,noaa_tmean_may_aug_f,Raw Climate Grids,float64,True,Training-Fold Column Median
+42,noaa_tmin_may_aug_f,Raw Climate Grids,float64,True,Training-Fold Column Median
+43,prism_ppt_mm,Raw Climate Grids,float64,True,Training-Fold Column Median
+44,prism_tmax_c,Raw Climate Grids,float64,True,Training-Fold Column Median
+45,prism_tmean_c,Raw Climate Grids,float64,True,Training-Fold Column Median
+46,prism_tmin_c,Raw Climate Grids,float64,True,Training-Fold Column Median
+47,gdd_may_aug_c,Advanced Climate,float64,True,Training-Fold Column Median
+48,gdd_july_c,Advanced Climate,float64,True,Training-Fold Column Median
+49,edd_july_f,Advanced Climate,float64,True,Training-Fold Column Median
+50,edd_aug_f,Advanced Climate,float64,True,Training-Fold Column Median
+51,vpd_july_kpa,Advanced Climate,float64,True,Training-Fold Column Median
+52,vpd_aug_kpa,Advanced Climate,float64,True,Training-Fold Column Median
+53,compound_heat_drought_july,Advanced Climate,float64,True,Training-Fold Column Median
+54,noaa_prcp_jul_in_zscore,Advanced Climate,float64,True,Training-Fold Column Median
+55,noaa_tmax_jul_f_zscore,Advanced Climate,float64,True,Training-Fold Column Median
+56,irrigation_regime_proxy,Insurance & Irrigation,float64,True,Training-Fold Column Median
+57,irrigation_drought_buffer,Insurance & Irrigation,float64,True,Training-Fold Column Median
+58,rma_liability_per_planted_acre,Insurance & Irrigation,float64,True,Training-Fold Column Median
+59,silking_thermal_interaction,Crop Phenology,float64,True,Training-Fold Column Median
+60,delayed_planting_penalty,Crop Phenology,float64,True,Training-Fold Column Median
+61,state_progress_planted_w20_pct,Crop Phenology,float64,True,Training-Fold Column Median
+62,state_progress_emerged_w22_pct,Crop Phenology,float64,True,Training-Fold Column Median
+63,state_progress_silking_w30_pct,Crop Phenology,float64,True,Training-Fold Column Median
+64,state_progress_dough_w34_pct,Crop Phenology,float64,True,Training-Fold Column Median
+65,state_cond_excellent_mean,Crop Phenology,float64,True,Training-Fold Column Median
+66,state_cond_good_mean,Crop Phenology,float64,True,Training-Fold Column Median
+67,state_cond_poor_mean,Crop Phenology,float64,True,Training-Fold Column Median
+68,soil_awc_index,Soil Properties,float64,True,Training-Fold Column Median
+69,subsoil_clay_contrast,Soil Properties,float64,True,Training-Fold Column Median

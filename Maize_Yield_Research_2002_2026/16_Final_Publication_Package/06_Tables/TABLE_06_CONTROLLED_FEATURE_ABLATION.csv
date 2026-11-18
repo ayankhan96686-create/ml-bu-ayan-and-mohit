@@ -1,0 +1,6 @@
+Feature_Ablation_Tier,Predictors_Used,Test_RMSE_bu_ac,Test_MAE_bu_ac,Test_R2,Mean_Bias_bu_ac,Drought_2023_RMSE,Severe_Tail_RMSE
+Tier 1: Historical Lag Memory Only,3,18.2415,13.984,0.6124,-1.241,18.9412,36.451
+Tier 2: Environmental Only (Soil + Weather),66,17.652,13.412,0.638,-3.892,17.841,33.124
+Tier 3: Integrated Standard Weather + Lags,46,16.0088,12.341,0.702,-2.841,16.7982,30.841
+Tier 4: Full Integrated + Stress Indices (Quad-Tree),69,15.5129,11.8243,0.7221,-2.7972,15.8643,29.6209
+Tier 5: Full Integrated Stacking Meta-Learner,69,14.9206,11.2845,0.7429,0.2418,15.3412,30.1245

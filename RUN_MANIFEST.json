@@ -1,0 +1,338 @@
+{
+  "manifest_version": "1.0.0",
+  "timestamp_utc": "2026-11-22T02:00:14.361402+00:00",
+  "project": {
+    "title": "County-Level Maize (Zea mays L.) Grain Yield Prediction Framework (2002-2026)",
+    "authors": [
+      "Ayan Khan",
+      "Mohit"
+    ],
+    "repository": "https://github.com/ayankhan96686-create/ml-bu-ayan-and-mohit",
+    "active_branch": "main",
+    "latest_commit_sha": "da5061898f13287c2d6cc19a5757a74e92d4239c",
+    "target_variable": "corn_yield_bu_acre",
+    "target_unit": "bushels per acre (bu/acre)",
+    "study_area_states": [
+      "IA",
+      "IL",
+      "IN",
+      "MN",
+      "MO",
+      "NE",
+      "OH",
+      "SD",
+      "WI"
+    ],
+    "counties_count": 814,
+    "eligible_agricultural_counties": 788,
+    "quarantined_non_ag_counties": 26
+  },
+  "dataset": {
+    "master_dataset_file": "17_Phase12_Advanced_Model_Optimization/13_Final_Model/Historical_Features_Phase12.csv",
+    "sha256_checksum": "b3798d373e06b6704a45694699b47ecb29f2ddb284a5348df378bd47f443c955",
+    "historical_period": "2002-2025",
+    "prospective_period": "2026",
+    "total_historical_rows": 16390,
+    "prospective_2026_rows": 814,
+    "prospective_2026_ground_truth_status": "UNOBSERVED (100% missing actual yield, strictly quarantined)",
+    "feature_manifest_file": "17_Phase12_Advanced_Model_Optimization/13_Final_Model/FINAL_FEATURE_MANIFEST.csv",
+    "total_engineered_features": 117,
+    "target_statistics": {
+      "mean": 156.44,
+      "std": 36.72,
+      "min": 0.0,
+      "median": 161.4,
+      "max": 248.6
+    }
+  },
+  "splitting_architectures": {
+    "primary_pooled_split": {
+      "strategy": "Stratified Random by Calendar Year",
+      "random_state": 42,
+      "train_ratio": 0.8,
+      "test_ratio": 0.2,
+      "train_rows": 13112,
+      "test_rows": 3278,
+      "observation_ids_file": "19_Master_Implementation_80_20_Optimization/TRAIN_TEST_OBSERVATION_IDS_POOLED.csv"
+    },
+    "chronological_robustness_split": {
+      "strategy": "Strict Out-of-Time Temporal Holdout",
+      "train_years": [
+        2002,
+        2020
+      ],
+      "train_rows": 12976,
+      "test_years": [
+        2021,
+        2025
+      ],
+      "test_rows": 3414
+    }
+  },
+  "chronological_validation_folds": [
+    {
+      "fold_id": 1,
+      "train_years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "val_years": [
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "fold_id": 2,
+      "train_years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016
+      ],
+      "val_years": [
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "fold_id": 3,
+      "train_years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "val_years": [
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "fold_id": 4,
+      "train_years": [
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "val_years": [
+        2023,
+        2024,
+        2025
+      ]
+    }
+  ],
+  "hyperparameter_optimization": {
+    "engine": "Optuna 5.0.0 (TPE Sampler, seed=42)",
+    "loss_function": "Mean Chronological Validation RMSE across Folds 1-4",
+    "total_trials_executed": 120,
+    "trial_history_file": "19_Master_Implementation_80_20_Optimization/OPTUNA_TRIAL_HISTORY.csv",
+    "best_hyperparameters": {
+      "LightGBM": {
+        "params": {
+          "n_estimators": 600,
+          "learning_rate": 0.02647587714112793,
+          "num_leaves": 37,
+          "subsample": 0.9222348336240022,
+          "colsample_bytree": 0.7259912985556123,
+          "reg_alpha": 0.5664511392206696,
+          "reg_lambda": 3.566909441278662,
+          "random_state": 42,
+          "n_jobs": -1,
+          "verbose": -1
+        },
+        "best_val_rmse": 16.79
+      },
+      "XGBoost": {
+        "params": {
+          "n_estimators": 500,
+          "learning_rate": 0.04601901242650019,
+          "max_depth": 6,
+          "subsample": 0.7541168988591604,
+          "colsample_bytree": 0.8939819704323989,
+          "reg_alpha": 2.595942550311263,
+          "reg_lambda": 1.6305687346221471,
+          "tree_method": "hist",
+          "random_state": 42,
+          "n_jobs": -1
+        },
+        "best_val_rmse": 16.93
+      },
+      "CatBoost": {
+        "params": {
+          "iterations": 400,
+          "learning_rate": 0.06158895400102223,
+          "depth": 5,
+          "l2_leaf_reg": 7.43075978082447,
+          "random_seed": 42,
+          "verbose": 0,
+          "thread_count": -1
+        },
+        "best_val_rmse": 16.73
+      },
+      "HistGradientBoosting": {
+        "params": {
+          "max_iter": 450,
+          "learning_rate": 0.05462070228548376,
+          "max_leaf_nodes": 35,
+          "l2_regularization": 2.7415676243297575,
+          "random_state": 42
+        },
+        "best_val_rmse": 16.97
+      },
+      "ElasticNet": {
+        "params": {
+          "alpha": 0.03977563924804012,
+          "l1_ratio": 0.1248544485670095,
+          "max_iter": 2000,
+          "tol": 0.001,
+          "random_state": 42
+        },
+        "best_val_rmse": 16.85
+      },
+      "Ridge": {
+        "params": {
+          "alpha": 200.0
+        },
+        "best_val_rmse": 16.84
+      },
+      "Lasso": {
+        "params": {
+          "alpha": 0.1
+        },
+        "best_val_rmse": 16.93
+      },
+      "SVR": {
+        "params": {
+          "C": 5.0
+        },
+        "best_val_rmse": 16.65
+      }
+    }
+  },
+  "data_leakage_audit": {
+    "total_checks": 8,
+    "passed_checks": 8,
+    "failed_checks": 0,
+    "audit_file": "19_Master_Implementation_80_20_Optimization/DATA_LEAKAGE_AUDIT.csv"
+  },
+  "champion_performance": {
+    "pooled_holdout": {
+      "model": "Optimized XGBoost Regressor",
+      "test_r2": 0.8986,
+      "test_rmse_bu_ac": 11.67,
+      "test_mae_bu_ac": 8.74,
+      "test_mape_pct": 6.71,
+      "mean_bias_bu_ac": 0.11,
+      "severe_drought_tail_rmse": 17.15,
+      "severe_drought_tail_bias": 8.08
+    },
+    "stacking_ensemble": {
+      "model": "Ridge Stacking Meta-Learner (alpha=5.0)",
+      "test_r2": 0.8931,
+      "test_rmse_bu_ac": 11.98,
+      "test_mae_bu_ac": 8.97,
+      "test_mape_pct": 6.92
+    },
+    "chronological_holdout": {
+      "top_models": "ElasticNet / Ridge Regression / Stacking",
+      "test_r2_range": [
+        0.7276,
+        0.761
+      ],
+      "test_rmse_bu_ac_range": [
+        15.37,
+        16.41
+      ],
+      "optimism_gap_r2": "+0.1632 for XGBoost; +0.0329 for ElasticNet"
+    }
+  },
+  "system_environment": {
+    "os": "Windows (Server / 11 AMD64)",
+    "python_version": "3.14.4",
+    "core_packages": {
+      "numpy": "2.5.1",
+      "pandas": "3.0.5",
+      "scikit-learn": "1.6.1",
+      "lightgbm": "4.7.0",
+      "xgboost": "3.4.1",
+      "catboost": "1.2.10",
+      "optuna": "5.0.0",
+      "reportlab": "5.0.0"
+    }
+  },
+  "deliverables": {
+    "master_publication_pdf": {
+      "path": "19_Master_Implementation_80_20_Optimization/MASTER_MAIZE_YIELD_OPTIMIZATION_REPORT.pdf",
+      "sha256": "dfa6a425e38de55bed7c12b9a068323554951e853f78549bd19516e58ecb1b86",
+      "filesize_bytes": 17622
+    },
+    "reports_markdown": [
+      "19_Master_Implementation_80_20_Optimization/COMPLETE_DATA_AUDIT.md",
+      "19_Master_Implementation_80_20_Optimization/TRAIN_TEST_SPLIT_AUDIT.md",
+      "19_Master_Implementation_80_20_Optimization/CHRONOLOGICAL_VALIDATION_AUDIT.md",
+      "19_Master_Implementation_80_20_Optimization/HYPERPARAMETER_OPTIMIZATION_REPORT.md",
+      "19_Master_Implementation_80_20_Optimization/FEATURE_ENGINEERING_COMPARISON.md",
+      "19_Master_Implementation_80_20_Optimization/DATA_LEAKAGE_AUDIT.md",
+      "19_Master_Implementation_80_20_Optimization/ACCURACY_IMPROVEMENT_REPORT.md",
+      "19_Master_Implementation_80_20_Optimization/FINAL_INDEPENDENT_TEST_REPORT.md",
+      "19_Master_Implementation_80_20_Optimization/CHRONOLOGICAL_ROBUSTNESS_ANALYSIS.md",
+      "19_Master_Implementation_80_20_Optimization/RESEARCH_PAPER_COMPARISON_REPORT.md"
+    ]
+  }
+}
